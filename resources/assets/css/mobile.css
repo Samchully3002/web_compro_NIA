@@ -1,0 +1,28 @@
+/*  -----------------------
+    CSS Media Query < 780px 
+    ----------------------- */
+
+/* Header */
+#header-wrapper .lang-box .lang-btn {
+    display: none;
+}
+
+#header-wrapper .btn_contact_us {
+    display: none;
+}
+
+/* Page Video */
+
+#page-video .row {
+    padding: 0 20px;
+}
+
+#page-video .row em {
+    width: 100%;
+    padding: 0;
+}
+
+#page-video iframe {
+    width: 100%;
+    height: 240px;
+}

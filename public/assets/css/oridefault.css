@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent !important;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: #333;
+}
+
+img {
+	max-width: 100%;
+}
+
+em {
+	font-style: normal;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	font-family: 'Outfit', sans-serif;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+select {
+	border: none;
+	outline:none;
+	border-radius: 0px !important;
+	color:#333;
+	background:none !important;
+}
+
+textarea {
+	border: none;
+	outline:none;
+	border-radius: 0px !important;
+	color:#333;
+	background:none !important;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.w70 {
+	width: 70%;
+}
+
+.w63 {
+	width: 63%;
+}
+
+.w65 {
+	width: 65%;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.w55 {
+	width: 55%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w45 {
+	width: 45%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w37 {
+	width: 37%;
+}
+
+.w35 {
+	width: 35%;
+}
+
+.w33 {
+	width: 33.3%;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.w26 {
+	width: 26.6666666%;
+}
+
+.w25 {
+	width: 25%;
+}
+
+.w20 {
+	width: 20%;
+}
+
+.w16 {
+	width: 16.6666666%;
+}
+
+.w15 {
+	width: 15%;
+}
+
+.w10 {
+	width: 10%;
+}
+
+.w5 {
+	width: 5%;
+}
+
+.im {
+	margin: 10px;
+}
+
+.imx {
+	margin: 0px 16px;
+}
+
+.imx-harf {
+	margin: 0px 8px;
+}
+
+.ip {
+	padding: 10px;
+}
+
+.row {
+	width: 100%;
+	max-width: 1632px;
+	margin: auto;
+}
+
+.korean-lang div,
+.korean-lang a, 
+.korean-lang p, 
+.korean-lang span,
+.korean-lang th,
+.korean-lang select,
+.korean-lang input,
+.korean-lang button,
+.korean-lang h1,
+.korean-lang h2,
+.korean-lang h3,
+.korean-lang h4,
+.korean-lang h5,
+.korean-lang h6 {
+	font-family: 'Noto Serif KR', serif;
+}
+
+.font-notoserif {
+	font-family: 'Noto Serif KR', serif;
+}
+
+.font-roboto {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+input.checkbox-type1 {
+	width: 24px !important;
+	height: 24px !important;
+	border-radius: 0px !important;
+	overflow: auto;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	outline: none;
+	box-shadow: none;
+	background: none;
+	background: url("../img/icon/icon-checkbox.svg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-right: 8px;
+	vertical-align: bottom;
+}
+
+input.checkbox-type1:checked {
+	background: url("../img/icon/icon-checkbox2.svg") no-repeat;
+	background-size: cover;
+	border: none;
+}
+
+@media screen and (max-width:780px) {
+	input.checkbox-type1 {
+		width: 18px !important;
+		height: 18px !important;
+		margin-right: 4px;
+		vertical-align: sub;
+	}
+
+	.imx {
+		margin: 0px 36px;
+	}
+}

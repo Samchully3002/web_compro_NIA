@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
+    <title>NIA</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+    <link href="../assets/css/default.css" rel="stylesheet" />
+    <link href="../assets/css/outline.css" rel="stylesheet" />
+    <link href="../assets/css/page.css" rel="stylesheet" />
+    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/common.js"></script>        
+    <script>
+        $(document).ready(function(){
+            let url = Number($(location).attr('href').split('?').pop());
+            let h = $('#header-wrapper').height();
+            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
+            $('html, body').animate( { scrollTop : offSet }, 1000 );
+        });
+    </script>
+</head>
+
+<body>
+    <div data-include="component/header"></div>
+
+    <div class="page page-scroll page-in" id="page-business">
+
+        <!-- section-wrapper start -->
+        <div class="section-wrapper">
+
+            <div class="section">
+
+                <div class="flex-box">
+                    <img src='../assets/img/business-img02.jpg' />
+                    <div class="text-box">
+                        <h3>Ticketing System & Reservation</h3>
+                        <p>
+                            Our other flagship products and services include a ticket booking and sales system. Through this solution, we provide customers with an efficient and reliable booking experience. With modern technology, our ticket services offer convenience in trip planning and provide flexibility in purchasing tickets securely and comfortably.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <h4>Our Products & Services</h4>
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img03.jpg" />
+                                <div>
+                                    <em><span>01</span>Mobility Technology</em>
+                                    <h5>Development of ITS<br />(Intelligent Transport System)</h5>
+                                    <span>
+                                        With various technologies and knowledge we have accumulated, we plan, design, and develop transportation platforms. This aims to enhance the efficiency and stability of the transportation system by implementing advanced technologies such as electronics, information, and communication.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img04.jpg" />
+                                <div>
+                                    <h5>Diverse and Creative Transportation and Communication Technologies </h5>
+                                    <span>
+                                        We possess world-class ICT technologies, including the Intelligent Transport System (ITS) that encompasses monitoring solutions for location, logistics, passengers, vehicles, and big data processing.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img05.jpg" />
+                                <div>
+                                    <h5>Establishment and Operation of Platforms for Transportation, Logistics, and Passengers</h5>
+                                    <span>
+                                        We construct optimal platforms by combining years of accumulated environmental and traffic research data in Indonesia with the methods and techniques currently being developed and operated in Korea.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- section-wrapper end -->
+
+    </div>
+
+    <div data-include="component/footer"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
+    <title>NIA</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+    <link href="../assets/css/default.css" rel="stylesheet" />
+    <link href="../assets/css/outline.css" rel="stylesheet" />
+    <link href="../assets/css/page.css" rel="stylesheet" />
+    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/common.js"></script>        
+    <script>
+        $(document).ready(function(){
+            let url = Number($(location).attr('href').split('?').pop());
+            let h = $('#header-wrapper').height();
+            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
+            $('html, body').animate( { scrollTop : offSet }, 1000 );
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                items:1,
+                loop:true,
+                autoplay:true,
+                dots:false,
+                nav:true,
+                autoplayTimeout:3000,
+                autoplayHoverPause:true,
+                navText: ["<img src='../assets/img/icon/icon-nav-prev.svg'>","<img src='../assets/img/icon/icon-nav-next.svg'>"]
+            });
+        });
+    </script>
+    <style>
+        #page-business .section-wrapper .section .flex-box .text-box p {
+            text-align: left !important;
+        }
+
+        #page-business .section-wrapper .section ul li div span {
+            text-align: left !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div data-include="component/header"></div>
+
+    <div class="page page-scroll page-in korean-lang" id="page-business">
+
+        <!-- bg-wrapper start -->
+        <div class="bg-wrapper">
+            <div class="text-box">
+                <span>Make the world more creative</span>
+                <h3>Business Portfolio</h3>
+            </div>
+        </div>
+        <!-- bg-wrapper end -->
+
+        <!-- section-wrapper start -->
+        <div class="section-wrapper">
+
+            <div class="section">
+
+                <div class="flex-box">
+                    <img style="box-shadow:0 0 0 rgba(0,0,0,0);"src='../assets/img/bus.png'/>
+                    <div class="text-box">
+                        <h3>매표발권 및 예약ㆍ예매 시스템 </h3>
+                        <p>
+                            저희의 주요 제품 및 서비스는 매표발권 및 예약•예매 시스템으로 본 솔루션을 통해 고객이 신뢰할 수 있는 효율적인 매표발권 및 예약•예매 경험을 제공합니다. 현대적 기술이 접목된 NIA의 매표발권 및 예약•예매 서비스는 고객들에게 여정 및 여행 계획에서의 편리함을 제공하며 쉽고 편리한 티켓 구매 서비스를 제공합니다.
+                        </p>
+                        <a href="https://smartterminal.dephub.go.id/" target="_blank" class="more-btn">스마트 터미널</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img07.jpg" />
+                                <div>
+                                    <h5>보고서 및 통계자료를 통한 최신 핵심 비즈니스 분석 제공</h5>
+                                    <span>
+                                        보고서 및 통계자료를 통해 핵심 비즈니스 분석 정보를 제공하며 본 데이터를 활용한 비즈니스 성과 분석이 가능하여 전략적으로 보다 정확한 결정을 내리는데 도움을 줍니다.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/n02.jpg" />
+                                <div>
+                                    <h5>무인 발권기(키오스크) 및 매표소를 통한 오프라인 예약ㆍ예매 서비스</h5>
+                                    <span style="font-size:20.8px;">
+                                        무인 발권기(키오스크) 및 매표소 서비스를 통해 오프라인 예약•예매 서비스를 제공하며 이를 통해 고객들은 현장에서 손쉽게 서비스를 이용할 수 있습니다. 이러한 기능은 편리한 접근과 거래 효율성을 제공하여 원활하고 효율적인 고객 경험을 보장하도록 설계되었습니다.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <h3 class="t2">보유 기술 확대 및 적용 가능 분야</h3>
+
+                        <div class="box2">
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i1.png">
+                                </div>
+
+                                <h5>교통</h5>
+                            </div>
+
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i2.png">
+                                </div>
+
+                                <h5>엔터테인먼트</h5>
+                            </div>
+
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i3.png">
+                                </div>
+
+                                <h5>음식점ㆍ카페</h5>
+                            </div>
+
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i4.png">
+                                </div>
+
+                                <h5>기타 경험 등</h5>
+                            </div>
+                        </div>
+
+                        <h4 style="padding-top:40px;">NIA가 직접 참여한 사업</h4>
+                    </div>
+                </div>
+
+                <div class="page" id="page-office">
+
+                            <!-- office-wrapper start -->
+                            <div class='office-wrapper' style="padding:0">
+                                <div style="max-width:1440px !important;" class="row">
+                                    <span class="mobile-only">인도네시아 버스터미널 현대화</span>
+                                    <div class="clear">
+                                        <div class="fl w50 sld-box">
+                                            <div class="owl-carousel owl-theme">
+                                                <div class="item"><img src='../assets/img/01.jpg' /></div>
+                                                <div class="item"><img src='../assets/img/02.jpg' /></div>
+                                                <div class="item"><img src='../assets/img/03.jpg' /></div>
+                                                <div class="item"><img src='../assets/img/04.jpg' /></div>
+                                                <div class="item"><img src='../assets/img/05.jpg' /></div>
+                                                <div class="item"><img src='../assets/img/06.jpg' /></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="fr w50 caption box1s"> 
+                                            <span class="mobile-hide">인도네시아 버스터미널 현대화</span>
+                                            <p>NIA는 대한민국 국토교통부 및 인도네시아 교통부의 ODA(공적개발원조)사업인 인도네시아 버스터미널 현대화 사업을 성공적으로 완수하였으며 본 사업을 통하여 시범운영을 시행한 2개의 터미널은 동부 자카르타에 위치한 캄풍 람부탄 터미널 및 반둥시에 위치한 레우위판장 터미널입니다.<br>본 사업을 통하여 시스템 구축을 포함하여 시설 및 환경개선 공사까지 진행하였으며 저희가 제공하는 주요 시스템 중 하나는 매표발권 및 온라인 예약•예약 시스템입니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- office-wrapper end -->
+
+                        </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <ul>
+                            <li>
+                                <img src="../assets/img/n01.jpg" />
+                                <div>
+                                    <h5>무인 발권기(키오스크)</h5>
+                                    <span>
+                                        무인발권기(키오스크)를 통하여 고객은 스스로 무현금 결제 티켓을 발권가능하며, 버스일정 예약 기능을 제공하는 시스템입니다.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/sswebapp.jpg" />
+                                <div>
+                                    <h5>웹사이트</h5>
+                                    <span>
+                                        웹사이트를 통하여 온라인 티켓의 예약•예매, 발권 기능 및 예약취소 기능을 제공하는 시스템으로 온라인 결제로 티켓 구매가 가능합니다.
+                                    </span>
+                                    <a style="margin-top:25px;" class="mini_button" href="https://smartterminal.dephub.go.id/" target="_blank" class="more-btn">스마트 터미널</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/n03.jpg" />
+                                <div>
+                                    <h5>매표발권 시스템</h5>
+                                    <span>
+                                        매표소에서의 티켓 판매 시스템은 매표직원을 통한 티켓의<br>예약•예매, 발권, 취소 및 재발권이 가능하며  결제시 현금 또는 무현금 방법 모두 이용 가능합니다.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/n04.jpg" />
+                                <div>
+                                    <h5>승무사원 앱</h5>
+                                    <span>
+                                        승무사원앱은 승무사원 및 기사가 승객 탑승시 승객이 소지한 종이/모바일 승차권의QR/바코드를 스캔하여 검표하기 위한 앱으로 이를 통해 실시간 터미널 및 경유지별 탑승객 수를<br>파악할 수 있습니다. 추후 승무사원앱을 통하여 티켓 판매도 가능하여 승객들의 티켓 구매 방법을 좀 더 용이하게 할 것입니다.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- section-wrapper end -->
+
+    </div>
+
+    <div data-include="component/footer"></div>
+
+</body>
+
+</html>

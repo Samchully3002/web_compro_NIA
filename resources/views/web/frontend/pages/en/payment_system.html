@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
+    <title>NIA</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+    <link href="../assets/css/default.css" rel="stylesheet" />
+    <link href="../assets/css/outline.css" rel="stylesheet" />
+    <link href="../assets/css/page.css" rel="stylesheet" />
+    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/common.js"></script>        
+    <script>
+        $(document).ready(function(){
+            let url = Number($(location).attr('href').split('?').pop());
+            let h = $('#header-wrapper').height();
+            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
+            $('html, body').animate( { scrollTop : offSet }, 1000 );
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                items:1,
+                loop:true,
+                autoplay:true,
+                dots:false,
+                nav:true,
+                autoplayTimeout:3000,
+                autoplayHoverPause:true,
+                navText: ["<img src='../assets/img/icon/icon-nav-prev.svg'>","<img src='../assets/img/icon/icon-nav-next.svg'>"]
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div data-include="component/header"></div>
+
+    <div class="page page-scroll page-in" id="page-business">
+
+        <!-- bg-wrapper start -->
+        <div class="bg-wrapper">
+            <div class="text-box">
+                <span>Make the world more creative</span>
+                <h3>Business Portfolio</h3>
+            </div>
+        </div>
+        <!-- bg-wrapper end -->
+
+        <!-- section-wrapper start -->
+        <div class="section-wrapper">
+
+            <div class="section">
+
+                <div class="flex-box">
+                    <img style="box-shadow:0 0 0 rgba(0,0,0,0);width:50%;height:60vh;"src='../assets/img/business-img10.jpg'/>
+                    <div class="text-box">
+                        <h3>Payment System</h3>
+                        <p>
+                            Furthermore, we offer various products and services related to payment systems. These products and services are designed to meet the needs of customers in managing financial transactions easily and securely. We are committed to providing efficient and reliable payment solutions, supporting the sustainability of your business and the security of your financial transactions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <ul>
+                            <li>
+                                <img src="../assets/img/business-img11.jpg" />
+                                <div>
+                                    <h5>Comprehensive Payment Methods</h5>
+                                    <span>
+                                        We offer a diverse range of payment methods to facilitate customer transactions. With a variety of payment options, we are committed to providing flexibility and convenience for customers to make payments according to their preferences, making the transaction experience more comfortable and efficient.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img12.jpg" />
+                                <div>
+                                    <h5>Processing Refunds, Settlements, Cancellations, Reports, etc.</h5>
+                                    <span>
+                                        We manage various processes, such as refund processing, settlements, cancellations, and report generation, to ensure the smoothness and accuracy of financial transactions. Focusing on this aspect, we are committed to providing efficient and responsive services, meeting customer needs and satisfaction optimally.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img13.jpg" />
+                                <div>
+                                    <h5>Easy and Fast API Integration</h5>
+                                    <span>
+                                        We provide simple and fast API integration, enabling our system to easily connect with various platforms and applications. With this option, customers can efficiently combine the functionality of our system with other solutions, providing optimal flexibility in data and operational management.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img14.jpg" />
+                                <div>
+                                    <h5>Secure and Reliable Transaction System</h5>
+                                    <span>
+                                        We offer a secure and reliable transaction system. With high-level security and guaranteed reliability, customers can confidently conduct transactions. This system is designed to provide maximum security and ensure that each transaction runs smoothly and efficiently.
+
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <img src="../assets/img/business-img15.jpg" />
+                                <div>
+                                    <h5>Automatic Recording of All Payment Transactions</h5>
+                                    <span>
+                                        The process of automatic recording for each payment transaction ensures efficiency and accuracy in financial reporting. With this feature, every payment transaction is automatically recorded, providing ease in financial management and ensuring data accuracy for reporting and analysis purposes.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <h3 class="t2">Suitable For</h3>
+
+                        <div class="box2">
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i1.png">
+                                </div>
+
+                                <h5>Transportation</h5>
+                            </div>
+
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i2.png">
+                                </div>
+
+                                <h5>Entertainment</h5>
+                            </div>
+
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i3.png">
+                                </div>
+
+                                <h5>Restaurant & Cafe</h5>
+                            </div>
+
+                            <div class="box">
+                                <div class="box">
+                                    <img src="../assets/img/icon/i4.png">
+                                </div>
+
+                                <h5>Experience</h5>
+                            </div>
+                        </div>
+
+                        <h4 style="padding-top:40px;">Our Product</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="imx">
+                        <ul>
+                            <li>
+                                <img src="../assets/img/img01.jpg" />
+                                <div>
+                                    <h5>Samchully Pay</h5>
+                                    <span>
+                                        Integrated platform to share transport information, agent and payment. Carry out
+                                        task by sharing transport information & customer information between affiliated
+                                        companies and members with various means (walkie talkie, App, Web etc.) via own
+                                        development solution
+                                    </span>
+                                    <a href="https://play.google.com/store/apps/details?id=com.smardi.smardi24">
+                                        <img src="../assets/img/playstore.svg" class="playstore_button">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <h3 class="t2">Our Partner</h3>
+                    <div class="box2">
+                        <div class="box_logo">
+                            <img src="../assets/img/bni_logo.jpg">
+                        </div>
+
+                        <div class="box_logo">
+                            <img src="../assets/img/faspay_logo.jpg">
+                        </div>
+
+                        <div class="box_logo">
+                            <img src="../assets/img/ovo_logo.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- section-wrapper end -->
+
+    </div>
+
+    <div data-include="component/footer"></div>
+
+</body>
+
+</html>
