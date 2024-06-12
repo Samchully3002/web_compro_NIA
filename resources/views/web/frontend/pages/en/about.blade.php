@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NIA</title>
     <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link href="../assets/css/default.css" rel="stylesheet" />
@@ -12,8 +12,8 @@
     <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
     <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/common.js"></script>    
@@ -39,7 +39,14 @@
     <div class="page page-in" id="page-introduction">
 
         <!-- bg-wrapper start -->
-        <div class="bg-wrapper">
+        <div style="
+            padding: 50px 0px 50px 0px;
+            overflow: visible;
+            position: relative;
+            width: 100%;
+            background: linear-gradient(to right, #68708C 0%, #AAC7E8 100%);
+            color: #F0F0F0;
+        ">
             <div style="
                 display: flex;
                     flex-direction: row;
@@ -63,15 +70,35 @@
         <!-- bg-wrapper end -->
 
         <!-- about-wrapper start -->
-        <div class="about-wrapper">
-            <div style="display:inline;">
-                <img src="../assets/images/CEO_Photo.png"/>
-                <p>
-                    <h3>CEO Greetings</h3><br>
-                    As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.
-                </p>
+        <!-- <div class="about-wrapper"> -->
+            <div style="
+                display: flex;
+                width: 100%;
+                height: 100%;
+                background: #454A65;
+                align-items:center;
+                place-content:center space-evenly;
+                padding:50px 50px 50px 50px;
+                overflow: visible;
+            ">
+                <div style="
+                    align-items:center;
+                    justify-content:center;">
+                    <img src="../assets/images/CEO_Photo.png"/>
                 </div>
-            </div>
+                <div style="
+                    width:504px;
+                    font-size:16px;
+                    color:white;
+                    align-items:center;
+                    justify-content:center;">
+                    <p>
+                    <h1>CEO Greetings</h1><br><br>
+                    As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.<br><br>
+                    NIA prioritizes 'integration' and 'innovation' as its core foundation. With the vision of "Focusing on innovation, high-quality services, and advanced technological solutions, we are determined to make a meaningful contribution to advancing the world of information technology. Through this commitment, we strive to build strong, long-term relationships with customers, becoming a reliable partner and continuing to be a leading provider of IT solutions." We are committed to continually building and maintaining trust, aligning with the rapid changes in technology trends.
+                    </p>
+                </div>
+            <!-- </div> -->
         </div>
         <!-- about-wrapper end -->
 

@@ -26,7 +26,6 @@
 #header-wrapper .menu-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-size: 1.33em;
     font-weight: 500;
     height: 80px

@@ -3,11 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('web/frontend/pages/in/index_in');
+    return view('web/frontend/pages/en/index');
 });
 
 Route::get('/about', function () {
-   return  view('web/frontend/pages/in/about');
+   return  view('web/frontend/pages/en/about');
 // Our Business Routes
 });
 

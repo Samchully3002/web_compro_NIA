@@ -11,11 +11,6 @@
 
         gtag('config', 'G-Z49W0Z4LVG');
     </script>
-    <style>
-        body {
-            font-family:Rubik, sans-serif;  
-        }
-    </style>
 
     <meta charset="utf-8">
     <meta name="viewport"content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
@@ -29,7 +24,6 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
