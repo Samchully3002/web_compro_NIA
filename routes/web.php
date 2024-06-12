@@ -6,6 +6,13 @@ Route::get('/', function () {
     return view('web/frontend/pages/in/index_in');
 });
 
+Route::get('/about', function () {
+   return  view('web/frontend/pages/in/about');
+// Our Business Routes
+});
+
+
+
 Route::group([
    'prefix' => '/auth',
    'as' => 'auth',

@@ -34,27 +34,42 @@
 </head>
 
 <body>
-    @include('in/component/header')
+    @include('web/frontend/pages/in/component/header')
 
     <div class="page page-in" id="page-introduction">
 
         <!-- bg-wrapper start -->
         <div class="bg-wrapper">
-            <div class="text-box">
-                <span>Connect people with technology</span>
+            <div style="
+                display: flex;
+                    flex-direction: row;
+                ">
+                <div style="
+                    width: 50%;
+                    height: 100%;
+                    display: block;
+                    align-content: center;">
+                    <img src="../assets/images/icon_10_about.svg">
+                    <span>Years of  Proven Experience</span>    
+                </div>   
+            <div style="
+                width:50%;
+            ">
+                <span>With a decade worth of experience and excellent infrastructure, NIA is your reliable partner.</span>
+            </div>
+            
             </div>
         </div>
         <!-- bg-wrapper end -->
 
         <!-- about-wrapper start -->
         <div class="about-wrapper">
-            <div class="row">
-                <div class="imx">
-                    <h3><span>Company Profile</span></h3>
-                    <img src='../assets/img/logo_svg.svg' />
-                    <P>
-                        <b>Networks Indonesia Aku (NIA)</b> adalah perusahaan yang menyediakan layanan, solusi, dan produk digital inovasi teknologi informasi dengan spesialisasi di bidang ITS <i>(Intelligent Transport System)</i>. <b>NIA</b> terbentuk pada 10 Desember 2021 yang merupakan anak perusahaan dari <b>Samchully Networks</b> di Korea Selatan yang berdiri sejak tahun 2014.<br /><br /> Kami menciptakan produk digital yang unggul dan menghadirkan inovasi baru melalui sistem dan teknologi yang kami kembangkan sendiri dari Korea. Dengan mengusung teknologi dan sistem canggih dari Korea, <b>NIA</b> berkomitmen untuk selalu menghadirkan kualitas dalam setiap inovasinya.<br /><br /> <b>NIA</b> berpartisipasi untuk membangun dan memajukan sistem transportasi, UMKM dan perusahaan startup di Indonesia, menciptakan berbagai produk unggulan dan menghadirkan visi baru melalui strategi yang sistematis dengan teknologi yang telah terbukti.
-                    </P>
+            <div style="display:inline;">
+                <img src="../assets/images/CEO_Photo.png"/>
+                <p>
+                    <h3>CEO Greetings</h3><br>
+                    As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.
+                </p>
                 </div>
             </div>
         </div>
@@ -481,8 +496,8 @@
 
 
     </div>
-
-    @include('in/component/footer')
+   
+    @include('web/frontend/pages/in/component/footer')
 
 </body>
 

@@ -53,173 +53,82 @@
         </video>
         <!-- Video end -->
 
-        <div style="      
-            color:#077C93;
-            font-size:42px;
-            margin-top:100px;
-            padding-bottom: 50px;
-            margin-bottom:100px;
-            text-align: center;
-            font-weight:500;">
+        <div class="vision_text">
             <label>One - Stop</label><label style="color:#40455C;">&nbsp;IT Solution For Your Business</label>
         </div>
         
         <div class="flex-box">
-            <div style="    
-                width:55%;
-                height:60%;
-                padding: 100px 100px 100px 100px;
-                margin: 0px 0px 200px 200px;
-                display: grid;
-                border-radius: 20px 0px 0px 20px;
-                background: #ffffff;
-                box-shadow: 5px 5px 10px rgba(0, 0.3, 0, 0.3);
-                align-content: center;
-                justify-content: center;
-                flex-direction: column;">
-                <img style="width:120px;margin-bottom:50px;" src="../../assets/images/icon/ic_cube.png"/>
-                <label style="font-size:28px;font-weight:bold;">Intelligent Integrated Logistics</label><br>
+            <div class="box_right">
+                <img class="icon_right" src="../../assets/images/icon/ic_cube.png"/>
+                <label>Intelligent Integrated Logistics</label><br>
                 <span style="font-size:22px;">Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span>
             </div>
-            <img style="width:45%;height:60%;border-radius:0px 20px 20px 0px;
-                margin: 0px 200px 200px 0px;" src="../../assets/images/home1.svg"/>
+            <img class="img_right" src="../../assets/images/home1.svg"/>
         </div>
 
-        <div class="flex-box">                
-            <img style="width:45%;border-radius:20px 0px 0px 20px;
-                margin: 0px 0px 200px 200px;" src="../../assets/images/home2.svg"/>
-            <div style="
-                width: 65%;
-                padding: 100px 100px 100px 100px;
-                margin: 0px 200px 200px 0px;
-                display: grid;
-                border-radius: 0px 20px 20px 0px;
-                background: #ffffff;
-                box-shadow: 5px 5px 10px rgba(0, 0.3, 0, 0.3);
-                align-content: center;
-                justify-content: center;
-                flex-direction: column;">
-                <img style="width:120px;margin-bottom:50px;" src="../../assets/images/icon/ic_medical.svg"/>
-                <label style="font-size:28px;font-weight:bold;">Digital Health Care</label><br>
+        <div class="flex-box">
+            <img class="img_left" src="../../assets/images/home2.svg"/>                
+            <div class="box_left">
+                <img class="icon_left" src="../../assets/images/icon/ic_medical.svg"/>
+                <label>Digital Health Care</label><br>
                 <span style="font-size:22px;">We offer reliable health solutions through optimized customer-tailored consultations by healthcare professionals, integrating AI-based big data analysis considering customer preferences, health status, underlying conditions, and medications.</span>
             </div>
         </div>
 
         <div class="flex-box">
-            <div style="    
-                width: 65%;
-                padding: 100px 100px 100px 100px;
-                margin: 0px 0px 200px 200px;
-                display: grid;
-                border-radius: 20px 0px 0px 20px;
-                background: #ffffff;
-                box-shadow: 5px 5px 10px rgba(0, 0.3, 0, 0.3);
-                align-content: center;
-                justify-content: center;
-                flex-direction: column;">
-                <img style="width:120px;margin-bottom:50px;" src="../../assets/images/icon/ic_code.svg"/>
-                <label style="font-size:28px;font-weight:bold;">System development and management</label><br>
+            <div class="box_right">
+                <img class="icon_right" src="../../assets/images/icon/ic_code.svg"/>
+                <label>System development and management</label><br>
                 <span style="font-size:22px;">From planning to maintenance, we offer innovative solutions with unique expertise for domestic and global clients.</span>
             </div>
-            <img style="width:45%;border-radius:0px 20px 20px 0px;
-                margin: 0px 200px 200px 0px;" src="../../assets/images/home3.svg"/>
+            <img class="img_right" src="../../assets/images/home3.svg"/>
         </div>
         
-
         <div class="flex-box">                
-            <img style="width:45%;border-radius:20px 0px 0px 20px;
-                margin: 0px 0px 200px 200px;" src="../../assets/images/home4.svg"/>
-            <div style="
-                width: 65%;
-                padding: 100px 100px 100px 100px;
-                margin: 0px 200px 200px 0px;
-                display: grid;
-                border-radius: 0px 20px 20px 0px;
-                background: #ffffff;
-                box-shadow: 5px 5px 10px rgba(0, 0.3, 0, 0.3);
-                align-content: center;
-                justify-content: center;
-                flex-direction: column;">
-                <img style="width:120px;margin-bottom:50px;" src="../../assets/images/icon/ic_building.svg"/>
+            <img class="img_left" src="../../assets/images/home4.svg"/>
+            <div class="box_left">
+                <img class="icon_left" src="../../assets/images/icon/ic_building.svg"/>
                 <label style="font-size:28px;font-weight:bold;">Global Business</label><br>
                 <span style="font-size:22px;">We assist in every step for successful business execution, from analysis to document services and translation for global expansion.</span>
             </div>
         </div>
 
-        <div style="      
-            font-size:48px;
-            font-weight:bold;
-            padding: 0px 400px 0px 400px;
-            margin-bottom:100px;
-            text-align: center;">
+        <div class="client_text">
             <label>Collaborating seamlessly to create value and drive success for our clients.</label>
         </div>
             <marquee behavior="scroll" direction="left">
             <img src="../../assets/images/icon/partner_logo.png"/>
             </marquee>
 
-        <div style="
-            padding: 50px 50px 100px 50px;   
-            display: flex;
-            flex-direction: column;
-            background: #077C93;
-            align-content: center;">
+        <div class="news_box">
             <label style="font-size:45px;font-weight:bold;color:white;">Latest News</label>
-            <div style="
-                margin: 100px 0px 0px 0px;
-                display: flex;
-                justify-content: space-between;">
-                <div style="
-                    margin: 0px 100px 0px 100px;
-                    display: grid;
-                    align-content: center;
-                    justify-content: center;
-                    flex-direction: column;">
+            <div class="news_wrapper">
+                <div class="news_content">
                     <img src="../../assets/images/news1.png"/>
-                    <label style="font-size:24px;font-weight:bold;color:white;margin-top:20px;">Now the Kampung Rambutan Terminal is more modern ...</label>
+                    <label>Now the Kampung Rambutan Terminal is more modern ...</label>
                     <label style="margin-top:20px;font-size:16px;color:white;">January 14, 2023</label>
                 </div>
 
-                <div style="
-                    margin: 0px 100px 0px 100px;
-                    display: grid;
-                    align-content: center;
-                    justify-content: center;
-                    flex-direction: column;">
+                <div class="news_content">
                     <img src="../../assets/images/news2.png"/>
-                    <label style="font-size:24px;font-weight:bold;color:white;margin-top:20px;">Kampung Rambutan Bus Terminal Starts Opening Online ...</label>
+                    <label>Kampung Rambutan Bus Terminal Starts Opening Online ...</label>
                     <label style="margin-top:20px;font-size:16px;color:white;">January 13, 2023</label>
                 </div>
 
-                <div style="
-                    margin: 0px 100px 0px 100px;
-                    display: grid;
-                    align-content: center;
-                    justify-content: center;
-                    flex-direction: column;">
+                <div class="news_content">
                     <img src="../../assets/images/news3.png"/>
-                    <label style="font-size:24px;font-weight:bold;color:white;margin-top:20px;">South Korea's Hiba for the Modernization of the Kampung ...</label>
+                    <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
                     <label style="margin-top:20px;font-size:16px;color:white;">April 14, 2023</label>
                 </div>
             </div>
-            <div style="
-                margin-top: 50px;
-                display: flex;
-                justify-content:center;
-                align-items:center;">
-                <button style="
-                    width:fit-content;
-                    padding:10px 50px 10px 50px;
-                    border:1px solid white;
-                    border-radius: 50px;
-                    font-size: 16px;
-                    color:white;
-                    background-color:transparent;" onMouseOver="this.style.background='grey'"
+            <div class="news_footer">
+                <button onMouseOver="this.style.background='grey'"
        onMouseOut="this.style.background='transparent'">More Articles</button>
             </div>
         </div>
 
-        <div style="
+        <!-- Contact Us COntent -->
+        <!-- <div style="
             padding: 100px 100px 100px 100px;
             margin: 100px 100px 100px 100px;
             border-radius: 20px 20px 20px 20px;
@@ -242,7 +151,7 @@
                 <label style="margin-right:30px;">Contact Us</label>
                 <img src="../../assets/images/icon/ic_arrow_miring.svg"/>
             </button>    
-        </div>
+        </div> -->
 
     </div>
 

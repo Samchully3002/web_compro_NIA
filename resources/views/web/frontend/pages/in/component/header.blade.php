@@ -10,9 +10,8 @@
 
                 <ul class="menu-box">
                     <li class="first-menu hidden-box>"><a href="../../index.html">Home</a></li>
-                    <li class="first-menu hidden-box">
-                        <a>ABOUT NIA</a>
-                        <div class="pc-hidden">
+                    <li class="first-menu hidden-box"><a href="about">About</a>
+                        <!-- <div class="pc-hidden">
                             <a href="/introduction" ><em>Introduction</em></a>
                             <a href="ceo.html"><em>CEO Message</em></a>
                             <a href="people.html"><em>NIA People</em></a>
@@ -23,7 +22,7 @@
                             <li><a href="ceo.html">CEO Message</a></li>
                             <li><a href="people.html">NIA People</a></li>
                             <li><a href="office.html">Our Office</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
 
                     <li class="first-menu hidden-box business">

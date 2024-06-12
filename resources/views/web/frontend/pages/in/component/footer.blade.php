@@ -1,14 +1,13 @@
 <div id="footer-wrapper">
     <div class="row">
-        <div class="imx">
+        <!-- <div class="imx"> -->
 
             <div class="clear footer-top">
                 <div class="fl w50">
                     <img src="../../assets/images/icon/logo_ftr.svg" alt="PT. Networks Indonesia Aku" class="logo-footer">
                     <div class="location clear">
-                        <img src="../../assets/img/icon/map.svg" alt="Location" class="fl icon-map">
-                        <div class="fl address">
-                            <span class="title">Address</span>
+                        <div class="address">
+                            <span class="title">Connecting The World Through Technology</span>
                             <span class="caption">AIA Central, lantai 21<br /><br /> Jl. Jenderal Sudirman No.Kav. 48A, Karet Semanggi,<br /> Kecamatan Setiabudi, Jakarta Selatan<br /> Indonesia - 12930</span>
                         </div>
                     </div>
@@ -53,6 +52,6 @@
                 </div>
             </div>
 
-        </div>
+        <!-- </div> -->
     </div>
 </div>
