@@ -43,7 +43,7 @@
         </video> -->
         <!-- <video src="../assets/video/company_profile.mp4" class="video_compro" autoplay/> -->
         <video width="320" height="240" class="video_compro" autoplay muted>
-            <source src="../assets/video/company_profile.mp4" type="video/mp4">
+            <source src="../assets/video/video.mp4" type="video/mp4">
         </video>
         <!-- Video end -->
 
