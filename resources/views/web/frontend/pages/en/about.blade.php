@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    @include('web/frontend/pages/in/component/header')
+    @include('web/frontend/pages/en/component/header')
 
     <div class="page page-in" id="page-introduction">
 
@@ -524,7 +524,7 @@
 
     </div>
    
-    @include('web/frontend/pages/in/component/footer')
+    @include('web/frontend/pages/en/component/footer')
 
 </body>
 
