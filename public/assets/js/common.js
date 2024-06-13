@@ -11,14 +11,14 @@ $(document).ready(function(){
         if($('.hambuger-menu').hasClass('active')){
             return false
         } else{
-            $(this).children('.hidden-menu').stop().slideDown(200);
+            $(this).children('.hidden-menu').stop().fadeIn(200);
         }        
     });
     $('.hidden-box').mouseleave(function(){
         if($('.hambuger-menu').hasClass('active')){
             return false
         } else{
-            $(this).children('.hidden-menu').stop().slideUp(200);
+            $(this).children('.hidden-menu').stop().fadeOut(200);
         }                
     });
 
@@ -35,12 +35,12 @@ $(document).ready(function(){
     $('.pc-ham').on('click' , function(){        
         if(!$(this).hasClass('active')){
             $(this).addClass('active');
-            $('.pc-hidden').stop().slideDown();
-            $('.pc-bg').stop().slideDown();
+            $('.pc-hidden').stop().fadeIn();
+            $('.pc-bg').stop().fadeIn();
         } else{
             $(this).removeClass('active');
-            $('.pc-hidden').stop().slideUp();
-            $('.pc-bg').stop().slideUp();
+            $('.pc-hidden').stop().fadeOut();
+            $('.pc-bg').stop().fadeOut();
         }
     });
 
@@ -48,12 +48,12 @@ $(document).ready(function(){
         if(!$(this).hasClass('active')){
             $(this).addClass('active');
             $('.mobile-menu').stop().fadeIn();
-            $('.mobile-menu .inner').stop().slideDown();
+            $('.mobile-menu .inner').stop().fadeIn();
         } else{
             $(this).removeClass('active');
             $('.mobile-menu').stop().fadeOut();
-            $('.mobile-menu .inner').stop().slideUp();
-            $('.mobile-menu .second-menu').stop().slideUp();
+            $('.mobile-menu .inner').stop().fadeOut();
+            $('.mobile-menu .second-menu').stop().fadeOut();
             
         }
     });
@@ -62,11 +62,11 @@ $(document).ready(function(){
         if(!$(this).hasClass('active')){
             $('.mobile-menu .first-menu').removeClass('active');
             $(this).addClass('active');
-            $('.mobile-menu .second-menu').stop().slideUp();
-            $(this).next().stop().slideDown();
+            $('.mobile-menu .second-menu').stop().fadeOut();
+            $(this).next().stop().fadeIn();
         } else{
             $(this).removeClass('active');
-            $(this).next().stop().slideUp();
+            $(this).next().stop().fadeOut();
         }
     });
 
