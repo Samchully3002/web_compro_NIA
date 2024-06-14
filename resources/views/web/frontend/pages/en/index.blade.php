@@ -51,7 +51,7 @@
         <!-- Video end -->
 
         <div class="vision_text">
-            <label>One - Stop</label><label style="color:#40455C;">&nbsp;IT Solution For Your Business</label>
+            <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
         </div>
         
         <div class="flex-box">
@@ -90,37 +90,80 @@
             </div>
         </div>
 
+    <div class="clientSection">
         <div class="client_text">
             <label>Collaborating seamlessly to create value and drive success for our clients.</label>
         </div>
-            <marquee behavior="scroll" direction="left">
-            <img src="../../assets/images/icon/partner_logo.png"/>
-            </marquee>
+            <!-- <marquee behavior="scroll" direction="left">
+                <img src="../../assets/images/icon/korea.png"/>
+                <img src="../../assets/images/icon/ditjen.png"/>
+                <img src="../../assets/images/icon/bni.png"/>
+                <img src="../../assets/images/icon/jayaraya.png"/>
+                <img src="../../assets/images/icon/ovo.png"/>
+                <img src="../../assets/images/icon/dishub.png"/>
+            </marquee> -->
 
+            <div class="marquee-container">
+                <div class="marquee">
+                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+            
+                </div>
+            </div>
+    </div>
         <div class="news_box">
-            <label style="font-size:45px;font-weight:bold;color:white;">Latest News</label>
+            <label>Latest News</label>
             <div class="news_wrapper">
                 <div class="news_content">
-                    <img src="../../assets/images/news1.png"/>
-                    <label>Now the Kampung Rambutan Terminal is more modern ...</label>
-                    <label style="margin-top:20px;font-size:16px;color:white;">January 14, 2023</label>
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news1.png"/>
+                        <label>Now the Kampung Rambutan Terminal is more modern ...</label>
+                        <label style="margin-top:20px;font-size:16px;color:white;">January 14, 2023</label>
+                    </a>
                 </div>
 
                 <div class="news_content">
-                    <img src="../../assets/images/news2.png"/>
-                    <label>Kampung Rambutan Bus Terminal Starts Opening Online ...</label>
-                    <label style="margin-top:20px;font-size:16px;color:white;">January 13, 2023</label>
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news2.png"/>
+                        <label>Kampung Rambutan Bus Terminal Starts Opening Online ...</label>
+                        <label style="margin-top:20px;font-size:16px;color:white;">January 13, 2023</label>
+                    </a>
                 </div>
 
                 <div class="news_content">
-                    <img src="../../assets/images/news3.png"/>
-                    <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
-                    <label style="margin-top:20px;font-size:16px;color:white;">April 14, 2023</label>
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news3.png"/>
+                        <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
+                        <label style="margin-top:20px;font-size:16px;color:white;">April 14, 2023</label>
+                    </a>
+                </div>
+
+                <div class="news_content">
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news3.png"/>
+                        <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
+                        <label style="margin-top:20px;font-size:16px;color:white;">April 14, 2023</label>
+                    </a>
                 </div>
             </div>
             <div class="news_footer">
-                <button onMouseOver="this.style.background='grey'"
-       onMouseOut="this.style.background='transparent'">More Articles</button>
+                <button onMouseOver="this.style.background='grey'" onMouseOut="this.style.background='transparent'">More</button>
             </div>
         </div>
 
