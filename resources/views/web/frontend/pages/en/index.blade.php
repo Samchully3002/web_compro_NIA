@@ -14,8 +14,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport"content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
-    <title>NIA</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <title>Networks Indonesia Aku</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/default.css"/>
     <link rel="stylesheet" href="assets/css/outline.css"/>
     <link rel="stylesheet" href="assets/css/page.css"/>

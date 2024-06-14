@@ -1,170 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
-    <title>NIA</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico">
-    <link href="../assets/css/default.css" rel="stylesheet" />
-    <link href="../assets/css/outline.css" rel="stylesheet" />
-    <link href="../assets/css/page.css" rel="stylesheet" />
-    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/common.js"></script>        
-    <script>
-        $(document).ready(function(){
-            let url = Number($(location).attr('href').split('?').pop());
-            let h = $('#header-wrapper').height();
-            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
-            $('html, body').animate( { scrollTop : offSet }, 1000 );
-        });
-    </script>
-    <script>
-        $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                items:1,
-                loop:true,
-                autoplay:true,
-                dots:false,
-                nav:true,
-                autoplayTimeout:3000,
-                autoplayHoverPause:true,
-                navText: ["<img src='../assets/img/icon/icon-nav-prev.svg'>","<img src='../assets/img/icon/icon-nav-next.svg'>"]
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
+        />
+        <title>Networks Indonesia Aku</title>
+        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
+        <link href="../assets/css/default.css" rel="stylesheet" />
+        <link href="../assets/css/outline.css" rel="stylesheet" />
+        <link href="../assets/css/page.css" rel="stylesheet" />
+        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="../assets/js/owl.carousel.min.js"></script>
+        <script src="../assets/js/common.js"></script>
+        <script>
+            $(document).ready(function () {
+                let url = Number($(location).attr("href").split("?").pop());
+                let h = $("#header-wrapper").height();
+                let offSet =
+                    $(".section")
+                        .eq(url - 1)
+                        .offset().top -
+                    h -
+                    10;
+                $("html, body").animate({ scrollTop: offSet }, 1000);
             });
-        });
-    </script>
-</head>
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    autoplay: true,
+                    dots: false,
+                    nav: true,
+                    autoplayTimeout: 3000,
+                    autoplayHoverPause: true,
+                    navText: [
+                        "<img src='../assets/img/icon/icon-nav-prev.svg'>",
+                        "<img src='../assets/img/icon/icon-nav-next.svg'>",
+                    ],
+                });
+            });
+        </script>
+    </head>
 
-<body>
-    <div data-include="component/header"></div>
+    <body>
+        <div data-include="component/header"></div>
 
-    <div class="page page-scroll page-in" id="page-business">
-
-        <!-- bg-wrapper start -->
-        <div class="bg-wrapper">
-            <div class="text-box">
-                <span>Make the world more creative</span>
-                <h3>Business Portfolio</h3>
-            </div>
-        </div>
-        <!-- bg-wrapper end -->
-
-        <!-- section-wrapper start -->
-        <div class="section-wrapper">
-
-            <div class="section">
-
-                <div class="flex-box">
-                    <img style="box-shadow:0 0 0 rgba(0,0,0,0);width:50%;height:60vh;"src='../assets/img/business-img21.jpg'/>
-                    <div class="text-box">
-                        <h3>Logistic and Delivery System</h3>
-                        <p>
-                            Our logistics and delivery system has been designed with sophisticated and reliable
-                            solutions, ensuring optimal smoothness in both the management and delivery of goods.
-                            With a focus on efficiency, we are committed to providing maximum satisfaction to every
-                            customer who relies on our services
-                        </p>
-                    </div>
+        <div class="page page-scroll page-in" id="page-business">
+            <!-- bg-wrapper start -->
+            <div class="bg-wrapper">
+                <div class="text-box">
+                    <span>Make the world more creative</span>
+                    <h3>Business Portfolio</h3>
                 </div>
+            </div>
+            <!-- bg-wrapper end -->
 
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/business-img22.jpg" />
-                                <div>
-                                    <h5>Real-time monitoring and tracking of logistics vehicle locations</h5>
-                                    <span>
-                                        We conduct real-time monitoring and tracking of logistics vehicle locations. With
-                                        cutting-edge technology, we ensure accurate and timely control, thereby
-                                        strengthening efficiency in delivery and logistics management.
-                                    </span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="../assets/img/business-img23.jpg" />
-                                <div>
-                                    <h5>Automated business reporting and analysis</h5>
-                                    <span>
-                                        Our automated business reporting and analysis services help simplify the process
-                                        of evaluating company performance. Utilizing sophisticated automation
-                                        technology, we provide accurate reports and efficient in-depth analysis. This
-                                        enables a better understanding of business conditions, facilitates strategic
-                                        decision-making, and enhances operational effectiveness.
-                                    </span>
-                                </div>
-                            </li>
-
-                        </ul>
-
-                        <h3 class="t2">Suitable For</h3>
-
-                        <div class="box2">
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i5.png">
-                                </div>
-
-                                <h5>Shipping Expedition</h5>
-                            </div>
-
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i6.png">
-                                </div>
-
-                                <h5>Moving Expedition</h5>
-                            </div>
-
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i7.png">
-                                </div>
-
-                                <h5 style="line-height:28px;">Business Operational<br>Expedition</h5>
-                            </div>
+            <!-- section-wrapper start -->
+            <div class="section-wrapper">
+                <div class="section">
+                    <div class="flex-box">
+                        <img
+                            style="
+                                box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                                width: 50%;
+                                height: 60vh;
+                            "
+                            src="../assets/img/business-img21.jpg"
+                        />
+                        <div class="text-box">
+                            <h3>Logistic and Delivery System</h3>
+                            <p>
+                                Our logistics and delivery system has been
+                                designed with sophisticated and reliable
+                                solutions, ensuring optimal smoothness in both
+                                the management and delivery of goods. With a
+                                focus on efficiency, we are committed to
+                                providing maximum satisfaction to every customer
+                                who relies on our services
+                            </p>
                         </div>
-
-                        <h4 style="padding-top:40px;">Our Product</h4>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/business-imgolligo.jpg" />
-                                <div>
-                                    <h5>Olligo</h5>
-                                    <span>
-                                        Platform for sharing car operations and group deliveries. Provides work log,
-                                        settlement, and reports of the drivers, job rankings or general dispatch matching by
-                                        providing community among high place operation car drivers.
-                                    </span>
-                                    <a href="https://play.google.com/store/apps/details?id=com.scn3002.olligo">
-                                        <img src="../assets/img/playstore.svg" class="playstore_button">
-                                    </a>
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img22.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Real-time monitoring and tracking of
+                                            logistics vehicle locations
+                                        </h5>
+                                        <span>
+                                            We conduct real-time monitoring and
+                                            tracking of logistics vehicle
+                                            locations. With cutting-edge
+                                            technology, we ensure accurate and
+                                            timely control, thereby
+                                            strengthening efficiency in delivery
+                                            and logistics management.
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img23.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Automated business reporting and
+                                            analysis
+                                        </h5>
+                                        <span>
+                                            Our automated business reporting and
+                                            analysis services help simplify the
+                                            process of evaluating company
+                                            performance. Utilizing sophisticated
+                                            automation technology, we provide
+                                            accurate reports and efficient
+                                            in-depth analysis. This enables a
+                                            better understanding of business
+                                            conditions, facilitates strategic
+                                            decision-making, and enhances
+                                            operational effectiveness.
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h3 class="t2">Suitable For</h3>
+
+                            <div class="box2">
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i5.png" />
+                                    </div>
+
+                                    <h5>Shipping Expedition</h5>
                                 </div>
-                            </li>
-                        </ul>
+
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i6.png" />
+                                    </div>
+
+                                    <h5>Moving Expedition</h5>
+                                </div>
+
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i7.png" />
+                                    </div>
+
+                                    <h5 style="line-height: 28px">
+                                        Business Operational<br />Expedition
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <h4 style="padding-top: 40px">Our Product</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="../assets/img/business-imgolligo.jpg"
+                                    />
+                                    <div>
+                                        <h5>Olligo</h5>
+                                        <span>
+                                            Platform for sharing car operations
+                                            and group deliveries. Provides work
+                                            log, settlement, and reports of the
+                                            drivers, job rankings or general
+                                            dispatch matching by providing
+                                            community among high place operation
+                                            car drivers.
+                                        </span>
+                                        <a
+                                            href="https://play.google.com/store/apps/details?id=com.scn3002.olligo"
+                                        >
+                                            <img
+                                                src="../assets/img/playstore.svg"
+                                                class="playstore_button"
+                                            />
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            <!-- section-wrapper end -->
         </div>
-        <!-- section-wrapper end -->
 
-    </div>
-
-    <div data-include="component/footer"></div>
-
-</body>
-
+        <div data-include="component/footer"></div>
+    </body>
 </html>

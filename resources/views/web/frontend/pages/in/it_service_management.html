@@ -1,221 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
-    <title>NIA</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico">
-    <link href="../assets/css/default.css" rel="stylesheet" />
-    <link href="../assets/css/outline.css" rel="stylesheet" />
-    <link href="../assets/css/page.css" rel="stylesheet" />
-    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/common.js"></script>        
-    <script>
-        $(document).ready(function(){
-            let url = Number($(location).attr('href').split('?').pop());
-            let h = $('#header-wrapper').height();
-            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
-            $('html, body').animate( { scrollTop : offSet }, 1000 );
-        });
-    </script>
-    <script>
-        $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                items:1,
-                loop:true,
-                autoplay:true,
-                dots:false,
-                nav:true,
-                autoplayTimeout:3000,
-                autoplayHoverPause:true,
-                navText: ["<img src='../assets/img/icon/icon-nav-prev.svg'>","<img src='../assets/img/icon/icon-nav-next.svg'>"]
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
+        />
+        <title>Networks Indonesia Aku</title>
+        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
+        <link href="../assets/css/default.css" rel="stylesheet" />
+        <link href="../assets/css/outline.css" rel="stylesheet" />
+        <link href="../assets/css/page.css" rel="stylesheet" />
+        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="../assets/js/owl.carousel.min.js"></script>
+        <script src="../assets/js/common.js"></script>
+        <script>
+            $(document).ready(function () {
+                let url = Number($(location).attr("href").split("?").pop());
+                let h = $("#header-wrapper").height();
+                let offSet =
+                    $(".section")
+                        .eq(url - 1)
+                        .offset().top -
+                    h -
+                    10;
+                $("html, body").animate({ scrollTop: offSet }, 1000);
             });
-        });
-    </script>
-</head>
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    autoplay: true,
+                    dots: false,
+                    nav: true,
+                    autoplayTimeout: 3000,
+                    autoplayHoverPause: true,
+                    navText: [
+                        "<img src='../assets/img/icon/icon-nav-prev.svg'>",
+                        "<img src='../assets/img/icon/icon-nav-next.svg'>",
+                    ],
+                });
+            });
+        </script>
+    </head>
 
-<body>
-    <div data-include="component/header"></div>
+    <body>
+        <div data-include="component/header"></div>
 
-    <div class="page page-scroll page-in" id="page-business">
-
-        <!-- bg-wrapper start -->
-        <div class="bg-wrapper">
-            <div class="text-box">
-                <span>Make the world more creative</span>
-                <h3>Business Portfolio</h3>
-            </div>
-        </div>
-        <!-- bg-wrapper end -->
-
-        <!-- section-wrapper start -->
-        <div class="section-wrapper">
-
-            <div class="section">
-
-                <div class="flex-box">
-                    <img style="box-shadow:0 0 0 rgba(0,0,0,0);width:50%;height:60vh;"src='../assets/img/business-img16.jpg'/>
-                    <div class="text-box">
-                        <h3>IT Service Management</h3>
-                        <p>
-                            Our IT Service Management (ITSM) services encompass a variety of products and services designed to assist organizations in managing and enhancing the performance of their IT systems and services. Through ITSM, we provide integrated solutions to support the effective planning, implementation, and monitoring of IT services. With a focus on efficient service management, our ITSM products and services can help improve the productivity, efficiency, and operational reliability of your company.
-                        </p>
-                    </div>
+        <div class="page page-scroll page-in" id="page-business">
+            <!-- bg-wrapper start -->
+            <div class="bg-wrapper">
+                <div class="text-box">
+                    <span>Make the world more creative</span>
+                    <h3>Business Portfolio</h3>
                 </div>
+            </div>
+            <!-- bg-wrapper end -->
 
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/business-img17.jpg" />
-                                <div>
-                                    <h5>One-touch KPI Business Management</h5>
-                                    <span>
-                                        Our service provides ease in KPI management with just one touch. With this approach, your business can efficiently monitor and manage key performance indicators more practically and effectively.
-                                    </span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="../assets/img/business-img18.jpg" />
-                                <div>
-                                    <h5>Professional Support Services and Remote Training</h5>
-                                    <span>
-                                        We offer professional support services, including remote training and chat, providing reliable solutions for your needs with high expertise.
-                                    </span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="../assets/img/business-img19.jpg" />
-                                <div>
-                                    <h5>Flexible for Retail, Distributors and Factories</h5>
-                                    <span>
-                                        Our platform is designed to be flexible to meet the needs of various business sectors, including retail, distributors, and factories. With high adaptability, this platform provides solutions according to operational models and business demands across various industries.
-                                    </span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="../assets/img/business-img20.jpg" />
-                                <div>
-                                    <h5>Adaptability in Non-standard or Rapidly Changing Production Processes</h5>
-                                    <span>
-                                        We are always ready to face adjustments in non-standard or rapidly changing production processes. With our resilience and skills, we address them quickly and efficiently, maintaining smooth production without compromising high-quality standards.
-                                    </span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <h3 class="t2">Suitable For</h3>
-
-                        <div class="box2">
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i9.png">
-                                </div>
-
-                                <h5>All Type of Business</h5>
-                            </div>
+            <!-- section-wrapper start -->
+            <div class="section-wrapper">
+                <div class="section">
+                    <div class="flex-box">
+                        <img
+                            style="
+                                box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                                width: 50%;
+                                height: 60vh;
+                            "
+                            src="../assets/img/business-img16.jpg"
+                        />
+                        <div class="text-box">
+                            <h3>IT Service Management</h3>
+                            <p>
+                                Our IT Service Management (ITSM) services
+                                encompass a variety of products and services
+                                designed to assist organizations in managing and
+                                enhancing the performance of their IT systems
+                                and services. Through ITSM, we provide
+                                integrated solutions to support the effective
+                                planning, implementation, and monitoring of IT
+                                services. With a focus on efficient service
+                                management, our ITSM products and services can
+                                help improve the productivity, efficiency, and
+                                operational reliability of your company.
+                            </p>
                         </div>
-
-                        <h4 style="padding-top:40px;">Our Product</h4>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/n01.jpg" />
-                                <div>
-                                    <h5>Vending Machine</h5>
-                                    <span>
-                                        A system that functions for printing tickets, ordering tickets independently using non-cash payment methods.
-                                    </span>
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img17.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            One-touch KPI Business Management
+                                        </h5>
+                                        <span>
+                                            Our service provides ease in KPI
+                                            management with just one touch. With
+                                            this approach, your business can
+                                            efficiently monitor and manage key
+                                            performance indicators more
+                                            practically and effectively.
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img18.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Professional Support Services and
+                                            Remote Training
+                                        </h5>
+                                        <span>
+                                            We offer professional support
+                                            services, including remote training
+                                            and chat, providing reliable
+                                            solutions for your needs with high
+                                            expertise.
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img19.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Flexible for Retail, Distributors
+                                            and Factories
+                                        </h5>
+                                        <span>
+                                            Our platform is designed to be
+                                            flexible to meet the needs of
+                                            various business sectors, including
+                                            retail, distributors, and factories.
+                                            With high adaptability, this
+                                            platform provides solutions
+                                            according to operational models and
+                                            business demands across various
+                                            industries.
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img20.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Adaptability in Non-standard or
+                                            Rapidly Changing Production
+                                            Processes
+                                        </h5>
+                                        <span>
+                                            We are always ready to face
+                                            adjustments in non-standard or
+                                            rapidly changing production
+                                            processes. With our resilience and
+                                            skills, we address them quickly and
+                                            efficiently, maintaining smooth
+                                            production without compromising
+                                            high-quality standards.
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h3 class="t2">Suitable For</h3>
+
+                            <div class="box2">
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i9.png" />
+                                    </div>
+
+                                    <h5>All Type of Business</h5>
                                 </div>
-                            </li>
+                            </div>
 
-                            <li>
-                                <img src="../assets/img/sswebapp.jpg" />
-                                <div>
-                                    <h5>Website</h5>
-                                    <span style="margin-bottom:24px;">
-                                        A system that functions for ordering tickets online which is supported by an online payment system, apart from that it also functions for ticket cancellation.
-                                    </span>
-                                    <a class="mini_button" href="https://smartterminal.dephub.go.id/" target="_blank" class="more-btn">Smart Terminal</a>
-                                </div>
-                            </li>
+                            <h4 style="padding-top: 40px">Our Product</h4>
+                        </div>
+                    </div>
 
-                            <li>
-                                <img src="../assets/img/n03.jpg" />
-                                <div>
-                                    <h5>Counter Management System</h5>
-                                    <span>
-                                        Sales System for Tickets from counter agents which functions for ordering tickets, issuing tickets, canceling tickets and reprinting tickets. At this counter the payment system can use cash or non-cash methods.
-                                    </span>
-                                </div>
-                            </li>
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img src="../assets/img/n01.jpg" />
+                                    <div>
+                                        <h5>Vending Machine</h5>
+                                        <span>
+                                            A system that functions for printing
+                                            tickets, ordering tickets
+                                            independently using non-cash payment
+                                            methods.
+                                        </span>
+                                    </div>
+                                </li>
 
-                            <li>
-                                <img src="../assets/img/n04.jpg" />
-                                <div>
-                                    <h5>Driver Application</h5>
-                                    <span>
-                                        This application is used for bus conductors or drivers to check boarding tickets which can be scanned via QR/Barcode. Through this driver application, the driver can find out the number of passengers according to the number of tickets that have been ordered in real time.
-                                    </span>
-                                </div>
-                            </li>
+                                <li>
+                                    <img src="../assets/img/sswebapp.jpg" />
+                                    <div>
+                                        <h5>Website</h5>
+                                        <span style="margin-bottom: 24px">
+                                            A system that functions for ordering
+                                            tickets online which is supported by
+                                            an online payment system, apart from
+                                            that it also functions for ticket
+                                            cancellation.
+                                        </span>
+                                        <a
+                                            class="mini_button"
+                                            href="https://smartterminal.dephub.go.id/"
+                                            target="_blank"
+                                            class="more-btn"
+                                            >Smart Terminal</a
+                                        >
+                                    </div>
+                                </li>
 
-                            <li>
-                                <img src="../assets/img/central_management_system.jpg" />
-                                <div>
-                                    <h5>Central Management System</h5>
-                                    <span>
-                                        This system is managed by the center to regulate policies and authorizations such as routes, prices and bus scheduling (data center).
+                                <li>
+                                    <img src="../assets/img/n03.jpg" />
+                                    <div>
+                                        <h5>Counter Management System</h5>
+                                        <span>
+                                            Sales System for Tickets from
+                                            counter agents which functions for
+                                            ordering tickets, issuing tickets,
+                                            canceling tickets and reprinting
+                                            tickets. At this counter the payment
+                                            system can use cash or non-cash
+                                            methods.
+                                        </span>
+                                    </div>
+                                </li>
 
-                                    </span>
-                                </div>
-                            </li>
+                                <li>
+                                    <img src="../assets/img/n04.jpg" />
+                                    <div>
+                                        <h5>Driver Application</h5>
+                                        <span>
+                                            This application is used for bus
+                                            conductors or drivers to check
+                                            boarding tickets which can be
+                                            scanned via QR/Barcode. Through this
+                                            driver application, the driver can
+                                            find out the number of passengers
+                                            according to the number of tickets
+                                            that have been ordered in real time.
+                                        </span>
+                                    </div>
+                                </li>
 
-                            <li>
-                                <img src="../assets/img/terminal_management_system.jpg" />
-                                <div>
-                                    <h5>Terminal Management System</h5>
-                                    <span>
-                                        This system is used by terminal staff to view ticket sales data contained in the system.
-                                    </span>
-                                </div>
-                            </li>
+                                <li>
+                                    <img
+                                        src="../assets/img/central_management_system.jpg"
+                                    />
+                                    <div>
+                                        <h5>Central Management System</h5>
+                                        <span>
+                                            This system is managed by the center
+                                            to regulate policies and
+                                            authorizations such as routes,
+                                            prices and bus scheduling (data
+                                            center).
+                                        </span>
+                                    </div>
+                                </li>
 
-                            <li>
-                                <img src="../assets/img/autobus_company_management_system.jpg" />
-                                <div>
-                                    <h5>Autobus Company Management System</h5>
-                                    <span>
-                                        The system used by PO Bus management to manage and view e-ticketing sales recapitulation.
-                                    </span>
-                                </div>
-                            </li>
-                        </ul>
+                                <li>
+                                    <img
+                                        src="../assets/img/terminal_management_system.jpg"
+                                    />
+                                    <div>
+                                        <h5>Terminal Management System</h5>
+                                        <span>
+                                            This system is used by terminal
+                                            staff to view ticket sales data
+                                            contained in the system.
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="../assets/img/autobus_company_management_system.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Autobus Company Management System
+                                        </h5>
+                                        <span>
+                                            The system used by PO Bus management
+                                            to manage and view e-ticketing sales
+                                            recapitulation.
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            <!-- section-wrapper end -->
         </div>
-        <!-- section-wrapper end -->
 
-    </div>
-
-    <div data-include="component/footer"></div>
-
-</body>
-
+        <div data-include="component/footer"></div>
+    </body>
 </html>

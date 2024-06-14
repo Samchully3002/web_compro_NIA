@@ -1,226 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
-    <title>NIA</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico">
-    <link href="../assets/css/default.css" rel="stylesheet" />
-    <link href="../assets/css/outline.css" rel="stylesheet" />
-    <link href="../assets/css/page.css" rel="stylesheet" />
-    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/common.js"></script>        
-    <script>
-        $(document).ready(function(){
-            let url = Number($(location).attr('href').split('?').pop());
-            let h = $('#header-wrapper').height();
-            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
-            $('html, body').animate( { scrollTop : offSet }, 1000 );
-        });
-    </script>
-    <script>
-        $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                items:1,
-                loop:true,
-                autoplay:true,
-                dots:false,
-                nav:true,
-                autoplayTimeout:3000,
-                autoplayHoverPause:true,
-                navText: ["<img src='../assets/img/icon/icon-nav-prev.svg'>","<img src='../assets/img/icon/icon-nav-next.svg'>"]
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
+        />
+        <title>Networks Indonesia Aku</title>
+        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
+        <link href="../assets/css/default.css" rel="stylesheet" />
+        <link href="../assets/css/outline.css" rel="stylesheet" />
+        <link href="../assets/css/page.css" rel="stylesheet" />
+        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="../assets/js/owl.carousel.min.js"></script>
+        <script src="../assets/js/common.js"></script>
+        <script>
+            $(document).ready(function () {
+                let url = Number($(location).attr("href").split("?").pop());
+                let h = $("#header-wrapper").height();
+                let offSet =
+                    $(".section")
+                        .eq(url - 1)
+                        .offset().top -
+                    h -
+                    10;
+                $("html, body").animate({ scrollTop: offSet }, 1000);
             });
-        });
-    </script>
-</head>
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    autoplay: true,
+                    dots: false,
+                    nav: true,
+                    autoplayTimeout: 3000,
+                    autoplayHoverPause: true,
+                    navText: [
+                        "<img src='../assets/img/icon/icon-nav-prev.svg'>",
+                        "<img src='../assets/img/icon/icon-nav-next.svg'>",
+                    ],
+                });
+            });
+        </script>
+    </head>
 
-<body>
-    <div data-include="component/header"></div>
+    <body>
+        <div data-include="component/header"></div>
 
-    <div class="page page-scroll page-in" id="page-business">
-
-        <!-- bg-wrapper start -->
-        <div class="bg-wrapper">
-            <div class="text-box">
-                <span>Make the world more creative</span>
-                <h3>Business Portfolio</h3>
+        <div class="page page-scroll page-in" id="page-business">
+            <!-- bg-wrapper start -->
+            <div class="bg-wrapper">
+                <div class="text-box">
+                    <span>Make the world more creative</span>
+                    <h3>Business Portfolio</h3>
+                </div>
             </div>
-        </div>
-        <!-- bg-wrapper end -->
+            <!-- bg-wrapper end -->
 
-        <!-- section-wrapper start -->
-        <div class="section-wrapper">
-
-            <div class="section">
-
-                <div class="flex-box">
-                    <img style="box-shadow:0 0 0 rgba(0,0,0,0);"src='../assets/img/bus.png'/>
-                    <div class="text-box">
-                        <h3>Ticketing System<br /> and Reservation</h3>
-                        <p>
-                            Our other flagship products and services include a ticket booking and sales system. Through this solution, we provide customers with an efficient and reliable booking experience. With modern technology, our ticket services offer convenience in trip planning and provide flexibility in purchasing tickets securely and comfortably.
-                        </p>
-                        <a href="https://smartterminal.dephub.go.id/" target="_blank" class="more-btn">Smart Terminal</a>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/business-img07.jpg" />
-                                <div>
-                                    <h5>Reports & statistics provide you with the latest essential business analytics</h5>
-                                    <span>
-                                        Reports and statistics offer up-to-date business analytics information crucial for you. By utilizing this data, you can better understand your business performance and make more strategically informed decisions.
-                                    </span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="../assets/img/n02.jpg" />
-                                <div>
-                                    <h5>Offline reservation services through vending machines and counters</h5>
-                                    <span>
-                                        We offer offline reservation facilities through vending machines and counter services. With this option, customers can easily book services without the need for an online connection. These reservation facilities are designed to provide convenient access and efficiency in transactions, ensuring a smooth and efficient customer experience.
-                                    </span>
-                                </div>
-                            </li>
-
-                        </ul>
-
-                        <h3 class="t2">Suitable For</h3>
-
-                        <div class="box2">
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i1.png">
-                                </div>
-
-                                <h5>Transportation</h5>
-                            </div>
-
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i2.png">
-                                </div>
-
-                                <h5>Entertainment</h5>
-                            </div>
-
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i3.png">
-                                </div>
-
-                                <h5>Restaurant & Cafe</h5>
-                            </div>
-
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i4.png">
-                                </div>
-
-                                <h5>Experience</h5>
-                            </div>
+            <!-- section-wrapper start -->
+            <div class="section-wrapper">
+                <div class="section">
+                    <div class="flex-box">
+                        <img
+                            style="box-shadow: 0 0 0 rgba(0, 0, 0, 0)"
+                            src="../assets/img/bus.png"
+                        />
+                        <div class="text-box">
+                            <h3>
+                                Ticketing System<br />
+                                and Reservation
+                            </h3>
+                            <p>
+                                Our other flagship products and services include
+                                a ticket booking and sales system. Through this
+                                solution, we provide customers with an efficient
+                                and reliable booking experience. With modern
+                                technology, our ticket services offer
+                                convenience in trip planning and provide
+                                flexibility in purchasing tickets securely and
+                                comfortably.
+                            </p>
+                            <a
+                                href="https://smartterminal.dephub.go.id/"
+                                target="_blank"
+                                class="more-btn"
+                                >Smart Terminal</a
+                            >
                         </div>
-
-                        <h4 style="padding-top:40px;">Our Projects</h4>
                     </div>
-                </div>
 
-                <div class="page" id="page-office">
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img07.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Reports & statistics provide you
+                                            with the latest essential business
+                                            analytics
+                                        </h5>
+                                        <span>
+                                            Reports and statistics offer
+                                            up-to-date business analytics
+                                            information crucial for you. By
+                                            utilizing this data, you can better
+                                            understand your business performance
+                                            and make more strategically informed
+                                            decisions.
+                                        </span>
+                                    </div>
+                                </li>
 
-                            <!-- office-wrapper start -->
-                            <div class='office-wrapper' style="padding:0">
-                                <div style="max-width:1440px !important;" class="row">
-                                    <span class="mobile-only">Modernization of Indonesian Terminals</span>
-                                    <div class="clear">
-                                        <div class="fl w50 sld-box">
-                                            <div class="owl-carousel owl-theme">
-                                                <div class="item"><img src='../assets/img/01.jpg' /></div>
-                                                <div class="item"><img src='../assets/img/02.jpg' /></div>
-                                                <div class="item"><img src='../assets/img/03.jpg' /></div>
-                                                <div class="item"><img src='../assets/img/04.jpg' /></div>
-                                                <div class="item"><img src='../assets/img/05.jpg' /></div>
-                                                <div class="item"><img src='../assets/img/06.jpg' /></div>
+                                <li>
+                                    <img src="../assets/img/n02.jpg" />
+                                    <div>
+                                        <h5>
+                                            Offline reservation services through
+                                            vending machines and counters
+                                        </h5>
+                                        <span>
+                                            We offer offline reservation
+                                            facilities through vending machines
+                                            and counter services. With this
+                                            option, customers can easily book
+                                            services without the need for an
+                                            online connection. These reservation
+                                            facilities are designed to provide
+                                            convenient access and efficiency in
+                                            transactions, ensuring a smooth and
+                                            efficient customer experience.
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h3 class="t2">Suitable For</h3>
+
+                            <div class="box2">
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i1.png" />
+                                    </div>
+
+                                    <h5>Transportation</h5>
+                                </div>
+
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i2.png" />
+                                    </div>
+
+                                    <h5>Entertainment</h5>
+                                </div>
+
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i3.png" />
+                                    </div>
+
+                                    <h5>Restaurant & Cafe</h5>
+                                </div>
+
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i4.png" />
+                                    </div>
+
+                                    <h5>Experience</h5>
+                                </div>
+                            </div>
+
+                            <h4 style="padding-top: 40px">Our Projects</h4>
+                        </div>
+                    </div>
+
+                    <div class="page" id="page-office">
+                        <!-- office-wrapper start -->
+                        <div class="office-wrapper" style="padding: 0">
+                            <div
+                                style="max-width: 1440px !important"
+                                class="row"
+                            >
+                                <span class="mobile-only"
+                                    >Modernization of Indonesian Terminals</span
+                                >
+                                <div class="clear">
+                                    <div class="fl w50 sld-box">
+                                        <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <img
+                                                    src="../assets/img/01.jpg"
+                                                />
+                                            </div>
+                                            <div class="item">
+                                                <img
+                                                    src="../assets/img/02.jpg"
+                                                />
+                                            </div>
+                                            <div class="item">
+                                                <img
+                                                    src="../assets/img/03.jpg"
+                                                />
+                                            </div>
+                                            <div class="item">
+                                                <img
+                                                    src="../assets/img/04.jpg"
+                                                />
+                                            </div>
+                                            <div class="item">
+                                                <img
+                                                    src="../assets/img/05.jpg"
+                                                />
+                                            </div>
+                                            <div class="item">
+                                                <img
+                                                    src="../assets/img/06.jpg"
+                                                />
                                             </div>
                                         </div>
-                                        
-                                        <div class="fr w50 caption box1s"> 
-                                            <span class="mobile-hide">Modernization of Indonesian Terminals</span>
+                                    </div>
 
-                                            <p>We are carrying out an Indonesian terminal modernization project, the two Indonesian terminals that we have realized are the Kampung Rambutan terminal, East Jakarta and the Leuwipanjang terminal, Bandung. In this project we provide improvements to buildings, facilities and systems. One of the systems we provide is an online ticketing and reservation system.</p>
-                                        </div>
+                                    <div class="fr w50 caption box1s">
+                                        <span class="mobile-hide"
+                                            >Modernization of Indonesian
+                                            Terminals</span
+                                        >
+
+                                        <p>
+                                            We are carrying out an Indonesian
+                                            terminal modernization project, the
+                                            two Indonesian terminals that we
+                                            have realized are the Kampung
+                                            Rambutan terminal, East Jakarta and
+                                            the Leuwipanjang terminal, Bandung.
+                                            In this project we provide
+                                            improvements to buildings,
+                                            facilities and systems. One of the
+                                            systems we provide is an online
+                                            ticketing and reservation system.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- office-wrapper end -->
-
                         </div>
+                        <!-- office-wrapper end -->
+                    </div>
 
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/n01.jpg" />
-                                <div>
-                                    <h5>Vending Machine</h5>
-                                    <span>
-                                        A system that functions for printing tickets, ordering tickets independently using non-cash payment methods.
-                                    </span>
-                                </div>
-                            </li>
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img src="../assets/img/n01.jpg" />
+                                    <div>
+                                        <h5>Vending Machine</h5>
+                                        <span>
+                                            A system that functions for printing
+                                            tickets, ordering tickets
+                                            independently using non-cash payment
+                                            methods.
+                                        </span>
+                                    </div>
+                                </li>
 
-                            <li>
-                                <img src="../assets/img/sswebapp.jpg" />
-                                <div>
-                                    <h5>Website</h5>
-                                    <span style="margin-bottom:24px;">
-                                        A system that functions for ordering tickets online which is supported by an online payment system, apart from that it also functions for ticket cancellation.
-                                    </span>
-                                    <a class="mini_button" href="https://smartterminal.dephub.go.id/" target="_blank" class="more-btn">Smart Terminal</a>
-                                </div>
-                            </li>
+                                <li>
+                                    <img src="../assets/img/sswebapp.jpg" />
+                                    <div>
+                                        <h5>Website</h5>
+                                        <span style="margin-bottom: 24px">
+                                            A system that functions for ordering
+                                            tickets online which is supported by
+                                            an online payment system, apart from
+                                            that it also functions for ticket
+                                            cancellation.
+                                        </span>
+                                        <a
+                                            class="mini_button"
+                                            href="https://smartterminal.dephub.go.id/"
+                                            target="_blank"
+                                            class="more-btn"
+                                            >Smart Terminal</a
+                                        >
+                                    </div>
+                                </li>
 
-                            <li>
-                                <img src="../assets/img/n03.jpg" />
-                                <div>
-                                    <h5>Counter Management System</h5>
-                                    <span>
-                                        Sales System for Tickets from counter agents which functions for ordering tickets, issuing tickets, canceling tickets and reprinting tickets. At this counter the payment system can use cash or non-cash methods.
-                                    </span>
-                                </div>
-                            </li>
+                                <li>
+                                    <img src="../assets/img/n03.jpg" />
+                                    <div>
+                                        <h5>Counter Management System</h5>
+                                        <span>
+                                            Sales System for Tickets from
+                                            counter agents which functions for
+                                            ordering tickets, issuing tickets,
+                                            canceling tickets and reprinting
+                                            tickets. At this counter the payment
+                                            system can use cash or non-cash
+                                            methods.
+                                        </span>
+                                    </div>
+                                </li>
 
-                            <li>
-                                <img src="../assets/img/n04.jpg" />
-                                <div>
-                                    <h5>Driver Application</h5>
-                                    <span>
-                                        This application is used for bus conductors or drivers to check boarding tickets which can be scanned via QR/Barcode. Through this driver application, the driver can find out the number of passengers according to the number of tickets that have been ordered in real time.
-                                    </span>
-                                </div>
-                            </li>
-                        </ul>
+                                <li>
+                                    <img src="../assets/img/n04.jpg" />
+                                    <div>
+                                        <h5>Driver Application</h5>
+                                        <span>
+                                            This application is used for bus
+                                            conductors or drivers to check
+                                            boarding tickets which can be
+                                            scanned via QR/Barcode. Through this
+                                            driver application, the driver can
+                                            find out the number of passengers
+                                            according to the number of tickets
+                                            that have been ordered in real time.
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            <!-- section-wrapper end -->
         </div>
-        <!-- section-wrapper end -->
 
-    </div>
-
-    <div data-include="component/footer"></div>
-
-</body>
-
+        <div data-include="component/footer"></div>
+    </body>
 </html>
