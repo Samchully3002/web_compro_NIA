@@ -163,7 +163,7 @@
                 </div>
             </div>
             <div class="news_footer">
-                <button onMouseOver="this.style.background='grey'" onMouseOut="this.style.background='transparent'">More</button>
+                <button onMouseOver="this.style.background='#40455C'" onMouseOut="this.style.background='transparent'">More</button>
             </div>
         </div>
 
