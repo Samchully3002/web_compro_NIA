@@ -37,13 +37,16 @@
     <div class="page page-in" id="page-main">
 
         <!-- Video start -->
-        <!-- <video class="video_compro" loop="true" autoplay="true" muted playsinline>
+        <!-- <video class="video-dekstop" loop="true" autoplay="true" muted playsinline>
             <source src="../assets/video/company_profile.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video> -->
-        <!-- <video src="../assets/video/company_profile.mp4" class="video_compro" autoplay/> -->
-        <video width="320" height="240" class="video_compro" autoplay muted loop>
+        <!-- <video src="../assets/video/company_profile.mp4" class="video-dekstop" autoplay/> -->
+        <video class="video-dekstop" autoplay muted loop>
             <source src="../assets/video/video.mp4" type="video/mp4">
+        </video>
+        <video class="video-mobile" autoplay muted loop>
+            <source src="../assets/video/mobile.mp4" type="video/mp4">
         </video>
         <!-- Video end -->
 

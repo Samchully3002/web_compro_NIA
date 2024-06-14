@@ -606,7 +606,7 @@
     overflow: hidden;
 }
 
-#page-main .video_compro {
+#page-main .video-dekstop {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -1205,7 +1205,7 @@
         font-size: 1.15em;
     }
 
-    #page-main .video_compro {
+    #page-main .video-dekstop {
         height: 56.25vw;
         margin-top:60px;
     }
