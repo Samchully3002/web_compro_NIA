@@ -97,16 +97,16 @@
                 </div>
             </div>
 
-            <div class="clear">
-                <ul class="copyright fl">
+            <div class="clear layoutMobile">
+                <div class="copyright fl">
                 <em>PT. Networks Indonesia Aku. Copyright  © 2024</em>
                     
-                </ul>
-                <div class="sitemap btn-box fr">
+                </div>
+                <ul class="sitemap btn-box fr">
                 <li><a>Terms and Conditions</a></li>
                     <li><a>Privacy Policy</a></li>
                     <li><a>Cookies</a></li>
-                </div>
+                </ul>
             </div>
 
         <!-- </div> -->

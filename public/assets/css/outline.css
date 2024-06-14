@@ -436,7 +436,7 @@
 }
 
 #footer-wrapper .location .address .title {
-    width: 40%;
+    width: 50%;
     padding-bottom: 4px;
     color: #80838F;
     font-size:16px;
@@ -602,7 +602,7 @@
 }
 
 /* --- Laptop --- */
-@media screen and (max-width:1140px) {
+@media screen and (max-width: 1140px) {
     #header-wrapper {
         height: 60px;
     }
@@ -740,10 +740,10 @@
 }
 
 /* --- Tablet --- */
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
 
     #footer-wrapper .row {
-        width: calc(100% - 20px);
+        width: calc(100% - 0px);
     }
 
     #footer-wrapper .w50 {
@@ -800,10 +800,10 @@
 }
 
 /* --- Phone --- */
-@media screen and (max-width:426px) {
+@media screen and (max-width: 426px) {
 
     #footer-wrapper .location .address .title {
-        width: 100%;
+        width: 80%;
         font-size: 15px !important;
     }
 
@@ -813,11 +813,11 @@
 
     #footer-wrapper .location .address {
         float: left;
-        width: 78%;
+        width: 100%;
     }
 
     #footer-wrapper .sitemap li {
-        padding-left: 12px;
+        padding-left: unset;
     }
 
     #footer-wrapper .social-media {
@@ -833,4 +833,39 @@
         margin-left: 0px;
         margin-right: 8px;
     }
+
+    .footer3blok {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .blok {
+        width: 100%;
+    }
+
+    #footer-wrapper .row {
+        gap: unset;
+    }
+
+    #footer-wrapper {
+        background: #ffffff;
+        padding: 50px 20px 20px 20px;
+    }
+
+    .layoutMobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #footer-wrapper .sitemap a {
+        font-size: 16px;
+    }
+
+    #footer-wrapper .sitemap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+    
 }

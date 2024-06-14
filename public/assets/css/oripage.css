@@ -395,26 +395,6 @@
 }
 
 @media screen and (max-width:780px){
-    #footer-wrapper .location .address .caption {
-        font-size:1.25em;
-    }
-
-    #footer-wrapper .location .address .title {
-        font-size:1.15em;
-    }
-
-    #footer-wrapper .network .title {
-        font-size:1.15em;
-    }
-
-    #footer-wrapper .network .caption {
-        font-size:1.25em;
-    }
-
-    #footer-wrapper .sitemap a {
-        font-size:1.15em;
-    }
-
     .contact-wrapper {
         padding: 70px 0px;
     }

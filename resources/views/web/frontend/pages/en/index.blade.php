@@ -53,7 +53,7 @@
         
         <div class="flex-box">
             <div class="box_right">
-                <img class="icon_right" src="../../assets/images/icon/ic_cube.png"/>
+                <img class="icon_right" src="../../assets/images/icon/ic_cube.svg"/>
                 <label>Intelligent Integrated Logistics</label><br>
                 <span style="font-size:22px;">Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span>
             </div>
@@ -126,7 +126,7 @@
             padding: 100px 100px 100px 100px;
             margin: 100px 100px 100px 100px;
             border-radius: 20px 20px 20px 20px;
-            background: #077C93;
+            background: #40455C;
             display: flex;
                 justify-content: center;
                 align-items: center;">
