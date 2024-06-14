@@ -134,7 +134,7 @@
                     <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
                         <img src="../../assets/images/news1.png"/>
                         <label>Now the Kampung Rambutan Terminal is more modern ...</label>
-                        <label style="margin-top:20px;font-size:16px;color:white;">January 14, 2023</label>
+                        <label style="font-size:16px;color:white;">January 14, 2023</label>
                     </a>
                 </div>
 
@@ -142,7 +142,7 @@
                     <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
                         <img src="../../assets/images/news2.png"/>
                         <label>Kampung Rambutan Bus Terminal Starts Opening Online ...</label>
-                        <label style="margin-top:20px;font-size:16px;color:white;">January 13, 2023</label>
+                        <label style="font-size:16px;color:white;">January 13, 2023</label>
                     </a>
                 </div>
 
@@ -150,7 +150,7 @@
                     <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
                         <img src="../../assets/images/news3.png"/>
                         <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
-                        <label style="margin-top:20px;font-size:16px;color:white;">April 14, 2023</label>
+                        <label style="font-size:16px;color:white;">April 14, 2023</label>
                     </a>
                 </div>
 
@@ -158,7 +158,7 @@
                     <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
                         <img src="../../assets/images/news3.png"/>
                         <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
-                        <label style="margin-top:20px;font-size:16px;color:white;">April 14, 2023</label>
+                        <label style="font-size:16px;color:white;">April 14, 2023</label>
                     </a>
                 </div>
             </div>
