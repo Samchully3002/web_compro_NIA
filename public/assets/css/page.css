@@ -273,8 +273,100 @@ body{
     flex-direction: column;
 }
 
+.image-container {
+    position: relative;
+    margin: 100px 50px;
+    height: 75vh; /* Tinggi gambar 75% dari tinggi viewport */
+    overflow: hidden; /* Mengatur agar gradient hanya muncul di area gambar */
+    border-radius: 20px;
+}
+
+.image-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Menghapus garis bawah default dari tautan */
+}
+
+.image-container img {
+    width: 100%; /* Gambar mengisi lebar container */
+    height: 100vh; /* Mengikuti proporsi asli */
+    display: block; /* Memastikan tampilan sebagai block element */
+    object-position: center center;
+    object-fit: cover;
+    image-rendering: auto;
+    bottom: 120px;
+}
+
+.image-overlay {
+    position: absolute; /* Menempatkan overlay di atas gambar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.02)); /* Gradient dari kiri ke kanan */
+    color: #fff; /* Warna teks di atas gradient */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 500px 0 70px; /* Padding untuk menyesuaikan teks */
+}
+
+.image-overlay h1 {
+    font-size: 2.4em; /* Ukuran font teks */
+    margin: 0; /* Menghapus margin default */
+    line-height: normal;
+}
+
+.btn-more {
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: white solid 1px;
+    border-radius: 40px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.btn-more img {
+    width: 24%;
+    font-size: unset;
+    height: unset;
+    display: unset;
+    object-position: unset;
+    object-fit: unset;
+    image-rendering: unset;
+    bottom: unset;"
+}
+
+.ic-bisnis {
+    filter: brightness(0) invert(1);
+    width: 60%;
+}
+
+.ic-bisnis img {
+    width: 24%;
+    font-size: unset;
+    height: unset;
+    display: unset;
+    object-position: unset;
+    object-fit: unset;
+    image-rendering: unset;
+    bottom: unset;"
+}
 
 @media screen and (max-width:1140px) {
+    .image-overlay {
+        padding: 20px;
+    }
+
+    .image-container {
+        margin: 50px 20px;
+    }
+
     .box2 {
         font-size:0;
         text-align: center;
@@ -357,6 +449,12 @@ body{
 
     .bg-wrapper h3 {
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .ic-bisnis img {
+        width: 50%;
     }
 }
 
@@ -655,7 +753,9 @@ body{
 
 #page-main .video-dekstop {
     height: 100vh;
-    display: block; 
+    display: block;
+    width: 100vw;
+    object-fit: cover; 
 }
 
 #page-main .video-mobile {
@@ -675,6 +775,7 @@ body{
     }
     #page-main .vision_text {
         line-height: 1.2em;
+        padding: 20px;
     }
 
     #page-main .client_text {
