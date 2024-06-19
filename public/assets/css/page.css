@@ -244,17 +244,13 @@ body{
     width: 100%;
     height: 100%;
     position: relative;
-    gap: 100px;
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%);
-    place-content: center;
-    align-items: center;
-    display: flex;
-    flex-flow: row;
-    position: relative;
 }
 
 .marquee {
     display: flex;
+    gap: 100px;
+    animation: marquee-scroll 40s linear infinite;
 }
 
 .marquee img {
@@ -1995,85 +1991,125 @@ body{
 }
 /* CEO Message */
 
-/* Our History */
+#page-introduction .about-wrapper .text-wrapper em {
+    font-size: 2.7em;
+}
+
+#page-introduction .vision-wrapper{
+    padding:95px 0px 50px;
+    background: #F6F6F6;
+}
+
+#page-introduction .vision-wrapper h3{
+    font-size: 3.4em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#page-introduction .vision-wrapper h4{
+    max-width: 1017px;
+    margin: 0px auto 30px;
+    font-size: 32px;
+}
+
+#page-introduction .vision-wrapper ul{
+    max-width: 1017px;
+    margin: 0px auto 75px;
+}
+
+#page-introduction .vision-wrapper ul li{
+    padding: 0px 0px 35px 133px;
+}
+
+#page-introduction .vision-wrapper ul li::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    width: 1px;
+    height: 100%;
+    /*background: #333;*/
+    z-index: 0;
+}
+
+#page-introduction .vision-wrapper ul li:last-child{
+    padding-bottom: 0px;
+}
+
+#page-introduction .vision-wrapper ul li:last-child::after{
+    display: none;
+}
+
+#page-introduction .vision-wrapper ul li span{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    width: 56px;
+    height: 56px;
+    background: #FF8D56;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 2.1em;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
 #page-introduction .our-history {
-    place-content: center;
-    align-items: center;
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: column;
-    gap: 100px;
-    overflow: visible;
-    padding: 150px 50px 90px;
-    position: relative;
-    width: 100%;
+    width: 1224px;
+    background: none;
+    margin: 0 auto;
 }
 
-#page-introduction .our-history .title {
-    display: flex;
-    width: auto;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    opacity: 1;
-    transform: none;
+#page-introduction .our-history .item-box {
+    width: 1192px;
+    max-width: 1192px;
+    padding-left: 518px;
+    margin: 0;
 }
 
-#page-introduction .our-history .title p {
-    font-size:56px;
+#page-introduction .our-history .item-box .item {
+    display: block;
+    padding-bottom: 70px;
+    padding-left: 20px;
+}
+
+#page-introduction .our-history .item-box .item::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #eee;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+}
+
+
+#page-introduction .our-history .item-box .item span {
+    position: absolute;
+    top: -4px;
+    left: -117px;
+    font-size: 2.1em;
     font-weight: bold;
-    line-height:30px;
+    width: 74px;
+    line-height: normal;
+    background: none;
+    color: #333;
 }
 
-#page-introduction .our-history .box {
-    place-content: flex-start space-evenly;
-    align-items: flex-start;
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: row;
-    height: min-content;
-    overflow: visible;
-    padding: 0px;
-    position: relative;
-    width: 100%;
-}
-
-#page-introduction .our-history .box .left-box {
-    flex: 0 0 auto;
-    height: 257px;
-    position: sticky;
-    top: 280px;
-    width: 512px;
-    will-change: transform;
-    z-index: 1;
-}
-
-#page-introduction .our-history .box .right-box {
-    place-content: flex-start;
-    align-items: flex-start;
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: column;
-    gap: 50px;
-    height: min-content;
-    overflow: visible;
-    padding: 100px 0px;
-    position: relative;
-    width: 529px;
-}
-
-#page-introduction .our-history .box .right-box .wrapper {
-    place-content: flex-start;
-    align-items: flex-start;
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: column;
-    gap: 35px;
-    height: min-content;
-    overflow: visible;
-    padding: 0px;
-    position: relative;
-    width: 100%;
+#page-introduction .our-history .item-box .item span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -50px;
+    top: 11px;
+    width: 13px;
+    height: 13px;
+    background: #FF7432;
+    border-radius: 50%;
 }
 
 #page-introduction .our-history .item-box .item img {
