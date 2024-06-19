@@ -10,7 +10,7 @@
                             <img style="width: 75%;" class="effect-on" src="../../assets/images/icon/ic_logo.png" />
                         </a>
                     </li>
-                    <li class="first-menu hidden-box>"><a href="#">Home</a></li>
+                    <li class="first-menu hidden-box>"><a href="/">Home</a></li>
                     <li class="first-menu hidden-box business">
                         <a class="btn_business">Business&nbsp;&nbsp;&nbsp;
                         <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/></a>
