@@ -32,7 +32,7 @@
 
 <body>
     <!-- <div data-include="component/header"></div> -->
-    @include('web/frontend/pages/in/component/header')
+    @include('web/frontend/pages/en/component/header')
 
     <div class="page page-in" id="page-main">
 
@@ -151,7 +151,7 @@
 
     <!-- <div data-include="in/component/footer"></div> -->
     
-    @include('web/frontend/pages/in/component/footer')
+    @include('web/frontend/pages/en/component/footer')
 
     <script src="../assets/js/wow.min.js"></script>
     <script>

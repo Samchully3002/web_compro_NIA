@@ -34,497 +34,576 @@
 </head>
 
 <body>
-    @include('web/frontend/pages/in/component/header')
+    @include('web/frontend/pages/en/component/header')
 
     <div class="page page-in" id="page-introduction">
 
-        <!-- bg-wrapper start -->
-        <div style="
-            padding: 50px 0px 50px 0px;
-            overflow: visible;
-            position: relative;
-            width: 100%;
-            background: linear-gradient(to right, #68708C 0%, #AAC7E8 100%);
-            color: #F0F0F0;
-        ">
-            <div style="
-                display: flex;
-                    flex-direction: row;
-                ">
-                <div style="
-                    width: 50%;
-                    height: 100%;
-                    display: block;
-                    align-content: center;">
+        <!-- Banner top -->
+        <div class="banner-wrapper">
+            <div class="box">
+                <div class="left-content">
                     <img src="../assets/images/icon_10_about.svg">
                     <span>Years of  Proven Experience</span>    
                 </div>   
-            <div style="
-                width:50%;
-            ">
-                <span>With a decade worth of experience and excellent infrastructure, NIA is your reliable partner.</span>
-            </div>
-            
+                <div class="right-content">
+                    <span>
+                        With a decade worth of experience and excellent infrastructure, NIA is your reliable partner.
+                    </span>
+                </div>
             </div>
         </div>
-        <!-- bg-wrapper end -->
+        <!-- Banner top end -->
 
-        <!-- about-wrapper start -->
-        <!-- <div class="about-wrapper"> -->
+        <!-- CEO Message start -->
+        <div class="ceo_message">
+            <div class="img_wrapper">
+                <img src="../assets/images/CEO_Photo.png"/>
+            </div>
+            <div class="text_wrapper">
+                <p>
+                <h1>CEO Greetings</h1><br><br>
+                As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.<br><br>
+                NIA prioritizes 'integration' and 'innovation' as its core foundation. With the vision of "Focusing on innovation, high-quality services, and advanced technological solutions, we are determined to make a meaningful contribution to advancing the world of information technology. Through this commitment, we strive to build strong, long-term relationships with customers, becoming a reliable partner and continuing to be a leading provider of IT solutions." We are committed to continually building and maintaining trust, aligning with the rapid changes in technology trends.
+                </p>
+            </div>
+        </div>
+        <!-- CEO Message end -->
+
+        <!-- Our History Start -->
+        <div style="
+            place-content: center;
+            align-items: center;
+            display: flex;
+            flex: 0 0 auto;
+            flex-flow: column;
+            gap: 100px;
+            overflow: visible;
+            padding: 150px 50px 90px;
+            position: relative;
+            width: 100%;">
             <div style="
                 display: flex;
-                width: 100%;
-                height: 100%;
-                background: #454A65;
-                align-items:center;
-                place-content:center space-evenly;
-                padding:50px 50px 50px 50px;
+                width: auto;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                opacity: 1;
+                transform: none;">
+                <p style="
+                    font-size:56px;
+                    font-weight: bold;
+                    line-height:30px;
+                ">Our Stories</p>    
+            </div>
+            <div style="
+                place-content: flex-start space-evenly;
+                align-items: flex-start;
+                display: flex;
+                flex: 0 0 auto;
+                flex-flow: row;
+                height: min-content;
                 overflow: visible;
-            ">
+                padding: 0px;
+                position: relative;
+                width: 100%; ">
                 <div style="
-                    align-items:center;
-                    justify-content:center;">
-                    <img src="../assets/images/CEO_Photo.png"/>
+                    flex: 0 0 auto;
+                    height: 257px;
+                    position: sticky;
+                    top: 280px;
+                    width: 512px;
+                    will-change: transform;
+                    z-index: 1;">
+                        <img src="../assets/images/story2024.png"/>
+                </div>
+                <!-- Right COntent -->
+                <div style="
+                    place-content: flex-start;
+                    align-items: flex-start;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: column;
+                    gap: 50px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 100px 0px;
+                    position: relative;
+                    width: 529px;">
+                    <div style="
+                        place-content: flex-start;
+                        align-items: flex-start;
+                        display: flex;
+                        flex: 0 0 auto;
+                        flex-flow: column;
+                        gap: 35px;
+                        height: min-content;
+                        overflow: visible;
+                        padding: 0px;
+                        position: relative;
+                        width: 100%;">
+                        <div style="
+                            place-content: flex-start;
+                            align-items: flex-start;
+                            display: flex;
+                            flex: 0 0 auto;
+                            flex-flow: column;
+                            gap: 12px;
+                            height: min-content;
+                            overflow: visible;
+                            padding: 0px;
+                            position: relative;
+                            width: 100%;">
+                            <div style="
+                                outline: none;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                flex-shrink: 0;
+                                transform: none;
+                                flex: 0 0 auto;
+                                height: auto;
+                                position: relative;
+                                white-space: pre;
+                                width: auto;">
+                                <p style="
+                                    font-size: 32px;
+                                    font-weight: bold;
+                                    text-align: start;
+                                    ">April</p>
+                            </div>
+                            <div style="
+                                outline: none;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                flex-shrink: 0;
+                                transform: none;">
+                                <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs &amp; Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
+                            </div>
+                        </div>
+
+                        <div style="
+                            place-content: flex-start;
+                            align-items: flex-start;
+                            display: flex;
+                            flex: 0 0 auto;
+                            flex-flow: column;
+                            gap: 12px;
+                            height: min-content;
+                            overflow: visible;
+                            padding: 0px;
+                            position: relative;
+                            width: 100%;">
+                            <div style="
+                                outline: none;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                flex-shrink: 0;
+                                transform: none;
+                                flex: 0 0 auto;
+                                height: auto;
+                                position: relative;
+                                white-space: pre;
+                                width: auto;">
+                                <p style="
+                                    font-size: 32px;
+                                    font-weight: bold;
+                                    text-align: start;
+                                    ">April</p>
+                            </div>
+                            <div style="
+                                outline: none;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                flex-shrink: 0;
+                                transform: none;">
+                                <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs &amp; Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our History End -->
+
+        
+        <!-- Core Value Start -->
+        <div style="
+            place-content: center;
+            align-items: center;
+            background: radial-gradient(50% 50% at 50% 50%, rgb(95, 106, 158) 0%, rgb(66, 72, 99) 100%);
+            display: flex;
+            flex: 0 0 auto;
+            flex-flow: column;
+            gap: 20px;
+            height: 723px;
+            overflow: visible;
+            padding: 100px 50px 120px;
+            position: relative;
+            width: 100%;">
+            <!-- Title Text -->
+            <div style="
+                outline: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                flex-shrink: 0;
+                transform: none;
+                flex: 0 0 auto;
+                height: auto;
+                position: relative;
+                white-space: pre-wrap;
+                width: 100%;
+                word-break: break-word;
+                overflow-wrap: break-word;">
+                <p style="
+                    text-align: center;
+                    font-weight:bold;
+                    font-size:42px;
+                    color:white">Core Values Guide Us to Excellence</p>
+            </div>
+        <!-- Core Text -->
+         <div style="
+            place-content: center;
+            align-items: center;
+            display: flex;
+            flex: 0 0 auto;
+            flex-flow: row;
+            gap: 10px;
+            height: min-content;
+            overflow: hidden;
+            padding: 20px;
+            position: relative;
+            width: min-content;
+            z-index: 1;">
+            <div style="
+                flex: 0 0 auto;
+                height: 90px;
+                width: 90px;
+                position: relative;
+                aspect-ratio:inherit;">
+                <img src="../assets/images/icon/ic_core_C.svg"/>
+            </div>
+            <div style="
+                flex: 0 0 auto;
+                height: 90px;
+                width: 90px;
+                position: relative;
+                aspect-ratio:inherit;">
+                <img src="../assets/images/icon/ic_core_O.svg"/>
+            </div>
+            <div style="
+                flex: 0 0 auto;
+                height: 90px;
+                width: 90px;
+                position: relative;
+                aspect-ratio:inherit;">
+                <img src="../assets/images/icon/ic_core_N.svg"/>
+            </div>
+            <div style="
+                flex: 0 0 auto;
+                height: 90px;
+                width: 90px;
+                position: relative;
+                aspect-ratio:inherit;">
+                <img src="../assets/images/icon/ic_core_N2.svg"/>
+            </div>
+            <div style="
+                flex: 0 0 auto;
+                height: 90px;
+                width: 90px;
+                position: relative;
+                aspect-ratio:inherit;">
+                <img src="../assets/images/icon/ic_core_E.svg"/>
+            </div>
+            <div style="
+                flex: 0 0 auto;
+                height: 90px;
+                width: 90px;
+                position: relative;
+                aspect-ratio:inherit;">
+                <img src="../assets/images/icon/ic_core_C2.svg"/>
+            </div>
+            <div style="
+                flex: 0 0 auto;
+                height: 90px;
+                width: 90px;
+                position: relative;
+                aspect-ratio:inherit;">
+                <img src="../assets/images/icon/ic_core_T.svg"/>
+            </div>
+        </div>
+        <!-- Core Text -->
+        <!-- Core Full Text -->
+            <!-- Line 1 -->
+        <div style="
+            place-content: center;
+            align-items: center;
+            display: flex;
+            flex: 0 0 auto;
+            flex-flow: column;
+            gap: 20px;
+            height: min-content;
+            overflow: hidden;
+            padding: 0px;
+            position: relative;
+            width: min-content;
+            z-index: 1;">
+            <div style="
+                place-content: center;
+                align-items: center;
+                display: flex;
+                flex: 0 0 auto;
+                flex-flow: row;
+                gap: 10px;
+                height: 82px;
+                overflow: hidden;
+                padding: 0px;
+                position: relative;
+                width: min-content;">
+                <div style="
+                    --border-bottom-width: 1px;
+                    --border-color: #a9b6c4;
+                    --border-left-width: 1px;
+                    --border-right-width: 1px;
+                    --border-style: solid;
+                    --border-top-width: 1px;
+                    place-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100px;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: row;
+                    gap: 16px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 30px 50px;
+                    position: relative;
+                    width: min-content;">
+                    <p style="
+                        font-weight:bold;
+                        font-size: 36px;
+                        text-align: center;">
+                        <span style="font-weight:bold;color:rgb(13, 73, 136);">C</span>ommunication
+                    </p>
                 </div>
                 <div style="
-                    width:504px;
-                    font-size:16px;
-                    color:white;
-                    align-items:center;
-                    justify-content:center;">
-                    <p>
-                    <h1>CEO Greetings</h1><br><br>
-                    As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.<br><br>
-                    NIA prioritizes 'integration' and 'innovation' as its core foundation. With the vision of "Focusing on innovation, high-quality services, and advanced technological solutions, we are determined to make a meaningful contribution to advancing the world of information technology. Through this commitment, we strive to build strong, long-term relationships with customers, becoming a reliable partner and continuing to be a leading provider of IT solutions." We are committed to continually building and maintaining trust, aligning with the rapid changes in technology trends.
+                    --border-bottom-width: 1px;
+                    --border-color: #a9b6c4;
+                    --border-left-width: 1px;
+                    --border-right-width: 1px;
+                    --border-style: solid;
+                    --border-top-width: 1px;
+                    place-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100px;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: row;
+                    gap: 16px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 30px 50px;
+                    position: relative;
+                    width: min-content;">
+                    <p style="
+                        font-weight:bold;
+                        font-size: 36px;
+                        text-align: center;">
+                        <span style="font-weight:bold;color:rgb(200, 7, 6);">O</span>pportunity
                     </p>
                 </div>
-            <!-- </div> -->
-        </div>
-        <!-- about-wrapper end -->
-
-
-        <!-- vision-wrapper start -->
-        <div class="vision-wrapper">
-            <div class="row">
-                <div class="imx">
-
-                    <h3>Vision & Mission</h3>
-
-                    <h4>Visi NIA</h4>
-
-                    <p>
-                        Menjadikan perusahaan IT terkemuka di Indonesia dengan fokus mengedepankan produk dan layanan jasa yang ramah lingkungan. Menciptakan teknologi untuk kemajuan transportasi dan infrastruktur, teknologi pada bidang kesehatan, pendidikan, logistik, <i>smart factory</i>, <i>online payment system</i>, dan pengembannya.
+                <div style="
+                    --border-bottom-width: 1px;
+                    --border-color: #a9b6c4;
+                    --border-left-width: 1px;
+                    --border-right-width: 1px;
+                    --border-style: solid;
+                    --border-top-width: 1px;
+                    place-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100px;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: row;
+                    gap: 16px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 30px 50px;
+                    position: relative;
+                    width: min-content;">
+                    <p style="
+                        font-weight:bold;
+                        font-size: 36px;
+                        text-align: center;">
+                        <span style="font-weight:bold;color:rgb(255, 162, 2);">N</span>ecessary
                     </p>
-
-                    <h4>Misi NIA</h4>
-
-                    <ul>
-                        <li>
-                            <span style="margin-top: 12px;">1</span>
-                            <div>
-                                Menyediakan teknologi berbasis komputer dan digital maupun pengembangan perangkat keras dan perangkat lunak dengan fokus pada solusi yang inovatif dan kreatif untuk memenuhi kebutuhan pelanggan.
-                            </div>
-                        </li>
-
-                        <li>
-                            <span style="margin-top: 26px;">2</span>
-                            <div>
-                                Berfokus pada inovasi, layanan berkualitas tinggi, dan solusi teknologi yang canggih, kami bertekad untuk memberikan kontribusi yang berarti dalam memajukan dunia teknologi informasi. Melalui komitmen ini, kami berusaha untuk membangun hubungan jangka panjang yang kuat dengan pelanggan, menjadi mitra yang dapat diandalkan, dan terus menjadi penyedia solusi IT terdepan.
-                            </div>
-                        </li>
-
-                        <li>
-                            <span>3</span>
-                            <div>
-                                Berkomitmen untuk menjadi pionir dalam mengakselerasi pertumbuhan industri IT di Indonesia dan mewujudkan masyarakat yang lebih terkoneksi dan berdaya.
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </div>
-        <!-- vision-wrapper end -->
-
-
-        <!-- core-wrapper start -->
-        <div class="core-wrapper">
-            <div class="row">
-                <div class="imx">
-
-                    <h3>Core Value</h3>
-
-                    <h4 class="core-value">
-                        <img src="../assets/img/icon/icon-quotes01.svg" />
-                        <span class="letter-c1">C</span>
-                        <span class="letter-o">O</span>
-                        <span class="letter-n1">N</span>
-                        <span class="letter-n2">N</span>
-                        <span class="letter-e">E</span>
-                        <span class="letter-c2">C</span>
-                        <span class="letter-t">T</span>
-                        <img src="../assets/img/icon/icon-quotes02.svg" />
-                    </h4>
-
-                    <div class="flex-box">
-                        <div class="item">
-                            <span class="color1">C</span> 
-                            <em>Communication</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color2">O</span> 
-                            <em>Opportunity</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color3">N</span> 
-                            <em>Necessary</em>       
-                        </div>
-
-                    </div>
-
-                    <div class="flex-box">
-                        <div class="item">
-                            <span class="color4">N</span> 
-                            <em>New</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color5">E</span> 
-                            <em>Environment</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color6">C</span> 
-                            <em>Creative</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color7">T</span> 
-                            <em>Trust</em>       
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- core-wrapper end -->
-
-        <!-- line-wrapper start -->
-        <div class="line-wrapper">
-            <div class="row">
-                <div class="imx">
-
-                    <h3>Management Philosophy</h3>
-
-                    <div class="block-box">
-                        <img src="../assets/img/icon/icon-block01.svg" />
-                        <h4>Technology, Nature, Together</h4>
-                        <img src="../assets/img/icon/icon-block02.svg" />
-                    </div>
-
-                    <p>
-                        NIA membawa teknologi dan bumi untuk dapat saling berdampingan melalui inovasi dan komitmen yang tinggi untuk memberikan perubahan terhadap lingkungan dan kehidupan yang lebih baik.
+                <!-- Line 2 -->
+            <div style="
+                place-content: center;
+                align-items: center;
+                display: flex;
+                flex: 0 0 auto;
+                flex-flow: row;
+                gap: 10px;
+                height: 82px;
+                overflow: hidden;
+                padding: 0px;
+                position: relative;
+                width: min-content;">
+                <div style="
+                    --border-bottom-width: 1px;
+                    --border-color: #a9b6c4;
+                    --border-left-width: 1px;
+                    --border-right-width: 1px;
+                    --border-style: solid;
+                    --border-top-width: 1px;
+                    place-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100px;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: row;
+                    gap: 16px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 30px 50px;
+                    position: relative;
+                    width: min-content;">
+                    <p style="
+                        font-weight:bold;
+                        font-size: 36px;
+                        text-align: center;">
+                        <span style="font-weight:bold;color:rgb(123, 53, 85);">N</span>ew
                     </p>
-
+                </div>
+                <div style="
+                    --border-bottom-width: 1px;
+                    --border-color: #a9b6c4;
+                    --border-left-width: 1px;
+                    --border-right-width: 1px;
+                    --border-style: solid;
+                    --border-top-width: 1px;
+                    place-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100px;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: row;
+                    gap: 16px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 30px 50px;
+                    position: relative;
+                    width: min-content;">
+                    <p style="
+                        font-weight:bold;
+                        font-size: 36px;
+                        text-align: center;">
+                        <span style="font-weight:bold;color:rgb(49, 107, 27);">E</span>enviroment
+                    </p>
+                </div>
+                <div style="
+                    --border-bottom-width: 1px;
+                    --border-color: #a9b6c4;
+                    --border-left-width: 1px;
+                    --border-right-width: 1px;
+                    --border-style: solid;
+                    --border-top-width: 1px;
+                    place-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100px;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: row;
+                    gap: 16px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 30px 50px;
+                    position: relative;
+                    width: min-content;">
+                    <p style="
+                        font-weight:bold;
+                        font-size: 36px;
+                        text-align: center;">
+                        <span style="font-weight:bold;color:rgb(94, 72, 158);">C</span>reative
+                    </p>
+                </div>
+                <div style="
+                    --border-bottom-width: 1px;
+                    --border-color: #a9b6c4;
+                    --border-left-width: 1px;
+                    --border-right-width: 1px;
+                    --border-style: solid;
+                    --border-top-width: 1px;
+                    place-content: center;
+                    align-items: center;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100px;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+                    display: flex;
+                    flex: 0 0 auto;
+                    flex-flow: row;
+                    gap: 16px;
+                    height: min-content;
+                    overflow: visible;
+                    padding: 30px 50px;
+                    position: relative;
+                    width: min-content;">
+                    <p style="
+                        font-weight:bold;
+                        font-size: 36px;
+                        text-align: center;">
+                        <span style="font-weight:bold;color:rgb(52, 123, 191);">T</span>rust
+                    </p>
                 </div>
             </div>
-        </div>
-        <!-- line-wrapper end -->
-
-         <!-- vision-wrapper start -->
-         <div class="vision-wrapper our-history">
-            <div class="row">
-                <div class="imx">
-
-                    <h3>Our History</h3>
-
-                    <div class="history-box">
-                        <ul class="item-box">
-                            <li class="item">
-                                <img src='../assets/img/headquarters-img04.jpg' />
-                                <span>2023</span>
-                                <ul>
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Menerima penghargaan dari <i>Ministry of the Interior and Safety</i> Korea Selatan sebagai pelaksana ODA terbaik 2023</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>10</em>
-                                        <div>
-                                            <p>Menyelesaikan "Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia"</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>09</em>
-                                        <div>
-                                            <p>Menyelenggarakan <i>Opening Ceremony</i> "Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia"</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>07</em>
-                                        <div>
-                                            <p>Melaksanakan pelatihan undangan kedua di Korea untuk proyek modernisasi terminal bus Indonesia</p>
-                                            <p>Mengunjungi kota Seoul, Sejong (kompleks pemerintahan), Ulsan, Jeonju, Busan (kompleks terminal bus), dll</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>04</em>
-                                        <div>
-                                            <p>Mulai Operasi Percontohan di kedua terminal uji coba (Kp. Rambutan dan Leuwipanjang)</p>
-                                            <p>Mulai mengembangkan platform transportasi kargo di Indonesia</p>
-                                            <p>Melakukan survei lapangan untuk perluasan seluruh Terminal Tipe A di Indonesia</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>02</em>
-                                        <div>
-                                            <p>Menyelenggarakan pelatihan masing - masing terminal untuk Operasi Percontohan Modernisasi Terminal Bus di Indonesia</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>01</em>
-                                        <div>
-                                            <p>"Meluncurkan “Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia” di tahun ketiga</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2022</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Menyelesaikan "Proyek Penyusunan Master Plan dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia" di tahun kedua</p>
-                                            <p>Menyelenggarakan seminar untuk promosi dan penyebaran sistem modernisasi terminal bus Indonesia (Novotel Semarang)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Melaksanakan pelatihan undangan pertama di Korea untuk proyek modernisasi terminal bus Indonesia</p>
-                                            <p>Mengunjungi kota Seoul, Sejong (kompleks pemerintahan), Daejeon (kompleks terminal bus), dll</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>01</em>
-                                        <div>
-                                            <p>Meluncurkan "Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia" di tahun kedua</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <img src='../assets/img/headquarters-img05.jpg' />
-                                <span>2021</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Menyelesaikan "Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia" di tahun pertama</p>
-                                            <p>Mendirikan perusahaan cabang di Indonesia (Jakarta)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>08</em>
-                                        <div>
-                                            <p>Memprakarsai pengembangan <i>'Healthyhada'</i>, <i>"Health Care"</i> platform perawatan kesehatan kecerdasan buatan (AI)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>04</em>
-                                        <div>
-                                            <p>Menerima tugas untuk "Proyek Penyusunan <i>Master Plan</i> dan Operasi Percontohan Modernisasi Terminal Bus di Indonesia"</p>
-                                            <p>(ODA, Kementerian Pertanahan, Infrastruktur dan Transportasi)</p>
-                                            <p>Inspeksi dan investigasi lokasi terminal percontohan Indonesia (masih dalam tahap proses)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>02</em>
-                                        <div>
-                                            <p>Meluncurkan 'Olligo', platform transportasi di sektor konstruksi</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2020</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Terpilih sebagai <i>"Small Giants"</i> oleh Kementerian Tenaga Kerja</p>
-                                            <p>Akuisisi bisnis konstruksi luar negeri (teknik konstruksi/bisnis konstruksi informasi dan komunikasi)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Pengembangan 'Olligo', platform transportasi di sektor konstruksi</p>
-                                            <p>Meluncurkan "lingkungan 24 jam", sistem transportasi untuk melacak kendaraan limbah di bidang konstruksi</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>08</em>
-                                        <div>
-                                            <p>Membuka cabang di Jeju</p>
-                                            <p>Inspeksi dan investigasi di 100 terminal bus di Indonesia</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>03</em>
-                                        <div>
-                                            <p>Konstruksi halte dan terminal bus Kamboja Phnom Penh, studi kelayakan BIS <i>(Bus Information System)</i></p>
-                                        </div>
-                                    </li>
-                    
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2019</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Terdaftar sebagai perusahaan modal ventura KOVA (No. 20190729-42348) / Memperoleh sertifikasi Main Biz</p>
-                                            <p>Memperoleh paten: Sistem Pengiriman Otomatis (Nomor Paten: 10-2038395)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Aplikasi paten untuk lokasi berbasis solusi dalam berbagi informasi</p>
-                                            <p>Pengembangan dan peluncuran platform Samchully PAY (komersialisasi)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>09</em>
-                                        <div>
-                                            <p>Verifikasi Studi Kelayakan ITS Ulaanbaatar Mongolia dan Studi Kelayakan Terminal Kompleks</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <img src='../assets/img/headquarters-img06.jpg' />
-                                <span>2018</span>
-                                <ul>
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Mendirikan lembaga penelitian yang berafiliasi dengan perusahaan lain (Lembaga Penelitian Teknis No. 2018113469)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>05</em>
-                                        <div>
-                                            <p>Memperoleh ISO9001: 18-A-1004 IGC</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>03</em>
-                                        <div>
-                                            <p>Desain dan pengembangan sistem penerbitan tiket berbasis <i>cloud</i></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2017</span>
-                                <ul>
-                                    <li>
-                                        <em>03</em>
-                                        <div>
-                                            <p>Membuka 25 cabang dan platform agensi transportasi nasional</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2016</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Pengembangan dan pemeliharaan sistem tiket untuk kapal-kapal yang dipandu oleh Asosiasi Kapal Pesiar Nasional</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>08</em>
-                                        <div>
-                                            <p>Pengembangan dan peluncuran platform transportasi cerdas terintegrasi (komersialisasi)</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2015</span>
-                                <ul>
-                                    <li>
-                                        <em>10</em>
-                                        <div>
-                                            <p>Desain dan pengembangan solusi dalam relai komunikasi nirkabel seluler (TRS) seperti KT dan KT Powertel</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>06</em>
-                                        <div>
-                                            <p>Membuka dan mengoperasikan call center transportasi terintegrasi</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2014</span>
-                                <ul>
-                                    <li>
-                                        <em>10</em>
-                                        <div>
-                                            <p>Mendirikan Samchully Networks Co., Ltd. (Kantor Pusat, di Seoul, Korea)</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                        </ul>
-                    </div>
-                </div>
+            <!-- Core Full Text -->
+            <!-- subtitle Core Value -->
+            <div style="
+                outline: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                flex-shrink: 0;
+                transform: none;
+                flex: 0 0 auto;
+                height: auto;
+                position: relative;
+                width: 772px;
+                word-break: break-word;
+                overflow-wrap: break-word;">
+                <p style="
+                font-size:24px;
+                color:white;
+                text-align:center;
+                line-height:120%;
+                ">
+                Expanding our commitment to integrity, innovation, collaboration, 
+                and continuous improvement.
+                </p>
             </div>
         </div>
-        <!-- vision-wrapper end -->
-
-
     </div>
    
-    @include('web/frontend/pages/in/component/footer')
+    @include('web/frontend/pages/en/component/footer')
 
 </body>
 

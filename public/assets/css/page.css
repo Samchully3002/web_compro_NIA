@@ -1783,58 +1783,119 @@ body{
     background: linear-gradient(to right, #68708C 0%, #AAC7E8 100%);
     color: #F0F0F0;
 }
-#page-introduction .about-wrapper {
+
+/* BANNER CONTENT ABOUT */
+#page-introduction .banner-wrapper {
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(270deg, rgb(170, 199, 232) 0%, rgb(64, 69, 92) 100%);
+    color: #F0F0F0;
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+#page-introduction .banner-wrapper .box {
+    place-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 100px;
+    height: 723px;
+    position: relative;
+    display: flex;
+    flex: auto;
+    width: 100%;
+    flex-flow: row;
+    overflow: visible
+}
+
+#page-introduction .banner-wrapper .box .left-content {
+    place-content: center flex-start;
+    align-items: center;
+    position: relative;
+    flex-flow: column;
+    flex: 1 0 0px;
+    gap: 27px;
+    display: flex;
+}
+
+#page-introduction .banner-wrapper .box .left-content img {
+    flex: 0 0 auto;
+    position: relative;
+    padding:20px;
+}
+
+#page-introduction .banner-wrapper .box .left-content span {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: none;
+    font-size:32px;
+}
+
+#page-introduction .banner-wrapper .box .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    flex: 1 0 0px;
+    opacity: 1;
+    transform: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+#page-introduction .banner-wrapper .box .right-content span {
+    font-size:36px;
+    line-height: 120%;
+    text-align: left;
+    letter-spacing:0px;
+}
+/* BANNER CONTENT ABOUT */
+
+/* CEO Message */
+#page-introduction .ceo_message {
     display: flex;
     width: 100%;
-    height: 650px;
+    height: 100%;
     background: #454A65;
     align-items:center;
+    place-content:center space-evenly;
+    padding: 50px;
+    overflow: visible;
+}
+
+#page-introduction .ceo_message .img_wrapper {
+    align-items:center;
     justify-content:center;
-    overflow: hidden;
 }
 
-#page-introduction .about-wrapper .row {
-    max-width: 1224px;
-}
-
-#page-introduction .about-wrapper h3 {
-    text-align: center;
-    font-size: 3.4em;
-    margin-bottom: 24px;
-}
-
-#page-introduction .about-wrapper h3 img {
-    position: absolute;
-    right: -24px;
-    bottom: -15px;
-    width: 126px;
-    z-index: -1;
-}
-
-#page-introduction .about-wrapper p{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.4;
-    text-align: center;
-    max-width: 1192px;
-    margin:auto;
-}
-
-#page-introduction .about-wrapper img{
+#page-introduction .ceo_message .img_wrapper img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 56px;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
 }
 
-#page-introduction .about-wrapper .text-wrapper {
-    position: absolute;
-    right: -330px;
-    bottom: -60px;
-    font-size: 3.4em;
-    font-weight: bold;
-    color: #F0F0F0;
+#page-introduction .ceo_message .text_wrapper {
+    width:504px;
+    font-size:16px;
+    color:white;
+    align-items:center;
+    justify-content:center;
 }
+/* CEO Message */
 
 #page-introduction .about-wrapper .text-wrapper em {
     font-size: 2.7em;
