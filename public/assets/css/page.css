@@ -655,7 +655,9 @@ body{
 
 #page-main .video-dekstop {
     height: 100vh;
-    display: block; 
+    display: block;
+    width: 100vw;
+    object-fit: cover; 
 }
 
 #page-main .video-mobile {

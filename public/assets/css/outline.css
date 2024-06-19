@@ -141,7 +141,6 @@
 /* --- Language --- */
 #header-wrapper .content-right {
     font-weight: 400;
-
     place-content: center;
     align-items: center;
     display: flex;
@@ -322,7 +321,7 @@
     width: 24px;
     height: 2.5px;
     position: absolute;
-    background: #333;
+    background: #fff;
     border-radius: 16px;
     transition: all 0.3s;
 }
@@ -601,10 +600,48 @@
 	}
 }
 
+.nav-mobile {
+    display: none;
+}
+
+.btn-video-mobile {
+    padding: 4px 12px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    /* font-family: 'Outfit', sans-serif; */
+    border: white solid 1px;
+    border-radius: 40px;
+    /* text-transform: uppercase; */
+    /* box-shadow: .5vh .5vh .75vh rgba(0, 0, 0, .1); */
+    /* width: 180px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.right-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px
+}
+
 /* --- Laptop --- */
 @media screen and (max-width: 1140px) {
+    .nav-mobile {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #header-wrapper .content-right {
+        width: 100%;
+    }
+
     #header-wrapper {
-        height: 60px;
+        height: 80px;
     }
 
     #header-wrapper .row {
@@ -618,6 +655,7 @@
 
     #header-wrapper .language {
         margin-right: 0px;
+        display: none;
     }
 
     #header-wrapper .lang-btn span {
@@ -639,7 +677,8 @@
 
     #header-wrapper .menu-wrapper {
         font-size: 1.33em;
-        height: 60px
+        height: 80px;
+        padding: 16px 20px;
     }
 
     #header-wrapper .lang-menu {

@@ -67,30 +67,38 @@
                 </div> -->
                    
                 <div class="content-right">
-                <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn_contact_us">Our Video&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/polygon.png" ></a>
-                <a href="/contact" class="btn_contact_us">Contact Us&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/arrow.png" class="language_flag"></a>
-                    
-                    <div class="right-box language">
-                        <div class="lang-box hidden-box bahasa">
-                            <a class="lang-btn">
-                                <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
-                                <span>&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;</span>
-                                <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
-                            </a>
-                            <ul class="lang-menu hidden-menu">
-                                <li><a href="../en/index.html">🇺🇸 English</a></li>
-                                <li><a href="../kr/index.html">🇰🇷 Korea</a></li>
-                                <li><a href="../in/index.html">🇮🇩 Indonesia</a></li>
-                            </ul>
+                    <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn_contact_us">Our Video&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/polygon.png" ></a>
+                    <a href="/contact" class="btn_contact_us">Contact Us&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/arrow.png" class="language_flag"></a>
+                        
+                        <div class="right-box language">
+                            <div class="lang-box hidden-box bahasa">
+                                <a class="lang-btn">
+                                    <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
+                                    <span>&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;</span>
+                                    <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
+                                </a>
+                                <ul class="lang-menu hidden-menu">
+                                    <li><a href="../en/index.html">🇺🇸 English</a></li>
+                                    <li><a href="../kr/index.html">🇰🇷 Korea</a></li>
+                                    <li><a href="../in/index.html">🇮🇩 Indonesia</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-
-            
-                   <a class="mobile-ham hambuger-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
+                        <div class="nav-mobile">
+                            <a class="logo"  href="#">
+                                <img style="width: 75%;" src="../../assets/images/icon/ic_logo.png" />
+                            </a>
+                            <div class="right-mobile">
+                                <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn-video-mobile">Our Video&nbsp;&nbsp;&nbsp;
+                                    <img style="width: 12%;" src="../../assets/images/icon/polygon.png" >
+                                </a>
+                                <a class="mobile-ham hambuger-menu">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                </a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
