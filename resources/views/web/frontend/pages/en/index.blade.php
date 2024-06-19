@@ -62,7 +62,7 @@
                         <img src="../../assets/images/icon/ic_cube.svg">
                         </div><br>
                         <h1 >Intelligent Integrated Logistics</h1><br>
-                        <span style="font-size:20px;">Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span><br>
+                        <span>Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span><br>
                         <div class="btn-more">More&nbsp;&nbsp;&nbsp;
                             <img src="../../assets/images/icon/arrow.png">
                         </div>
@@ -77,7 +77,7 @@
                         <img src="../../assets/images/icon/ic_medical.svg">
                         </div><br>
                         <h1 >Digital Health Care</h1><br>
-                        <span style="font-size:20px;">We offer reliable health solutions through optimized customer-tailored consultations by healthcare professionals, integrating AI-based big data analysis considering customer preferences, health status, underlying conditions, and medications.</span><br>
+                        <span>We offer reliable health solutions through optimized customer-tailored consultations by healthcare professionals, integrating AI-based big data analysis considering customer preferences, health status, underlying conditions, and medications.</span><br>
                         <div class="btn-more">More&nbsp;&nbsp;&nbsp;
                             <img src="../../assets/images/icon/arrow.png">
                         </div>
@@ -92,7 +92,7 @@
                         <img src="../../assets/images/icon/ic_code.svg">
                         </div><br>
                         <h1 >System development and management</h1><br>
-                        <span style="font-size:20px;">From planning to maintenance, we offer innovative solutions with unique expertise for domestic and global clients.</span><br>
+                        <span>From planning to maintenance, we offer innovative solutions with unique expertise for domestic and global clients.</span><br>
                         <div class="btn-more">More&nbsp;&nbsp;&nbsp;
                             <img src="../../assets/images/icon/arrow.png">
                         </div>
@@ -107,7 +107,7 @@
                         <img src="../../assets/images/icon/ic_building.svg">
                         </div><br>
                         <h1 >Export Voucher</h1><br>
-                        <span style="font-size:20px;">We assist in every step for successful business execution, from analysis to document services and translation for global expansion.</span><br>
+                        <span>We assist in every step for successful business execution, from analysis to document services and translation for global expansion.</span><br>
                         <div class="btn-more">More&nbsp;&nbsp;&nbsp;
                             <img src="../../assets/images/icon/arrow.png">
                         </div>

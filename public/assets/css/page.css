@@ -318,6 +318,10 @@ body{
     line-height: normal;
 }
 
+.image-overlay span {
+    font-size: 20px;
+}
+
 .btn-more {
     padding: 8px 20px;
     color: rgb(255, 255, 255);
@@ -424,6 +428,14 @@ body{
 }
 
 @media screen and (max-width:780px) {
+    .image-overlay h1 {
+        font-size: 28px;
+    }
+
+    .image-overlay span {
+        font-size: 16px;
+    }
+    
     .marquee {
         display: flex;
         gap: 60px;
