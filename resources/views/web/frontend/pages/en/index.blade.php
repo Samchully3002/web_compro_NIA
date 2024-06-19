@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/common.js"></script>
@@ -53,8 +53,69 @@
         <div class="vision_text">
             <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
         </div>
+
+        <div class="image-container">
+            <a href="business-IIL">
+                <img src="../../assets/images/IIL.jpg">
+                    <div class="image-overlay">
+                        <div class="ic-bisnis">
+                        <img src="../../assets/images/icon/ic_cube.svg">
+                        </div><br>
+                        <h1 >Intelligent Integrated Logistics</h1><br>
+                        <span style="font-size:20px;">Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span><br>
+                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                            <img src="../../assets/images/icon/arrow.png">
+                        </div>
+                    </div>
+            </a>    
+        </div>
+        <div class="image-container">
+            <a href="business-DHC">
+                <img src="../../assets/images/DHC.jpg">
+                    <div class="image-overlay">
+                    <div class="ic-bisnis">
+                        <img src="../../assets/images/icon/ic_medical.svg">
+                        </div><br>
+                        <h1 >Digital Health Care</h1><br>
+                        <span style="font-size:20px;">We offer reliable health solutions through optimized customer-tailored consultations by healthcare professionals, integrating AI-based big data analysis considering customer preferences, health status, underlying conditions, and medications.</span><br>
+                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                            <img src="../../assets/images/icon/arrow.png">
+                        </div>
+                    </div>
+            </a>    
+        </div>
+        <div class="image-container">
+            <a href="business-SDM">
+                <img src="../../assets/images/SDM.jpg">
+                    <div class="image-overlay">
+                    <div class="ic-bisnis">
+                        <img src="../../assets/images/icon/ic_code.svg">
+                        </div><br>
+                        <h1 >System development and management</h1><br>
+                        <span style="font-size:20px;">From planning to maintenance, we offer innovative solutions with unique expertise for domestic and global clients.</span><br>
+                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                            <img src="../../assets/images/icon/arrow.png">
+                        </div>
+                    </div>
+            </a>    
+        </div>
+        <div class="image-container">
+            <a href="business-EV">
+                <img src="../../assets/images/EV.jpg">
+                    <div class="image-overlay">
+                    <div class="ic-bisnis">
+                        <img src="../../assets/images/icon/ic_building.svg">
+                        </div><br>
+                        <h1 >Export Voucher</h1><br>
+                        <span style="font-size:20px;">We assist in every step for successful business execution, from analysis to document services and translation for global expansion.</span><br>
+                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                            <img src="../../assets/images/icon/arrow.png">
+                        </div>
+                    </div>
+            </a>    
+        </div>
         
-        <div class="flex-box">
+        <!-- <div class="flex-box">
             <div class="box_right">
                 <img class="icon_right" src="../../assets/images/icon/ic_cube.svg"/>
                 <label>Intelligent Integrated Logistics</label><br>
@@ -62,7 +123,6 @@
             </div>
             <img class="img_right" src="../../assets/images/home1.svg"/>
         </div>
-
         <div class="flex-box">
             <img class="img_left" src="../../assets/images/home2.svg"/>                
             <div class="box_left">
@@ -71,7 +131,6 @@
                 <span style="font-size:22px;">We offer reliable health solutions through optimized customer-tailored consultations by healthcare professionals, integrating AI-based big data analysis considering customer preferences, health status, underlying conditions, and medications.</span>
             </div>
         </div>
-
         <div class="flex-box">
             <div class="box_right">
                 <img class="icon_right" src="../../assets/images/icon/ic_code.svg"/>
@@ -80,7 +139,6 @@
             </div>
             <img class="img_right" src="../../assets/images/home3.svg"/>
         </div>
-        
         <div class="flex-box">                
             <img class="img_left" src="../../assets/images/home4.svg"/>
             <div class="box_left">
@@ -88,7 +146,7 @@
                 <label style="font-size:28px;font-weight:bold;">Global Business</label><br>
                 <span style="font-size:22px;">We assist in every step for successful business execution, from analysis to document services and translation for global expansion.</span>
             </div>
-        </div>
+        </div> -->
 
     <div class="clientSection">
         <div class="client_text">
