@@ -2092,6 +2092,87 @@ body{
 }
 /* CEO Message */
 
+/* Our History */
+#page-introduction .our-history {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 100px;
+    overflow: visible;
+    padding: 150px 50px 90px;
+    position: relative;
+    width: 100%;
+}
+
+#page-introduction .our-history .title {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: none;
+}
+
+#page-introduction .our-history .title p {
+    font-size:56px;
+    font-weight: bold;
+    line-height:30px;
+}
+
+#page-introduction .our-history .box {
+    place-content: flex-start space-evenly;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+#page-introduction .our-history .box .left-box {
+    flex: 0 0 auto;
+    height: 257px;
+    position: sticky;
+    top: 280px;
+    width: 512px;
+    will-change: transform;
+    z-index: 1;
+}
+
+#page-introduction .our-history .box .right-box {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    height: min-content;
+    overflow: visible;
+    padding: 100px 0px;
+    position: relative;
+    width: 529px;
+}
+
+#page-introduction .our-history .box .right-box .wrapper {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 35px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
 #page-introduction .about-wrapper .text-wrapper em {
     font-size: 2.7em;
 }
