@@ -1,140 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
-    <title>NIA</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico">
-    <link href="../assets/css/default.css" rel="stylesheet" />
-    <link href="../assets/css/outline.css" rel="stylesheet" />
-    <link href="../assets/css/page.css" rel="stylesheet" />
-    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/common.js"></script>        
-    <script>
-        $(document).ready(function(){
-            let url = Number($(location).attr('href').split('?').pop());
-            let h = $('#header-wrapper').height();
-            let offSet = $('.section').eq(url - 1).offset().top - h - 10;
-            $('html, body').animate( { scrollTop : offSet }, 1000 );
-        });
-    </script>
-    <script>
-        $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                items:1,
-                loop:true,
-                autoplay:true,
-                dots:false,
-                nav:true,
-                autoplayTimeout:3000,
-                autoplayHoverPause:true,
-                navText: ["<img src='../assets/img/icon/icon-nav-prev.svg'>","<img src='../assets/img/icon/icon-nav-next.svg'>"]
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
+        />
+        <title>Networks Indonesia Aku</title>
+        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
+        <link href="../assets/css/default.css" rel="stylesheet" />
+        <link href="../assets/css/outline.css" rel="stylesheet" />
+        <link href="../assets/css/page.css" rel="stylesheet" />
+        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="../assets/js/owl.carousel.min.js"></script>
+        <script src="../assets/js/common.js"></script>
+        <script>
+            $(document).ready(function () {
+                let url = Number($(location).attr("href").split("?").pop());
+                let h = $("#header-wrapper").height();
+                let offSet =
+                    $(".section")
+                        .eq(url - 1)
+                        .offset().top -
+                    h -
+                    10;
+                $("html, body").animate({ scrollTop: offSet }, 1000);
             });
-        });
-    </script>
-</head>
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    autoplay: true,
+                    dots: false,
+                    nav: true,
+                    autoplayTimeout: 3000,
+                    autoplayHoverPause: true,
+                    navText: [
+                        "<img src='../assets/img/icon/icon-nav-prev.svg'>",
+                        "<img src='../assets/img/icon/icon-nav-next.svg'>",
+                    ],
+                });
+            });
+        </script>
+    </head>
 
-<body>
-    <div data-include="component/header"></div>
+    <body>
+        <div data-include="component/header"></div>
 
-    <div class="page page-scroll page-in" id="page-business">
-
-        <!-- bg-wrapper start -->
-        <div class="bg-wrapper">
-            <div class="text-box">
-                <span>Make the world more creative</span>
-                <h3>Business Portfolio</h3>
-            </div>
-        </div>
-        <!-- bg-wrapper end -->
-
-        <!-- section-wrapper start -->
-        <div class="section-wrapper">
-
-            <div class="section">
-
-                <div class="flex-box">
-                    <img style="box-shadow:0 0 0 rgba(0,0,0,0);width:50%;height:60vh;"src='../assets/img/business-img26.jpg'/>
-                    <div class="text-box">
-                        <h3>Live Streaming Platform</h3>
-                        <p>
-                            Our flagship services are centered around live streaming platforms. By integrating cutting-edge technology and optimizing user experience, we strive to deliver captivating and high-quality live streaming experiences to our users. With this service, we are committed to meeting the needs and expectations of our customers, making their streaming experiences more interactive and satisfying.
-                        </p>
-                    </div>
+        <div class="page page-scroll page-in" id="page-business">
+            <!-- bg-wrapper start -->
+            <div class="bg-wrapper">
+                <div class="text-box">
+                    <span>Make the world more creative</span>
+                    <h3>Business Portfolio</h3>
                 </div>
+            </div>
+            <!-- bg-wrapper end -->
 
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/business-img27.jpg" />
-                                <div>
-                                    <h5>Online Consultation through Website, Mobile Apps, and Video Call</h5>
-                                    <span>
-                                        We offer online consultation services through various platforms, including websites, mobile applications, and video calls. Leveraging cutting-edge technology, we facilitate convenient access to consultation for customers, enabling them to interact efficiently and receive assistance comfortably from the convenience of their own devices.
-                                    </span>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="../assets/img/business-img28a.jpg" />
-                                <div>
-                                    <h5>Utilizing AI, Machine Learning, and Big Data to Simplify Your Business</h5>
-                                    <span>
-                                        By harnessing artificial intelligence (AI), machine learning, and big data, we provide solutions that streamline your business journey. This technology not only serves as a reliable partner but also offers ease in the efficient management and development of your business.
-                                    </span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <h3 class="t2">Suitable For</h3>
-
-                        <div class="box2">
-                            <div class="box">
-                                <div class="box">
-                                    <img src="../assets/img/icon/i9.png">
-                                </div>
-
-                                <h5>All Type of Business</h5>
-                            </div>
+            <!-- section-wrapper start -->
+            <div class="section-wrapper">
+                <div class="section">
+                    <div class="flex-box">
+                        <img
+                            style="
+                                box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                                width: 50%;
+                                height: 60vh;
+                            "
+                            src="../assets/img/business-img26.jpg"
+                        />
+                        <div class="text-box">
+                            <h3>Live Streaming Platform</h3>
+                            <p>
+                                Our flagship services are centered around live
+                                streaming platforms. By integrating cutting-edge
+                                technology and optimizing user experience, we
+                                strive to deliver captivating and high-quality
+                                live streaming experiences to our users. With
+                                this service, we are committed to meeting the
+                                needs and expectations of our customers, making
+                                their streaming experiences more interactive and
+                                satisfying.
+                            </p>
                         </div>
-
-                        <h4 style="padding-top:40px;">Our Product</h4>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="imx">
-                        <ul>
-                            <li>
-                                <img src="../assets/img/healthyhada.jpg" />
-                                <div>
-                                    <h5>Healthyhada</h5>
-                                    <span style="margin-bottom:24px;">
-                                        Personalized AI health care platform. Consult, recommend and sell personalized health foods and health care products through various means via AI, Specialists inline with post-corona trend.
-                                    </span>
-                                    <a class="mini_button" href="https://healthyhada.co.kr/" target="_blank" class="more-btn">Visit Us</a>
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img27.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Online Consultation through Website,
+                                            Mobile Apps, and Video Call
+                                        </h5>
+                                        <span>
+                                            We offer online consultation
+                                            services through various platforms,
+                                            including websites, mobile
+                                            applications, and video calls.
+                                            Leveraging cutting-edge technology,
+                                            we facilitate convenient access to
+                                            consultation for customers, enabling
+                                            them to interact efficiently and
+                                            receive assistance comfortably from
+                                            the convenience of their own
+                                            devices.
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="../assets/img/business-img28a.jpg"
+                                    />
+                                    <div>
+                                        <h5>
+                                            Utilizing AI, Machine Learning, and
+                                            Big Data to Simplify Your Business
+                                        </h5>
+                                        <span>
+                                            By harnessing artificial
+                                            intelligence (AI), machine learning,
+                                            and big data, we provide solutions
+                                            that streamline your business
+                                            journey. This technology not only
+                                            serves as a reliable partner but
+                                            also offers ease in the efficient
+                                            management and development of your
+                                            business.
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h3 class="t2">Suitable For</h3>
+
+                            <div class="box2">
+                                <div class="box">
+                                    <div class="box">
+                                        <img src="../assets/img/icon/i9.png" />
+                                    </div>
+
+                                    <h5>All Type of Business</h5>
                                 </div>
-                            </li>
-                        </ul>
+                            </div>
+
+                            <h4 style="padding-top: 40px">Our Product</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="imx">
+                            <ul>
+                                <li>
+                                    <img src="../assets/img/healthyhada.jpg" />
+                                    <div>
+                                        <h5>Healthyhada</h5>
+                                        <span style="margin-bottom: 24px">
+                                            Personalized AI health care
+                                            platform. Consult, recommend and
+                                            sell personalized health foods and
+                                            health care products through various
+                                            means via AI, Specialists inline
+                                            with post-corona trend.
+                                        </span>
+                                        <a
+                                            class="mini_button"
+                                            href="https://healthyhada.co.kr/"
+                                            target="_blank"
+                                            class="more-btn"
+                                            >Visit Us</a
+                                        >
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
+            <!-- section-wrapper end -->
         </div>
-        <!-- section-wrapper end -->
 
-    </div>
-
-    <div data-include="component/footer"></div>
-
-</body>
-
+        <div data-include="component/footer"></div>
+    </body>
 </html>

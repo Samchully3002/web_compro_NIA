@@ -14,8 +14,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport"content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
-    <title>NIA</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <title>Networks Indonesia Aku</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/default.css"/>
     <link rel="stylesheet" href="assets/css/outline.css"/>
     <link rel="stylesheet" href="assets/css/page.css"/>
@@ -37,23 +37,26 @@
     <div class="page page-in" id="page-main">
 
         <!-- Video start -->
-        <!-- <video class="video_compro" loop="true" autoplay="true" muted playsinline>
+        <!-- <video class="video-dekstop" loop="true" autoplay="true" muted playsinline>
             <source src="../assets/video/company_profile.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video> -->
-        <!-- <video src="../assets/video/company_profile.mp4" class="video_compro" autoplay/> -->
-        <video width="320" height="240" class="video_compro" autoplay muted>
+        <!-- <video src="../assets/video/company_profile.mp4" class="video-dekstop" autoplay/> -->
+        <video class="video-dekstop" autoplay muted loop>
             <source src="../assets/video/video.mp4" type="video/mp4">
+        </video>
+        <video class="video-mobile" autoplay muted loop>
+            <source src="../assets/video/mobile.mp4" type="video/mp4">
         </video>
         <!-- Video end -->
 
         <div class="vision_text">
-            <label>One - Stop</label><label style="color:#40455C;">&nbsp;IT Solution For Your Business</label>
+            <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
         </div>
         
         <div class="flex-box">
             <div class="box_right">
-                <img class="icon_right" src="../../assets/images/icon/ic_cube.png"/>
+                <img class="icon_right" src="../../assets/images/icon/ic_cube.svg"/>
                 <label>Intelligent Integrated Logistics</label><br>
                 <span style="font-size:22px;">Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span>
             </div>
@@ -87,37 +90,80 @@
             </div>
         </div>
 
+    <div class="clientSection">
         <div class="client_text">
             <label>Collaborating seamlessly to create value and drive success for our clients.</label>
         </div>
-            <marquee behavior="scroll" direction="left">
-            <img src="../../assets/images/icon/partner_logo.png"/>
-            </marquee>
+            <!-- <marquee behavior="scroll" direction="left">
+                <img src="../../assets/images/icon/korea.png"/>
+                <img src="../../assets/images/icon/ditjen.png"/>
+                <img src="../../assets/images/icon/bni.png"/>
+                <img src="../../assets/images/icon/jayaraya.png"/>
+                <img src="../../assets/images/icon/ovo.png"/>
+                <img src="../../assets/images/icon/dishub.png"/>
+            </marquee> -->
 
+            <div class="marquee-container">
+                <div class="marquee">
+                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+            
+                </div>
+            </div>
+    </div>
         <div class="news_box">
-            <label style="font-size:45px;font-weight:bold;color:white;">Latest News</label>
+            <label>Latest News</label>
             <div class="news_wrapper">
                 <div class="news_content">
-                    <img src="../../assets/images/news1.png"/>
-                    <label>Now the Kampung Rambutan Terminal is more modern ...</label>
-                    <label style="margin-top:20px;font-size:16px;color:white;">January 14, 2023</label>
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news1.png"/>
+                        <label>Now the Kampung Rambutan Terminal is more modern ...</label>
+                        <label style="font-size:16px;color:white;">January 14, 2023</label>
+                    </a>
                 </div>
 
                 <div class="news_content">
-                    <img src="../../assets/images/news2.png"/>
-                    <label>Kampung Rambutan Bus Terminal Starts Opening Online ...</label>
-                    <label style="margin-top:20px;font-size:16px;color:white;">January 13, 2023</label>
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news2.png"/>
+                        <label>Kampung Rambutan Bus Terminal Starts Opening Online ...</label>
+                        <label style="font-size:16px;color:white;">January 13, 2023</label>
+                    </a>
                 </div>
 
                 <div class="news_content">
-                    <img src="../../assets/images/news3.png"/>
-                    <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
-                    <label style="margin-top:20px;font-size:16px;color:white;">April 14, 2023</label>
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news3.png"/>
+                        <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
+                        <label style="font-size:16px;color:white;">April 14, 2023</label>
+                    </a>
+                </div>
+
+                <div class="news_content">
+                    <a href="http://www.kdpress.co.kr/news/articleView.html?idxno=129296">
+                        <img src="../../assets/images/news3.png"/>
+                        <label>South Korea's Hiba for the Modernization of the Kampung ...</label>
+                        <label style="font-size:16px;color:white;">April 14, 2023</label>
+                    </a>
                 </div>
             </div>
             <div class="news_footer">
-                <button onMouseOver="this.style.background='grey'"
-       onMouseOut="this.style.background='transparent'">More Articles</button>
+                <button onMouseOver="this.style.background='#40455C'" onMouseOut="this.style.background='transparent'">More</button>
             </div>
         </div>
 
@@ -126,7 +172,7 @@
             padding: 100px 100px 100px 100px;
             margin: 100px 100px 100px 100px;
             border-radius: 20px 20px 20px 20px;
-            background: #077C93;
+            background: #40455C;
             display: flex;
                 justify-content: center;
                 align-items: center;">

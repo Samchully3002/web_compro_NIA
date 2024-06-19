@@ -1,490 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
+        />
+        <title>Networks Indonesia Aku</title>
+        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
+        <link href="../assets/css/default.css" rel="stylesheet" />
+        <link href="../assets/css/outline.css" rel="stylesheet" />
+        <link href="../assets/css/page.css" rel="stylesheet" />
+        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="../assets/js/owl.carousel.min.js"></script>
+        <script src="../assets/js/common.js"></script>
+        <script>
+            $(window).scroll(function () {
+                let offSet = $(".line-wrapper").offset().top;
+                if ($(document).scrollTop() > offSet - 1450) {
+                    $(".core-value").addClass("active");
+                }
+                if ($(document).scrollTop() > offSet - 600) {
+                    $(".block-box").addClass("active");
+                    setTimeout(function () {
+                        $(".block-box h4").fadeIn(1500);
+                    }, 1000);
+                }
+            });
+        </script>
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width" />
-    <title>NIA</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico">
-    <link href="../assets/css/default.css" rel="stylesheet" />
-    <link href="../assets/css/outline.css" rel="stylesheet" />
-    <link href="../assets/css/page.css" rel="stylesheet" />
-    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/common.js"></script>    
-    <script>
-        $(window).scroll(function(){
-            let offSet = $('.line-wrapper').offset().top;
-            if($(document).scrollTop() > offSet - 1450){
-                $(".core-value").addClass('active');
-            }
-            if($(document).scrollTop() > offSet - 600){
-                $(".block-box").addClass('active');
-                setTimeout(function(){
-                    $(".block-box h4").fadeIn(1500);
-                }, 1000);
-            } 
-        });
-    </script>
-</head>
+    <body>
+        <div data-include="component/header"></div>
 
-<body>
-    <div data-include="component/header"></div>
-
-    <div class="page page-in" id="page-introduction">
-
-        <!-- bg-wrapper start -->
-        <div class="bg-wrapper">
-            <div class="text-box">
-                <span>Connect people with technology</span>
-            </div>
-        </div>
-        <!-- bg-wrapper end -->
-
-        <!-- about-wrapper start -->
-        <div class="about-wrapper">
-            <div class="row">
-                <div class="imx">
-                    <h3><span>Company Profile</span></h3>
-                    <img src='../assets/img/logo_svg.svg' />
-                    <P>
-                        <b>Networks Indonesia Aku (NIA)</b> is a company that provides services, solutions, and innovative digital products in the field of Information Technology specializing in Intelligent Transport Systems (ITS). <b>NIA</b> was established on December 10, 2021, as a subsidiary of <b>Samchully Networks</b> in South Korea, which has been in operation since 2014.<br /><br /> We create superior digital products and introduce new innovations through systems and technologies developed in-house in Korea. By embracing advanced Korean technology and systems, <b>NIA</b> is committed to consistently delivering quality in every innovation.<br /><br /> <b>NIA</b> actively participates in building and advancing transportation systems, supporting SMEs, and fostering startup companies in Indonesia. We strive to create outstanding products and bring forth a new vision through a systematic strategy backed by proven technology.
-                    </P>
+        <div class="page page-in" id="page-introduction">
+            <!-- bg-wrapper start -->
+            <div class="bg-wrapper">
+                <div class="text-box">
+                    <span>Connect people with technology</span>
                 </div>
             </div>
-        </div>
-        <!-- about-wrapper end -->
+            <!-- bg-wrapper end -->
 
-
-        <!-- vision-wrapper start -->
-        <div class="vision-wrapper">
-            <div class="row">
-                <div class="imx">
-
-                    <h3>Vision & Mission</h3>
-
-                    <h4>Vision</h4>
-
-                    <p>
-                        To become a leading IT company in Indonesia with a focus on prioritizing environmentally friendly products and services. Creating technology for the advancement of transportation and infrastructure, technology in the fields of health, education, logistics, smart factories, online payment systems, and their development.
-                    </p>
-
-                    <h4>Mision</h4>
-
-                    <ul>
-                        <li>
-                            <span>1</span>
-                            <div>
-                                To provide computer and digital-based technologies, as well as the development of hardware and software, with a focus on innovative and creative solutions to meet customer needs.
-                            </div>
-                        </li>
-
-                        <li>
-                            <span style="margin-top: 26px;">2</span>
-                            <div>
-                                With a focus on innovation, high-quality service, and advanced technological solutions, we are committed to making a meaningful contribution to advancing the world of information technology. Through this commitment, we strive to build strong, long-term relationships with customers, become a reliable partner, and continue to be a leading provider of IT solutions.
-                            </div>
-                        </li>
-
-                        <li>
-                            <span>3</span>
-                            <div>
-                                Committed to being a pioneer in accelerating the growth of the IT industry in Indonesia and realizing a more connected and empowered society.
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- vision-wrapper end -->
-
-
-        <!-- core-wrapper start -->
-        <div class="core-wrapper">
-            <div class="row">
-                <div class="imx">
-
-                    <h3>Core Value</h3>
-
-                    <h4 class="core-value">
-                        <img src="../assets/img/icon/icon-quotes01.svg" />
-                        <span class="letter-c1">C</span>
-                        <span class="letter-o">O</span>
-                        <span class="letter-n1">N</span>
-                        <span class="letter-n2">N</span>
-                        <span class="letter-e">E</span>
-                        <span class="letter-c2">C</span>
-                        <span class="letter-t">T</span>
-                        <img src="../assets/img/icon/icon-quotes02.svg" />
-                    </h4>
-
-                    <div class="flex-box">
-                        <div class="item">
-                            <span class="color1">C</span> 
-                            <em>Communication</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color2">O</span> 
-                            <em>Opportunity</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color3">N</span> 
-                            <em>Necessary</em>       
-                        </div>
-
+            <!-- about-wrapper start -->
+            <div class="about-wrapper">
+                <div class="row">
+                    <div class="imx">
+                        <h3><span>Company Profile</span></h3>
+                        <img src="../assets/img/logo_svg.svg" />
+                        <p>
+                            <b>Networks Indonesia Aku (NIA)</b> is a company
+                            that provides services, solutions, and innovative
+                            digital products in the field of Information
+                            Technology specializing in Intelligent Transport
+                            Systems (ITS). <b>NIA</b> was established on
+                            December 10, 2021, as a subsidiary of
+                            <b>Samchully Networks</b> in South Korea, which has
+                            been in operation since 2014.<br /><br />
+                            We create superior digital products and introduce
+                            new innovations through systems and technologies
+                            developed in-house in Korea. By embracing advanced
+                            Korean technology and systems, <b>NIA</b> is
+                            committed to consistently delivering quality in
+                            every innovation.<br /><br />
+                            <b>NIA</b> actively participates in building and
+                            advancing transportation systems, supporting SMEs,
+                            and fostering startup companies in Indonesia. We
+                            strive to create outstanding products and bring
+                            forth a new vision through a systematic strategy
+                            backed by proven technology.
+                        </p>
                     </div>
-
-                    <div class="flex-box">
-                        <div class="item">
-                            <span class="color4">N</span> 
-                            <em>New</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color5">E</span> 
-                            <em>Environment</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color6">C</span> 
-                            <em>Creative</em>       
-                        </div>
-
-                        <div class="item">
-                            <span class="color7">T</span> 
-                            <em>Trust</em>       
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </div>
-        <!-- core-wrapper end -->
+            <!-- about-wrapper end -->
 
-        <!-- line-wrapper start -->
-        <div class="line-wrapper">
-            <div class="row">
-                <div class="imx">
+            <!-- vision-wrapper start -->
+            <div class="vision-wrapper">
+                <div class="row">
+                    <div class="imx">
+                        <h3>Vision & Mission</h3>
 
-                    <h3>Management Philosophy</h3>
+                        <h4>Vision</h4>
 
-                    <div class="block-box">
-                        <img src="../assets/img/icon/icon-block01.svg" />
-                        <h4>Technology, Nature, Together</h4>
-                        <img src="../assets/img/icon/icon-block02.svg" />
-                    </div>
+                        <p>
+                            To become a leading IT company in Indonesia with a
+                            focus on prioritizing environmentally friendly
+                            products and services. Creating technology for the
+                            advancement of transportation and infrastructure,
+                            technology in the fields of health, education,
+                            logistics, smart factories, online payment systems,
+                            and their development.
+                        </p>
 
-                    <p>
-                        NIA brings together technology and nature to coexist through innovation and a strong commitment to effect positive changes for a better environment and life.
-                    </p>
+                        <h4>Mision</h4>
 
-                </div>
-            </div>
-        </div>
-        <!-- line-wrapper end -->
+                        <ul>
+                            <li>
+                                <span>1</span>
+                                <div>
+                                    To provide computer and digital-based
+                                    technologies, as well as the development of
+                                    hardware and software, with a focus on
+                                    innovative and creative solutions to meet
+                                    customer needs.
+                                </div>
+                            </li>
 
-         <!-- vision-wrapper start -->
-         <div class="vision-wrapper our-history">
-            <div class="row">
-                <div class="imx">
+                            <li>
+                                <span style="margin-top: 26px">2</span>
+                                <div>
+                                    With a focus on innovation, high-quality
+                                    service, and advanced technological
+                                    solutions, we are committed to making a
+                                    meaningful contribution to advancing the
+                                    world of information technology. Through
+                                    this commitment, we strive to build strong,
+                                    long-term relationships with customers,
+                                    become a reliable partner, and continue to
+                                    be a leading provider of IT solutions.
+                                </div>
+                            </li>
 
-                    <h3>Our History</h3>
-
-                    <div class="history-box">
-                        <ul class="item-box">
-                            <li class="item">
-                                <img src='../assets/img/headquarters-img04.jpg' />
-                                <span>2023</span>
-                                <ul>
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Received an award from the  Ministry of Interior and Safety Republic of Korea as the best ODA implementer 2023</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>10</em>
-                                        <div>
-                                            <p>Completed the "Master Plan Preparation Project and Pilot Operation of Bus Terminal Modernization in Indonesia"</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>09</em>
-                                        <div>
-                                            <p>Organizing the Opening Ceremony "Master Plan Preparation Project and Pilot Operation of Bus Terminal Modernization in Indonesia"</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>07</em>
-                                        <div>
-                                            <p>Carrying out the second invited training in Korea for the Indonesian bus terminal modernization project</p>
-                                            <p>Visit the cities of Seoul, Sejong (government complex), Ulsan, Jeonju, Busan (bus terminal complex), etc</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>04</em>
-                                        <div>
-                                            <p>Start the Test Operations at both pilot project terminals (Kp.Rambutan and Leuwipanjang Bus Terminal)</p>
-                                            <p>Starting to develop a cargo transportation platform in Indonesia</p>
-                                            <p>Carrying out field surveys for the expansion of all Type A Terminals in Indonesia</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>02</em>
-                                        <div>
-                                            <p>Organizing training for each terminal for the Bus Terminal Modernization Pilot Operation in Indonesia</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <em>01</em>
-                                        <div>
-                                            <p>Begin the "Master Plan Preparation Project and Pilot Operation of Bus Terminal Modernization in Indonesia" in the third year</p>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <li>
+                                <span>3</span>
+                                <div>
+                                    Committed to being a pioneer in accelerating
+                                    the growth of the IT industry in Indonesia
+                                    and realizing a more connected and empowered
+                                    society.
+                                </div>
                             </li>
-                    
-                            <li class="item">
-                                <span>2022</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Completed the "Master Plan Preparation Project and Pilot Operation of Bus Terminal Modernization in Indonesia" in the second year</p>
-                                            <p>Organizing seminars for the promotion and dissemination of the Indonesian bus terminal modernization system</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Carrying out the first invitational training in Korea for the Indonesian bus terminal modernization project</p>
-                                            <p>Visit the cities of Seoul, Sejong (government complex), Daejeon (bus terminal complex), etc</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>01</em>
-                                        <div>
-                                            <p>Launched the "Master Plan Preparation Project and Pilot Operation of Bus Terminal Modernization in Indonesia" in the second year</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <img src='../assets/img/headquarters-img05.jpg' />
-                                <span>2021</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Completed the "Master Plan Preparation Project and Pilot Operation of Bus Terminal Modernization in Indonesia" in the first year</p>
-                                            <p>Established a branch company in Indonesia (Jakarta)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>08</em>
-                                        <div>
-                                            <p>Initiated the development of 'Healthyhada', “Health Care” an Artificial Intelligence (AI) healthcare platform</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>04</em>
-                                        <div>
-                                            <p>Received the assignment for "Master Plan Preparation Project and Pilot Operation of Bus Terminal Modernization in Indonesia"</p>
-                                            <p>(ODA, Ministry of Land, Infrastructure and Transportation)</p>
-                                            <p>Inspection and investigation of the Indonesian pilot terminal location (still in progress)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>02</em>
-                                        <div>
-                                            <p>Launched 'Olligo', a transportation platform in the construction sector</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2020</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Selected as "Small Giants" by the Ministry of Manpower</p>
-                                            <p>Acquisition of overseas construction business (construction engineering/information and communication construction business)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Development of 'Olligo', a transportation platform in the construction sector</p>
-                                            <p>Launched “24-hour environment”, a transportation system to track waste vehicles in construction</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>08</em>
-                                        <div>
-                                            <p>Opened a branch in Jeju</p>
-                                            <p>Inspections and investigations at 100 bus terminals in Indonesia</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>03</em>
-                                        <div>
-                                            <p>Cambodia Phnom Penh bus stop and terminal construction, BIS (Bus Information System) feasibility study</p>
-                                        </div>
-                                    </li>
-                    
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2019</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Registered as KOVA venture capital company (No. 20190729-42348) / Obtained Main Biz certification</p>
-                                            <p>Obtained patent: Automatic delivery system (Patent Number: 10-2038395)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Patent application for location based solutions in information sharing</p>
-                                            <p>Development and launch of Samchully PAY platform (commercialization)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>09</em>
-                                        <div>
-                                            <p>Verification of ITS Ulaanbaatar Mongolia Feasibility Study and Complex Terminal Feasibility Study</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <img src='../assets/img/headquarters-img06.jpg' />
-                                <span>2018</span>
-                                <ul>
-                                    <li>
-                                        <em>11</em>
-                                        <div>
-                                            <p>Established a research institute affiliated with another company (Technical Research Institute No. 2018113469)</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>05</em>
-                                        <div>
-                                            <p>Obtained ISO9001: 18-A-1004 IGC</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>03</em>
-                                        <div>
-                                            <p>Design and development of a cloud-based ticket issuance system</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2017</span>
-                                <ul>
-                                    <li>
-                                        <em>03</em>
-                                        <div>
-                                            <p>Opened 25 national transportation agency branches and platforms</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2016</span>
-                                <ul>
-                                    <li>
-                                        <em>12</em>
-                                        <div>
-                                            <p>Development and maintenance of a ticketing system for ships hosted by the National Yacht Association</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>08</em>
-                                        <div>
-                                            <p>Development and launch of an integrated intelligent transportation platform (commercialization)</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2015</span>
-                                <ul>
-                                    <li>
-                                        <em>10</em>
-                                        <div>
-                                            <p>Design and development of solutions in mobile wireless communications relay (TRS) such as KT and KT Powertel</p>
-                                        </div>
-                                    </li>
-                    
-                                    <li>
-                                        <em>06</em>
-                                        <div>
-                                            <p>Open and operate an integrated transportation call center</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
-                            <li class="item">
-                                <span>2014</span>
-                                <ul>
-                                    <li>
-                                        <em>10</em>
-                                        <div>
-                                            <p>Established Samchully Networks Co., Ltd. (Head Office, in Seoul, Korea)</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                    
                         </ul>
                     </div>
-
                 </div>
             </div>
+            <!-- vision-wrapper end -->
+
+            <!-- core-wrapper start -->
+            <div class="core-wrapper">
+                <div class="row">
+                    <div class="imx">
+                        <h3>Core Value</h3>
+
+                        <h4 class="core-value">
+                            <img src="../assets/img/icon/icon-quotes01.svg" />
+                            <span class="letter-c1">C</span>
+                            <span class="letter-o">O</span>
+                            <span class="letter-n1">N</span>
+                            <span class="letter-n2">N</span>
+                            <span class="letter-e">E</span>
+                            <span class="letter-c2">C</span>
+                            <span class="letter-t">T</span>
+                            <img src="../assets/img/icon/icon-quotes02.svg" />
+                        </h4>
+
+                        <div class="flex-box">
+                            <div class="item">
+                                <span class="color1">C</span>
+                                <em>Communication</em>
+                            </div>
+
+                            <div class="item">
+                                <span class="color2">O</span>
+                                <em>Opportunity</em>
+                            </div>
+
+                            <div class="item">
+                                <span class="color3">N</span>
+                                <em>Necessary</em>
+                            </div>
+                        </div>
+
+                        <div class="flex-box">
+                            <div class="item">
+                                <span class="color4">N</span>
+                                <em>New</em>
+                            </div>
+
+                            <div class="item">
+                                <span class="color5">E</span>
+                                <em>Environment</em>
+                            </div>
+
+                            <div class="item">
+                                <span class="color6">C</span>
+                                <em>Creative</em>
+                            </div>
+
+                            <div class="item">
+                                <span class="color7">T</span>
+                                <em>Trust</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- core-wrapper end -->
+
+            <!-- line-wrapper start -->
+            <div class="line-wrapper">
+                <div class="row">
+                    <div class="imx">
+                        <h3>Management Philosophy</h3>
+
+                        <div class="block-box">
+                            <img src="../assets/img/icon/icon-block01.svg" />
+                            <h4>Technology, Nature, Together</h4>
+                            <img src="../assets/img/icon/icon-block02.svg" />
+                        </div>
+
+                        <p>
+                            NIA brings together technology and nature to coexist
+                            through innovation and a strong commitment to effect
+                            positive changes for a better environment and life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- line-wrapper end -->
+
+            <!-- vision-wrapper start -->
+            <div class="vision-wrapper our-history">
+                <div class="row">
+                    <div class="imx">
+                        <h3>Our History</h3>
+
+                        <div class="history-box">
+                            <ul class="item-box">
+                                <li class="item">
+                                    <img
+                                        src="../assets/img/headquarters-img04.jpg"
+                                    />
+                                    <span>2023</span>
+                                    <ul>
+                                        <li>
+                                            <em>11</em>
+                                            <div>
+                                                <p>
+                                                    Received an award from the
+                                                    Ministry of Interior and
+                                                    Safety Republic of Korea as
+                                                    the best ODA implementer
+                                                    2023
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>10</em>
+                                            <div>
+                                                <p>
+                                                    Completed the "Master Plan
+                                                    Preparation Project and
+                                                    Pilot Operation of Bus
+                                                    Terminal Modernization in
+                                                    Indonesia"
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>09</em>
+                                            <div>
+                                                <p>
+                                                    Organizing the Opening
+                                                    Ceremony "Master Plan
+                                                    Preparation Project and
+                                                    Pilot Operation of Bus
+                                                    Terminal Modernization in
+                                                    Indonesia"
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <em>07</em>
+                                            <div>
+                                                <p>
+                                                    Carrying out the second
+                                                    invited training in Korea
+                                                    for the Indonesian bus
+                                                    terminal modernization
+                                                    project
+                                                </p>
+                                                <p>
+                                                    Visit the cities of Seoul,
+                                                    Sejong (government complex),
+                                                    Ulsan, Jeonju, Busan (bus
+                                                    terminal complex), etc
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <em>04</em>
+                                            <div>
+                                                <p>
+                                                    Start the Test Operations at
+                                                    both pilot project terminals
+                                                    (Kp.Rambutan and
+                                                    Leuwipanjang Bus Terminal)
+                                                </p>
+                                                <p>
+                                                    Starting to develop a cargo
+                                                    transportation platform in
+                                                    Indonesia
+                                                </p>
+                                                <p>
+                                                    Carrying out field surveys
+                                                    for the expansion of all
+                                                    Type A Terminals in
+                                                    Indonesia
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <em>02</em>
+                                            <div>
+                                                <p>
+                                                    Organizing training for each
+                                                    terminal for the Bus
+                                                    Terminal Modernization Pilot
+                                                    Operation in Indonesia
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <em>01</em>
+                                            <div>
+                                                <p>
+                                                    Begin the "Master Plan
+                                                    Preparation Project and
+                                                    Pilot Operation of Bus
+                                                    Terminal Modernization in
+                                                    Indonesia" in the third year
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <span>2022</span>
+                                    <ul>
+                                        <li>
+                                            <em>12</em>
+                                            <div>
+                                                <p>
+                                                    Completed the "Master Plan
+                                                    Preparation Project and
+                                                    Pilot Operation of Bus
+                                                    Terminal Modernization in
+                                                    Indonesia" in the second
+                                                    year
+                                                </p>
+                                                <p>
+                                                    Organizing seminars for the
+                                                    promotion and dissemination
+                                                    of the Indonesian bus
+                                                    terminal modernization
+                                                    system
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>11</em>
+                                            <div>
+                                                <p>
+                                                    Carrying out the first
+                                                    invitational training in
+                                                    Korea for the Indonesian bus
+                                                    terminal modernization
+                                                    project
+                                                </p>
+                                                <p>
+                                                    Visit the cities of Seoul,
+                                                    Sejong (government complex),
+                                                    Daejeon (bus terminal
+                                                    complex), etc
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>01</em>
+                                            <div>
+                                                <p>
+                                                    Launched the "Master Plan
+                                                    Preparation Project and
+                                                    Pilot Operation of Bus
+                                                    Terminal Modernization in
+                                                    Indonesia" in the second
+                                                    year
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <img
+                                        src="../assets/img/headquarters-img05.jpg"
+                                    />
+                                    <span>2021</span>
+                                    <ul>
+                                        <li>
+                                            <em>12</em>
+                                            <div>
+                                                <p>
+                                                    Completed the "Master Plan
+                                                    Preparation Project and
+                                                    Pilot Operation of Bus
+                                                    Terminal Modernization in
+                                                    Indonesia" in the first year
+                                                </p>
+                                                <p>
+                                                    Established a branch company
+                                                    in Indonesia (Jakarta)
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>08</em>
+                                            <div>
+                                                <p>
+                                                    Initiated the development of
+                                                    'Healthyhada', “Health Care”
+                                                    an Artificial Intelligence
+                                                    (AI) healthcare platform
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>04</em>
+                                            <div>
+                                                <p>
+                                                    Received the assignment for
+                                                    "Master Plan Preparation
+                                                    Project and Pilot Operation
+                                                    of Bus Terminal
+                                                    Modernization in Indonesia"
+                                                </p>
+                                                <p>
+                                                    (ODA, Ministry of Land,
+                                                    Infrastructure and
+                                                    Transportation)
+                                                </p>
+                                                <p>
+                                                    Inspection and investigation
+                                                    of the Indonesian pilot
+                                                    terminal location (still in
+                                                    progress)
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>02</em>
+                                            <div>
+                                                <p>
+                                                    Launched 'Olligo', a
+                                                    transportation platform in
+                                                    the construction sector
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <span>2020</span>
+                                    <ul>
+                                        <li>
+                                            <em>12</em>
+                                            <div>
+                                                <p>
+                                                    Selected as "Small Giants"
+                                                    by the Ministry of Manpower
+                                                </p>
+                                                <p>
+                                                    Acquisition of overseas
+                                                    construction business
+                                                    (construction
+                                                    engineering/information and
+                                                    communication construction
+                                                    business)
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>11</em>
+                                            <div>
+                                                <p>
+                                                    Development of 'Olligo', a
+                                                    transportation platform in
+                                                    the construction sector
+                                                </p>
+                                                <p>
+                                                    Launched “24-hour
+                                                    environment”, a
+                                                    transportation system to
+                                                    track waste vehicles in
+                                                    construction
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>08</em>
+                                            <div>
+                                                <p>Opened a branch in Jeju</p>
+                                                <p>
+                                                    Inspections and
+                                                    investigations at 100 bus
+                                                    terminals in Indonesia
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>03</em>
+                                            <div>
+                                                <p>
+                                                    Cambodia Phnom Penh bus stop
+                                                    and terminal construction,
+                                                    BIS (Bus Information System)
+                                                    feasibility study
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <span>2019</span>
+                                    <ul>
+                                        <li>
+                                            <em>12</em>
+                                            <div>
+                                                <p>
+                                                    Registered as KOVA venture
+                                                    capital company (No.
+                                                    20190729-42348) / Obtained
+                                                    Main Biz certification
+                                                </p>
+                                                <p>
+                                                    Obtained patent: Automatic
+                                                    delivery system (Patent
+                                                    Number: 10-2038395)
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>11</em>
+                                            <div>
+                                                <p>
+                                                    Patent application for
+                                                    location based solutions in
+                                                    information sharing
+                                                </p>
+                                                <p>
+                                                    Development and launch of
+                                                    Samchully PAY platform
+                                                    (commercialization)
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>09</em>
+                                            <div>
+                                                <p>
+                                                    Verification of ITS
+                                                    Ulaanbaatar Mongolia
+                                                    Feasibility Study and
+                                                    Complex Terminal Feasibility
+                                                    Study
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <img
+                                        src="../assets/img/headquarters-img06.jpg"
+                                    />
+                                    <span>2018</span>
+                                    <ul>
+                                        <li>
+                                            <em>11</em>
+                                            <div>
+                                                <p>
+                                                    Established a research
+                                                    institute affiliated with
+                                                    another company (Technical
+                                                    Research Institute No.
+                                                    2018113469)
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>05</em>
+                                            <div>
+                                                <p>
+                                                    Obtained ISO9001: 18-A-1004
+                                                    IGC
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>03</em>
+                                            <div>
+                                                <p>
+                                                    Design and development of a
+                                                    cloud-based ticket issuance
+                                                    system
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <span>2017</span>
+                                    <ul>
+                                        <li>
+                                            <em>03</em>
+                                            <div>
+                                                <p>
+                                                    Opened 25 national
+                                                    transportation agency
+                                                    branches and platforms
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <span>2016</span>
+                                    <ul>
+                                        <li>
+                                            <em>12</em>
+                                            <div>
+                                                <p>
+                                                    Development and maintenance
+                                                    of a ticketing system for
+                                                    ships hosted by the National
+                                                    Yacht Association
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>08</em>
+                                            <div>
+                                                <p>
+                                                    Development and launch of an
+                                                    integrated intelligent
+                                                    transportation platform
+                                                    (commercialization)
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <span>2015</span>
+                                    <ul>
+                                        <li>
+                                            <em>10</em>
+                                            <div>
+                                                <p>
+                                                    Design and development of
+                                                    solutions in mobile wireless
+                                                    communications relay (TRS)
+                                                    such as KT and KT Powertel
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <em>06</em>
+                                            <div>
+                                                <p>
+                                                    Open and operate an
+                                                    integrated transportation
+                                                    call center
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="item">
+                                    <span>2014</span>
+                                    <ul>
+                                        <li>
+                                            <em>10</em>
+                                            <div>
+                                                <p>
+                                                    Established Samchully
+                                                    Networks Co., Ltd. (Head
+                                                    Office, in Seoul, Korea)
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- vision-wrapper end -->
         </div>
-        <!-- vision-wrapper end -->
 
-
-    </div>
-
-    <div data-include="component/footer"></div>
-
-</body>
-
+        <div data-include="component/footer"></div>
+    </body>
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIA</title>
+    <title>Networks Indonesia Aku</title>
     <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link href="../assets/css/default.css" rel="stylesheet" />
     <link href="../assets/css/outline.css" rel="stylesheet" />
