@@ -8,8 +8,14 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
    return  view('web/frontend/pages/en/about');
-// Our Business Routes
 });
+
+Route::get('/business_logistics', function () {
+   return  view('web/frontend/pages/en/business_logistics');
+});
+
+
+
 
 
 

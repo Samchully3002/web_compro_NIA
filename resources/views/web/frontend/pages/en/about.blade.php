@@ -82,18 +82,7 @@
                 <!-- Right COntent -->
                 <div class="right-box">
                     <div class="wrapper">
-                        <div style="
-                            place-content: flex-start;
-                            align-items: flex-start;
-                            display: flex;
-                            flex: 0 0 auto;
-                            flex-flow: column;
-                            gap: 12px;
-                            height: min-content;
-                            overflow: visible;
-                            padding: 0px;
-                            position: relative;
-                            width: 100%;">
+                        <div class="row">
                             <div style="
                                 outline: none;
                                 display: flex;
