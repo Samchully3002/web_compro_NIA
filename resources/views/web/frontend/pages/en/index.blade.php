@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/common.js"></script>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="image-container">
-            <a href="business-IIL">
+            <a href="/intellegent-integrated-logistic">
                 <img src="../../assets/images/IIL.jpg">
                     <div class="image-overlay">
                         <div class="ic-bisnis">

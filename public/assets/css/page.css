@@ -183,8 +183,24 @@ body{
     background-image: url(../img/introduction-img01.jpg);
 }
 
-#page-business .bg-wrapper {
-    background-image: url(../img/business-img01.jpg);
+#page-business .bisnis1 {
+    background-image: url(../../assets/images/IIL.jpg);
+    height: 100vh;
+}
+
+#page-business .bisnis2 {
+    background-image: url(../../assets/images/DHC.jpg);
+    height: 100vh;
+}
+
+#page-business .bisnis3 {
+    background-image: url(../../assets/images/SDM.jpg);
+    height: 100vh;
+}
+
+#page-business .bisnis4 {
+    background-image: url(../../assets/images/EV.jpg);
+    height: 100vh;
 }
 
 #page-people .bg-wrapper {
@@ -214,14 +230,32 @@ body{
 }
 
 /* musa member */
+
 .bg-wrapper .text-box {
+    place-content: flex-end space-between;
+    align-items: flex-end;
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(28, 28, 28, 0.7) 100%);
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    height: 100vh;
+    overflow: visible;
+    padding: 50px 50px 100px;
+    position: relative;
     width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 58%;
-    color: #08ACF4;
-    transform: translate(-50%, -50%);
-    padding: 0px 16px;
+    text-align: left;
+}
+
+.bg-wrapper .text-box h1 {
+
+    width: 40%;
+    line-height: 100%;
+    font-size: 76px;
+    font-weight: 500;
+}
+
+.bg-wrapper .text-box p {
+    width: 40%;
 }
 
 .bg-wrapper span {
@@ -343,7 +377,7 @@ body{
     object-position: unset;
     object-fit: unset;
     image-rendering: unset;
-    bottom: unset;"
+    bottom: unset;
 }
 
 .ic-bisnis {
@@ -359,7 +393,7 @@ body{
     object-position: unset;
     object-fit: unset;
     image-rendering: unset;
-    bottom: unset;"
+    bottom: unset;
 }
 
 @media screen and (max-width:1140px) {
@@ -3743,7 +3777,7 @@ body{
 
 /* business.html css start */
 #page-business .section-wrapper {
-    padding: 100px 0px 20px;
+    /* padding: 100px 0px 20px; */
     overflow: hidden;
     word-break: keep-all;
 }
@@ -5872,3 +5906,116 @@ body{
 }
 
 /* page-video.html end */
+
+
+/* collaps-expand */
+
+.collapsible {
+    width: 1180px; /* Lebar maksimum container */
+    margin: 0 auto; /* Memusatkan container horizontal */
+  }
+  
+  .toggle-label {
+    display: flex;
+    justify-content: space-between; /* Menyusun elemen secara horizontal dengan ruang yang sama di antara mereka */
+    align-items: center; /* Memusatkan elemen secara vertikal */
+    background-color: #40455C; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+    padding: 50px 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    text-align: center; /* Memusatkan teks secara horizontal */
+    border-radius: 20px; /* Border radius di bagian atas saja ketika tertutup */
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out, border-radius 0.3s ease-out; /* Animasi perubahan ketinggian maksimum, padding, dan border radius */
+  }
+  
+  .header-number,
+  .header-title {
+    /* flex: 1; */
+    font-size: 48px;
+    line-height: normal;
+    font-weight: 500;
+  }
+  
+  .header-icon {
+    width: 50px; /* Lebar ikon */
+    height: 50px; /* Tinggi ikon */
+    /* Animasi perubahan warna */
+    /* transition: fill 0.3s ease;  */
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  .collapsible-content {
+    background-color: #F8F9FC; /* Warna latar belakang konten */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out, border-radius 0.3s ease-out; /* Animasi perubahan ketinggian maksimum, padding, dan border radius */
+    padding: 0 30px; /* Padding konten yang tetap konsisten */
+    border-radius: 20px; /* Border radius di bagian bawah saja ketika tertutup */
+  }
+  
+  #toggle:checked ~ .collapsible-content {
+    max-height: 200px; /* Tinggi maksimum konten yang bisa di-collapse */
+    padding: 50px 30px; /* Padding konten yang bisa di-collapse */
+    border-radius: 0 0 20px 20px; /* Border radius di semua sisi ketika dibuka */
+  }
+  
+  #toggle:checked ~ .toggle-label {
+    padding: 50px 30px;
+    border-radius: 20px 20px 0 0; /* Border radius di bagian bawah header ketika dibuka */
+
+    
+  }
+
+  #open-icon {
+    display: none;
+}
+
+#toggle:checked ~ .toggle-label #closed-icon {
+    display: none;
+}
+
+#toggle:checked ~ .toggle-label #open-icon {
+    display: inline-block; /* Atau display: block; tergantung pada struktur SVG Anda */
+}
+
+.content-collaps-expand {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    height: min-content;
+    overflow: visible;
+    padding: 100px 50px;
+    position: relative;
+    width: 100%;
+}
+
+.samchullypay {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 24px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: min-content;
+}
+
+.samchullypay img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center center;
+    object-fit: cover;
+    image-rendering: auto;
+}

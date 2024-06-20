@@ -8,9 +8,23 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
    return  view('web/frontend/pages/en/about');
-// Our Business Routes
 });
 
+Route::get('/intellegent-integrated-logistic', function () {
+   return  view('web/frontend/pages/en/intellegent-integrated-logistic');
+});
+
+Route::get('/digital-healthcare', function () {
+   return  view('web/frontend/pages/en/digital-healthcare');
+});
+
+Route::get('/system-development-management', function () {
+   return  view('web/frontend/pages/en/system-development-management');
+});
+
+Route::get('/export-voucher', function () {
+   return  view('web/frontend/pages/en/export-voucher');
+});
 
 
 Route::group([
