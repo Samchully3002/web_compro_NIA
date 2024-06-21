@@ -1,41 +1,10 @@
 <!DOCTYPE html>
-<html lang="id">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Networks Indonesia Aku</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico">
-    <link href="../assets/css/default.css" rel="stylesheet" />
-    <link href="../assets/css/outline.css" rel="stylesheet" />
-    <link href="../assets/css/page.css" rel="stylesheet" />
-    <link href="../assets/css/about.css" rel="stylesheet" />
-    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/common.js"></script>
-    <script>
-        $(window).scroll(function(){
-            let offSet = $('.line-wrapper').offset().top;
-            if($(document).scrollTop() > offSet - 1450){
-                $(".core-value").addClass('active');
-            }
-            if($(document).scrollTop() > offSet - 600){
-                $(".block-box").addClass('active');
-                setTimeout(function(){
-                    $(".block-box h4").fadeIn(1500);
-                }, 1000);
-            }
-        });
-    </script>
+<html lang="en">
+    @include('web/frontend/pages/en/component/head')
+    <link rel="stylesheet" href="assets/css/about.css"/>
 </head>
-
 <body>
-    @include('web/frontend/pages/en/component/header')
+@include('web/frontend/pages/en/component/header')
 
     {{-- <div class="page-introduction"> --}}
 
@@ -293,9 +262,8 @@
                                         <div class="title">
                                             <p>Fikri</p>
                                         </div>
-                                        <div style="subtitle">
-                                            <p style="
-                                            text-align:center">UI/UX Designer</p>
+                                        <div class="subtitle">
+                                            <p>UI/UX Designer</p>
                                         </div>
                                     </div>
                                 </div>
@@ -344,8 +312,7 @@
                                             <p>Fiqih</p>
                                         </div>
                                         <div class="subtitle">
-                                            <p style="
-                                            text-align:center">IT Developer</p>
+                                            <p>IT Developer</p>
                                         </div>
                                     </div>
                                 </div>
@@ -417,8 +384,7 @@
                                             <p>Ira</p>
                                         </div>
                                         <div class="subtitle">
-                                            <p style="
-                                            text-align:center">Business Assistant</p>
+                                            <p>Business Assistant</p>
                                         </div>
                                     </div>
                                 </div>
@@ -490,8 +456,7 @@
                                             <p>Chika</p>
                                         </div>
                                         <div class="subtitle">
-                                            <p style="
-                                            text-align:center">Content Creator</p>
+                                            <p>Content Creator</p>
                                         </div>
                                     </div>
                                 </div>

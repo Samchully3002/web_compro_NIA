@@ -1,54 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
-        />
-        <title>Networks Indonesia Aku</title>
-        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
-        <link href="../assets/css/default.css" rel="stylesheet" />
-        <link href="../assets/css/outline.css" rel="stylesheet" />
-        <link href="../assets/css/page.css" rel="stylesheet" />
-        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-        <script src="../assets/js/owl.carousel.min.js"></script>
-        <script src="../assets/js/common.js"></script>
-        <script>
-            $(document).ready(function () {
-                let url = Number($(location).attr("href").split("?").pop());
-                let h = $("#header-wrapper").height();
-                let offSet =
-                    $(".section")
-                        .eq(url - 1)
-                        .offset().top -
-                    h -
-                    10;
-                $("html, body").animate({ scrollTop: offSet }, 1000);
-            });
-        </script>
-        <script>
-            $(document).ready(function () {
-                $(".owl-carousel").owlCarousel({
-                    items: 1,
-                    loop: true,
-                    autoplay: true,
-                    dots: false,
-                    nav: true,
-                    autoplayTimeout: 3000,
-                    autoplayHoverPause: true,
-                    navText: [
-                        "<img src='../assets/img/icon/icon-nav-prev.svg'>",
-                        "<img src='../assets/img/icon/icon-nav-next.svg'>",
-                    ],
-                });
-            });
-        </script>
+
+    @include('web/frontend/pages/en/component/header')
     </head>
 
     <body>
@@ -85,7 +38,7 @@
                                 <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                            
+
                         </label>
                         <div class="collapsible-content">
                             <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
@@ -104,6 +57,6 @@
 
         <!-- <div data-include="component/footer"></div> -->
         @include('web/frontend/pages/en/component/footer')
-        
+
     </body>
 </html>

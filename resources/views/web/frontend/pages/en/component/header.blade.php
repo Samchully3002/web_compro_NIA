@@ -1,5 +1,4 @@
-<body>
-    <div id="header-wrapper">
+<div id="header-wrapper">
         <div class="pc-bg"></div>
         <div>
             <div class="menu-wrapper">
@@ -23,10 +22,6 @@
                             <a href="business.html#six"><em>Live Streaming Platform</em></a>
                         </div> -->
                         <ul class="hidden-menu active" style="width: 305px;">
-                            <li><a href="business_logistics"><em>Intelligent Integrated Logistics</em></a></li>
-                            <li><a href="business-DH"><em>Digital Healthcare</em></a></li>
-                            <li><a href="business-SDM"><em>System Development & Management</em></a></li>
-                            <li><a href="business-EV"><em>Export Voucher</em></a></li>
                             <li><a href="/intellegent-integrated-logistic"><em>Intelligent Integrated Logistics</em></a></li>
                             <li><a href="/digital-healthcare"><em>Digital Healthcare</em></a></li>
                             <li><a href="/system-development-management"><em>System Development & Management</em></a></li>
@@ -158,7 +153,6 @@
             </div>
         </div>
     </div>
-</body>
 <script>
     $('.hidden-box').mouseover(function(){
         if($('.hambuger-menu').hasClass('active')){
