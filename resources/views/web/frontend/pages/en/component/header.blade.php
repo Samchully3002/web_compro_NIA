@@ -27,6 +27,10 @@
                             <li><a href="business-DH"><em>Digital Healthcare</em></a></li>
                             <li><a href="business-SDM"><em>System Development & Management</em></a></li>
                             <li><a href="business-EV"><em>Export Voucher</em></a></li>
+                            <li><a href="/intellegent-integrated-logistic"><em>Intelligent Integrated Logistics</em></a></li>
+                            <li><a href="/digital-healthcare"><em>Digital Healthcare</em></a></li>
+                            <li><a href="/system-development-management"><em>System Development & Management</em></a></li>
+                            <li><a href="/export-voucher"><em>Export Voucher</em></a></li>
                         </ul>
                     </li>
                     <li class="first-menu hidden-box"><a href="about">About</a>
@@ -58,18 +62,18 @@
                         </ul>
                     </li> -->
                 </ul>
-                
+
                 <!-- <div class="topnav">
                     <a class="{{ Route::currentRouteNamed('/') ? 'active' : ''" href="/" ><em>Home</em></a>
                     <a class="{{ Route::currentRouteNamed('/about') ? 'active' : ''" href="/about"><em>Business</em></a>
                     <a class="{{ Route::currentRouteNamed('/about') ? 'active' : ''" href="/about"><em>About</em></a>
                     <a href="office.html"><em>News</em></a>
                 </div> -->
-                   
+
                 <div class="content-right">
                     <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn_contact_us">Our Video&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/polygon.png" ></a>
                     <a href="/contact" class="btn_contact_us">Contact Us&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/arrow.png" class="language_flag"></a>
-                        
+
                         <div class="right-box language">
                             <div class="lang-box hidden-box bahasa">
                                 <a class="lang-btn">
@@ -161,14 +165,14 @@
             return false
         } else{
             $(this).children('.hidden-menu').stop().fadeIn(200);
-        }        
+        }
     });
     $('.hidden-box').mouseleave(function(){
         if($('.hambuger-menu').hasClass('active')){
             return false
         } else{
             $(this).children('.hidden-menu').stop().fadeOut(200);
-        }                
+        }
     });
 
     /* header-wrapper scroll event */
@@ -181,7 +185,7 @@
     });
 
     /* hambuger menu event */
-    $('.pc-ham').on('click' , function(){        
+    $('.pc-ham').on('click' , function(){
         if(!$(this).hasClass('active')){
             $(this).addClass('active');
             $('.pc-hidden').stop().fadeIn();
@@ -193,7 +197,7 @@
         }
     });
 
-    $('.mobile-ham').on('click' , function(){        
+    $('.mobile-ham').on('click' , function(){
         if(!$(this).hasClass('active')){
             $(this).addClass('active');
             $('.mobile-menu').stop().fadeIn();
@@ -203,7 +207,7 @@
             $('.mobile-menu').stop().fadeOut();
             $('.mobile-menu .inner').stop().fadeOut();
             $('.mobile-menu .second-menu').stop().fadeOut();
-            
+
         }
     });
 

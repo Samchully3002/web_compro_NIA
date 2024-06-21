@@ -10,13 +10,24 @@ Route::get('/about', function () {
    return  view('web/frontend/pages/en/about');
 });
 
-Route::get('/business_logistics', function () {
-   return  view('web/frontend/pages/en/business_logistics');
+
+
+
+Route::get('/intellegent-integrated-logistic', function () {
+   return  view('web/frontend/pages/en/intellegent-integrated-logistic');
 });
 
+Route::get('/digital-healthcare', function () {
+   return  view('web/frontend/pages/en/digital-healthcare');
+});
 
+Route::get('/system-development-management', function () {
+   return  view('web/frontend/pages/en/system-development-management');
+});
 
-
+Route::get('/export-voucher', function () {
+   return  view('web/frontend/pages/en/export-voucher');
+});
 
 
 Route::group([

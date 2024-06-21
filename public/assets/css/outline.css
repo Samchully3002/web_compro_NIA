@@ -202,6 +202,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 0.5s;
+}
+
+#header-wrapper .lang-box .lang-btn:hover {
+    background-color: #40455C;
+    border: #40455C solid 1px;
 }
 
 #header-wrapper .btn_contact_us {
@@ -572,6 +578,10 @@
 
 .blok {
     width: 30%;
+}
+
+.blok h1, h3 {
+    font-weight: 500;
 }
 
 .blok > div {

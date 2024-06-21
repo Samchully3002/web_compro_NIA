@@ -55,26 +55,26 @@
                         <div>
                             <h1>Our Company</h1>
                             <ul>
-                                <li><a href="./about">About Us</a></li>
-                                <li><a href="./news">News</a></li>
+                                <li><a href="/about">About Us</a></li>
+                                <li><a href="/news">News</a></li>
                                 <li><a href="https://www.youtube.com/@networksindonesiaaku4258" target="_blank" rel="noopener">Our Videos</a></li>
-                                <li><a href="./contact">Contact Us</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
                             </ul>
                         </div>
                         <div>
                             <h1>Business</h1>
                             <ul>
-                                <li><a href="./intelligentintegratedlogistics">Intelligent Integrated Logistics</a></li>
-                                <li><a href="./digitalhealthcare">Digital Health Care</a></li>
-                                <li><a href="./systemdevelopment&amp;management">System Development & Management</a></li>
-                                <li>Export Voucher</li>
+                                <li><a href="/intellegent-integrated-logistic">Intelligent Integrated Logistics</a></li>
+                                <li><a href="/digital-healthcare">Digital Health Care</a></li>
+                                <li><a href="/system-development-management">System Development & Management</a></li>
+                                <li><a href="/export-voucher">Export Voucher</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="blok">
                         <div>
                             <h3>PT. Networks Indonesia Aku</h3>
-                            <p style="font-weight: 300;">AIA CENTRAL 21st Floor.</p>
+                            <p>AIA CENTRAL 21st Floor.</p>
                             <p>Jenderal Sudirman Street, Number Kav. 48A,</p>
                             <p>Karet Semanggi, Kecamatan Setiabudi,</p>
                             <p>South Jakarta City, DKI Jakarta 12930</p>
