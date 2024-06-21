@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/default.css"/>
     <link rel="stylesheet" href="assets/css/outline.css"/>
     <link rel="stylesheet" href="assets/css/page.css"/>
+    <link rel="stylesheet" href="assets/css/home.css"/>
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css"  />
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
     <link rel="stylesheet" href="assets/css/animate.css" />
@@ -34,7 +35,7 @@
     <!-- <div data-include="component/header"></div> -->
     @include('web/frontend/pages/en/component/header')
 
-    <div class="page page-in" id="page-main">
+    {{-- <div class="page page-in" id="page-main"> --}}
 
         <!-- Video start -->
         <!-- <video class="video-dekstop" loop="true" autoplay="true" muted playsinline>
@@ -67,7 +68,7 @@
                             <img src="../../assets/images/icon/arrow.png">
                         </div>
                     </div>
-            </a>    
+            </a>
         </div>
         <div class="image-container">
             <a href="business-DHC">
@@ -82,7 +83,7 @@
                             <img src="../../assets/images/icon/arrow.png">
                         </div>
                     </div>
-            </a>    
+            </a>
         </div>
         <div class="image-container">
             <a href="business-SDM">
@@ -97,7 +98,7 @@
                             <img src="../../assets/images/icon/arrow.png">
                         </div>
                     </div>
-            </a>    
+            </a>
         </div>
         <div class="image-container">
             <a href="business-EV">
@@ -112,9 +113,9 @@
                             <img src="../../assets/images/icon/arrow.png">
                         </div>
                     </div>
-            </a>    
+            </a>
         </div>
-        
+
         <!-- <div class="flex-box">
             <div class="box_right">
                 <img class="icon_right" src="../../assets/images/icon/ic_cube.svg"/>
@@ -124,7 +125,7 @@
             <img class="img_right" src="../../assets/images/home1.svg"/>
         </div>
         <div class="flex-box">
-            <img class="img_left" src="../../assets/images/home2.svg"/>                
+            <img class="img_left" src="../../assets/images/home2.svg"/>
             <div class="box_left">
                 <img class="icon_left" src="../../assets/images/icon/ic_medical.svg"/>
                 <label>Digital Health Care</label><br>
@@ -139,7 +140,7 @@
             </div>
             <img class="img_right" src="../../assets/images/home3.svg"/>
         </div>
-        <div class="flex-box">                
+        <div class="flex-box">
             <img class="img_left" src="../../assets/images/home4.svg"/>
             <div class="box_left">
                 <img class="icon_left" src="../../assets/images/icon/ic_building.svg"/>
@@ -148,43 +149,44 @@
             </div>
         </div> -->
 
-    <div class="clientSection">
-        <div class="client_text">
-            <label>Collaborating seamlessly to create value and drive success for our clients.</label>
-        </div>
-            <!-- <marquee behavior="scroll" direction="left">
-                <img src="../../assets/images/icon/korea.png"/>
-                <img src="../../assets/images/icon/ditjen.png"/>
-                <img src="../../assets/images/icon/bni.png"/>
-                <img src="../../assets/images/icon/jayaraya.png"/>
-                <img src="../../assets/images/icon/ovo.png"/>
-                <img src="../../assets/images/icon/dishub.png"/>
-            </marquee> -->
-
-            <div class="marquee-container">
-                <div class="marquee">
-                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
-                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
-                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
-                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
-                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
-                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
-                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
-                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
-                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
-                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
-                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
-                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
-                    <img src="../../assets/images/icon/korea.png" alt="Korea"/>
-                    <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
-                    <img src="../../assets/images/icon/bni.png" alt="BNI"/>
-                    <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
-                    <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
-                    <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
-            
-                </div>
+        <div class="clientSection">
+            <div class="client_text">
+                <label>Collaborating seamlessly to create value and drive success for our clients.</label>
             </div>
-    </div>
+                <!-- <marquee behavior="scroll" direction="left">
+                    <img src="../../assets/images/icon/korea.png"/>
+                    <img src="../../assets/images/icon/ditjen.png"/>
+                    <img src="../../assets/images/icon/bni.png"/>
+                    <img src="../../assets/images/icon/jayaraya.png"/>
+                    <img src="../../assets/images/icon/ovo.png"/>
+                    <img src="../../assets/images/icon/dishub.png"/>
+                </marquee> -->
+
+                <div class="marquee-container">
+                    <div class="marquee">
+                        <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                        <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                        <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                        <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                        <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                        <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+                        <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                        <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                        <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                        <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                        <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                        <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+                        <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                        <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                        <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                        <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                        <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                        <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+
+                    </div>
+                </div>
+        </div>
+
         <div class="news_box">
             <label>Latest News</label>
             <div class="news_wrapper">
@@ -248,13 +250,13 @@
                 border-radius: 50px;">
                 <label style="margin-right:30px;">Contact Us</label>
                 <img src="../../assets/images/icon/ic_arrow_miring.svg"/>
-            </button>    
+            </button>
         </div> -->
 
-    </div>
+    {{-- </div> --}}
 
     <!-- <div data-include="in/component/footer"></div> -->
-    
+
     @include('web/frontend/pages/en/component/footer')
 
     <script src="../assets/js/wow.min.js"></script>

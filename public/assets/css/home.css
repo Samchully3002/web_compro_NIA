@@ -1,0 +1,319 @@
+.video-dekstop {
+    height: 100vh;
+    display: block;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.video-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .video-dekstop {
+        display: none;
+    }
+
+    .video-mobile {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        display: block;
+    }
+    .vision_text {
+        line-height: 1.2em;
+        padding: 20px;
+    }
+
+    .client_text {
+        font-size: 24px !important;
+        padding: 0px 20px 0px 20px !important;
+    }
+}
+
+.vision_text {
+    color:#454A65;
+    font-size:42px;
+    margin: 400px 0;
+    text-align: center;
+    font-weight:600
+}
+
+.tagline {
+    position: relative;
+    top: -4px;
+    margin-bottom: -4px;
+}
+
+.tagline .flex-box {
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-box .box_right {
+    width: 65%;
+    padding: 100px 100px 100px 100px;
+    margin: 0px 0px 200px 200px;
+    display: grid;
+    border-radius: 20px 0px 0px 20px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0.3, 0, 0.3);
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-box .box_right .icon_right {
+    width:120px;
+    margin-bottom:50px;
+}
+
+.flex-box .img_right {
+    width:45%;
+    border-radius:0px 20px 20px 0px;
+    margin: 0px 200px 200px 0px;
+}
+
+.flex-box .box_right label {
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Left-Box */
+.flex-box .box_left {
+    width: 65%;
+    padding: 100px 100px 100px 100px;
+    margin: 0px 200px 200px 0px;
+    display: grid;
+    border-radius: 0px 20px 20px 0px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0.3, 0, 0.3);
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-box .box_left .icon_left {
+    width:120px;
+    margin-bottom:50px;
+}
+
+.flex-box .img_left {
+    width:45%;
+    border-radius:20px 0px 0px 20px;
+    margin: 0px 0px 200px 200px;
+}
+
+.flex-box .box_left label {
+    font-size:28px;
+    font-weight:bold;
+}
+
+.client_text {
+    font-size:48px;
+    font-weight:bold;
+    padding: 0px 200px 0px 200px;
+    margin:100px 0;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.news_box {
+    padding: 50px 50px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #454A65, rgba(69, 74, 101, 0.7));
+    align-content: center;
+}
+
+.news_box label {
+    font-size:45px;
+    font-weight:bold;
+    color:white;
+    padding: 20px 0 0 0;
+    line-height: normal;
+}
+
+.news_wrapper {
+    margin: 80px 0px 0px 0px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .news_wrapper {
+        margin: 80px 0px 0px 0px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .news_box {
+        padding: 50px 20px 100px 20px;
+    }
+}
+
+.news_content {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center center;
+    object-fit: cover;
+    image-rendering: auto;
+    cursor: pointer;
+}
+
+.news_content label {
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+    cursor: pointer;
+}
+
+.news_content a {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.news_content a:hover {
+    transform: scale(0.98);
+    opacity: 0.8;
+}
+
+.news_content img {
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    object-position: center center;
+    object-fit: cover;
+}
+
+.news_box .news_footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.news_box .news_footer button {
+    width:fit-content;
+    padding:10px 50px 10px 50px;
+    border:1px solid white;
+    border-radius: 50px;
+    font-size: 16px;
+    color:white;
+    background-color:transparent;
+}
+
+.tagline .flex-box img {
+    width: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5vh rgba(0,0,0,.2);
+}
+
+.tagline .flex-box .text-box {
+    width: 100%;
+    height: 80vh;
+    padding: 0px 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tagline .flex-box .text-box h3 {
+    font-size: 6em;
+    margin-bottom: 36px;
+    line-height: 0.7;
+    font-family: 'outfit';
+    text-shadow: 0 .75vh .75vh rgba(0,0,0,.15);
+}
+
+.tagline .flex-box .text-box em {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.tagline .flex-box .text-box span {
+    font-size: 9.2em;
+    font-weight: bold;
+    color: #F0F0F0;
+    position: absolute;
+    left: 334px;
+    top: -10px;
+    z-index: -1;
+}
+
+.tagline .flex-box .text-box p {
+    margin-bottom: 32px;
+    color: #444;
+    font-size: 1.66em;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.tagline .flex-box .text-box .more-btn {
+    width: 200px;
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 500;
+    border: 1px #333 solid;
+    padding: 0px 14px;
+    background-image: url(../img/icon/icon-next.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 12px) center;
+    transition: all 0.3s;
+}
+
+.more-btn {
+    width: 200px;
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 500;
+    border: 1px #333 solid;
+    padding: 0px 14px;
+    background-image: url(../img/icon/icon-next.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 12px) center;
+    transition: all 0.3s;
+}
+
+.more-btn:hover {
+    background-color: #333;
+    color: #fff;
+    background-image: url(../img/icon/icon-next2.svg);
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-title {
+    font-size: 1.3em;
+    color: #FF7432;
+    margin-bottom: 14px;
+    font-weight: 500;
+    display: block;
+}
+
+.title {
+    font-size: 3.4em;
+    font-weight: 500;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
