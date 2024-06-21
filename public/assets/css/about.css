@@ -1,0 +1,703 @@
+/* introduction.html css start */
+.bg-wrapper{
+    padding: 50px 0px 50px 0px;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #68708C 0%, #AAC7E8 100%);
+    color: #F0F0F0;
+}
+
+/* BANNER CONTENT ABOUT */
+.banner-wrapper {
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(270deg, rgb(170, 199, 232) 0%, rgb(64, 69, 92) 100%);
+    color: #F0F0F0;
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.banner-wrapper .box {
+    place-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 100px;
+    height: 723px;
+    position: relative;
+    display: flex;
+    flex: auto;
+    width: 100%;
+    flex-flow: row;
+    overflow: visible
+}
+
+.banner-wrapper .box .left-content {
+    place-content: center flex-start;
+    align-items: center;
+    position: relative;
+    flex-flow: column;
+    flex: 1 0 0px;
+    gap: 27px;
+    display: flex;
+}
+
+.banner-wrapper .box .left-content img {
+    flex: 0 0 auto;
+    position: relative;
+    padding:20px;
+}
+
+.banner-wrapper .box .left-content span {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: none;
+    font-size:32px;
+}
+
+.banner-wrapper .box .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    flex: 1 0 0px;
+    opacity: 1;
+    transform: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.banner-wrapper .box .right-content span {
+    font-size:36px;
+    line-height: 120%;
+    text-align: left;
+    letter-spacing:0px;
+}
+/* BANNER CONTENT ABOUT */
+
+/* CEO Message */
+.ceo_message {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #454A65;
+    align-items:center;
+    place-content:center space-evenly;
+    padding: 50px;
+    overflow: visible;
+}
+
+.ceo_message .img_wrapper {
+    align-items:center;
+    justify-content:center;
+}
+
+.ceo_message .img_wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+.ceo_message .text_wrapper {
+    width:504px;
+    font-size:16px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+}
+/* CEO Message */
+
+/* Our History */
+.our-history {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 100px;
+    overflow: visible;
+    padding: 150px 50px 90px;
+    position: relative;
+    width: 100%;
+}
+
+.our-history .title {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: none;
+}
+
+.our-history .title p {
+    font-size:56px;
+    font-weight: bold;
+    line-height:30px;
+}
+
+.our-history .box {
+    place-content: flex-start space-evenly;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.our-history .box .left-box {
+    flex: 0 0 auto;
+    height: 257px;
+    position: sticky;
+    top: 280px;
+    width: 512px;
+    will-change: transform;
+    z-index: 1;
+}
+
+.our-history .box .right-box {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    height: min-content;
+    overflow: visible;
+    padding: 100px 0px;
+    position: relative;
+    width: 529px;
+}
+
+.our-history .box .right-box .wrapper {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 35px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.our-history .box .right-box .wrapper .row {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 12px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.our-history .box .right-box .wrapper .row_month {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: 0 0 auto;
+    height: auto;
+    position: relative;
+    white-space: pre;
+    width: auto;
+}
+
+.our-history .box .right-box .wrapper .row_month p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.our-history .box .right-box .wrapper .row_history {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.core{
+    place-content: center;
+    align-items: center;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(95, 106, 158) 0%, rgb(66, 72, 99) 100%);
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 20px;
+    height: 723px;
+    overflow: visible;
+    padding: 100px 50px 120px;
+    position: relative;
+    width: 100%;
+}
+
+.core .core-title {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: 0 0 auto;
+    height: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.core .core-title p {
+    text-align: center;
+    font-weight:bold;
+    font-size:42px;
+    color:white;
+}
+
+.core .core-text {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: min-content;
+    z-index: 1;
+}
+
+.core .core-text .core-img{
+    flex: 0 0 auto;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.core .full-text{
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 20px;
+    height: min-content;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: min-content;
+    z-index: 1;
+}
+
+.core .full-text .wrapper{
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 10px;
+    height: 82px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: min-content;
+}
+
+.core .full-text .wrapper .item {
+    --border-bottom-width: 1px;
+    --border-color: #a9b6c4;
+    --border-left-width: 1px;
+    --border-right-width: 1px;
+    --border-style: solid;
+    --border-top-width: 1px;
+    place-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 16px;
+    height: min-content;
+    overflow: visible;
+    padding: 30px 50px;
+    position: relative;
+    width: min-content;
+}
+
+.core .full-text .wrapper .item p {
+    font-weight:bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.core .subtitle {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: 0 0 auto;
+    height: auto;
+    position: relative;
+    width: 772px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.core .subtitle p {
+    font-size:24px;
+    color:white;
+    text-align:center;
+    line-height:120%;
+}
+/* Core Value End */
+
+/* Team Member Start */
+.team-member {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    height: min-content;
+    overflow: visible;
+    padding: 100px 50px;
+    position: relative;
+    width: 100%;
+}
+
+.team-member .wrapper {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 20px;
+    height: min-content;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.team-member .wrapper .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: none;
+    flex: 0 0 auto;
+    height: 67px;
+    position: relative;
+    white-space: pre;
+    width: auto;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.team-member .wrapper .subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: none;
+    flex: 0 0 auto;
+    height: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 24px;
+    text-align: center;
+}
+
+.team-member .wrapper .subtitle p {
+    font-size:24px;
+    line-height:150%;
+    text-align:center;
+}
+
+.team-member .list {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 0px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.team-member .list .row {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 10px;
+    height: 500px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    width: min-content;
+}
+
+.team-member .list .row .item {
+    display:block;
+    flex: 0 0 auto;
+    height: 433px;
+    position: relative;
+    width: 360px;
+    perspective: 1200px;
+}
+
+
+.team-member .list .row .item .item-wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    user-select: none;
+    transform-style: preserve-3d;
+    transform: none;
+}
+
+.team-member .list .row .item .item-wrap .box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.team-member .list .row .item .item-wrap .box .wrap {
+    width:100%;
+    opacity:1;
+    place-content: center flex-start;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    height: min-content;
+    overflow: visible;
+    padding: 20px;
+    position: relative;
+}
+
+.team-member .list .row .item .item-wrap .box .wrap .item {
+    place-content: center flex-start;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 10px;
+    height: 308px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    width: 308px;
+}
+
+.team-member .list .row .item .item-wrap .box .wrap .item .foto-box {
+    position: absolute;
+    border-radius: inherit;
+    inset: 0px;
+}
+
+.team-member .list .row .item .item-wrap .box .wrap .item .foto-box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: fill;
+}
+
+.team-member .list .row .item .item-wrap .box .wrap .text-item {
+    place-content: center flex-start;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 5px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+}
+
+.team-member .list .row .item .item-wrap .box .wrap .text-item .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight:bold;
+    font-size:32px;
+}
+
+.team-member .list .row .item .item-wrap .box .wrap .text-item .subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:center;
+}
+
+.our-office {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 20px;
+    height: min-content;
+    overflow: visible;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.our-office .wrapper {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+}
+
+.our-office .wrapper .wrap-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    place-items: center;
+    margin: 0px;
+    padding: 10px;
+    list-style-type: none;
+    opacity: 1;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%);
+    overflow: hidden;
+}
+
+.our-office .wrapper .wrap-content .list-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    place-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    gap: 25px;
+    position: relative;
+    flex-direction: row;
+    will-change: transform;
+    transform: translateX(0px);
+}
+
+.our-office .wrapper .wrap-content .list-content .content {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: min-content;
+}
+
+.our-office .wrapper .wrap-content .list-content .contents img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center center;
+    object-fit: cover;
+}
+
+.office-maps {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.office-maps .office-maps .box {
+    place-content: center flex-start;
+    align-items: center;
+    background-color: rgb(243, 248, 250);
+    border-radius: 20px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    height: min-content;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.office-maps .office-maps .box .img-wrapper {
+    aspect-ratio: 1.99625 / 1;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+    border-radius: inherit;
+}

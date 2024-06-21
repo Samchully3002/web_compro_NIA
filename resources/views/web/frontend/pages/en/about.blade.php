@@ -9,6 +9,7 @@
     <link href="../assets/css/default.css" rel="stylesheet" />
     <link href="../assets/css/outline.css" rel="stylesheet" />
     <link href="../assets/css/page.css" rel="stylesheet" />
+    <link href="../assets/css/about.css" rel="stylesheet" />
     <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
     <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="../assets/js/owl.carousel.min.js"></script>
-    <script src="../assets/js/common.js"></script>    
+    <script src="../assets/js/common.js"></script>
     <script>
         $(window).scroll(function(){
             let offSet = $('.line-wrapper').offset().top;
@@ -28,7 +29,7 @@
                 setTimeout(function(){
                     $(".block-box h4").fadeIn(1500);
                 }, 1000);
-            } 
+            }
         });
     </script>
 </head>
@@ -36,15 +37,15 @@
 <body>
     @include('web/frontend/pages/en/component/header')
 
-    <div class="page page-in" id="page-introduction">
+    {{-- <div class="page-introduction"> --}}
 
         <!-- Banner top -->
         <div class="banner-wrapper">
             <div class="box">
                 <div class="left-content">
                     <img src="../assets/images/icon_10_about.svg">
-                    <span>Years of  Proven Experience</span>    
-                </div>   
+                    <span>Years of  Proven Experience</span>
+                </div>
                 <div class="right-content">
                     <span>
                         With a decade worth of experience and excellent infrastructure, NIA is your reliable partner.
@@ -72,7 +73,7 @@
         <!-- Our History Start -->
         <div class="our-history">
             <div class="title">
-                <p>Our Stories</p>    
+                <p>Our Stories</p>
             </div>
             <div class="box">
                 <!-- Left Content -->
@@ -184,13 +185,13 @@
             <!-- subtitle Core Value -->
             <div class="subtitle">
                 <p>
-                Expanding our commitment to integrity, innovation, collaboration, 
+                Expanding our commitment to integrity, innovation, collaboration,
                 and continuous improvement.
                 </p>
             </div>
         </div>
         <!-- Core Value End -->
-         
+
         <!-- Team Member Start -->
         <div class="team-member">
             <!-- Title Line -->
@@ -545,7 +546,7 @@
                     </div>
                     <!-- photo 3 kibo -->
                 </div>
-            </div>   
+            </div>
         </div>
         {{-- Team Member end --}}
 
@@ -583,8 +584,8 @@
                 </div>
             </div>
         </div>
-    </div>
-   
+    {{-- </div> --}}
+
     @include('web/frontend/pages/en/component/footer')
 
 </body>
