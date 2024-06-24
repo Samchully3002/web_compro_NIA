@@ -77,9 +77,9 @@
                                     <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
                                 </a>
                                 <ul class="lang-menu hidden-menu">
-                                    <li><a href="../en/index.html">🇺🇸 English</a></li>
-                                    <li><a href="../kr/index.html">🇰🇷 Korea</a></li>
-                                    <li><a href="../in/index.html">🇮🇩 Indonesia</a></li>
+                                    <li><a href="../en/index.html"><img src="../../assets/images/icon/flag-english.png"/> English</a></li>
+                                    <li><a href="../kr/index.html"><img src="../../assets/images/icon/flag-korea.png"/> Korea</a></li>
+                                    <li><a href="../in/index.html"><img src="../../assets/images/icon/flag-indo.png"/> Indonesia</a></li>
                                 </ul>
                             </div>
                         </div>

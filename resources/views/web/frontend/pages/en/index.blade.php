@@ -13,7 +13,7 @@
         <!-- Video start -->
         <!-- <video class="video-dekstop" loop="true" autoplay="true" muted playsinline>
             <source src="../assets/video/company_profile.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+        Your browser does not support the video tag.
         </video> -->
         <!-- <video src="../assets/video/company_profile.mp4" class="video-dekstop" autoplay/> -->
         <video class="video-dekstop" autoplay muted loop>

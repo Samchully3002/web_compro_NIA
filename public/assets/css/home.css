@@ -32,11 +32,11 @@
 }
 
 .vision_text {
-    color:#454A65;
-    font-size:42px;
+    color: #454a65;
+    font-size: 42px;
     margin: 400px 0;
     text-align: center;
-    font-weight:600
+    font-weight: 600;
 }
 
 .tagline {
@@ -65,19 +65,19 @@
 }
 
 .flex-box .box_right .icon_right {
-    width:120px;
-    margin-bottom:50px;
+    width: 120px;
+    margin-bottom: 50px;
 }
 
 .flex-box .img_right {
-    width:45%;
-    border-radius:0px 20px 20px 0px;
+    width: 45%;
+    border-radius: 0px 20px 20px 0px;
     margin: 0px 200px 200px 0px;
 }
 
 .flex-box .box_right label {
-    font-size:28px;
-    font-weight:bold;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 /* Left-Box */
@@ -95,26 +95,26 @@
 }
 
 .flex-box .box_left .icon_left {
-    width:120px;
-    margin-bottom:50px;
+    width: 120px;
+    margin-bottom: 50px;
 }
 
 .flex-box .img_left {
-    width:45%;
-    border-radius:20px 0px 0px 20px;
+    width: 45%;
+    border-radius: 20px 0px 0px 20px;
     margin: 0px 0px 200px 200px;
 }
 
 .flex-box .box_left label {
-    font-size:28px;
-    font-weight:bold;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .client_text {
-    font-size:48px;
-    font-weight:bold;
+    font-size: 48px;
+    font-weight: 500;
     padding: 0px 200px 0px 200px;
-    margin:100px 0;
+    margin: 100px 0;
     text-align: center;
     line-height: 1.2em;
 }
@@ -123,14 +123,13 @@
     padding: 50px 50px 100px 50px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, #454A65, rgba(69, 74, 101, 0.7));
+    background: linear-gradient(to bottom, #454a65, rgba(69, 74, 101, 0.7));
     align-content: center;
 }
 
 .news_box label {
-    font-size:45px;
-    font-weight:bold;
-    color:white;
+    font-size: 45px;
+    color: white;
     padding: 20px 0 0 0;
     line-height: normal;
 }
@@ -171,9 +170,8 @@
 }
 
 .news_content label {
-    font-size:24px;
-    font-weight:bold;
-    color:white;
+    font-size: 24px;
+    color: white;
     cursor: pointer;
 }
 
@@ -201,24 +199,24 @@
 .news_box .news_footer {
     margin-top: 50px;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
 
 .news_box .news_footer button {
-    width:fit-content;
-    padding:10px 50px 10px 50px;
-    border:1px solid white;
+    width: fit-content;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid white;
     border-radius: 50px;
     font-size: 16px;
-    color:white;
-    background-color:transparent;
+    color: white;
+    background-color: transparent;
 }
 
 .tagline .flex-box img {
     width: 50%;
     object-fit: cover;
-    box-shadow: 0 0 5vh rgba(0,0,0,.2);
+    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.2);
 }
 
 .tagline .flex-box .text-box {
@@ -235,8 +233,8 @@
     font-size: 6em;
     margin-bottom: 36px;
     line-height: 0.7;
-    font-family: 'outfit';
-    text-shadow: 0 .75vh .75vh rgba(0,0,0,.15);
+    font-family: "outfit";
+    text-shadow: 0 0.75vh 0.75vh rgba(0, 0, 0, 0.15);
 }
 
 .tagline .flex-box .text-box em {
@@ -247,7 +245,7 @@
 .tagline .flex-box .text-box span {
     font-size: 9.2em;
     font-weight: bold;
-    color: #F0F0F0;
+    color: #f0f0f0;
     position: absolute;
     left: 334px;
     top: -10px;
@@ -305,7 +303,7 @@
 
 .sub-title {
     font-size: 1.3em;
-    color: #FF7432;
+    color: #ff7432;
     margin-bottom: 14px;
     font-weight: 500;
     display: block;

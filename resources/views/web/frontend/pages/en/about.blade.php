@@ -31,7 +31,7 @@
             </div>
             <div class="text_wrapper">
                 <p>
-                <h1>CEO Greetings</h1><br><br>
+                <h1>CEO Greetings</h1><br>
                 As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.<br><br>
                 NIA prioritizes 'integration' and 'innovation' as its core foundation. With the vision of "Focusing on innovation, high-quality services, and advanced technological solutions, we are determined to make a meaningful contribution to advancing the world of information technology. Through this commitment, we strive to build strong, long-term relationships with customers, becoming a reliable partner and continuing to be a leading provider of IT solutions." We are committed to continually building and maintaining trust, aligning with the rapid changes in technology trends.
                 </p>
@@ -47,7 +47,10 @@
             <div class="box">
                 <!-- Left Content -->
                 <div class="left-box">
-                    <img src="../assets/images/story2024.png"/>
+                    <div class="container-imageyear">
+                            <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2024.png"/>
+                            <h1 style="font-weight: 500; font-size: 40px;">2024</h1>
+                    </div>
                 </div>
                 <!-- Right COntent -->
                 <div class="right-box">
@@ -60,12 +63,281 @@
                                 <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs &amp; Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
                             </div>
                         </div>
+                        <hr class="rounded">
                         <div class="row">
                             <div class="row_month">
-                                <p>April</p>
+                                <p>February</p>
                             </div>
                             <div class="row_history">
-                                <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs &amp; Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
+                                <p>Selected as Demonstration Agency for Indonesian Test Bed Support Project Agricultural Machinery Verification Management and Operation Service (Korea Agricultural Technology Promotion Agency/KOAT).</p>
+                                <p>Patent Application for Optimal Route Operation Techniques for Demand Responsive Transport (DRT).</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>January</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Development of Demand Response Transportation Platform "Chaonda"</p>
+                                <p>The Leuwipanjang terminal, Bandung, which was developed by PT NIA, was inaugurated by the President of Indonesia, Mr. Ir. Joko Widodo.</p>
+                                <p>Registered as a Design Specialty Company (Multimedia Design) at The Korea Institute of Design Promotion.</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>November</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Awarded for Best ODA Implementer at Development Cooperation Day - Prime Minister Awards (Son Dong-kwon, Vice President Samchully Networks Co., Ltd.)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>October</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Completion of the 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia'</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>August</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Relocation of Indonesia's Corporate (AIA Central Building)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>July</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Proceeded the 2nd Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
+                        
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>January</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Acquired Certificate from the Small and Medium Business Technology Innovation Association (Inno-Biz)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>November</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Proceeded the 1st Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>October</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Completed the 2nd Year of 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>December</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Completed the 1st Year of 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
+                                <p>Establishment of the Local Corporation in Indonesia (PT Networks Indonesia Aku)</p>
+                                <p>Selected as Host Company for 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia' Project (ODA, MOLIT)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>July</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Reacquired Certification from Korea Management Innovation Small and Medium Business Association (Main Biz)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>May</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Developed the Healthcare Platform "Healthyhada"</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>February</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Launched ‘Olligo’, a transportation platform in the construction sector</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>December</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Selected as "Small Strong Company in Seoul" by Ministry of Employment and Labor</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>November</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Developed the Contruction Transport Platform "Olligo"</p>
+                                <p>Launched the “24 Hour Environment”, a Garbage Vehicle Tracking Transportation System for Construction</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>May</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Acquired Overseas (Cambodia, Phnom Penh) Construction Business (Construction Engineering/ Information Communication Construction Business)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>August</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Opened the Jeju Branch</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>July</p>
+                            </div>
+                            <div class="row_history">
+                                <p>KOVA Venture Business Registration (No. 20190729-42348).</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>June</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Acquired Certification from the Korea Management Innovation Small and Medium Business Association (Main Biz)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>May</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Patent Acquisition: Automatic Vehicle Dispatching System (Patent No. 10-2038795)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>February</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Developed & Launched the Special Transportation Vehicle Intermediary Platform "Samchully PAY"</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>September</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Establishment of a Corporate Research Institute (Institute of Technology No. 2018113469)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>June</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Acquired Quality Management System Certification ISO9001:2015 (No. 21-A-3486 Rev. 0)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>March</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Designed & Developed Ticketing System based on Cloud</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>January</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Establishment of 25 Transport Platform Branches & Agencies All Across the Republic of Korea</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>October</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Developed and Maintenance Ticketing System for Guided Cruise for the National Cruise Association</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>June</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Developed and Launced of an Integrated Intelligent Transportation Platform (Commercialization)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>May</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Designed & Developed Mobile Wireless Telecommunication Relay Service (TRS) Solution (KT, KT Powertell, etc.)</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>February</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Opened and Operated Integrated Transport Call Center</p>
+                            </div>
+                        </div>
+                        <hr class="rounded">
+                        <div class="row">
+                            <div class="row_month">
+                                <p>October</p>
+                            </div>
+                            <div class="row_history">
+                                <p>Established Samchully Networks Co., Ltd. (Head Office, in Seoul, Korea)</p>
                             </div>
                         </div>
                     </div>
@@ -546,6 +818,26 @@
             <div class="box">
                 <div class="img-wrapper">
                     <img src="../assets/images/office_loc_map.svg"/>
+                </div>
+                <div class="container-card-maps">
+                        <div class="card-maps">
+                            <div class="content-card-maps">
+                                <h1>Korea</h1>
+                                <p>JH Jangheung Building  4th Floor, <br> Magokjungang 6-ro, <br> Gangseo-gu, <br> Seoul 07802</p>
+                            </div>
+                        </div>
+                        <div class="card-maps">
+                            <div class="content-card-maps">
+                                <h1>Indonesia</h1>
+                                <p>AIA CENTRAL 21 st Floor. <br> Jenderal Sudirman Street, <br> Number Kav. 48A, Karet Semanggi, <br> Setiabudi, South Jakarta City, <br> DKI Jakarta 12930</p>
+                            </div>
+                        </div>
+                        <div class="card-maps">
+                            <div class="content-card-maps">
+                                <h1>Malaysia</h1>
+                                <p>126, MY Negeri Sembilan Seremban Seremban, 67, <br> Pusat Komersial Saujana 3 Street, <br> Pusat Komersial Saujana 70300</p>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>

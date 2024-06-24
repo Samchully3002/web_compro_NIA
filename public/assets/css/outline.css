@@ -280,9 +280,13 @@
 }
 
 #header-wrapper .lang-menu li a {
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+}
+
+#header-wrapper .lang-menu li a img {
+    width: 20%;
 }
 
 #header-wrapper .hidden-menu img {
@@ -513,7 +517,7 @@
 
 #footer-wrapper .copyright em {
     color: #80838F;
-    font-size:16px;
+    font-size:14px;
 }
 
 #footer-wrapper .fl .btn-box a {
@@ -849,7 +853,7 @@
 }
 
 /* --- Phone --- */
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 530px) {
 
     #footer-wrapper .location .address .title {
         width: 80%;
@@ -908,13 +912,14 @@
     }
 
     #footer-wrapper .sitemap a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #footer-wrapper .sitemap {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-bottom: 24px;
+        gap: 20px;
     }
     
 }
