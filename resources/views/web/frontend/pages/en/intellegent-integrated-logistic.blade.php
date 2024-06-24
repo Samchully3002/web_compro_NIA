@@ -11,6 +11,7 @@
         <link href="../assets/css/default.css" rel="stylesheet" />
         <link href="../assets/css/outline.css" rel="stylesheet" />
         <link href="../assets/css/page.css" rel="stylesheet" />
+        <link href="../assets/css/business.css" rel="stylesheet" />
         <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
         <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,43 +20,13 @@
         <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
         <script src="../assets/js/owl.carousel.min.js"></script>
         <script src="../assets/js/common.js"></script>
-        <script>
-            $(document).ready(function () {
-                let url = Number($(location).attr("href").split("?").pop());
-                let h = $("#header-wrapper").height();
-                let offSet =
-                    $(".section")
-                        .eq(url - 1)
-                        .offset().top -
-                    h -
-                    10;
-                $("html, body").animate({ scrollTop: offSet }, 1000);
-            });
-        </script>
-        <script>
-            $(document).ready(function () {
-                $(".owl-carousel").owlCarousel({
-                    items: 1,
-                    loop: true,
-                    autoplay: true,
-                    dots: false,
-                    nav: true,
-                    autoplayTimeout: 3000,
-                    autoplayHoverPause: true,
-                    navText: [
-                        "<img src='../assets/img/icon/icon-nav-prev.svg'>",
-                        "<img src='../assets/img/icon/icon-nav-next.svg'>",
-                    ],
-                });
-            });
-        </script>
     </head>
 
     <body>
     @include('web/frontend/pages/en/component/header')
         <!-- <div data-include="component/header"></div> -->
 
-        <div class="page page-scroll page-in" id="page-business">
+        <div class="page page-scroll page-in">
             <!-- bg-wrapper start -->
             <div class="bg-wrapper bisnis1">
                 <div class="text-box">
@@ -66,116 +37,163 @@
             <!-- bg-wrapper end -->
 
             <!-- section-wrapper start -->
-            <div class="section-wrapper">
-                <div class="section content-collaps-expand">
-
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">01</span>
-                        <span class="header-title">Samchullypay</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
+            <div class="product-wrapper">
+                {{-- <div class="img-backdrop">
+                    <img src="../assets/images/business-backdrop.png"/>
+                </div> --}}
+                <div class="colls-wrapper">
+                    {{-- <div class="colls-title">
+                        <a data-toggle="collapse" href="#collapse1">
+                            <span>01</span>
+                            <span>Samchully Pay</span>
+                        </a>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
                         <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
                         <div class="samchullypay">
                             <img src="../assets/images/samchullypay1.jpg"/>
                             <img src="../assets/images/samchullypay2.jpg"/>
                             <img src="../assets/images/samchullypay3.jpg"/>
                         </div>
+                    </div> --}}
+                    <button type="button" class="collapsible">
+                        <span>01</span>
+                        <span>Samchullypay</span>
+                    </button>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
+                        </div>
+                        <div class="img-box">
+                            <img src="../assets/images/bs-samchulypay1.svg"/>
+                            <img src="../assets/images/bs-samchulypay2.svg"/>
+                            <img src="../assets/images/bs-samchulypay3.svg"/>
+                        </div>
+
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay1.svg"/>
+                                <span>Notification Dispatch</span>
+                                <p>
+                                    Work dispatch with mobile push function. With just one mobile device , we build a transparent dispatch platform, breaking away from the existing radio dispatch.
+                                </p>
+                            </div>
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay2.svg"/>
+                                <span>Location Detector</span>
+                                <p>
+                                    We provide location information of the dispatched driver to reduce waiting times without knowing when the driver will arrive. Drivers no longer need to contact you upon departure.
+                                </p>
+                            </div>
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
+                                <span>Work Log</span>
+                                <p>
+                                    Our Platform offers real-time tracking, optimizing dispatch, monitoring, and managing costs through advanced big data analytics for demand prediction and risk management.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">02</span>
-                        <span class="header-title">Olligo</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <p>Anda bisa menambahkan lebih banyak elemen di sini.</p>
+                <div class="colls-wrapper">
+                    <button type="button" class="collapsible">
+                        <span>02</span>
+                        <span>Olligo</span>
+                    </button>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <p>Through our community for transportation professionals, we offer a one-stop social network for industry news, regulatory updates, and more. Start groups and meetings based on various search criteria like location, vehicle type, and topics.</p>
+                        </div>
+                        <div class="img-box">
+                            <img src="../assets/images/bs-olligo1.svg"/>
+                            <img src="../assets/images/bs-olligo2.svg"/>
+                            <img src="../assets/images/bs-olligo3.svg"/>
+                        </div>
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_olligo1.svg"/>
+                                <span>Group Dispatch</span>
+                                <p>
+                                    If you register tasks within your assigned group, dispatch will only be conducted within that group, ensuring that tasks are performed by drivers verified within the group.
+                                </p>
+                            </div>
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_olligo2.svg"/>
+                                <span>Rank Distribution</span>
+                                <p>
+                                    The dispatch order is determined based on the task registration ranking within the group. Tasks shared will receive priority in dispatch according to their ranking.
+                                </p>
+                            </div>
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_olligo3.svg"/>
+                                <span>Basic Document</span>
+                                <p>
+                                    Do you spend time searching for documents every time you have a task? Try our Basic Document feature, where you can save documents once and have them readily available for task dispatch.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">03</span>
-                        <span class="header-title">Chaonda</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <p>Anda bisa menambahkan lebih banyak elemen di sini.</p>
+                <div class="colls-wrapper">
+                    <button type="button" class="collapsible">
+                        <span>03</span>
+                        <span>Chaonda</span>
+                    </button>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <p>Based on accumulated transportation-related big data, we are creating a new transportation ecosystem that supports various demands for metropolitan travel, including congestion relief in major urban areas and achieving RE100 through carbon emission reduction effects. We enhance accessibility to public transportation in rural areas, benefiting transportation-disadvantaged individuals.</p>
+                        </div>
+                        <div class="img-box">
+                            <img src="../assets/images/bs-chaonda1.svg"/>
+                            <img src="../assets/images/bs-chaonda2.svg"/>
+                            <img src="../assets/images/bs-chaonda3.svg"/>
+                            <img src="../assets/images/bs-chaonda4.svg"/>
+                        </div>
                     </div>
                 </div>
 
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">04</span>
-                        <span class="header-title">Commuter Bus</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <p>Anda bisa menambahkan lebih banyak elemen di sini.</p>
+                <div class="colls-wrapper">
+                    <button type="button" class="collapsible">
+                        <span>04</span>
+                        <span>Commuter Bus</span>
+                    </button>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <p>We provide a unique ticketing and reservation system for commuter bus systems, incorporating accumulated transportation and information communication technologies from Samchully Networks.</p>
+                        </div>
+                        <div class="img-box">
+                            <img src="../assets/images/bs-commuter1.svg"/>
+                            <img src="../assets/images/bs-commuter2.svg"/>
+                            <img src="../assets/images/bs-commuter3.svg"/>
+                            <img src="../assets/images/bs-commuter4.svg"/>
+                        </div>
                     </div>
                 </div>
 
-                </div>
             </div>
             <!-- section-wrapper end -->
         </div>
 
         <!-- <div data-include="component/footer"></div> -->
         @include('web/frontend/pages/en/component/footer')
-        
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                    content.style.display = "none";
+                    } else {
+                    content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
     </body>
 </html>
