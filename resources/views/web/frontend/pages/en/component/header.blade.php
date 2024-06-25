@@ -25,7 +25,7 @@
                     <li class="first-menu hidden-box business">
                         <a class="btn_business">Community&nbsp;&nbsp;&nbsp;
                         <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/></a>
-                        <ul class="hidden-menu active" style="width: 305px;">
+                        <ul class="hidden-menu active" style="width: 150px">
                             <li><a href="/notice"><em>Notice</em></a></li>
                             <li><a href="/news"><em>News</em></a></li>
                         </ul>
