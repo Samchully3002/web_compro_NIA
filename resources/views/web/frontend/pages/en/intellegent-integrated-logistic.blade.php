@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
-        />
-        <title>Networks Indonesia Aku</title>
-        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
-        <link href="../assets/css/default.css" rel="stylesheet" />
-        <link href="../assets/css/outline.css" rel="stylesheet" />
-        <link href="../assets/css/page.css" rel="stylesheet" />
-        <link href="../assets/css/business.css" rel="stylesheet" />
-        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-        <script src="../assets/js/owl.carousel.min.js"></script>
-        <script src="../assets/js/common.js"></script>
+
+    @include('web/frontend/pages/en/component/head')
+    <link href="../assets/css/business.css" rel="stylesheet" />
+    
     </head>
 
     <body>

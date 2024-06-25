@@ -2,6 +2,8 @@
 <html lang="en">
 
     @include('web/frontend/pages/en/component/head')
+    <link href="../assets/css/business.css" rel="stylesheet" />
+    
     </head>
 
     <body>

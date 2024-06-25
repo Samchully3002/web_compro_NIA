@@ -30,6 +30,14 @@ Route::get('/export-voucher', function () {
 });
 
 
+
+
+Route::get('/contact', function () {
+   return  view('web/frontend/pages/en/contact');
+});
+
+
+
 Route::group([
    'prefix' => '/auth',
    'as' => 'auth',
