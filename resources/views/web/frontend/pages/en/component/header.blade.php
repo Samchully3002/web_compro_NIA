@@ -4,7 +4,7 @@
             <div class="menu-wrapper">
                 <ul class="menu-box">
                     <li >
-                        <a class="logo"  href="#">
+                        <a class="logo"  href="/">
                             <img style="width: 75%;" class="effect-off" src="../../assets/images/icon/ic_logo.png" />
                             <img style="width: 75%;" class="effect-on" src="../../assets/images/icon/ic_logo.png" />
                         </a>
@@ -13,14 +13,6 @@
                     <li class="first-menu hidden-box business">
                         <a class="btn_business">Business&nbsp;&nbsp;&nbsp;
                         <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/></a>
-                        <!-- <div class="pc-hidden">
-                            <a href="business.html#one"><em>Mobility Technology</em></a>
-                            <a href="ticketing_system_and_reservation.html"><em>Ticketing System and Reservation</em></a>
-                            <a href="business.html#three"><em>Payment System</em></a>
-                            <a href="business.html#four"><em>IT Service Management</em></a>
-                            <a href="business.html#five"><em>Logistics and Delivery System</em></a>
-                            <a href="business.html#six"><em>Live Streaming Platform</em></a>
-                        </div> -->
                         <ul class="hidden-menu active" style="width: 305px;">
                             <li><a href="/intellegent-integrated-logistic"><em>Intelligent Integrated Logistics</em></a></li>
                             <li><a href="/digital-healthcare"><em>Digital Healthcare</em></a></li>
@@ -28,42 +20,17 @@
                             <li><a href="/export-voucher"><em>Export Voucher</em></a></li>
                         </ul>
                     </li>
-                    <li class="first-menu hidden-box"><a href="about">About</a>
-                        <!-- <div class="pc-hidden">
-                            <a href="/introduction" ><em>Introduction</em></a>
-                            <a href="ceo.html"><em>CEO Message</em></a>
-                            <a href="people.html"><em>NIA People</em></a>
-                            <a href="office.html"><em>Our Office</em></a>
-                        </div>
-                        <ul class="hidden-menu active">
-                            <li><a href="/introduction">Introduction</a></li>
-                            <li><a href="ceo.html">CEO Message</a></li>
-                            <li><a href="people.html">NIA People</a></li>
-                            <li><a href="office.html">Our Office</a></li>
-                        </ul> -->
+                    <li class="first-menu hidden-box"><a href="/about">About</a>
                     </li>
-                    <li class="first-menu hidden-box"><a href="news">News</a>
-                    <!-- <li class="first-menu hidden-box">
-                        <a>COMMUNITY</a>
-                        <div class="pc-hidden">
-                            <a href="notice.html"><em>Notice</em></a>
-                            <a href="media.html"><em>Media Report</em></a>
-                            <a href="video.html"><em>Video Documentation</em></a>
-                        </div>
-                        <ul class="hidden-menu active">
-                            <li><a href="notice.html">Notice</a></li>
-                            <li><a href="media.html">Media Report</a></li>
-                            <li><a href="video.html">Video Documentation</a></li>
+                    <li class="first-menu hidden-box business">
+                        <a class="btn_business">Community&nbsp;&nbsp;&nbsp;
+                        <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/></a>
+                        <ul class="hidden-menu active" style="width: 305px;">
+                            <li><a href="/notice"><em>Notice</em></a></li>
+                            <li><a href="/news"><em>News</em></a></li>
                         </ul>
-                    </li> -->
+                    </li>
                 </ul>
-
-                <!-- <div class="topnav">
-                    <a class="{{ Route::currentRouteNamed('/') ? 'active' : ''" href="/" ><em>Home</em></a>
-                    <a class="{{ Route::currentRouteNamed('/about') ? 'active' : ''" href="/about"><em>Business</em></a>
-                    <a class="{{ Route::currentRouteNamed('/about') ? 'active' : ''" href="/about"><em>About</em></a>
-                    <a href="office.html"><em>News</em></a>
-                </div> -->
 
                 <div class="content-right">
                     <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn_contact_us">Our Video&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/polygon.png" ></a>
@@ -106,48 +73,47 @@
             <div class="inner">
                 <ul>
                     <li>
-                        <a class="first-menu">ABOUT</a>
-                        <div class="second-menu">
-                            <a href="introduction.html">Introduction</a>
-                            <span></span>
-                            <a href="ceo.html">CEO Message</a>
-                            <br />
-                            <a href="people.html">NIA People</a>
-                            <span></span>
-                            <a href="office.html">Our Office</a>
-                        </div>
+                        <a class="first-menu" href="/">HOME</a>
                     </li>
 
                     <li>
                         <a class="first-menu">BUSINESS</a>
                         <div class="second-menu">
-                            <a href="business.html#one">Mobility Technology</a>
+                            <a href="/intellegent-integrated-logistic">Intelligent Integrated Logistics</a>
                             <br />
-                            <a href="ticketing_system_and_reservation.html">Ticketing System and Reservation</a>
+                            <a href="/digital-healthcare">Digital Healthcare</a>
                             <br />
-                            <a href="business.html#three">Payment System</a>
+                            <a href="/system-development-management">System Development & Management</a>
                             <br />
-                            <a href="business.html#four">IT Service Management</a>
-                            <br />
-                            <a href="business.html#five">Logistics and Delivery System</a>
-                            <br />
-                            <a href="business.html#six">Live Streaming Platform</a>
+                            <a href="/export-voucher">Export Voucher</a>
                         </div>
+                    </li>
+
+                    <li>
+                        <a class="first-menu" href="/about">ABOUT</a>
                     </li>
 
                     <li>
                         <a class="first-menu">COMMUNITY</a>
                         <div class="second-menu">
-                            <a href="notice.html">Notice</a>
+                            <a href="/notice">Notice</a>
                             <span></span>
-                            <a href="media.html">Media Report</a>
-                            <span></span>
-                            <a href="video.html">Video Documentation</a>
+                            <a href="/news">Media Report</a>
                         </div>
                     </li>
 
                     <li>
-                        <a href="contact.html" class="first-menu">CONTACT US</a>
+                        <a href="/contact" class="first-menu">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a href="/video" class="first-menu">OUR VIDEO</a>
+                    </li>
+                    <li>
+                                <a class="lang-btn">
+                                    <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
+                                    <span>&nbsp;&nbsp;&nbsp;ENGLISH&nbsp;&nbsp;&nbsp;</span>
+                                    <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
+                                </a>
                     </li>
                 </ul>
             </div>

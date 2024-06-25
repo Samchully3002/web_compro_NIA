@@ -331,6 +331,8 @@ hr.rounded {
 }
 
 .core .core-text .core-img {
+    border-radius: 999px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.3);
     flex: 0 0 auto;
     height: 80px;
     width: 80px;

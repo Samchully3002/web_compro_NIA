@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    @include('web/frontend/pages/en/component/header')
+    @include('web/frontend/pages/en/component/head')
     </head>
 
     <body>

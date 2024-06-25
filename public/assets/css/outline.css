@@ -13,7 +13,7 @@
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     /* box-shadow: 0 2.5vh 2.5vh rgba(0,0,0,.1); */
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
 #header-wrapper .row {
@@ -30,7 +30,7 @@
     padding: 16px 50px;
     font-size: 16px;
     font-weight: 300;
-    height: 80px
+    height: 80px;
 }
 
 #header-wrapper .menu-box {
@@ -54,7 +54,7 @@
 }
 
 #header-wrapper .pc-bg::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 1px;
     background: #eee;
@@ -63,8 +63,8 @@
     position: absolute;
 }
 
-#header-wrapper .pc-bg::before{
-    content: '';
+#header-wrapper .pc-bg::before {
+    content: "";
     width: 100%;
     height: 1px;
     background: #eee;
@@ -123,14 +123,14 @@
 }
 
 #header-wrapper .menu-box .first-menu .pc-hidden a em::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     bottom: -4px;
     left: 0px;
     width: 0px;
     height: 2px;
-    background: #FF7432;
+    background: #ff7432;
     transition: all 0.3s;
 }
 
@@ -206,8 +206,8 @@
 }
 
 #header-wrapper .lang-box .lang-btn:hover {
-    background-color: #40455C;
-    border: #40455C solid 1px;
+    background-color: #40455c;
+    border: #40455c solid 1px;
 }
 
 #header-wrapper .btn_contact_us {
@@ -227,15 +227,14 @@
 }
 
 #header-wrapper .btn_contact_us:hover {
-    background-color: #40455C;
-    border: #40455C solid 1px;
+    background-color: #40455c;
+    border: #40455c solid 1px;
 }
 
 #header-wrapper .btn_business {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #header-wrapper .hidden-menu {
@@ -258,7 +257,7 @@
     font-weight: 400;
 }
 
-#header-wrapper .bahasa .hidden-menu{
+#header-wrapper .bahasa .hidden-menu {
     width: fit-content !important;
     font-weight: 400;
 }
@@ -275,7 +274,7 @@
 #header-wrapper .hidden-menu a {
     display: flex;
     align-items: center;
-    color:#333;
+    color: #333;
     width: fit-content;
 }
 
@@ -298,15 +297,15 @@
 }
 
 #header-wrapper .hidden-menu li a::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     bottom: -4px;
     left: 0px;
     width: 0px;
     height: 3px;
-    border-radius:1.5px;
-    background: linear-gradient(45deg, #FF7432 25%,#439CD6);
+    border-radius: 1.5px;
+    background: linear-gradient(45deg, #ff7432 25%, #439cd6);
     transition: all 0.3s;
 }
 
@@ -357,6 +356,7 @@
     top: 7px;
     right: 0px;
     transform: rotate(45deg);
+    background-color: rgb(153, 153, 153);
 }
 
 #header-wrapper .hambuger-menu.active span:nth-child(2) {
@@ -364,6 +364,7 @@
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
     right: 0px;
+    background-color: rgb(153, 153, 153);
 }
 
 #header-wrapper .hambuger-menu.active span:nth-child(3) {
@@ -447,13 +448,13 @@
 #footer-wrapper .location .address .title {
     width: 50%;
     padding-bottom: 4px;
-    color: #80838F;
-    font-size:16px;
+    color: #80838f;
+    font-size: 16px;
 }
 
 #footer-wrapper .location .address .caption {
     line-height: 140%;
-    font-size:20px;
+    font-size: 20px;
 }
 
 /* Network */
@@ -476,13 +477,13 @@
 
 #footer-wrapper .network .title {
     padding-bottom: 2px;
-    color: #80838F;
+    color: #80838f;
     text-align: right;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #footer-wrapper .network .caption {
-    color: #FB6924;
+    color: #fb6924;
     font-size: 16px;
 }
 
@@ -496,7 +497,7 @@
 
 #footer-wrapper .social-media h4 {
     margin-right: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
 }
@@ -511,13 +512,13 @@
 }
 
 #footer-wrapper .sitemap a {
-    color: #80838F;
-    font-size:16px;
+    color: #80838f;
+    font-size: 16px;
 }
 
 #footer-wrapper .copyright em {
-    color: #80838F;
-    font-size:14px;
+    color: #80838f;
+    font-size: 14px;
 }
 
 #footer-wrapper .fl .btn-box a {
@@ -553,7 +554,7 @@
 #footer-wrapper .fr ul li em {
     height: 9px;
     width: 1px;
-    background: #ACACAC;
+    background: #acacac;
     display: inline-block;
     margin: 0px 16px;
     vertical-align: middle;
@@ -568,10 +569,10 @@
 }
 
 #footer-wrapper a:hover {
-    color: #40455C;
+    color: #40455c;
 }
 
-#footer-wrapper .fr p{
+#footer-wrapper .fr p {
     display: none;
 }
 
@@ -584,7 +585,8 @@
     width: 30%;
 }
 
-.blok h1, h3 {
+.blok h1,
+h3 {
     font-weight: 500;
 }
 
@@ -598,20 +600,20 @@
 }
 
 .fade-in {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 2s;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
 }
 
 @keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .nav-mobile {
@@ -634,11 +636,16 @@
     transition-duration: 0.5s;
 }
 
+.btn-video-mobile:active {
+    color: rgb(153, 153, 153);
+    border: #999 solid 1px;
+}
+
 .right-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px
+    gap: 20px;
 }
 
 /* --- Laptop --- */
@@ -727,44 +734,47 @@
 
     #header-wrapper .mobile-menu .inner {
         width: 100%;
-        background: #fff;
+        background: #444;
         display: none;
     }
 
     #header-wrapper .mobile-menu .inner ul {
-        background:#fff;
-        padding-top: 60px;
+        background: #fff;
+        padding: 80px 20px;
+        height: 100vh;
     }
 
     #header-wrapper .mobile-menu .inner ul li {
-        display: block;
-        padding: 16px 25px;
+        display: flex;
+        padding: 20px 0;
         border-bottom: 1px #ddd solid;
+        flex-direction: column;
     }
 
-    #header-wrapper .mobile-menu .inner ul li:first-child{
+    #header-wrapper .mobile-menu .inner ul li:first-child {
         border-top: 1px #ddd solid;
     }
 
     #header-wrapper .mobile-menu .inner ul li .first-menu {
-        font-size: 2em;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 400;
         display: inline-block;
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu {
         margin-top: 20px;
         display: none;
-        color:#444;
+        color: #444;
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu a {
         display: block;
-        font-size: 1.6em;
-        font-weight: 300;
+        font-size: 16px;
+        font-weight: 400;
         transition: all 0.3s;
         width: 100%;
-        line-height: 1.6;
+        line-height: 3;
+        left: 20px;
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu span {
@@ -784,7 +794,7 @@
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu a:hover {
-        color: #FF7432;
+        color: #ff7432;
     }
 
     #header-wrapper .btn_contact_us {
@@ -794,7 +804,6 @@
 
 /* --- Tablet --- */
 @media screen and (max-width: 992px) {
-
     #footer-wrapper .row {
         width: calc(100% - 0px);
     }
@@ -812,7 +821,8 @@
         width: 100%;
     }
 
-    #footer-wrapper .network .indonesia-branch, #footer-wrapper .network .korea-branch {
+    #footer-wrapper .network .indonesia-branch,
+    #footer-wrapper .network .korea-branch {
         float: none;
         width: 215px;
     }
@@ -825,12 +835,14 @@
         margin-bottom: 24px;
     }
 
-    #footer-wrapper .network .indonesia-branch img, #footer-wrapper .network .korea-branch img {
+    #footer-wrapper .network .indonesia-branch img,
+    #footer-wrapper .network .korea-branch img {
         float: left;
         margin-right: 12px;
     }
 
-    #footer-wrapper .network .indonesia-branch .fr, #footer-wrapper .network .korea-branch .fr {
+    #footer-wrapper .network .indonesia-branch .fr,
+    #footer-wrapper .network .korea-branch .fr {
         float: left;
     }
 
@@ -838,7 +850,8 @@
         justify-content: left;
     }
 
-    #footer-wrapper .sitemap, #footer-wrapper .copyright {
+    #footer-wrapper .sitemap,
+    #footer-wrapper .copyright {
         display: block;
     }
 
@@ -854,7 +867,6 @@
 
 /* --- Phone --- */
 @media screen and (max-width: 530px) {
-
     #footer-wrapper .location .address .title {
         width: 80%;
         font-size: 15px !important;
@@ -921,5 +933,4 @@
         margin-bottom: 24px;
         gap: 20px;
     }
-    
 }

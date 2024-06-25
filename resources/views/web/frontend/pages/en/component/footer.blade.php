@@ -103,9 +103,9 @@
                     
                 </div>
                 <ul class="sitemap btn-box fr">
-                <li><a>Terms and Conditions</a></li>
+                <!-- <li><a>Terms and Conditions</a></li> -->
                     <li><a>Privacy Policy</a></li>
-                    <li><a>Cookies</a></li>
+                    <!-- <li><a>Cookies</a></li> -->
                 </ul>
             </div>
 
