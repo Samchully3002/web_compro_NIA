@@ -56,7 +56,7 @@
 }
 
 .product-wrapper {
-    margin: 0px 320px 0px 320px;
+    margin: 0px 300px 0px 300px;
     place-content: center;
     align-items: center;
     display: flex;
@@ -93,6 +93,7 @@
 .product-wrapper .collapsible {
     place-content: center space-between;
     display: flex;
+    align-items: center;
     background-color: rgb(248, 249, 252);
     cursor: pointer;
     padding: 50px 30px;
@@ -101,7 +102,6 @@
     border-radius: 20px 20px 20px 20px;
     width: 100%;
     border: none;
-    text-align: left;
     outline: none;
     font-size: 15px;
 }
@@ -169,6 +169,7 @@
     overflow: visible;
     padding: 0px 30px 0px 30px;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .product-wrapper .content .card-wrapper .card {
@@ -184,13 +185,30 @@
     position: relative;
 }
 
-.product-wrapper .content .card-wrapper .card span{
+.product-wrapper .content .card-wrapper .card-grey {
+    background-color: rgb(233, 234, 242);
+    border-radius: 20px;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column;
+    margin: 0px 10px 0px 10px;
+    padding: 30px;
+}
+
+.product-wrapper .content .card-wrapper .card,
+.product-wrapper .content .card-wrapper .card-grey span {
     font-weight: 400;
     font-size: 28px;
     margin: 30px 0px 30px 0px;
 }
 
-.product-wrapper .content .card-wrapper .card p{
+.product-wrapper .content .card-wrapper .card-grey .span-title {
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.product-wrapper .content .card-wrapper .card p {
     color: rgb(127, 132, 153);
+    justify-content: center;
 }
 

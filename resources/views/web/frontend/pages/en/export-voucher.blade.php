@@ -1,181 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
-        />
-        <title>Networks Indonesia Aku</title>
-        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
-        <link href="../assets/css/default.css" rel="stylesheet" />
-        <link href="../assets/css/outline.css" rel="stylesheet" />
-        <link href="../assets/css/page.css" rel="stylesheet" />
-        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-        <script src="../assets/js/owl.carousel.min.js"></script>
-        <script src="../assets/js/common.js"></script>
-        <script>
-            $(document).ready(function () {
-                let url = Number($(location).attr("href").split("?").pop());
-                let h = $("#header-wrapper").height();
-                let offSet =
-                    $(".section")
-                        .eq(url - 1)
-                        .offset().top -
-                    h -
-                    10;
-                $("html, body").animate({ scrollTop: offSet }, 1000);
-            });
-        </script>
-        <script>
-            $(document).ready(function () {
-                $(".owl-carousel").owlCarousel({
-                    items: 1,
-                    loop: true,
-                    autoplay: true,
-                    dots: false,
-                    nav: true,
-                    autoplayTimeout: 3000,
-                    autoplayHoverPause: true,
-                    navText: [
-                        "<img src='../assets/img/icon/icon-nav-prev.svg'>",
-                        "<img src='../assets/img/icon/icon-nav-next.svg'>",
-                    ],
-                });
-            });
-        </script>
+    @include('web/frontend/pages/en/component/head')
+    <link rel="stylesheet" href="assets/css/business.css"/>
     </head>
 
     <body>
     @include('web/frontend/pages/en/component/header')
-        <!-- <div data-include="component/header"></div> -->
 
-        <div class="page page-scroll page-in" id="page-business">
+         <div class="page page-scroll page-in">
             <!-- bg-wrapper start -->
-            <div class="bg-wrapper bisnis4">
+            <div class="bg-wrapper bisnis1">
                 <div class="text-box">
-                    <h1>Export Voucher</h1>
+                    <h1>Export<br>
+                        Voucher</h1>
                     <p>We collect and analyze country-specific information to optimize data for each target market, offering business feasibility analysis and infrastructure consulting to localize Korea's advanced technology. Additionally, we provide document services, including visas and customs clearance, as well as translation and interpretation support for successful business execution.</p>
                 </div>
             </div>
             <!-- bg-wrapper end -->
 
             <!-- section-wrapper start -->
-            <div class="section-wrapper">
-                <div class="section content-collaps-expand">
+            <div class="product-wrapper">
+                {{-- <div class="img-backdrop">
+                    <img src="../assets/images/business-backdrop.png"/>
+                </div> --}}
+                <div class="colls-wrapper">
+                    <button type="button" class="collapsible">
+                        <span>01</span>
+                        <span>Research & Consulting</span>
+                    </button>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <p>Based on our overseas subsidiaries, which are establishing an organic cooperation system with our Korean headquarters, Samchully Networks is laying the foundation for global expansion, including assisting clients with overseas ventures, local proof-of-concept projects, and localization strategies.</p>
+                        </div>
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay1.svg"/>
+                                <span>Basic Market Research & Analysis</span>
+                                <p style="width: 490px;">
+                                    Includes product analysis, export capacity analysis, demand trends, import/export trends, retail price trends, distribution structure, competitive trends, local conditions, feasibility studies, and potential and expected demand surveys.
+                                </p>
+                            </div>
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay2.svg"/>
+                                <span>Custom Market Research & Analysis</span>
+                                <p style="width: 490px;">
+                                    Conducts local retail seller surveys (interviews), potential and expected consumer surveys (interviews), local customized trend analysis, product deep-dive analysis, and in-depth market entry analysis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
+                                <span>Business Partner Connection</span>
+                                <p style="width: 490px;">
+                                    Identifies and matches interested buyers, finds supply/processing companies for local exports, negotiates trade conditions, and conducts institutional/corporate feasibility studies.
+                                </p>
+                            </div>
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
+                                <span>In-depth Research & Market Entry Strategy Consulting</span>
+                                <p style="width: 490px;">
+                                    Conducts sample tests, analyzes target product/company competition, and provides on-site support for sales.
+                                </p>
+                            </div>
+                        </div>
 
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">01</span>
-                        <span class="header-title">Research & Consulting</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <div class="samchullypay">
-                            <img src="../assets/images/samchullypay1.jpg"/>
-                            <img src="../assets/images/samchullypay2.jpg"/>
-                            <img src="../assets/images/samchullypay3.jpg"/>
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
+                                <span>Execution Support & Mid-to-Long-Term Strategy Consulting</span>
+                                <p style="width: 490px;">
+                                    Analyzes performance, advises mid-to-long-term strategies, discovers sustainable models, formulates strategies for deepening local penetration, and establishes local communication channels/offices.
+                                </p>
+                            </div>
+                            <div class="card">
+                                <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
+                                <span>Buyer Situation Tracking & Follow-up Consulting</span>
+                                <p style="width: 490px;">
+                                    Conducts on-site visits and tracks buyer situations, responds to crises (such as local raw material supply, trade lines, etc.), and discovers models for solution.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">02</span>
-                        <span class="header-title">Overseas Business Agency</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <p>Anda bisa menambahkan lebih banyak elemen di sini.</p>
+                <div class="colls-wrapper">
+                    <button type="button" class="collapsible">
+                        <span>02</span>
+                        <span>Overseas Business Agency</span>
+                    </button>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <p>Leveraging our qualifications in overseas construction engineering and information communication projects, along with successful experience in national aid projects, we provide comprehensive assistance through Samchully Networks for various local business tasks, including residency, employment, education, required documents, and permit issuance, making it easy and accurate for our clients.</p>
+                        </div>
+                        <div class="card-wrapper">
+                            <div class="card-grey">
+                                <span class="span-title">01</span>
+                                <span>Export Documentation and Local Registration</span>
+                                <p style="width: 300px;">
+                                    Contract drafting, export logistics documentation consultancy, trade automation, post-management, FTA origin-related document consultancy.
+                                </p>
+                            </div>
+                            <div class="card-grey">
+                                <span class="span-title">02</span>
+                                <span>Credit Certification Service for Overseas Export</span>
+                                <p style="width: 300px;">
+                                    Issuance of overseas credit rating inquiry (foreign language report).
+                                </p>
+                            </div>
+                            <div class="card-grey">
+                                <span class="span-title">03</span>
+                                <span>Local Entry Representation and Public Procurement Market Entry</span>
+                                <p style="width: 300px;">
+                                    Document preparation, application, local entry representation, fees for maintaining qualifications for public procurement bidding.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">03</span>
-                        <span class="header-title">Multimedia Design</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <p>Anda bisa menambahkan lebih banyak elemen di sini.</p>
+                <div class="colls-wrapper">
+                    <button type="button" class="collapsible">
+                        <span>03</span>
+                        <span>Multimedia Design</span>
+                    </button>
+                    <div class="content">
+                        <div class="text-wrapper">
+                            <p>We provide design services for responsive foreign language websites, mobile apps, overseas online shopping product pages, etc., minimizing cultural differences between local and Korean cultures through local staff.</p>
+                        </div>
+                        <div class="card-wrapper">
+                            <div class="card-grey">
+                                <span class="span-title">01</span>
+                                <span>Export Documentation and Local Registration</span>
+                                <p style="width: 300px;">
+                                    Contract drafting, export logistics documentation consultancy, trade automation, post-management, FTA origin-related document consultancy.
+                                </p>
+                            </div>
+                            <div class="card-grey">
+                                <span class="span-title">02</span>
+                                <span>Credit Certification Service for Overseas Export</span>
+                                <p style="width: 300px;">
+                                    Issuance of overseas credit rating inquiry (foreign language report).
+                                </p>
+                            </div>
+                            <div class="card-grey">
+                                <span class="span-title">03</span>
+                                <span>Local Entry Representation and Public Procurement Market Entry</span>
+                                <p style="width: 300px;">
+                                    Document preparation, application, local entry representation, fees for maintaining qualifications for public procurement bidding.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="collapsible">
-                    <input type="checkbox" id="toggle" checked>
-                    <label for="toggle" class="toggle-label">
-                        <span class="header-number">04</span>
-                        <span class="header-title">Interpretation/Translation Service</span>
-
-                        <svg id="open-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8334H31.2503C41.667 45.8334 45.8337 41.6668 45.8337 31.2501V18.7501C45.8337 8.33342 41.667 4.16675 31.2503 4.16675H18.7503C8.33366 4.16675 4.16699 8.33342 4.16699 18.7501V31.2501C4.16699 41.6668 8.33366 45.8334 18.7503 45.8334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-
-                        <svg id="closed-icon" class="header-icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.667 25H33.3337" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25 33.3332V16.6665" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7503 45.8332H31.2503C41.667 45.8332 45.8337 41.6665 45.8337 31.2498V18.7498C45.8337 8.33317 41.667 4.1665 31.2503 4.1665H18.7503C8.33366 4.1665 4.16699 8.33317 4.16699 18.7498V31.2498C4.16699 41.6665 8.33366 45.8332 18.7503 45.8332Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                    </label>
-                    <div class="collapsible-content">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <p>Anda bisa menambahkan lebih banyak elemen di sini.</p>
-                    </div>
-                </div>
-
-                </div>
-            </div>
             <!-- section-wrapper end -->
         </div>
 
         <!-- <div data-include="component/footer"></div> -->
         @include('web/frontend/pages/en/component/footer')
-        
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                    content.style.display = "none";
+                    } else {
+                    content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
     </body>
 </html>
