@@ -205,12 +205,9 @@
 .product-wrapper .content .card-wrapper .card-grey span {
     font-weight: 400;
     font-size: 28px;
-<<<<<<< HEAD
-=======
     /* margin: 30px 0px 30px 0px; */
     gap: 20px;
     width: 100%;
->>>>>>> 2b395b886f7e5b0747fb8828475597180045af87
 }
 
 .product-wrapper .content .card-wrapper .card-grey .span-title {
