@@ -11,7 +11,7 @@
             <!-- bg-wrapper start -->
             <div class="bg-wrapper bisnis1">
                 <div class="text-box">
-                    <h1>Export<br>
+                    <h1>Export
                         Voucher</h1>
                     <p>We collect and analyze country-specific information to optimize data for each target market, offering business feasibility analysis and infrastructure consulting to localize Korea's advanced technology. Additionally, we provide document services, including visas and customs clearance, as well as translation and interpretation support for successful business execution.</p>
                 </div>
@@ -36,14 +36,14 @@
                             <div class="card">
                                 <img width="18%" src="../assets/images/icon/ic_samchulypay1.svg"/>
                                 <span>Basic Market Research & Analysis</span>
-                                <p style="width: 490px;">
+                                <p>
                                     Includes product analysis, export capacity analysis, demand trends, import/export trends, retail price trends, distribution structure, competitive trends, local conditions, feasibility studies, and potential and expected demand surveys.
                                 </p>
                             </div>
                             <div class="card">
                                 <img width="18%" src="../assets/images/icon/ic_samchulypay2.svg"/>
                                 <span>Custom Market Research & Analysis</span>
-                                <p style="width: 490px;">
+                                <p>
                                     Conducts local retail seller surveys (interviews), potential and expected consumer surveys (interviews), local customized trend analysis, product deep-dive analysis, and in-depth market entry analysis.
                                 </p>
                             </div>
@@ -52,14 +52,14 @@
                             <div class="card">
                                 <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
                                 <span>Business Partner Connection</span>
-                                <p style="width: 490px;">
+                                <p>
                                     Identifies and matches interested buyers, finds supply/processing companies for local exports, negotiates trade conditions, and conducts institutional/corporate feasibility studies.
                                 </p>
                             </div>
                             <div class="card">
                                 <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
                                 <span>In-depth Research & Market Entry Strategy Consulting</span>
-                                <p style="width: 490px;">
+                                <p>
                                     Conducts sample tests, analyzes target product/company competition, and provides on-site support for sales.
                                 </p>
                             </div>
@@ -69,14 +69,14 @@
                             <div class="card">
                                 <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
                                 <span>Execution Support & Mid-to-Long-Term Strategy Consulting</span>
-                                <p style="width: 490px;">
+                                <p>
                                     Analyzes performance, advises mid-to-long-term strategies, discovers sustainable models, formulates strategies for deepening local penetration, and establishes local communication channels/offices.
                                 </p>
                             </div>
                             <div class="card">
                                 <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
                                 <span>Buyer Situation Tracking & Follow-up Consulting</span>
-                                <p style="width: 490px;">
+                                <p>
                                     Conducts on-site visits and tracks buyer situations, responds to crises (such as local raw material supply, trade lines, etc.), and discovers models for solution.
                                 </p>
                             </div>
@@ -97,21 +97,21 @@
                             <div class="card-grey">
                                 <span class="span-title">01</span>
                                 <span>Export Documentation and Local Registration</span>
-                                <p style="width: 300px;">
+                                <p>
                                     Contract drafting, export logistics documentation consultancy, trade automation, post-management, FTA origin-related document consultancy.
                                 </p>
                             </div>
                             <div class="card-grey">
                                 <span class="span-title">02</span>
                                 <span>Credit Certification Service for Overseas Export</span>
-                                <p style="width: 300px;">
+                                <p>
                                     Issuance of overseas credit rating inquiry (foreign language report).
                                 </p>
                             </div>
                             <div class="card-grey">
                                 <span class="span-title">03</span>
                                 <span>Local Entry Representation and Public Procurement Market Entry</span>
-                                <p style="width: 300px;">
+                                <p>
                                     Document preparation, application, local entry representation, fees for maintaining qualifications for public procurement bidding.
                                 </p>
                             </div>
@@ -132,21 +132,21 @@
                             <div class="card-grey">
                                 <span class="span-title">01</span>
                                 <span>Export Documentation and Local Registration</span>
-                                <p style="width: 300px;">
+                                <p>
                                     Contract drafting, export logistics documentation consultancy, trade automation, post-management, FTA origin-related document consultancy.
                                 </p>
                             </div>
                             <div class="card-grey">
                                 <span class="span-title">02</span>
                                 <span>Credit Certification Service for Overseas Export</span>
-                                <p style="width: 300px;">
+                                <p>
                                     Issuance of overseas credit rating inquiry (foreign language report).
                                 </p>
                             </div>
                             <div class="card-grey">
                                 <span class="span-title">03</span>
                                 <span>Local Entry Representation and Public Procurement Market Entry</span>
-                                <p style="width: 300px;">
+                                <p>
                                     Document preparation, application, local entry representation, fees for maintaining qualifications for public procurement bidding.
                                 </p>
                             </div>
