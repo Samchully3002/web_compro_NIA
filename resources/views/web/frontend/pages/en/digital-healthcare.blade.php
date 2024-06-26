@@ -21,7 +21,7 @@
 
             <!-- section-wrapper start -->
             <div class="product-wrapper">
-                <div class="colss-wrapper">
+                <div class="colls-wrapper">
                     <button type="button" class="collapsible">
                         <span>01</span>
                         <span>Healthyhada</span>

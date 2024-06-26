@@ -176,13 +176,11 @@
     background-color: rgb(255, 255, 255);
     border: rgb(209, 209, 209) 1px solid;
     border-radius: 20px;
-    place-content: flex-start space-between;
     display: flex;
+    align-items: flex-start;
     flex-flow: column;
-    overflow: visible;
     margin: 0px 10px 0px 10px;
     padding: 30px;
-    position: relative;
 }
 
 .product-wrapper .content .card-wrapper .card-grey {
@@ -199,7 +197,6 @@
 .product-wrapper .content .card-wrapper .card-grey span {
     font-weight: 400;
     font-size: 28px;
-    margin: 30px 0px 30px 0px;
 }
 
 .product-wrapper .content .card-wrapper .card-grey .span-title {

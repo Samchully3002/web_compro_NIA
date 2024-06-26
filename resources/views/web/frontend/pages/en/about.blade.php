@@ -52,6 +52,47 @@
                             <h1 style="font-weight: 500; font-size: 40px;">2024</h1>
                     </div>
                 </div>
+                    {{-- <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2023.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2023</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2022.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2022</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2021.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2021</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2020.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2020</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2019.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2019</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2018.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2018</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2017.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2017</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2016.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2016</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2015.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2015</h1>
+                    </div>
+                    <div class="container-imageyear">
+                        <img style="border-radius: 20px; box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.2);" src="../assets/images/story2014.png"/>
+                        <h1 style="font-weight: 500; font-size: 40px;">2014</h1>
+                    </div>
+                </div> --}}
                 <!-- Right COntent -->
                 <div class="right-box">
                     <div class="wrapper">
@@ -118,7 +159,7 @@
                             </div>
                             <div class="row_history">
                                 <p>Proceeded the 2nd Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
-                        
+
                             </div>
                         </div>
                         <hr class="rounded">

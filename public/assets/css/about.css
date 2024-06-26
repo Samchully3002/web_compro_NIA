@@ -1,4 +1,14 @@
 /* introduction.html css start */
+@property --hue {
+    syntax: '<angle>';
+    initial-value: 0turn;
+    inherits: false;
+  }
+
+  @keyframes hue-cycle { to {
+    --hue: 1turn;
+  }}
+
 .bg-wrapper {
     padding: 50px 0px 50px 0px;
     overflow: auto;
@@ -187,6 +197,7 @@
     height: 240px;
     padding: 0px;
     position: relative;
+    margin: 20px;
     width: 512px;
 }
 

@@ -21,7 +21,7 @@
 
             <!-- section-wrapper start -->
             <div class="product-wrapper">
-                <div class="colss-wrapper">
+                <div class="colls-wrapper">
                     <button type="button" class="collapsible">
                         <span>01</span>
                         <span>Ticketing & Reservation</span>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="colss-wrapper">
+                <div class="colls-wrapper">
                     <button type="button" class="collapsible">
                         <span>02</span>
                         <span>Payment Integration System</span>
