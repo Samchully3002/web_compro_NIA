@@ -1,38 +1,17 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width"
-        />
-        <title>Networks Indonesia Aku</title>
-        <link rel="shortcut icon" href="../assets/img/favicon.ico" />
-        <link href="../assets/css/default.css" rel="stylesheet" />
-        <link href="../assets/css/outline.css" rel="stylesheet" />
-        <link href="../assets/css/page.css" rel="stylesheet" />
-        <link href="../assets/css/owl.carousel.min.css" rel="stylesheet" />
-        <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-            rel="stylesheet"
-        />
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-        <script src="../assets/js/owl.carousel.min.js"></script>
-        <script src="../assets/js/common.js"></script>
-    </head>
+    @include('web/frontend/pages/en/component/head')
+    <link rel="stylesheet" href="assets/css/comunity.css"/>
+</head>
+<body>
+@include('web/frontend/pages/en/component/header')
 
-    <body>
-        <div data-include="component/header"></div>
-
-        <div class="page page-community" id="page-media">
+        <div class="page">
             <!-- bg-wrapper start -->
-            <div class="bg-wrapper">
+            <div class="bg-wrapper bg-img">
                 <div class="text-box">
-                    <span>Media Report from NIA</span>
-                    <h3>Media Report</h3>
+                    <h1>News</h1>
+                    <p>Explore the latest updates from our company, uncovering innovations and successes shaping the IT landscape. Stay informed with our insightful articles on industry trends and advancements.</p>
                 </div>
             </div>
             <!-- bg-wrapper end -->

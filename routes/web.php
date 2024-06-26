@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Web ENglish Language
 Route::get('/', function () {
     return view('web/frontend/pages/en/index');
 });
@@ -10,9 +11,7 @@ Route::get('/about', function () {
    return  view('web/frontend/pages/en/about');
 });
 
-
-
-
+//Business
 Route::get('/intellegent-integrated-logistic', function () {
    return  view('web/frontend/pages/en/intellegent-integrated-logistic');
 });
@@ -29,8 +28,13 @@ Route::get('/export-voucher', function () {
    return  view('web/frontend/pages/en/export-voucher');
 });
 
-
-
+// Comunity
+Route::get('/news', function () {
+    return view('web/frontend/pages/en/news');
+});
+Route::get('/notice', function () {
+    return view('web/frontend/pages/en/notice');
+});
 
 Route::get('/contact', function () {
    return  view('web/frontend/pages/en/contact');
