@@ -1,0 +1,30 @@
+.notice-wrapper {
+    place-content: flex-start center;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    overflow: hidden;
+    padding: 150px 50px 20px;
+    position: relative;
+    width: 100%;
+}
+.notice-wrapper .notice-title {
+    padding: 50px 0px 50px 0px;
+    justify-content: flex-start;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.notice-wrapper .notice-list {
+    place-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 40px;
+    height: min-content;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
