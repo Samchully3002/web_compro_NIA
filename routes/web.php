@@ -36,6 +36,10 @@ Route::get('/contact', function () {
    return  view('web/frontend/pages/en/contact');
 });
 
+Route::get('/privacy-policy', function () {
+   return  view('web/frontend/pages/en/privacy-policy');
+});
+
 
 
 Route::group([

@@ -1,0 +1,88 @@
+body {
+    color: #40455c;
+    font-weight: 300;
+}
+
+.privacy-wrapper {
+    place-content: flex-start center;
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 150px 50px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.privacy-wrapper h1 {
+    font-size: 80px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.privacy-content {
+    place-content: center flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 30px;
+    height: min-content;
+    overflow: visible;
+    padding: 50px 0px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.privacy-content h1 {
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.privacy-content .content li {
+    list-style: disc;
+    left: 15px;
+    padding: 0 8px;
+}
+.privacy-content .content li span {
+    font-weight: 400;
+}
+
+.privacy-content .content a {
+    color: cornflowerblue;
+    font-weight: 500;
+}
+
+hr.rounded {
+    border-top: 1px solid #bbb;
+    border-radius: 5px;
+    width: inherit;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 1140px) {
+    .privacy-wrapper {
+        padding: 150px 20px 0;
+    }
+
+    .privacy-wrapper h1 {
+        font-size: 36px;
+    }
+
+    .privacy-content h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+}
+/* page 공통 contact-wrapper css end */
