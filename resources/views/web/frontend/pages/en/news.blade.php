@@ -279,9 +279,11 @@
 
                 <div class="imx">
                     <div class="pagination">
+                        <a href="#" class="arrow">&laquo;</a>
                         <a href="media.html" class="active">1</a>
                         <a href="media_page2.html">2</a>
                         <a href="media_page3.html">3</a>
+                        <a href="#" class="arrow">&raquo;</a>
                     </div>
                 </div>
             </div>
