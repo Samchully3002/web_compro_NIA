@@ -14,6 +14,134 @@
     height: 100vh;
 }
 
+ .list-wrapper{
+    word-break: keep-all;
+    padding:100px 0px 120px;
+}
+
+ .list-wrapper .item-box {
+    margin-bottom: 20px;
+}
+
+ .list-wrapper .item-box .item{
+    margin-bottom: 70px;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.list-wrapper .item-box .item:hover {
+    transform: scale(0.98);
+    opacity: 0.8;
+}
+
+ .list-wrapper .item-box .item .img-box {
+    padding-bottom: 75%;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+
+ .list-wrapper .item-box .item .img-box img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:1vw;
+}
+
+ .list-wrapper .item-box .item h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    line-height: 1.3;
+}
+
+ .list-wrapper .item-box .item span {
+    display: block;
+    line-height: 2em;
+    font-size: 16px;
+    color: rgb(143, 146, 161);
+    text-align: start;
+}
+
+ .list-wrapper .item-box .item .publisher {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 2em;
+    color:rgb(143, 146, 161);
+    text-align: start;
+}
+
+@media screen and (max-width:1140px) {
+     .list-wrapper {
+        background: #fff;
+        padding: 60px 0px 100px;
+    }
+
+     .list-wrapper .item-box{
+        padding:0px 8px;
+    }
+
+     .list-wrapper .item-box .imx{
+        margin:0px 8px;
+    }
+
+     .list-wrapper .item-box .item{
+        margin-bottom: 50px;
+    }
+
+     .list-wrapper .item-box .item .img-box {
+        margin-bottom: 14px;
+        box-shadow: 0 1.5vw 2.5vw rgba(0,0,0,.15);
+        border-radius: 2.5vw;
+    }
+
+     .list-wrapper .item-box .item h3 {
+        font-size: 1.3em;
+        margin-bottom: 14px;
+        height: 50px;
+    }
+
+     .list-wrapper .item-box .item span {
+        font-size: 1.15em;
+    }
+}
+
+@media screen and (max-width:780px) {
+     .list-wrapper {
+        padding: 40px 0px 60px;
+    }
+
+     .list-wrapper .item-box .fl {
+        width: 50%;
+    }
+
+     .list-wrapper .item-box .item{
+        margin-bottom: 40px;
+    }
+
+     .list-wrapper .item-box .item .img-box {
+        margin-bottom: 10px;
+    }
+
+     .list-wrapper .item-box .item h3 {
+        font-size: 1.15em;
+        margin-bottom: 10px;
+        height: 45px;
+    }
+
+     .list-wrapper .item-box .item span {
+        font-size: 1em;
+    }
+}
+/* media.html css end */
+
 .bg-wrapper .text-box {
     place-content: flex-end space-between;
     align-items: flex-end;

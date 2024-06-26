@@ -16,42 +16,21 @@
             </div>
             <!-- bg-wrapper end -->
 
-            <div class="row info-wrapper">
-                <div class="imx">
-                    <div class="title clear">
-                        <div class="fr">
-                            <select>
-                                <option>Judul + Isi</option>
-                            </select>
-                            <div class="search-box">
-                                <input
-                                    type="text"
-                                    placeholder="Masukan pencarian"
-                                />
-                                <a
-                                    ><img
-                                        src="../assets/img/icon/icon-search.svg"
-                                /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row list-wrapper">
 
                 <div class="item-box clear">
                     <div class="fl w25">
                         <div class="imx">
                             <a class="item" href="./media/media_16.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img16.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Haninpost</span>
                                 <h3>
                                     Samchully Networks, Menyelenggarakan Opening
                                     Ceremony untuk Proyek Modernisasi Terminal
                                     Bus
                                 </h3>
-                                <span class="publisher">Haninpost</span>
                                 <span>2023-09-18</span>
                             </a>
                         </div>
@@ -61,16 +40,14 @@
                         <div class="imx">
                             <a class="item" href="./media/media_15.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img15.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Indosiar</span>
                                 <h3>
                                     Live Report: Keren!! Kini Terminal Kampung
                                     Rambutan Lebih Modern dengan Wajah Baru |
                                     Fokus
                                 </h3>
-                                <span class="publisher">Indosiar</span>
                                 <span>2023-09-14</span>
                             </a>
                         </div>
@@ -80,15 +57,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_14.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img14.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Berita Jakarta</span>
                                 <h3>
                                     Terminal Bus Kampung Rambutan Mulai Buka
                                     Penjualan Tiket Online
                                 </h3>
-                                <span class="publisher">Berita Jakarta</span>
                                 <span>2023-09-13</span>
                             </a>
                         </div>
@@ -98,15 +73,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_13.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img13.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Berita Jakarta</span>
                                 <h3>
                                     Terminal Bus Kampung Rambutan Bakal Jadi
                                     Percontohan Modernisasi
                                 </h3>
-                                <span class="publisher">Berita Jakarta</span>
                                 <span>2023-08-23</span>
                             </a>
                         </div>
@@ -116,16 +89,14 @@
                         <div class="imx">
                             <a class="item" href="./media/media_12.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img12.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Daum.net</span>
                                 <h3>
                                     Samchully Networks, Sukses Menyelenggarakan
                                     Pelatihan undangan ke-2 di Korea bersama
                                     Kemenhub Indonesia
                                 </h3>
-                                <span class="publisher">Daum.net</span>
                                 <span>2023-07-27</span>
                             </a>
                         </div>
@@ -135,15 +106,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_11.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img11.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">News1</span>
                                 <h3>
                                     Samchully Networks, Menyelenggarakan Seminar
                                     Masterplan Modernisasi Terminal Bus
                                 </h3>
-                                <span class="publisher">News1</span>
                                 <span>2023-07-27</span>
                             </a>
                         </div>
@@ -153,15 +122,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_10.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img10.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Kompas</span>
                                 <h3>
                                     Hibah Korea Selatan untuk Modernisasi
                                     Terminal Kampung Rambutan
                                 </h3>
-                                <span class="publisher">Kompas</span>
                                 <span>2023-04-14</span>
                             </a>
                         </div>
@@ -171,10 +138,9 @@
                         <div class="imx">
                             <a class="item" href="./media/media_9.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img09.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Berita Jakarta</span>
                                 <h3>
                                     31 Loket Bus AKAP di Terminal Kampung
                                     Rambutan Dipindah ke Lantai Dua
@@ -189,15 +155,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_8.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img08.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Berita Jakarta</span>
                                 <h3>
                                     PO Bus Terminal Kampung Rambutan Apresiasi
                                     Kebijakan Pemindahan Loket
                                 </h3>
-                                <span class="publisher">Berita Jakarta</span>
                                 <span>2023-07-06</span>
                             </a>
                         </div>
@@ -207,15 +171,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_7.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img07.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Tribun</span>
                                 <h3>
                                     PT NIA dan Kemenhub Gelar Pelatihan Sistem
                                     Modernisasi Terminal
                                 </h3>
-                                <span class="publisher">Tribun</span>
                                 <span>2023-03-04</span>
                             </a>
                         </div>
@@ -225,15 +187,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_6.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img06.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Liputan6</span>
                                 <h3>
                                     Lewat Modernisasi Terminal, Penumpang Tak
                                     Lagi Antre Pesan Tiket Bus
                                 </h3>
-                                <span class="publisher">Liputan6</span>
                                 <span>2023-03-09</span>
                             </a>
                         </div>
@@ -243,15 +203,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_5.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img05.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Kumparan</span>
                                 <h3>
                                     Samchully Networks Memimpin Dalam
                                     Modernisasi Terminal Bus di Indonesia
                                 </h3>
-                                <span class="publisher">Haninpost</span>
                                 <span>2023-02-28</span>
                             </a>
                         </div>
@@ -261,15 +219,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_4.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img04.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Kumparan</span>
                                 <h3>
                                     Mewakili Korea, PT NIA Laksanakan Proyek
                                     Modernisasi Terminal Bus
                                 </h3>
-                                <span class="publisher">Kumparan</span>
                                 <span>2022-11-23</span>
                             </a>
                         </div>
@@ -279,15 +235,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_3.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img03.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">Siminilbo</span>
                                 <h3>
                                     Samchully Networks, mengundang Kemenhub ke
                                     Korea
                                 </h3>
-                                <span class="publisher">Siminilbo</span>
                                 <span>2022-11-22</span>
                             </a>
                         </div>
@@ -297,12 +251,10 @@
                         <div class="imx">
                             <a class="item" href="./media/media_2.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img02.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
-                                <h3>2 Terminal Bus di RI Akan Dimodernisasi</h3>
                                 <span class="publisher">Okezone</span>
+                                <h3>2 Terminal Bus di RI Akan Dimodernisasi</h3>
                                 <span>2022-11-21</span>
                             </a>
                         </div>
@@ -312,15 +264,13 @@
                         <div class="imx">
                             <a class="item" href="./media/media_1.html">
                                 <div class="img-box">
-                                    <img
-                                        src="../assets/img/media-detail-img01.jpg"
-                                    />
+                                    <img src="../assets/images/news1.png"/>
                                 </div>
+                                <span class="publisher">TVONE</span>
                                 <h3>
                                     Terminal Kampung Rambutan dan Leuwi Panjang
                                     akan Dimodernisasi
                                 </h3>
-                                <span class="publisher">TVONE</span>
                                 <span>2022-11-21</span>
                             </a>
                         </div>
@@ -337,6 +287,6 @@
             </div>
         </div>
 
-        <div data-include="component/footer"></div>
+        @include('web/frontend/pages/en/component/footer')
     </body>
 </html>
