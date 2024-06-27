@@ -35,37 +35,38 @@
                     <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn_contact_us">Our Video&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/polygon.png" ></a>
                     <a href="/contact" class="btn_contact_us">Contact Us&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/arrow.png" class="language_flag"></a>
 
-                        <div class="right-box language">
-                            <div class="lang-box hidden-box bahasa">
-                                <a class="lang-btn">
-                                    <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
-                                    <span>&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;</span>
-                                    <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
-                                </a>
-                                <ul class="lang-menu hidden-menu">
-                                    <li><a href="../en/index.html"><img src="../../assets/images/icon/flag-english.png"/> English</a></li>
-                                    <li><a href="../kr/index.html"><img src="../../assets/images/icon/flag-korea.png"/> Korea</a></li>
-                                    <li><a href="../in/index.html"><img src="../../assets/images/icon/flag-indo.png"/> Indonesia</a></li>
-                                </ul>
-                            </div>
+                    <div class="right-box language">
+                        <div class="lang-box hidden-box bahasa">
+                            <a class="lang-btn">
+                                <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
+                                <span>&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;</span>
+                                <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
+                            </a>
+                            <ul class="lang-menu hidden-menu">
+                                <li><a href="../en/index.html"><img src="../../assets/images/icon/flag-english.png"/> English</a></li>
+                                <li><a href="../kr/index.html"><img src="../../assets/images/icon/flag-korea.png"/> Korea</a></li>
+                                <li><a href="../in/index.html"><img src="../../assets/images/icon/flag-indo.png"/> Indonesia</a></li>
+                            </ul>
                         </div>
-                        <div class="nav-mobile">
+                    </div>
+                    <div class="nav-mobile">
+                        <div class="nav-wrapper">
                             <a class="logo" href="#">
                                 <img style="width: 75%;" src="../../assets/images/icon/ic_logo.png" />
                             </a>
-                            <div class="right-mobile">
-                                <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn-video-mobile">Our Video&nbsp;&nbsp;&nbsp;
-                                    <img style="width: 12%;" src="../../assets/images/icon/polygon.png" >
-                                </a>
-                            </div>
-                            <div class="ham-wrapper">
-                                <a class="mobile-ham hambuger-menu">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </a>
-                            </div>
+                        {{-- <div class="right-mobile"> --}}
+                            <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn-video-mobile">Our Video&nbsp;&nbsp;&nbsp;
+                                <img style="width: 12%;" src="../../assets/images/icon/polygon.png" >
+                            </a>
                         </div>
+                    </div>
+                    <div class="ham-wrapper">
+                        <a class="mobile-ham hambuger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -166,13 +167,11 @@
         if(!$(this).hasClass('active')){
             $(this).addClass('active');
             $('.mobile-menu').stop().fadeIn();
-            $('.logo').stop().fadeOut();
-            $('.right-mobile').stop().fadeOut();
+            $('.nav-mobile').stop().fadeOut();
             $('.mobile-menu .inner').stop().fadeIn();
         } else{
             $(this).removeClass('active');
-            $('.logo').stop().fadeIn();
-            $('.right-mobile').stop().fadeIn();
+            $('.nav-mobile').stop().fadeIn();
             $('.mobile-menu').stop().fadeOut();
             $('.mobile-menu .inner').stop().fadeOut();
             $('.mobile-menu .second-menu').stop().fadeOut();
