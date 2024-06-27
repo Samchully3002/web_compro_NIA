@@ -6,7 +6,6 @@
                     <li >
                         <a class="logo"  href="/">
                             <img style="width: 75%;" class="effect-off" src="../../assets/images/icon/ic_logo.png" />
-                            <img style="width: 75%;" class="effect-on" src="../../assets/images/icon/ic_logo.png" />
                         </a>
                     </li>
                     <li class="first-menu hidden-box>"><a href="/">Home</a></li>
@@ -51,17 +50,19 @@
                             </div>
                         </div>
                         <div class="nav-mobile">
-                            <a class="logo"  href="#">
+                            <a class="logo" href="#">
                                 <img style="width: 75%;" src="../../assets/images/icon/ic_logo.png" />
                             </a>
                             <div class="right-mobile">
                                 <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn-video-mobile">Our Video&nbsp;&nbsp;&nbsp;
                                     <img style="width: 12%;" src="../../assets/images/icon/polygon.png" >
                                 </a>
+                            </div>
+                            <div class="ham-wrapper">
                                 <a class="mobile-ham hambuger-menu">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
                                 </a>
                             </div>
                         </div>
@@ -71,6 +72,10 @@
 
         <div class="mobile-menu">
             <div class="inner">
+                <a class="icon-mobile" href="#">
+                    <img src="../../assets/images/icon/favicon.ico" />
+                    <p>Networks Indonesia Aku</p>
+                </a>
                 <ul>
                     <li>
                         <a class="first-menu" href="/">HOME</a>
@@ -161,9 +166,13 @@
         if(!$(this).hasClass('active')){
             $(this).addClass('active');
             $('.mobile-menu').stop().fadeIn();
+            $('.logo').stop().fadeOut();
+            $('.right-mobile').stop().fadeOut();
             $('.mobile-menu .inner').stop().fadeIn();
         } else{
             $(this).removeClass('active');
+            $('.logo').stop().fadeIn();
+            $('.right-mobile').stop().fadeIn();
             $('.mobile-menu').stop().fadeOut();
             $('.mobile-menu .inner').stop().fadeOut();
             $('.mobile-menu .second-menu').stop().fadeOut();
