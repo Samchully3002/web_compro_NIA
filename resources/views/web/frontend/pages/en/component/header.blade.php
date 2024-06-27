@@ -1,6 +1,4 @@
 <div id="header-wrapper">
-        <div class="pc-bg"></div>
-        <div>
             <div class="menu-wrapper">
                 <ul class="menu-box">
                     <li >
@@ -54,10 +52,11 @@
                             <a class="logo" href="#">
                                 <img style="width: 75%;" src="../../assets/images/icon/ic_logo.png" />
                             </a>
-                        {{-- <div class="right-mobile"> --}}
-                            <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn-video-mobile">Our Video&nbsp;&nbsp;&nbsp;
-                                <img style="width: 12%;" src="../../assets/images/icon/polygon.png" >
-                            </a>
+                            <div class="right-mobile"> 
+                                <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn-video-mobile">Our Video&nbsp;&nbsp;&nbsp;
+                                    <img style="width: 12%;" src="../../assets/images/icon/polygon.png" >
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="ham-wrapper">
@@ -69,7 +68,6 @@
                     </div>
                 </div>
             </div>
-        </div>
 
         <div class="mobile-menu">
             <div class="inner">
@@ -103,8 +101,8 @@
                         <a class="first-menu">COMMUNITY</a>
                         <div class="second-menu">
                             <a href="/notice">Notice</a>
-                            <span></span>
-                            <a href="/news">Media Report</a>
+                            <br>
+                            <a href="/news">News</a>
                         </div>
                     </li>
 
@@ -112,19 +110,22 @@
                         <a href="/contact" class="first-menu">CONTACT US</a>
                     </li>
                     <li>
-                        <a href="/video" class="first-menu">OUR VIDEO</a>
+                        <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="first-menu">OUR VIDEO</a>
                     </li>
                     <li>
-                                <a class="lang-btn">
-                                    <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
-                                    <span>&nbsp;&nbsp;&nbsp;ENGLISH&nbsp;&nbsp;&nbsp;</span>
-                                    <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
-                                </a>
+                        <a class="first-menu">LANGUAGE</a>
+                        <div class="second-menu">
+                            <a href="/"><img src="../../assets/images/icon/flag-english.png"/> English</a>
+                            <br>
+                            <a href="/kr"><img src="../../assets/images/icon/flag-korea.png"/> Korea</a>
+                            <br>
+                            <a href="/in"><img src="../../assets/images/icon/flag-indo.png"/> Indonesia</a>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
-    </div>
+</div>
 <script>
     $('.hidden-box').mouseover(function(){
         if($('.hambuger-menu').hasClass('active')){

@@ -338,7 +338,7 @@
     letter-spacing: -0.01em;
     line-height: 2em;
     text-align: left;
-    color: rgb(64,69,92);
+    color: rgb(64, 69, 92);
 }
 
 #header-wrapper .hambuger-menu span:nth-child(1) {
@@ -655,11 +655,18 @@ h3 {
 }
 
 .ham-wrapper {
-    display: flex; justify-content: flex-end
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* --- Laptop --- */
 @media screen and (max-width: 1140px) {
+    .nav-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
     .nav-mobile {
         display: flex;
         width: 100%;
@@ -669,6 +676,8 @@ h3 {
 
     #header-wrapper .content-right {
         width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
 
     #header-wrapper {
@@ -753,19 +762,19 @@ h3 {
         gap: 20px;
         width: fit-content;
         place-content: flex-start;
-        padding: 10px;
+        padding: 20px;
         align-items: center;
     }
 
     #header-wrapper .mobile-menu .inner .icon-mobile p {
         font-size: 15px;
         font-weight: 500;
-        color: rgb(68,68,68);
+        color: rgb(68, 68, 68);
     }
 
     #header-wrapper .mobile-menu .inner ul {
         background: #fff;
-        padding: 80px 20px;
+        padding: 30px 20px;
         height: 100vh;
     }
 
@@ -777,7 +786,7 @@ h3 {
     }
 
     #header-wrapper .mobile-menu .inner ul li:first-child {
-        border-top: 1px #ddd solid;
+        /* border-top: 1px #ddd solid; */
     }
 
     #header-wrapper .mobile-menu .inner ul li .first-menu {
@@ -793,13 +802,19 @@ h3 {
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu a {
-        display: block;
+        display: flex;
         font-size: 16px;
         font-weight: 400;
         transition: all 0.3s;
         width: 100%;
+        align-items: center;
         line-height: 3;
         left: 20px;
+    }
+
+    #header-wrapper .mobile-menu .inner ul li .second-menu a img {
+        width: 20px;
+        margin-right: 12px;
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu span {
