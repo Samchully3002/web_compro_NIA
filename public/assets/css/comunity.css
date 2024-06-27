@@ -1,3 +1,7 @@
+body {
+    color: #40455c;
+}
+
 /* NEWS STYLE */
 .news-wrapper {
     width: 100%;
@@ -117,84 +121,47 @@
     flex-flow: column;
     gap: 10px;
     overflow: hidden;
-    padding: 150px 50px 20px;
+    padding: 150px 50px 50px;
     position: relative;
     width: 100%;
 }
 .notice-wrapper .notice-title {
-    padding: 50px 0px 50px 0px;
+    padding-bottom: 30px;
     justify-content: flex-start;
     font-size: 80px;
-    font-weight: bold;
+    font-weight: 500;
+    line-height: 80px;
+    color: #40455c;
 }
 
 .notice-wrapper .notice-list {
-    place-content: flex-start;
-    align-items: flex-start;
     display: flex;
-    flex: 0 0 auto;
-    flex-flow: column;
-    gap: 40px;
-    height: min-content;
-    padding: 0px;
-    position: relative;
+    padding: 24px 0;
     width: 100%;
-}
-
-<<<<<<< HEAD
-.notice-wrapper .notice-list .data {
-    display: flex;
-    flex-flow: wrap;
-    place-content: center space-between;
-    padding: 0px 0px 24px 0px;
-    width: 100%;
-    font-weight: bold;
-    border-bottom: 1px solid #a9b6c4;
-}
-
-.notice-wrapper .notice-list .data .number {
-    align-items: start;
-    display: flex;
-    flex: 1 0 0px;
-    flex-flow: row;
-    gap: 20px;
-    height: min-content;
-    min-width: 200px;
-    padding: 0px;
-    position: relative;
-    width: 1px;
-}
-
-.notice-wrapper .notice-list .data .title {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    transform: none;
-}
-
-.notice-wrapper .notice-list .data .date {
-    place-content: center;
     align-items: center;
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: row;
-    gap: 20px;
-    height: min-content;
-    overflow: hidden;
-    padding: 0px;
-    position: relative;
-    width: min-content;
+    justify-content: space-between;
+    border-bottom: solid 1px #a9b6c4;
 }
 
+.notice-wrapper .notice-list .notice-content {
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+    width: 80%;
+}
 
+.notice-wrapper .notice-list .notice-date {
+    display: flex;
+    gap: 30px;
+    color: #8f92a1;
+    font-weight: 300;
+}
 
-=======
 .pagination {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding: 0;
+    padding: 50px 0;
 }
 
 .pagination a {
@@ -305,5 +272,23 @@
     .list-wrapper .item-box .item span {
         font-size: 1em;
     }
+
+    .notice-wrapper {
+        padding: 150px 20px 50px;
+    }
+
+    .notice-wrapper .notice-list .notice-date {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .notice-wrapper .notice-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .notice-wrapper .notice-list .notice-content {
+        width: 100%;
+    }
+    .notice-wrapper .notice-list .notice-content span {
+        display: none;
+    }
 }
->>>>>>> a2b4f65cba0423f82a4f1a9e886fd395f2d4e632
