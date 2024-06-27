@@ -11,7 +11,7 @@
                 <div class="notice-title">
                     <p>Notice</p>
                 </div>
-                <a class="notice-list" href="#">
+                <a class="notice-list" href="/notice-details">
                     <div class="notice-content">
                         <span>1</span>
                         <p>Samchully Networks, 2023 Opening Ceremony</p>

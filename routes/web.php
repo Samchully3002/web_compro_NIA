@@ -30,10 +30,15 @@ Route::get('/export-voucher', function () {
 
 // Comunity
 Route::get('/news', function () {
-    return view('web/frontend/pages/en/news');
+   return view('web/frontend/pages/en/news');
 });
+
 Route::get('/notice', function () {
-    return view('web/frontend/pages/en/notice');
+   return view('web/frontend/pages/en/notice');
+});
+
+Route::get('/notice-details', function () {
+   return view('web/frontend/pages/en/notice-details');
 });
 
 Route::get('/contact', function () {
