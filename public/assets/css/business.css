@@ -58,7 +58,7 @@
 }
 
 .product-wrapper {
-    margin: 0px 300px 0px 300px;
+    /* margin: 0px 300px 0px 300px; */
     place-content: center;
     align-items: center;
     display: flex;
