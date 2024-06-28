@@ -58,7 +58,7 @@
 }
 
 .product-wrapper {
-    /* margin: 0px 300px 0px 300px; */
+    margin: 0px 300px 0px 300px;
     place-content: center;
     align-items: center;
     display: flex;
@@ -183,6 +183,7 @@
     border-radius: 20px;
     display: flex;
     align-items: flex-start;
+    word-break: break-word;
     flex-flow: column;
     margin: 0px 10px 0px 10px;
     padding: 30px;
@@ -196,6 +197,7 @@
     flex-flow: column;
     margin: 0px 10px 0px 10px;
     padding: 30px;
+    word-break: break-word;
     gap: 20px;
     width: 100%;
     line-height: normal;

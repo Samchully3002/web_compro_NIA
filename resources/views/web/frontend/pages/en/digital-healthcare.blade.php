@@ -22,10 +22,11 @@
             <!-- section-wrapper start -->
             <div class="product-wrapper">
                 <div class="colls-wrapper">
-                    <button type="button" class="collapsible">
-                        <span>01</span>
-                        <span>Healthyhada</span>
-                    </button>
+                    <input id="collaps" class="toggle" type="checkbox">
+                    <div class="wrap-title">
+                        <label>01</label>
+                        <label>Healthyhada</label>
+                    </div>
                     <div class="content">
                         <div class="text-wrapper">
                             <p>We provide trustworthy health solutions through optimized customer-tailored consultations by healthcare professionals considering customer preferences, health status, underlying conditions, and medications, along with AI-based big data utilization for designing health functional food plans.</p>
