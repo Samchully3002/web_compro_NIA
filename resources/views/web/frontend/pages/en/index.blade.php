@@ -44,7 +44,7 @@
             </a>
         </div>
         <div class="image-container">
-            <a href="business-DHC">
+            <a href="/digital-healthcare">
                 <img src="../../assets/images/DHC.jpg">
                     <div class="image-overlay">
                     <div class="ic-bisnis">
@@ -59,7 +59,7 @@
             </a>
         </div>
         <div class="image-container">
-            <a href="business-SDM">
+            <a href="/system-development-management">
                 <img src="../../assets/images/SDM.jpg">
                     <div class="image-overlay">
                     <div class="ic-bisnis">
@@ -74,7 +74,7 @@
             </a>
         </div>
         <div class="image-container">
-            <a href="business-EV">
+            <a href="/export-voucher">
                 <img src="../../assets/images/EV.jpg">
                     <div class="image-overlay">
                     <div class="ic-bisnis">
@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="news_footer">
-                <button onMouseOver="this.style.background='#40455C'" onMouseOut="this.style.background='transparent'">More</button>
+                <button onMouseOver="this.style.background='#40455C'" onMouseOut="this.style.background='transparent'"><a href="/news">More</a></button>
             </div>
         </div>
 
