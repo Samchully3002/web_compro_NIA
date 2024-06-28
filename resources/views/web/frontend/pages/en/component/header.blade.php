@@ -33,7 +33,7 @@
                     <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn_contact_us">Our Video&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/polygon.png" ></a>
                     <a href="/contact" class="btn_contact_us">Contact Us&nbsp;&nbsp;&nbsp; <img style="width: 12%;" src="../../assets/images/icon/arrow.png" class="language_flag"></a>
 
-                    <div class="right-box language">
+                    {{-- <div class="right-box language">
                         <div class="lang-box hidden-box bahasa">
                             <a class="lang-btn">
                                 <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
@@ -46,13 +46,13 @@
                                 <li><a href="../in/index.html"><img src="../../assets/images/icon/flag-indo.png"/> Indonesia</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="nav-mobile">
                         <div class="nav-wrapper">
                             <a class="logo" href="#">
                                 <img style="width: 75%;" src="../../assets/images/icon/ic_logo.png" />
                             </a>
-                            <div class="right-mobile"> 
+                            <div class="right-mobile">
                                 <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="btn-video-mobile">Our Video&nbsp;&nbsp;&nbsp;
                                     <img style="width: 12%;" src="../../assets/images/icon/polygon.png" >
                                 </a>
@@ -112,7 +112,7 @@
                     <li>
                         <a href="https://www.youtube.com/channel/UCk4YWCZF81paAh_rzwwiKxQ" class="first-menu">OUR VIDEO</a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a class="first-menu">LANGUAGE</a>
                         <div class="second-menu">
                             <a href="/"><img src="../../assets/images/icon/flag-english.png"/> English</a>
@@ -121,7 +121,7 @@
                             <br>
                             <a href="/in"><img src="../../assets/images/icon/flag-indo.png"/> Indonesia</a>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>

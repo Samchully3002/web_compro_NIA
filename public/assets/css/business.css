@@ -123,11 +123,11 @@
 }
 
 .collapsible:after {
-    content: url(../../assets/images/icon/open-icon-white.png);
-    border-radius: 20px 20px 0px 0px;
-    /* color: white; */
-    font-weight: bold;
+    content: '\002B';
+    font-size: 13px;
+    color:#40455c;
     float: right;
+    margin-left: 5px;
 }
 
 /* .active:after {
@@ -263,13 +263,13 @@
         font-size: 24px;
     }
 
-    .collapsible:after {
+    /* .collapsible:after {
         content: url(../../assets/images/icon/open-icon-white-mini.png);
         border-radius: 20px 20px 0px 0px;
-        /* color: white; */
+        color: white;
         font-weight: bold;
         float: right;
-    }
+    } */
 
     .product-wrapper .collapsible {
         padding: 20px;
