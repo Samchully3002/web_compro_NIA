@@ -1,3 +1,4 @@
+<div class="scale-in">
 <div id="footer-wrapper">
     <div class="row">
         <!-- <div class="imx"> -->
@@ -112,3 +113,27 @@
         <!-- </div> -->
     </div>
 </div>
+</div>
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll('.scale-in');
+
+            function checkVisibility() {
+                elements.forEach(element => {
+                    const rect = element.getBoundingClientRect();
+                    if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                        element.classList.add('visible');
+                    } else {
+                        element.classList.remove('visible');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('resize', checkVisibility);
+
+            // Initial check on load
+            checkVisibility();
+        });
+    </script>

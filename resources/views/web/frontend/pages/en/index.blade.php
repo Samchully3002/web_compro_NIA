@@ -124,7 +124,7 @@
 
         <div class="clientSection">
             <div class="client_text">
-                <label>Collaborating seamlessly to create value and drive success for our clients.</label>
+                <p class="fade-in">Collaborating seamlessly to create value and drive success for our clients.</p>
             </div>
                 <!-- <marquee behavior="scroll" direction="left">
                     <img src="../../assets/images/icon/korea.png"/>
@@ -155,7 +155,6 @@
                         <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
                         <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
                         <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
-
                     </div>
                 </div>
         </div>
@@ -235,6 +234,28 @@
     <script src="../assets/js/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll('.fade-in');
+
+            function checkVisibility() {
+                elements.forEach(element => {
+                    const rect = element.getBoundingClientRect();
+                    if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                        element.classList.add('visible');
+                    } else {
+                        element.classList.remove('visible');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('resize', checkVisibility);
+
+            // Initial check on load
+            checkVisibility();
+        });
     </script>
 </body>
 

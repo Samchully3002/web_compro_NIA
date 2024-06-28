@@ -659,6 +659,17 @@ h3 {
     justify-content: flex-end;
 }
 
+.scale-in {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.scale-in.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
 /* --- Laptop --- */
 @media screen and (max-width: 1140px) {
     .nav-wrapper {

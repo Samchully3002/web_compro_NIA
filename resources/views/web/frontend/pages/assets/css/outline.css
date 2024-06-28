@@ -12,7 +12,7 @@
     transition: all 0.3s;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 2.5vh 2.5vh rgba(0,0,0,.1);
+    box-shadow: 0 2.5vh 2.5vh rgba(0, 0, 0, 0.1);
 }
 
 #header-wrapper .row {
@@ -29,7 +29,7 @@
     align-items: center;
     font-size: 1.33em;
     font-weight: 500;
-    height: 80px
+    height: 80px;
 }
 
 #header-wrapper .menu-box {
@@ -38,7 +38,7 @@
 .menu-box a.active {
     background-color: #045aaa;
     color: white;
-  }
+}
 
 #header-wrapper .pc-bg {
     position: fixed;
@@ -51,7 +51,7 @@
 }
 
 #header-wrapper .pc-bg::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 1px;
     background: #eee;
@@ -60,8 +60,8 @@
     position: absolute;
 }
 
-#header-wrapper .pc-bg::before{
-    content: '';
+#header-wrapper .pc-bg::before {
+    content: "";
     width: 100%;
     height: 1px;
     background: #eee;
@@ -117,7 +117,7 @@
 }
 
 #header-wrapper .menu-box .first-menu .pc-hidden a em::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     bottom: -4px;
@@ -172,11 +172,11 @@
     padding: 12px 28px;
     color: rgb(255, 255, 255);
     font-size: 14px;
-    font-family: 'Outfit', sans-serif;
+    font-family: "Outfit", sans-serif;
     border: white solid 1px;
     border-radius: 40px;
     text-transform: uppercase;
-    box-shadow:.5vh .5vh .75vh rgba(0,0,0,.1);
+    box-shadow: 0.5vh 0.5vh 0.75vh rgba(0, 0, 0, 0.1);
 }
 
 #header-wrapper .hidden-menu {
@@ -210,7 +210,7 @@
 #header-wrapper .hidden-menu a {
     display: flex;
     align-items: center;
-    color:#333;
+    color: #333;
 }
 
 #header-wrapper .lang-menu li a {
@@ -226,15 +226,15 @@
 }
 
 #header-wrapper .hidden-menu li a::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     bottom: -4px;
     left: 0px;
     width: 0px;
     height: 3px;
-    border-radius:1.5px;
-    background: linear-gradient(45deg, #FF7432 25%,#439CD6);
+    border-radius: 1.5px;
+    background: linear-gradient(45deg, #ff7432 25%, #439cd6);
     transition: all 0.3s;
 }
 
@@ -327,7 +327,7 @@
     /* background: #E0E0E0; v3 */
     padding: 70px 0px 40px;
     border-radius: 0 5vw 0 0;
-    box-shadow: 0 -2.5vw 3.75vw rgba(0,0,0,.15);
+    box-shadow: 0 -2.5vw 3.75vw rgba(0, 0, 0, 0.15);
 }
 
 #footer-wrapper .row {
@@ -370,14 +370,14 @@
 
 #footer-wrapper .location .address .title {
     padding-bottom: 4px;
-    color: #80838F;
-    font-size:16px;
+    color: #80838f;
+    font-size: 16px;
 }
 
 #footer-wrapper .location .address .caption {
-    color: #FFFFFF;
+    color: #ffffff;
     line-height: 140%;
-    font-size:20px;
+    font-size: 20px;
 }
 
 /* Network */
@@ -400,13 +400,13 @@
 
 #footer-wrapper .network .title {
     padding-bottom: 2px;
-    color: #80838F;
+    color: #80838f;
     text-align: right;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #footer-wrapper .network .caption {
-    color: #FB6924;
+    color: #fb6924;
     font-size: 16px;
 }
 
@@ -420,7 +420,7 @@
 
 #footer-wrapper .social-media h4 {
     margin-right: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
 }
@@ -435,13 +435,13 @@
 }
 
 #footer-wrapper .sitemap a {
-    color: #80838F;
-    font-size:16px;
+    color: #80838f;
+    font-size: 16px;
 }
 
 #footer-wrapper .copyright em {
-    color: #80838F;
-    font-size:16px;
+    color: #80838f;
+    font-size: 16px;
 }
 
 #footer-wrapper .fl .btn-box a {
@@ -477,7 +477,7 @@
 #footer-wrapper .fr ul li em {
     height: 9px;
     width: 1px;
-    background: #ACACAC;
+    background: #acacac;
     display: inline-block;
     margin: 0px 16px;
     vertical-align: middle;
@@ -492,15 +492,15 @@
 }
 
 #footer-wrapper a:hover {
-    color: #FF7432;
+    color: #ff7432;
 }
 
-#footer-wrapper .fr p{
+#footer-wrapper .fr p {
     display: none;
 }
 
 /* --- Laptop --- */
-@media screen and (max-width:1140px) {
+@media screen and (max-width: 1140px) {
     #header-wrapper {
         height: 60px;
     }
@@ -570,14 +570,14 @@
         z-index: -1;
     }
 
-    #header-wrapper .mobile-menu .inner {        
+    #header-wrapper .mobile-menu .inner {
         width: 100%;
         background: #fff;
         display: none;
     }
 
     #header-wrapper .mobile-menu .inner ul {
-        background:#fff;
+        background: #fff;
         padding-top: 60px;
     }
 
@@ -587,10 +587,10 @@
         border-bottom: 1px #ddd solid;
     }
 
-    #header-wrapper .mobile-menu .inner ul li:first-child{
+    #header-wrapper .mobile-menu .inner ul li:first-child {
         border-top: 1px #ddd solid;
     }
-    
+
     #header-wrapper .mobile-menu .inner ul li .first-menu {
         font-size: 2em;
         font-weight: 500;
@@ -600,7 +600,7 @@
     #header-wrapper .mobile-menu .inner ul li .second-menu {
         margin-top: 20px;
         display: none;
-        color:#444;
+        color: #444;
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu a {
@@ -629,7 +629,7 @@
     }
 
     #header-wrapper .mobile-menu .inner ul li .second-menu a:hover {
-        color: #FF7432;
+        color: #ff7432;
     }
 
     #header-wrapper .btn_contact_us {
@@ -638,8 +638,7 @@
 }
 
 /* --- Tablet --- */
-@media screen and (max-width:992px) {
-
+@media screen and (max-width: 992px) {
     #footer-wrapper .row {
         width: calc(100% - 20px);
     }
@@ -657,7 +656,8 @@
         width: 100%;
     }
 
-    #footer-wrapper .network .indonesia-branch, #footer-wrapper .network .korea-branch {
+    #footer-wrapper .network .indonesia-branch,
+    #footer-wrapper .network .korea-branch {
         float: none;
         width: 215px;
     }
@@ -670,12 +670,14 @@
         margin-bottom: 24px;
     }
 
-    #footer-wrapper .network .indonesia-branch img, #footer-wrapper .network .korea-branch img {
+    #footer-wrapper .network .indonesia-branch img,
+    #footer-wrapper .network .korea-branch img {
         float: left;
         margin-right: 12px;
     }
 
-    #footer-wrapper .network .indonesia-branch .fr, #footer-wrapper .network .korea-branch .fr {
+    #footer-wrapper .network .indonesia-branch .fr,
+    #footer-wrapper .network .korea-branch .fr {
         float: left;
     }
 
@@ -683,7 +685,8 @@
         justify-content: left;
     }
 
-    #footer-wrapper .sitemap, #footer-wrapper .copyright {
+    #footer-wrapper .sitemap,
+    #footer-wrapper .copyright {
         display: block;
     }
 
@@ -698,8 +701,7 @@
 }
 
 /* --- Phone --- */
-@media screen and (max-width:426px) {
-
+@media screen and (max-width: 426px) {
     #footer-wrapper .location .icon-map {
         width: 48px;
     }
