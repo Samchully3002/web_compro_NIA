@@ -13,7 +13,7 @@
             <div class="box">
                 <div class="left-content">
                     <img src="../assets/images/icon_10_about.svg">
-                    <span>Years of  Proven Experience</span>
+                    <span >Years of  Proven Experience</span>
                 </div>
                 <div class="right-content">
                     <span>
@@ -1130,6 +1130,65 @@
     {{-- </div> --}}
 
     @include('web/frontend/pages/en/component/footer')
+    
+    <script>
+        const leftContent = document.querySelector('.left-content');
+        const bannerWrapper = document.querySelector('.banner-wrapper');
+        const rightContent = document.querySelector('.right-content');
+
+        // Buat instance Intersection Observer
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    leftContent.classList.add('appear'); // Tambahkan kelas appear jika elemen masuk dalam viewport
+                    rightContent.classList.add('appear'); // Tambahkan kelas appear pada right-content
+                } else {
+                    leftContent.classList.remove('appear'); // Hapus kelas appear jika elemen keluar dari viewport
+                    // Reset transform ke nilai awal saat elemen keluar dari viewport
+                    leftContent.style.transition = 'transform 0.5s ease';
+                    leftContent.style.transform = 'scale(0.9)';
+                    rightContent.classList.remove('appear'); // Hapus kelas appear pada right-content
+                }
+            });
+        }, {
+            threshold: 0.5 // Atur threshold ke 0.5, artinya elemen akan dianggap masuk saat setengahnya terlihat
+        });
+
+        // Amati elemen .left-content
+        observer.observe(leftContent);
+
+        // Event listener untuk efek parallax
+        bannerWrapper.addEventListener('mousemove', function(e) {
+            // Ambil lebar dan tinggi dari banner-wrapper
+            const width = bannerWrapper.offsetWidth;
+            const height = bannerWrapper.offsetHeight;
+
+            // Hitung persentase perpindahan mouse di dalam banner-wrapper
+            const mouseX = e.pageX;
+            const mouseY = e.pageY;
+            const offsetX = (mouseX / width - 0.5) * 60; // Percepat faktor pengali ke 60
+            const offsetY = (mouseY / height - 0.5) * 60; // Percepat faktor pengali ke 60
+
+            // Transformasi left-content berdasarkan perpindahan mouse
+            if (leftContent.classList.contains('appear')) {
+                leftContent.style.transition = 'transform 0.2s ease'; // Ubah transition saat appear
+            } else {
+                leftContent.style.transition = 'transform 0.5s ease'; // Kembalikan transition ke semula jika tidak appear
+            }
+            leftContent.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+        });
+
+        // Event listener untuk mengatur kembali ke awal saat mouse meninggalkan bannerWrapper
+        bannerWrapper.addEventListener('mouseleave', function() {
+            if (leftContent.classList.contains('appear')) {
+                leftContent.style.transition = 'transform 0.5s ease'; // Jaga durasi transform ketika appear
+                leftContent.style.transform = 'scale(1)';
+            } else {
+                leftContent.style.transition = 'transform 0.5s ease';
+                leftContent.style.transform = 'scale(0.9)';
+            }
+        });
+    </script>
 
 </body>
 
