@@ -221,6 +221,28 @@ body {
     padding: 20px 0;
 }
 
+.appear {
+    opacity: 0;
+    transform: scale(0.9); /* Ubah nilai scale agar lebih halus */
+}
+
+.appear.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.appear:nth-child(1) {
+    transition: opacity 0.5s ease, transform 0.8s ease;
+}
+
+.appear:nth-child(2) {
+    transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
+.appear:nth-child(3) {
+    transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
 @media screen and (max-width: 1140px) {
     .bg-wrapper .text-box p {
         width: 100%;

@@ -10,8 +10,8 @@
             <!-- bg-wrapper start -->
             <div class="bg-wrapper bg-img">
                 <div class="text-box">
-                    <h1>News</h1>
-                    <p>Explore the latest updates from our company, uncovering innovations and successes shaping the IT landscape. Stay informed with our insightful articles on industry trends and advancements.</p>
+                    <h1 class="appear">News</h1>
+                    <p class="appear">Explore the latest updates from our company, uncovering innovations and successes shaping the IT landscape. Stay informed with our insightful articles on industry trends and advancements.</p>
                 </div>
             </div>
             <!-- bg-wrapper end -->
@@ -290,5 +290,50 @@
         </div>
 
         @include('web/frontend/pages/en/component/footer')
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const appearElements = document.querySelectorAll('.appear');
+
+                function appearOnScroll() {
+                    appearElements.forEach((element, index) => {
+                        // Jika elemen sudah memiliki class 'active', abaikan
+                        if (element.classList.contains('active')) {
+                            return;
+                        }
+
+                        if (isElementInViewport(element)) {
+                            setTimeout(() => {
+                                element.classList.add('active');
+                            }, index * 200); // Delay munculnya setiap elemen
+                        } else {
+                            // Hapus class 'active' saat elemen keluar dari viewport
+                            element.classList.remove('active');
+                        }
+                    });
+                }
+
+                function isElementInViewport(el) {
+                    const rect = el.getBoundingClientRect();
+                    return (
+                        rect.top >= 0 &&
+                        rect.left >= 0 &&
+                        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                    );
+                }
+
+                // Handler untuk event scroll
+                window.addEventListener('scroll', appearOnScroll);
+
+                // Handler untuk event resize (jika ada perubahan ukuran viewport)
+                window.addEventListener('resize', appearOnScroll);
+
+                // Panggil sekali ketika halaman dimuat (jika elemen sudah ada di viewport pada awalnya)
+                appearOnScroll();
+            });
+        </script>
+
+        
     </body>
 </html>
