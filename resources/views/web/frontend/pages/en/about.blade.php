@@ -30,8 +30,9 @@
                 <img src="../assets/images/CEO_Photo.png"/>
             </div>
             <div class="text_wrapper">
-                <p>
-                <h1 class="appear">CEO Greetings</h1><br>
+                
+                <h1 class="muncul">CEO Greetings</h1><br>
+                <p class="muncul">
                 As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.<br><br>
                 NIA prioritizes 'integration' and 'innovation' as its core foundation. With the vision of "Focusing on innovation, high-quality services, and advanced technological solutions, we are determined to make a meaningful contribution to advancing the world of information technology. Through this commitment, we strive to build strong, long-term relationships with customers, becoming a reliable partner and continuing to be a leading provider of IT solutions." We are committed to continually building and maintaining trust, aligning with the rapid changes in technology trends.
                 </p>
@@ -636,7 +637,7 @@
         <div class="core">
             <!-- Title Text -->
             <div class="core-title">
-                <p>Core Values Guide Us to Excellence</p>
+                <p class="muncul">Core Values Guide Us to Excellence</p>
             </div>
             <!-- Title Text -->
             <!-- Core Text -->
@@ -668,17 +669,17 @@
             <div class="full-text">
                 <!-- Line 1 -->
                 <div class="wrapper">
-                    <div class="item">
+                    <div class="item muncul">
                         <p>
                         <span style="font-weight:bold;color:rgb(13, 73, 136);">C</span>ommunication
                         </p>
                     </div>
-                    <div class="item">
+                    <div class="item muncul">
                         <p>
                         <span style="font-weight:bold;color:rgb(200, 7, 6);">O</span>pportunity
                         </p>
                     </div>
-                    <div class="item">
+                    <div class="item muncul">
                         <p>
                         <span style="font-weight:bold;color:rgb(255, 162, 2);">N</span>ecessary
                         </p>
@@ -686,22 +687,22 @@
                 </div>
                 <!-- Line 2 -->
                 <div class="wrapper">
-                    <div class="item">
+                    <div class="item muncul">
                         <p>
                         <span style="font-weight:bold;color:rgb(123, 53, 85);">N</span>ew
                         </p>
                     </div>
-                    <div class="item">
+                    <div class="item muncul">
                         <p>
                         <span style="font-weight:bold;color:rgb(49, 107, 27);">E</span>enviroment
                         </p>
                     </div>
-                    <div class="item">
+                    <div class="item muncul">
                         <p>
                         <span style="font-weight:bold;color:rgb(94, 72, 158);">C</span>reative
                         </p>
                     </div>
-                    <div class="item">
+                    <div class="item muncul">
                         <p>
                         <span style="font-weight:bold;color:rgb(52, 123, 191);">T</span>rust
                         </p>
@@ -722,7 +723,7 @@
         <!-- Team Member Start -->
         <div class="team-member">
             <!-- Title Line -->
-            <div class="wrapper">
+            <div class="wrapper muncul">
                 <div class="title">
                     <p>Team Member</p>
                 </div>
@@ -754,6 +755,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 1 ceo -->
@@ -775,6 +781,11 @@
                                             <p>Deputy General Manager</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
                                 </div>
                             </div>
                         </div>
@@ -803,6 +814,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 1 galang -->
@@ -826,6 +842,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 2 fikri -->
@@ -847,6 +868,11 @@
                                             <p>IT Developer</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
                                 </div>
                             </div>
                         </div>
@@ -875,6 +901,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 1 fiqih -->
@@ -898,6 +929,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 2 yuda -->
@@ -919,6 +955,11 @@
                                             <p>IT Support</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
                                 </div>
                             </div>
                         </div>
@@ -947,6 +988,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 1 ira -->
@@ -970,6 +1016,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 2 dwi -->
@@ -991,6 +1042,11 @@
                                             <p>Accounting Assistant</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
                                 </div>
                             </div>
                         </div>
@@ -1019,6 +1075,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 1 chika -->
@@ -1042,6 +1103,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- photo 2 Elvira -->
@@ -1063,6 +1129,11 @@
                                             <p>Videographer & Editor</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="content">
+                                    <p>"There is no such a small success to be celebrated."</p>
                                 </div>
                             </div>
                         </div>
@@ -1131,9 +1202,9 @@
 
     @include('web/frontend/pages/en/component/footer')
 
-    <script>
+        <script>
             document.addEventListener('DOMContentLoaded', function() {
-                const appearElements = document.querySelectorAll('.appear');
+                const appearElements = document.querySelectorAll('.muncul');
 
                 function appearOnScroll() {
                     appearElements.forEach((element, index) => {
@@ -1173,94 +1244,102 @@
                 appearOnScroll();
             });
         </script>
+<<<<<<< HEAD
 
     <script>
         const leftContent = document.querySelector('.left-content');
         const bannerWrapper = document.querySelector('.banner-wrapper');
         const rightContent = document.querySelector('.right-content');
+=======
+    
+        <script>
+            const leftContent = document.querySelector('.left-content');
+            const bannerWrapper = document.querySelector('.banner-wrapper');
+            const rightContent = document.querySelector('.right-content');
+>>>>>>> 3db6912917a9dd4f7810d817ef5d6e563aec8c54
 
-        // Buat instance Intersection Observer
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    leftContent.classList.add('appear'); // Tambahkan kelas appear jika elemen masuk dalam viewport
-                    rightContent.classList.add('appear'); // Tambahkan kelas appear pada right-content
-                } else {
-                    leftContent.classList.remove('appear'); // Hapus kelas appear jika elemen keluar dari viewport
-                    // Reset transform ke nilai awal saat elemen keluar dari viewport
-                    leftContent.style.transition = 'transform 0.5s ease';
-                    leftContent.style.transform = 'scale(0.9)';
-                    rightContent.classList.remove('appear'); // Hapus kelas appear pada right-content
-                }
+            // Buat instance Intersection Observer
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        leftContent.classList.add('appear'); // Tambahkan kelas appear jika elemen masuk dalam viewport
+                        rightContent.classList.add('appear'); // Tambahkan kelas appear pada right-content
+                    } else {
+                        leftContent.classList.remove('appear'); // Hapus kelas appear jika elemen keluar dari viewport
+                        // Reset transform ke nilai awal saat elemen keluar dari viewport
+                        leftContent.style.transition = 'transform 0.5s ease';
+                        leftContent.style.transform = 'scale(0.9)';
+                        rightContent.classList.remove('appear'); // Hapus kelas appear pada right-content
+                    }
+                });
+            }, {
+                threshold: 0.5 // Atur threshold ke 0.5, artinya elemen akan dianggap masuk saat setengahnya terlihat
             });
-        }, {
-            threshold: 0.5 // Atur threshold ke 0.5, artinya elemen akan dianggap masuk saat setengahnya terlihat
-        });
 
-        // Amati elemen .left-content
-        observer.observe(leftContent);
+            // Amati elemen .left-content
+            observer.observe(leftContent);
 
-        // Event listener untuk efek parallax
-        bannerWrapper.addEventListener('mousemove', function(e) {
-            // Ambil lebar dan tinggi dari banner-wrapper
-            const width = bannerWrapper.offsetWidth;
-            const height = bannerWrapper.offsetHeight;
+            // Event listener untuk efek parallax
+            bannerWrapper.addEventListener('mousemove', function(e) {
+                // Ambil lebar dan tinggi dari banner-wrapper
+                const width = bannerWrapper.offsetWidth;
+                const height = bannerWrapper.offsetHeight;
 
-            // Hitung persentase perpindahan mouse di dalam banner-wrapper
-            const mouseX = e.pageX;
-            const mouseY = e.pageY;
-            const offsetX = (mouseX / width - 0.5) * 60; // Percepat faktor pengali ke 60
-            const offsetY = (mouseY / height - 0.5) * 60; // Percepat faktor pengali ke 60
+                // Hitung persentase perpindahan mouse di dalam banner-wrapper
+                const mouseX = e.pageX;
+                const mouseY = e.pageY;
+                const offsetX = (mouseX / width - 0.5) * 60; // Percepat faktor pengali ke 60
+                const offsetY = (mouseY / height - 0.5) * 60; // Percepat faktor pengali ke 60
 
-            // Transformasi left-content berdasarkan perpindahan mouse
-            if (leftContent.classList.contains('appear')) {
-                leftContent.style.transition = 'transform 0.2s ease'; // Ubah transition saat appear
-            } else {
-                leftContent.style.transition = 'transform 0.5s ease'; // Kembalikan transition ke semula jika tidak appear
-            }
-            leftContent.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
-        });
+                // Transformasi left-content berdasarkan perpindahan mouse
+                if (leftContent.classList.contains('appear')) {
+                    leftContent.style.transition = 'transform 0.2s ease'; // Ubah transition saat appear
+                } else {
+                    leftContent.style.transition = 'transform 0.5s ease'; // Kembalikan transition ke semula jika tidak appear
+                }
+                leftContent.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+            });
 
-        // Event listener untuk mengatur kembali ke awal saat mouse meninggalkan bannerWrapper
-        bannerWrapper.addEventListener('mouseleave', function() {
-            leftContent.style.transition = 'transform 1s ease';
-            leftContent.style.transform = 'scale(1)';
-        });
-    </script>
+            // Event listener untuk mengatur kembali ke awal saat mouse meninggalkan bannerWrapper
+            bannerWrapper.addEventListener('mouseleave', function() {
+                leftContent.style.transition = 'transform 1s ease';
+                leftContent.style.transform = 'scale(1)';
+            });
+        </script>
 
-    <script>
-       // Create tooltip element
-        const tooltip = document.createElement('div');
-        tooltip.className = 'tooltip';
-        tooltip.textContent = 'Mr. Son Dong-kwon';
-        document.body.appendChild(tooltip);
+        <script>
+        // Create tooltip element
+            const tooltip = document.createElement('div');
+            tooltip.className = 'tooltip';
+            tooltip.textContent = 'Mr. Son Dong-kwon';
+            document.body.appendChild(tooltip);
 
-        // Track mouse movements on img_wrapper
-        const imageContainer = document.querySelector('.img_wrapper');
-        imageContainer.addEventListener('mousemove', function(event) {
-        // Hitung posisi tooltip
-        const tooltipWidth = tooltip.offsetWidth;
-        const tooltipHeight = tooltip.offsetHeight;
-        const mouseX = event.clientX;
-        const mouseY = event.clientY;
+            // Track mouse movements on img_wrapper
+            const imageContainer = document.querySelector('.img_wrapper');
+            imageContainer.addEventListener('mousemove', function(event) {
+            // Hitung posisi tooltip
+            const tooltipWidth = tooltip.offsetWidth;
+            const tooltipHeight = tooltip.offsetHeight;
+            const mouseX = event.clientX;
+            const mouseY = event.clientY;
 
-        // Set posisi tooltip di tengah kursor mouse
-        tooltip.style.left = `${mouseX}px`;
-        tooltip.style.top = `${mouseY}px`;
+            // Set posisi tooltip di tengah kursor mouse
+            tooltip.style.left = `${mouseX}px`;
+            tooltip.style.top = `${mouseY}px`;
 
-        // Tampilkan tooltip
-        tooltip.style.display = 'block';
+            // Tampilkan tooltip
+            tooltip.style.display = 'block';
 
-        // Sembunyikan kursor default
-        document.body.style.cursor = 'none';
-        });
+            // Sembunyikan kursor default
+            document.body.style.cursor = 'none';
+            });
 
-        // Sembunyikan tooltip ketika mouse meninggalkan img_wrapper
-        imageContainer.addEventListener('mouseleave', function() {
-        tooltip.style.display = 'none';
-        document.body.style.cursor = 'auto'; // Kembalikan kursor ke nilai default
-        });
-    </script>
+            // Sembunyikan tooltip ketika mouse meninggalkan img_wrapper
+            imageContainer.addEventListener('mouseleave', function() {
+            tooltip.style.display = 'none';
+            document.body.style.cursor = 'auto'; // Kembalikan kursor ke nilai default
+            });
+        </script>
 
 </body>
 
