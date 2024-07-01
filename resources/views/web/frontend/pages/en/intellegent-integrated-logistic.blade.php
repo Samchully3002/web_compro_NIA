@@ -13,8 +13,8 @@
             <!-- bg-wrapper start -->
             <div class="bg-wrapper bisnis1">
                 <div class="text-box">
-                    <h1>Intelligent Integrated Logistics</h1>
-                    <p>Utilizing differentiated information and communication technologies, along with our intelligent transportation system, we integrate big data and AI innovations. This includes an intelligent integrated logistics platform and a demand response mobility platform, enabling efficient transportation solutions with effective risk management and response capabilities.</p>
+                    <h1 class="appear">Intelligent Integrated Logistics</h1>
+                    <p class="appear">Utilizing differentiated information and communication technologies, along with our intelligent transportation system, we integrate big data and AI innovations. This includes an intelligent integrated logistics platform and a demand response mobility platform, enabling efficient transportation solutions with effective risk management and response capabilities.</p>
                 </div>
             </div>
             <!-- bg-wrapper end -->
@@ -175,6 +175,49 @@
                     }
                 });
             }
+        </script>
+
+<script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const appearElements = document.querySelectorAll('.appear');
+
+                function appearOnScroll() {
+                    appearElements.forEach((element, index) => {
+                        // Jika elemen sudah memiliki class 'active', abaikan
+                        if (element.classList.contains('active')) {
+                            return;
+                        }
+
+                        if (isElementInViewport(element)) {
+                            setTimeout(() => {
+                                element.classList.add('active');
+                            }, index * 200); // Delay munculnya setiap elemen
+                        } else {
+                            // Hapus class 'active' saat elemen keluar dari viewport
+                            element.classList.remove('active');
+                        }
+                    });
+                }
+
+                function isElementInViewport(el) {
+                    const rect = el.getBoundingClientRect();
+                    return (
+                        rect.top >= 0 &&
+                        rect.left >= 0 &&
+                        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                    );
+                }
+
+                // Handler untuk event scroll
+                window.addEventListener('scroll', appearOnScroll);
+
+                // Handler untuk event resize (jika ada perubahan ukuran viewport)
+                window.addEventListener('resize', appearOnScroll);
+
+                // Panggil sekali ketika halaman dimuat (jika elemen sudah ada di viewport pada awalnya)
+                appearOnScroll();
+            });
         </script>
 
     </body>
