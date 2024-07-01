@@ -96,7 +96,7 @@
                                 <h1 style="font-weight: 500; font-size: 40px;">2014</h1>
                             </div>
                         </div> --}}
-                        <!-- Right COntent -->
+                        <!-- Right Content -->
                         <div class="right-box">
                             <div class="wrapper">
                                 <div class="row">
@@ -628,7 +628,7 @@
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
         <!-- Our History End -->
@@ -723,7 +723,7 @@
         <!-- Team Member Start -->
         <div class="team-member">
             <!-- Title Line -->
-            <div class="wrapper muncul">
+            <div class="wrapper">
                 <div class="title">
                     <p>Team Member</p>
                 </div>
@@ -1244,19 +1244,11 @@
                 appearOnScroll();
             });
         </script>
-<<<<<<< HEAD
-
-    <script>
-        const leftContent = document.querySelector('.left-content');
-        const bannerWrapper = document.querySelector('.banner-wrapper');
-        const rightContent = document.querySelector('.right-content');
-=======
     
         <script>
             const leftContent = document.querySelector('.left-content');
             const bannerWrapper = document.querySelector('.banner-wrapper');
             const rightContent = document.querySelector('.right-content');
->>>>>>> 3db6912917a9dd4f7810d817ef5d6e563aec8c54
 
             // Buat instance Intersection Observer
             const observer = new IntersectionObserver(entries => {
@@ -1339,6 +1331,10 @@
             tooltip.style.display = 'none';
             document.body.style.cursor = 'auto'; // Kembalikan kursor ke nilai default
             });
+        </script>
+
+        <script>
+            
         </script>
 
 </body>
