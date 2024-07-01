@@ -141,6 +141,10 @@ input[type='checkbox'] {
     background-color: rgb(64, 69, 92);
 }
 
+.lbl-toggle .icon-right:hover {
+    content: url('../../assets/images/icon/closed-icon-white.png');
+}
+
 
   .collapsible-content {
     max-height: 0px;
@@ -165,6 +169,14 @@ input[type='checkbox'] {
     overflow: hidden;
     border-radius: 0 0 20px 20px;
   }
+
+  .lbl-toggle .icon-right {
+    content: url('../../assets/images/icon/closed-icon-black.png');
+}
+
+.toggle:checked+ .lbl-toggle .icon-right {
+    content: url('../../assets/images/icon/open-icon-white.png');
+}
 
 
 
@@ -325,8 +337,11 @@ input[type='checkbox'] {
     }
 
     .lbl-toggle .icon-right {
-        /* float:right; */
-        position: absolute;
+        content: url('../../assets/images/icon/closed-icon-black-mini.png');
+    }
+
+    .toggle:checked+ .lbl-toggle .icon-right {
+        content: url('../../assets/images/icon/open-icon-white-mini.png');
     }
 
     .product-wrapper .content .card-wrapper {

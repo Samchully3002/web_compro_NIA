@@ -780,6 +780,8 @@ hr.rounded {
     max-width: 100%;
     max-height: 100%;
     place-items: center;
+    overflow: hidden;
+    white-space: nowrap;
     margin: 0px;
     /* padding: 10px; */
     list-style-type: none;
@@ -791,47 +793,24 @@ hr.rounded {
         rgb(0, 0, 0) 87.5%,
         rgba(0, 0, 0, 0) 100%
     );
-    overflow: hidden;
 }
 
-.our-office .wrapper .wrap-content .list-content {
+.marquee {
     display: flex;
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    place-items: center;
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    gap: 20px;
-    position: relative;
-    flex-direction: row;
-    will-change: transform;
-    transform: translateX(0px);
-}
-
-.our-office .wrapper .wrap-content .list-content .content {
-    place-content: flex-start;
-    align-items: flex-start;
-    display: flex;
-    flex-flow: column;
     gap: 25px;
-    height: min-content;
-    overflow: visible;
-    padding: 0px;
-    position: relative;
-    width: min-content;
+    animation: marquee 40s linear infinite;
 }
 
-.our-office .wrapper .wrap-content .list-content .contents img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    object-position: center center;
-    object-fit: cover;
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-20% * 18));
+        /* transform: translateX(-50%); */
+    }
 }
+
 
 .office-maps {
     place-content: center;
@@ -1139,13 +1118,85 @@ hr.rounded {
         display: block;
     }
 
+    input[type='checkbox'] {
+        display: none;
+      }
+
+      .wrap-collabsible {
+        margin: 1.2rem 0;
+      }
+
+      .lbl-toggle {
+        place-content: center space-between;
+        display: flex;
+        align-items: center;
+        background-color: rgb(248, 249, 252);
+        color: rgb(64, 69, 92);
+        cursor: pointer;
+        padding: 20px;
+        height: min-content;
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+      }
+
+      .lbl-toggle span {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .lbl-toggle .icon-right {
+        content: url('../../assets/images/icon/closed-icon-black-mini.png');
+    }
+
+    /* .lbl-toggle:hover {
+        color: #FFF;
+        background-color: rgb(64, 69, 92);
+    } */
+
+      .collapsible-content {
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height .25s ease-in-out;
+      }
+
+      .toggle:checked+.lbl-toggle+.collapsible-content {
+        max-height: max-content;
+      }
+
+      .toggle:checked+.lbl-toggle {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        color: #FFF;
+        background-color: rgb(64, 69, 92);
+      }
+
+      .toggle:checked+ .lbl-toggle .icon-right {
+        content: url('../../assets/images/icon/open-icon-white-mini.png');
+      }
+
+      .toggle:checked+.content {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        color: #FFF;
+        background-color: rgb(64, 69, 92);
+      }
+
+      .collapsible-content .content {
+        padding: 50px 0px 30px 0px;
+        background-color: rgb(248, 249, 252);
+        overflow: hidden;
+        border-radius: 0 0 20px 20px;
+      }
+
     .product-wrapper .collapsible span {
         font-size: 24px;
     }
 
     .collapsible:after {
         content: url(../../assets/images/icon/open-icon-white-mini.png);
-        border-radius: 20px 20px 0px 0px;
+        border-radius: 0px 0px 20px 20px;
         /* color: white; */
         font-weight: bold;
         float: right;
@@ -1157,6 +1208,7 @@ hr.rounded {
 
     .product-wrapper .content {
         padding: 20px 0px 20px 0px;
+        border-radius: 0 0 20px 20px;
     }
 
     .product-wrapper .content .text-wrapper {
@@ -1175,4 +1227,11 @@ hr.rounded {
         flex-direction: column;
         padding: 0 20px;
     }
+}
+
+@media screen and (max-width: 780px) {
+
+    .collapsible-content {
+        padding: unset;
+      }
 }

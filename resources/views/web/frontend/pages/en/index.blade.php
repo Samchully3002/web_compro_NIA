@@ -16,15 +16,22 @@
         Your browser does not support the video tag.
         </video> -->
         <!-- <video src="../assets/video/company_profile.mp4" class="video-dekstop" autoplay/> -->
-        <video class="video-dekstop" autoplay muted loop>
-            <source src="../assets/video/video.mp4" type="video/mp4">
-        </video>
-        <video class="video-mobile" autoplay muted loop>
-            <source src="../assets/video/mobile.mp4" type="video/mp4">
-        </video>
+        <div class="video-wrap fade-out">
+            <video id="myVideo" class="video-dekstop" autoplay muted loop>
+                <source src="../assets/video/video.mp4" type="video/mp4">
+            </video>
+            {{-- <div id="vision_txt" class="vision_text">
+                <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
+            </div> --}}
+        {{-- </div>
+        <div class="video-wrap fade-out"> --}}
+            <video id="myVideo" class="video-mobile" autoplay muted loop>
+                <source src="../assets/video/mobile.mp4" type="video/mp4">
+            </video>
+        </div>
         <!-- Video end -->
 
-        <div class="vision_text">
+        <div id="vision_txt" class="vision_text">
             <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
         </div>
         <div class="item">
@@ -243,6 +250,50 @@
         new WOW().init();
     </script>
     <script>
+        // Video Rotation animate
+        document.addEventListener('DOMContentLoaded', function() {
+        const video = document.getElementById('myVideo');
+        const v_txt = document.getElementById('vision_txt');
+        const content = document.querySelector('.video-wrap');
+
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = scrollTop / docHeight;
+            const rotation = scrollPercent * 180;
+
+            video.style.transform = `rotate(${rotation}deg)`;
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    content.classList.add('fade');
+                } else {
+                    content.classList.remove('fade');
+                }
+            });
+        }, {
+            // threshold: 0.5 // Adjust threshold as needed
+        });
+        observer.observe(content);
+
+        const zooming = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    v_txt.classList.add('fade');
+                } else {
+                    v_txt.classList.remove('fade');
+                }
+            });
+        }, {
+            // threshold: 0.5 // Adjust threshold as needed
+        });
+        zooming.observe(v_txt);
+
+
+    });
+
         document.addEventListener("DOMContentLoaded", function() {
             const elements = document.querySelectorAll('.fade-in');
 

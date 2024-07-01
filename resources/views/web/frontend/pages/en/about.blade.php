@@ -30,7 +30,7 @@
                 <img src="../assets/images/CEO_Photo.png"/>
             </div>
             <div class="text_wrapper">
-                
+
                 <h1 class="muncul">CEO Greetings</h1><br>
                 <p class="muncul">
                 As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.<br><br>
@@ -392,243 +392,309 @@
                 <div class="mobile-history">
                     <div class="product-wrapper">
                         <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2024</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2024.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >April</h1>
-                                    <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs & Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >Maret</h1>
-                                    <p>Registered as a Design Specialty Company (Multimedia Design) at The Korea Institute of Design Promotion</p>
-                                    <p>Patent Application for Optimal Route Operation Techniques for Demand Responsive Transport (DRT)</p>
-                                    <p>Development of Demand Response Transportation Platform "Cha-onda"</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >February</h1>
-                                    <p>Selected as Demonstration Agency for Indonesian Test Bed Support Project Agricultural Machinery Verification Management and Operation Service (Korea Agricultural Technology Promotion Agency/KOAT)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >January</h1>
-                                    <p>The Leuwipanjang terminal, Bandung, which was developed by PT NIA, was inaugurated by the President of Indonesia, Mr. Ir. Joko Widodo</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2023</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2023.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >December</h1>
-                                    <p>Acquired Certificate from the Small and Medium Business Technology Innovation Association (Inno-Biz)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >November</h1>
-                                    <p>Awarded for Best ODA Implementer at Development Cooperation Day - Prime Minister Awards (Son Dong-kwon, Vice President Samchully Networks Co., Ltd.)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >October</h1>
-                                    <p>Relocation of Indonesia's Corporate (AIA Central Building)</p>
-                                    <p>Completion of the 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >July</h1>
-                                    <p>Proceeded the 2nd Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
+                            <div class="wrap-collabsible">
+                                <input id="collapsible" class="toggle" type="checkbox" checked="checked">
+                                <label for="collapsible" class="lbl-toggle">
+                                    <span>2024</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2024.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >April</h1>
+                                            <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs & Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >Maret</h1>
+                                            <p>Registered as a Design Specialty Company (Multimedia Design) at The Korea Institute of Design Promotion</p>
+                                            <p>Patent Application for Optimal Route Operation Techniques for Demand Responsive Transport (DRT)</p>
+                                            <p>Development of Demand Response Transportation Platform "Cha-onda"</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >February</h1>
+                                            <p>Selected as Demonstration Agency for Indonesian Test Bed Support Project Agricultural Machinery Verification Management and Operation Service (Korea Agricultural Technology Promotion Agency/KOAT)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >January</h1>
+                                            <p>The Leuwipanjang terminal, Bandung, which was developed by PT NIA, was inaugurated by the President of Indonesia, Mr. Ir. Joko Widodo</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2022</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2022.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >November</h1>
-                                    <p>Proceeded the 1st Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >October</h1>
-                                    <p>Completed the 2nd Year of 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2021</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2021.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >December</h1>
-                                    <p>Completed the 1st Year of 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
-                                    <p>Establishment of the Local Corporation in Indonesia (PT Networks Indonesia Aku)</p>
-                                    <p>Selected as Host Company for 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia' Project (ODA, MOLIT)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >August</h1>
-                                    <p>Developed the Healthcare Platform "Healthyhada"</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >July</h1>
-                                    <p>Reacquired Certification from Korea Management Innovation Small and Medium Business Association (Main Biz)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >February</h1>
-                                    <p>Launched ‘Olligo’, a transportation platform in the construction sector</p>
+                            <div class="wrap-collabsible">
+                                <input id="collapsible2" class="toggle" type="checkbox">
+                                <label for="collapsible2" class="lbl-toggle">
+                                    <span>2023</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2023.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >December</h1>
+                                            <p>Acquired Certificate from the Small and Medium Business Technology Innovation Association (Inno-Biz)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >November</h1>
+                                            <p>Awarded for Best ODA Implementer at Development Cooperation Day - Prime Minister Awards (Son Dong-kwon, Vice President Samchully Networks Co., Ltd.)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >October</h1>
+                                            <p>Relocation of Indonesia's Corporate (AIA Central Building)</p>
+                                            <p>Completion of the 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >July</h1>
+                                            <p>Proceeded the 2nd Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2020</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2020.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >December</h1>
-                                    <p>Selected as "Small Strong Company in Seoul" by Ministry of Employment and Labor</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >November</h1>
-                                    <p>Developed the Contruction Transport Platform "Olligo"</p>
-                                    <p>Launched the “24 Hour Environment”, a Garbage Vehicle Tracking Transportation System for Construction</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >August</h1>
-                                    <p>Opened the Jeju Branch</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >May</h1>
-                                    <p>Acquired Overseas (Cambodia, Phnom Penh) Construction Business (Construction Engineering/ Information Communication Construction Business)</p>
+                            <div class="wrap-collabsible">
+                                <input id="collapsible3" class="toggle" type="checkbox">
+                                <label for="collapsible3" class="lbl-toggle">
+                                    <span>2022</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2022.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >November</h1>
+                                            <p>Proceeded the 1st Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >October</h1>
+                                            <p>Completed the 2nd Year of 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2019</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2019.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >December</h1>
-                                    <p>Acquired Certification from the Korea Management Innovation Small and Medium Business Association (Main Biz)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >November</h1>
-                                    <p>Patent Acquisition: Automatic Vehicle Dispatching System (Patent No. 10-2038795)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >February</h1>
-                                    <p>Developed & Launched the Special Transportation Vehicle Intermediary Platform "Samchully PAY"</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2018</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2018.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >December</h1>
-                                    <p>Establishment of a Corporate Research Institute (Institute of Technology No. 2018113469)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >May</h1>
-                                    <p>Acquired Quality Management System Certification ISO9001:2015 (No. 21-A-3486 Rev. 0)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >March</h1>
-                                    <p>Designed & Developed Ticketing System based on Cloud</p>
+                            <div class="wrap-collabsible">
+                                <input id="collapsible4" class="toggle" type="checkbox">
+                                <label for="collapsible4" class="lbl-toggle">
+                                    <span>2021</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2021.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >December</h1>
+                                            <p>Completed the 1st Year of 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
+                                            <p>Establishment of the Local Corporation in Indonesia (PT Networks Indonesia Aku)</p>
+                                            <p>Selected as Host Company for 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia' Project (ODA, MOLIT)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >August</h1>
+                                            <p>Developed the Healthcare Platform "Healthyhada"</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >July</h1>
+                                            <p>Reacquired Certification from Korea Management Innovation Small and Medium Business Association (Main Biz)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >February</h1>
+                                            <p>Launched ‘Olligo’, a transportation platform in the construction sector</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2017</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2017.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >March</h1>
-                                    <p>Establishment of 25 Transport Platform Branches & Agencies All Across the Republic of Korea</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2016</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2016.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >December</h1>
-                                    <p>Developed and Maintenance Ticketing System for Guided Cruise for the National Cruise Association</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >August</h1>
-                                    <p>Developed and Launced of an Integrated Intelligent Transportation Platform (Commercialization)</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2015</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2015.png"/>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >October</h1>
-                                    <p>Designed & Developed Mobile Wireless Telecommunication Relay Service (TRS) Solution (KT, KT Powertell, etc.)</p>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h1 >Juni</h1>
-                                    <p>Opened and Operated Integrated Transport Call Center</p>
+                            <div class="wrap-collabsible">
+                                <input id="collapsible5" class="toggle" type="checkbox">
+                                <label for="collapsible5" class="lbl-toggle">
+                                    <span>2020</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2020.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >December</h1>
+                                            <p>Selected as "Small Strong Company in Seoul" by Ministry of Employment and Labor</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >November</h1>
+                                            <p>Developed the Contruction Transport Platform "Olligo"</p>
+                                            <p>Launched the “24 Hour Environment”, a Garbage Vehicle Tracking Transportation System for Construction</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >August</h1>
+                                            <p>Opened the Jeju Branch</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >May</h1>
+                                            <p>Acquired Overseas (Cambodia, Phnom Penh) Construction Business (Construction Engineering/ Information Communication Construction Business)</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="colls-wrapper">
-                            <button type="button" class="collapsible">
-                                <span>2014</span>
-                            </button>
-                            <div class="content">
-                                <div class="img-box">
-                                    <img src="../assets/images/story2014.png"/>
+                            <div class="wrap-collabsible">
+                                <input id="collapsible6" class="toggle" type="checkbox">
+                                <label for="collapsible6" class="lbl-toggle">
+                                    <span>2019</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2019.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >December</h1>
+                                            <p>Acquired Certification from the Korea Management Innovation Small and Medium Business Association (Main Biz)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >November</h1>
+                                            <p>Patent Acquisition: Automatic Vehicle Dispatching System (Patent No. 10-2038795)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >February</h1>
+                                            <p>Developed & Launched the Special Transportation Vehicle Intermediary Platform "Samchully PAY"</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="text-wrapper">
-                                    <h1 >December</h1>
-                                    <p>Established Samchully Networks Co., Ltd. (Head Office, in Seoul, Korea)</p>
+                            </div>
+                        </div>
+                        <div class="colls-wrapper">
+                            <div class="wrap-collabsible">
+                                <input id="collapsible7" class="toggle" type="checkbox">
+                                <label for="collapsible7" class="lbl-toggle">
+                                    <span>2018</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2018.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >December</h1>
+                                            <p>Establishment of a Corporate Research Institute (Institute of Technology No. 2018113469)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >May</h1>
+                                            <p>Acquired Quality Management System Certification ISO9001:2015 (No. 21-A-3486 Rev. 0)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >March</h1>
+                                            <p>Designed & Developed Ticketing System based on Cloud</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colls-wrapper">
+                            <div class="wrap-collabsible">
+                                <input id="collapsible8" class="toggle" type="checkbox">
+                                <label for="collapsible8" class="lbl-toggle">
+                                    <span>2017</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2017.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >March</h1>
+                                            <p>Establishment of 25 Transport Platform Branches & Agencies All Across the Republic of Korea</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colls-wrapper">
+                            <div class="wrap-collabsible">
+                                <input id="collapsible9" class="toggle" type="checkbox">
+                                <label for="collapsible9" class="lbl-toggle">
+                                    <span>2016</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2016.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >December</h1>
+                                            <p>Developed and Maintenance Ticketing System for Guided Cruise for the National Cruise Association</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >August</h1>
+                                            <p>Developed and Launced of an Integrated Intelligent Transportation Platform (Commercialization)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colls-wrapper">
+                            <div class="wrap-collabsible">
+                                <input id="collapsible10" class="toggle" type="checkbox">
+                                <label for="collapsible10" class="lbl-toggle">
+                                    <span>2015</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2015.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >October</h1>
+                                            <p>Designed & Developed Mobile Wireless Telecommunication Relay Service (TRS) Solution (KT, KT Powertell, etc.)</p>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >Juni</h1>
+                                            <p>Opened and Operated Integrated Transport Call Center</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colls-wrapper">
+                            <div class="wrap-collabsible">
+                                <input id="collapsible11" class="toggle" type="checkbox">
+                                <label for="collapsible11" class="lbl-toggle">
+                                    <span>2014</span>
+                                    <span class="icon-right">&nbsp;</span>
+                                </label>
+                                <div class="collapsible-content">
+                                    <div class="content">
+                                        <div class="img-box">
+                                            <img src="../assets/images/story2014.png"/>
+                                        </div>
+                                        <div class="text-wrapper">
+                                            <h1 >December</h1>
+                                            <p>Established Samchully Networks Co., Ltd. (Head Office, in Seoul, Korea)</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         <!-- Our History End -->
@@ -1148,7 +1214,32 @@
         <div class="our-office">
             <div class="wrapper">
                 <section class="wrap-content">
-                    <marquee>
+                    <div class="marquee">
+                        <img src="../assets/images/office_foto_1.svg"/>
+                        <img src="../assets/images/office_foto_2.svg"/>
+                        <img src="../assets/images/office_foto_3.svg"/>
+                        <img src="../assets/images/office_foto_4.svg"/>
+                        <img src="../assets/images/office_foto_5.svg"/>
+
+                        <img src="../assets/images/office_foto_1.svg"/>
+                        <img src="../assets/images/office_foto_2.svg"/>
+                        <img src="../assets/images/office_foto_3.svg"/>
+                        <img src="../assets/images/office_foto_4.svg"/>
+                        <img src="../assets/images/office_foto_5.svg"/>
+
+                        <img src="../assets/images/office_foto_1.svg"/>
+                        <img src="../assets/images/office_foto_2.svg"/>
+                        <img src="../assets/images/office_foto_3.svg"/>
+                        <img src="../assets/images/office_foto_4.svg"/>
+                        <img src="../assets/images/office_foto_5.svg"/>
+
+                        <img src="../assets/images/office_foto_1.svg"/>
+                        <img src="../assets/images/office_foto_2.svg"/>
+                        <img src="../assets/images/office_foto_3.svg"/>
+                        <img src="../assets/images/office_foto_4.svg"/>
+                        <img src="../assets/images/office_foto_5.svg"/>
+
+                    {{-- <marquee>
                     <ul class="list-content">
                         <li class="contents">
                             <img src="../assets/images/office_foto_1.svg"/>
@@ -1166,7 +1257,7 @@
                             <img src="../assets/images/office_foto_5.svg"/>
                         </li>
                     </ul>
-                </marquee>
+                </marquee> --}}
                 </section>
             </div>
         </div>
@@ -1244,7 +1335,7 @@
                 appearOnScroll();
             });
         </script>
-    
+
         <script>
             const leftContent = document.querySelector('.left-content');
             const bannerWrapper = document.querySelector('.banner-wrapper');
@@ -1334,7 +1425,7 @@
         </script>
 
         <script>
-            
+
         </script>
 
 </body>
