@@ -27,66 +27,73 @@
         <div class="vision_text">
             <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
         </div>
-
-        <div class="image-container">
-            <a href="/intellegent-integrated-logistic">
-                <img src="../../assets/images/IIL.jpg">
-                    <div class="image-overlay">
+        <div class="item">
+            <div class="image-container">
+                <a href="/intellegent-integrated-logistic">
+                    <img src="../../assets/images/IIL.jpg">
+                        <div class="image-overlay">
+                            <div class="ic-bisnis">
+                            <img src="../../assets/images/icon/ic_cube.svg">
+                            </div><br>
+                            <h1 >Intelligent Integrated Logistics</h1><br>
+                            <span>Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span><br>
+                            <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                                <img src="../../assets/images/icon/arrow.png">
+                            </div>
+                        </div>
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image-container">
+                <a href="/digital-healthcare">
+                    <img src="../../assets/images/DHC.jpg">
+                        <div class="image-overlay">
                         <div class="ic-bisnis">
-                        <img src="../../assets/images/icon/ic_cube.svg">
-                        </div><br>
-                        <h1 >Intelligent Integrated Logistics</h1><br>
-                        <span>Utilizing our unique transportation system and advanced technology, we offer solutions merging big data and AI. Our platforms enable efficient demand prediction and risk management.</span><br>
-                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
-                            <img src="../../assets/images/icon/arrow.png">
+                            <img src="../../assets/images/icon/ic_medical.svg">
+                            </div><br>
+                            <h1 >Digital Health Care</h1><br>
+                            <span>We offer reliable health solutions through optimized customer-tailored consultations by healthcare professionals, integrating AI-based big data analysis considering customer preferences, health status, underlying conditions, and medications.</span><br>
+                            <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                                <img src="../../assets/images/icon/arrow.png">
+                            </div>
                         </div>
-                    </div>
-            </a>
+                </a>
+            </div>
         </div>
-        <div class="image-container">
-            <a href="/digital-healthcare">
-                <img src="../../assets/images/DHC.jpg">
-                    <div class="image-overlay">
-                    <div class="ic-bisnis">
-                        <img src="../../assets/images/icon/ic_medical.svg">
-                        </div><br>
-                        <h1 >Digital Health Care</h1><br>
-                        <span>We offer reliable health solutions through optimized customer-tailored consultations by healthcare professionals, integrating AI-based big data analysis considering customer preferences, health status, underlying conditions, and medications.</span><br>
-                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
-                            <img src="../../assets/images/icon/arrow.png">
+        <div class="item">
+            <div class="image-container">
+                <a href="/system-development-management">
+                    <img src="../../assets/images/SDM.jpg">
+                        <div class="image-overlay">
+                        <div class="ic-bisnis">
+                            <img src="../../assets/images/icon/ic_code.svg">
+                            </div><br>
+                            <h1 >System development and management</h1><br>
+                            <span>From planning to maintenance, we offer innovative solutions with unique expertise for domestic and global clients.</span><br>
+                            <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                                <img src="../../assets/images/icon/arrow.png">
+                            </div>
                         </div>
-                    </div>
-            </a>
+                </a>
+            </div>
         </div>
-        <div class="image-container">
-            <a href="/system-development-management">
-                <img src="../../assets/images/SDM.jpg">
-                    <div class="image-overlay">
-                    <div class="ic-bisnis">
-                        <img src="../../assets/images/icon/ic_code.svg">
-                        </div><br>
-                        <h1 >System development and management</h1><br>
-                        <span>From planning to maintenance, we offer innovative solutions with unique expertise for domestic and global clients.</span><br>
-                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
-                            <img src="../../assets/images/icon/arrow.png">
+        <div class="item">
+            <div class="image-container">
+                <a href="/export-voucher">
+                    <img src="../../assets/images/EV.jpg">
+                        <div class="image-overlay">
+                        <div class="ic-bisnis">
+                            <img src="../../assets/images/icon/ic_building.svg">
+                            </div><br>
+                            <h1 >Export Voucher</h1><br>
+                            <span>We assist in every step for successful business execution, from analysis to document services and translation for global expansion.</span><br>
+                            <div class="btn-more">More&nbsp;&nbsp;&nbsp;
+                                <img src="../../assets/images/icon/arrow.png">
+                            </div>
                         </div>
-                    </div>
-            </a>
-        </div>
-        <div class="image-container">
-            <a href="/export-voucher">
-                <img src="../../assets/images/EV.jpg">
-                    <div class="image-overlay">
-                    <div class="ic-bisnis">
-                        <img src="../../assets/images/icon/ic_building.svg">
-                        </div><br>
-                        <h1 >Export Voucher</h1><br>
-                        <span>We assist in every step for successful business execution, from analysis to document services and translation for global expansion.</span><br>
-                        <div class="btn-more">More&nbsp;&nbsp;&nbsp;
-                            <img src="../../assets/images/icon/arrow.png">
-                        </div>
-                    </div>
-            </a>
+                </a>
+            </div>
         </div>
 
         <!-- <div class="flex-box">
@@ -256,6 +263,29 @@
             // Initial check on load
             checkVisibility();
         });
+    </script>
+
+    <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const elements = document.querySelectorAll('.item');
+
+                function checkVisibility() {
+                    elements.forEach(element => {
+                        const rect = element.getBoundingClientRect();
+                        if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                            element.classList.add('visible');
+                        } else {
+                            element.classList.remove('visible');
+                        }
+                    });
+                }
+
+                window.addEventListener('scroll', checkVisibility);
+                window.addEventListener('resize', checkVisibility);
+
+                // Initial check on load
+                checkVisibility();
+            });
     </script>
 </body>
 

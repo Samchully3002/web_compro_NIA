@@ -1,4 +1,4 @@
-<div class="scale-in">
+<div class="scale-in-footer">
 <div id="footer-wrapper">
     <div class="row">
         <!-- <div class="imx"> -->
@@ -117,7 +117,7 @@
 
 <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const elements = document.querySelectorAll('.scale-in');
+            const elements = document.querySelectorAll('.scale-in-footer');
 
             function checkVisibility() {
                 elements.forEach(element => {
