@@ -168,11 +168,44 @@
     justify-content: center;
 }
 
-.ceo_message .text_wrapper h1.appear {
-    transform: scale(1);
-    transition: opacity 0.5s ease, transform 1s ease; /* Ubah durasi transform ke 0.2s ease saat appear */
+.muncul {
+    opacity: 0;
+    transform: scale(0.9); /* Ubah nilai scale agar lebih halus */
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+.muncul.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.muncul:nth-child(1) {
+    transition: opacity 0.5s ease, transform 0.8s ease;
+}
+
+.muncul:nth-child(2) {
+    transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
+.muncul:nth-child(3) {
+    transition: opacity 0.5s ease, transform 0.8s ease;
+}
+
+.muncul:nth-child(4) {
+    transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
+.muncul:nth-child(5) {
+    transition: opacity 0.5s ease, transform 0.8s ease;
+}
+
+.muncul:nth-child(6) {
+    transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
+.muncul:nth-child(7) {
+    transition: opacity 0.6s ease, transform 0.8s ease;
+}
 /* CEO Message */
 
 /* Our History */
@@ -561,7 +594,7 @@ hr.rounded {
     flex-flow: row;
     gap: 10px;
     height: 500px;
-    overflow: hidden;
+    overflow: visible;
     padding: 10px;
     position: relative;
     width: min-content;
@@ -573,7 +606,7 @@ hr.rounded {
     height: 433px;
     position: relative;
     width: 360px;
-    perspective: 1200px;
+    perspective: 2000px;
 }
 
 .team-member .list .row .item .item-wrap {
@@ -582,14 +615,8 @@ hr.rounded {
     position: absolute;
     user-select: none;
     transform-style: preserve-3d;
-    transform: none;
-}
-
-.team-member .list .row .item .item-wrap .box {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
+    transition: transform 1s ease-in-out;
+    will-change: transform;
 }
 
 .team-member .list .row .item .item-wrap .box .wrap {
@@ -599,7 +626,6 @@ hr.rounded {
     align-items: center;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
     display: flex;
     flex-flow: column;
     gap: 20px;
@@ -618,7 +644,7 @@ hr.rounded {
     flex-flow: row;
     gap: 10px;
     height: 308px;
-    overflow: hidden;
+    overflow: visible;
     padding: 0px;
     position: relative;
     width: 308px;
@@ -665,6 +691,60 @@ hr.rounded {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
+}
+
+.team-member .list .row .item .item-wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 1s ease;
+    transform-style: preserve-3d;
+    cursor: default;
+    backface-visibility: hidden; /* Pastikan backface-visibility diatur dengan benar */
+}
+
+.team-member .list .row .item .item-wrap:hover {
+    transform: rotateY(180deg);
+    pointer-events: auto;
+}
+
+.team-member .list .row .item .item-wrap .box,
+.team-member .list .row .item .item-wrap .back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+}
+
+.team-member .list .row .item .item-wrap .box {
+    transform: rotateY(0deg);
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.team-member .list .row .item .item-wrap .back {
+    transform: rotateY(180deg);
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(109, 114, 133) 0%,
+        rgb(71, 78, 102) 100%
+    );
+    color: white;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 300;
+    pointer-events: none; /* Menonaktifkan interaksi pointer */
+}
+
+.team-member .list .row .item .item-wrap .content {
+    max-width: 80%;
 }
 
 .our-office {
