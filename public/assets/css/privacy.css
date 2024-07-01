@@ -69,6 +69,17 @@ hr.rounded {
     margin: 10px 0;
 }
 
+.appear {
+    opacity: 0;
+    transform: scale(0.9); /* Ubah nilai scale agar lebih halus */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.appear.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
 @media screen and (max-width: 1140px) {
     .privacy-wrapper {
         padding: 150px 20px 0;

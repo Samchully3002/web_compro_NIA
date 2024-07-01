@@ -10,7 +10,7 @@
 
         <div class="privacy-wrapper">
 
-            <h1>Privacy & Policy</h1>
+            <h1 class="appear">Privacy & Policy</h1>
 
             <div class="privacy-content">
                 <span>
@@ -159,4 +159,34 @@
         </div>
 
         @include('web/frontend/pages/en/component/footer')
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const appearElements = document.querySelectorAll('.appear');
+
+                function appearOnScroll() {
+                    appearElements.forEach(element => {
+                        if (isElementInViewport(element) && !element.classList.contains('active')) {
+                            element.classList.add('active');
+                        }
+                    });
+                }
+
+                function isElementInViewport(el) {
+                    const rect = el.getBoundingClientRect();
+                    return (
+                        rect.top >= 0 &&
+                        rect.left >= 0 &&
+                        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                    );
+                }
+
+                // Handler untuk event scroll
+                window.addEventListener('scroll', appearOnScroll);
+                
+                // Panggil sekali ketika halaman dimuat (jika elemen sudah ada di viewport pada awalnya)
+                appearOnScroll();
+            });
+        </script>
     </body>
