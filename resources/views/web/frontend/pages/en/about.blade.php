@@ -1180,13 +1180,8 @@
 
         // Event listener untuk mengatur kembali ke awal saat mouse meninggalkan bannerWrapper
         bannerWrapper.addEventListener('mouseleave', function() {
-            if (leftContent.classList.contains('appear')) {
-                leftContent.style.transition = 'transform 0.5s ease'; // Jaga durasi transform ketika appear
-                leftContent.style.transform = 'scale(1)';
-            } else {
-                leftContent.style.transition = 'transform 0.5s ease';
-                leftContent.style.transform = 'scale(0.9)';
-            }
+            leftContent.style.transition = 'transform 1s ease';
+            leftContent.style.transform = 'scale(1)';
         });
     </script>
 
