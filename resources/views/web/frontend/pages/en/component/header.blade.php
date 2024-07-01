@@ -4,6 +4,7 @@
                     <li >
                         <a class="logo"  href="/">
                             <img style="width: 75%;" class="effect-off" src="../../assets/images/icon/ic_logo.png" />
+                            <img style="width: 75%;" class="effect-on" src="../../assets/images/icon/ic_logo.png" />
                         </a>
                     </li>
                     <li class="first-menu hidden-box>"><a href="/">Home</a></li>

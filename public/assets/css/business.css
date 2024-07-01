@@ -57,9 +57,24 @@
     width: 40%;
 }
 
+.product-box {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    height: min-content;
+    overflow: visible;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+}
+
 .product-wrapper {
     /* margin: 0px 300px 0px 300px; */
     place-content: center;
+    width: 1180px;
     align-items: center;
     display: flex;
     flex: 0 0 auto;
@@ -92,48 +107,66 @@
     width: 100%;
 }
 
-.product-wrapper .collapsible {
+
+input[type='checkbox'] {
+    display: none;
+  }
+
+  .wrap-collabsible {
+    margin: 1.2rem 0;
+  }
+
+  .lbl-toggle {
     place-content: center space-between;
     display: flex;
     align-items: center;
-    background-color: #40455c;
-    color: white;
+    background-color: rgb(248, 249, 252);
+    color: rgb(64, 69, 92);
     cursor: pointer;
     padding: 50px 30px;
     height: min-content;
-    flex-flow: row;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 20px 20px;
     width: 100%;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    pointer-events: none;
-}
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+  }
 
-.product-wrapper .collapsible span {
+  .lbl-toggle span {
     font-size: 48px;
     font-weight: bold;
 }
 
-.active,
-.collapsible:hover {
-    /* background-color: rgb(64, 69, 92); */
-    border-radius: 20px 20px 0 0;
-    color: white;
+.lbl-toggle:hover {
+    color: #FFF;
+    background-color: rgb(64, 69, 92);
 }
 
-.collapsible:after {
-    content: "\002B";
-    font-size: 13px;
-    color: #40455c;
-    float: right;
-    margin-left: 5px;
-}
 
-/* .active:after {
-    content: url(../../assets/images/icon/open-icon-black.png);
-    border-radius: 20px 20px 0px 0px;
-} */
+  .collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+
+  .toggle:checked+.lbl-toggle+.collapsible-content {
+    max-height: max-content;
+  }
+
+  .toggle:checked+.lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #FFF;
+    background-color: rgb(64, 69, 92);
+  }
+
+  .collapsible-content .content {
+    padding: 50px 0px 30px 0px;
+    background-color: rgb(248, 249, 252);
+    overflow: hidden;
+    border-radius: 0 0 20px 20px;
+  }
+
+
 
 .product-wrapper .content {
     padding: 50px 0px 30px 0px;
@@ -265,8 +298,35 @@
         width: 100%;
     }
 
+    .product-box {
+        place-content: center;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        height: min-content;
+        overflow: visible;
+        padding: 5px;
+        position: relative;
+        width: 100%;
+    }
+
     .product-wrapper {
-        padding: 50px 20px;
+        padding: 10px 10px;
+        width: 100%;
+    }
+
+    .lbl-toggle {
+        padding: 20px 30px;
+    }
+
+    .lbl-toggle span {
+        font-size:24px;
+    }
+
+    .lbl-toggle .icon-right {
+        /* float:right; */
+        position: absolute;
     }
 
     .product-wrapper .content .card-wrapper {

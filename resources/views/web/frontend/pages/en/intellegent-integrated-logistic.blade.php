@@ -20,164 +20,173 @@
             <!-- bg-wrapper end -->
 
             <!-- section-wrapper start -->
+          <div class="product-box">
             <div class="product-wrapper">
                 {{-- <div class="img-backdrop">
                     <img src="../assets/images/business-backdrop.png"/>
                 </div> --}}
                 <div class="colls-wrapper">
-                    {{-- <div class="colls-title">
-                        <a data-toggle="collapse" href="#collapse1">
+                    <div class="wrap-collabsible">
+                        <input id="collapsible" class="toggle" type="checkbox" checked="checked">
+                        <label for="collapsible" class="lbl-toggle">
                             <span>01</span>
-                            <span>Samchully Pay</span>
-                        </a>
-                    </div>
-                    <div id="collapse1" class="panel-collapse collapse">
-                        <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        <div class="samchullypay">
-                            <img src="../assets/images/samchullypay1.jpg"/>
-                            <img src="../assets/images/samchullypay2.jpg"/>
-                            <img src="../assets/images/samchullypay3.jpg"/>
-                        </div>
-                    </div> --}}
-                    <button type="button" class="collapsible">
-                        <span>01</span>
-                        <span>Samchullypay</span>
-                    </button>
-                    <div class="content">
-                        <div class="text-wrapper">
-                            <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
-                        </div>
-                        <div class="img-box">
-                            <img src="../assets/images/bs-samchulypay1.svg"/>
-                            <img src="../assets/images/bs-samchulypay2.svg"/>
-                            <img src="../assets/images/bs-samchulypay3.svg"/>
-                        </div>
-                        <div class="card-wrapper">
-                            <div class="card">
-                                <img width="18%" src="../assets/images/icon/ic_samchulypay1.svg"/>
-                                <span>Notification Dispatch</span>
-                                <p>
-                                    Work dispatch with mobile push function. With just one mobile device , we build a transparent dispatch platform, breaking away from the existing radio dispatch.
-                                </p>
-                            </div>
-                            <div class="card">
-                                <img width="18%" src="../assets/images/icon/ic_samchulypay2.svg"/>
-                                <span>Location Detector</span>
-                                <p>
-                                    We provide location information of the dispatched driver to reduce waiting times without knowing when the driver will arrive. Drivers no longer need to contact you upon departure.
-                                </p>
-                            </div>
-                            <div class="card">
-                                <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
-                                <span>Work Log</span>
-                                <p>
-                                    Our Platform offers real-time tracking, optimizing dispatch, monitoring, and managing costs through advanced big data analytics for demand prediction and risk management.
-                                </p>
+                            <span>Samchullypay</span>
+                            <span class="icon-right">&nbsp;</span>
+                        </label>
+                        <div class="collapsible-content">
+                            <div class="content">
+                                <div class="text-wrapper">
+                                    <p>Through an intelligent integrated logistics platform, we track logistics in real-time to locate positions, dispatch, movement status, shortest distances, and costs. With our proprietary solution enabling demand prediction and risk management through big data, we are building a leading record in the transportation platform industry.</p>
+                                </div>
+                                <div class="img-box">
+                                    <img src="../assets/images/bs-samchulypay1.svg"/>
+                                    <img src="../assets/images/bs-samchulypay2.svg"/>
+                                    <img src="../assets/images/bs-samchulypay3.svg"/>
+                                </div>
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img width="18%" src="../assets/images/icon/ic_samchulypay1.svg"/>
+                                        <span>Notification Dispatch</span>
+                                        <p>
+                                            Work dispatch with mobile push function. With just one mobile device , we build a transparent dispatch platform, breaking away from the existing radio dispatch.
+                                        </p>
+                                    </div>
+                                    <div class="card">
+                                        <img width="18%" src="../assets/images/icon/ic_samchulypay2.svg"/>
+                                        <span>Location Detector</span>
+                                        <p>
+                                            We provide location information of the dispatched driver to reduce waiting times without knowing when the driver will arrive. Drivers no longer need to contact you upon departure.
+                                        </p>
+                                    </div>
+                                    <div class="card">
+                                        <img width="18%" src="../assets/images/icon/ic_samchulypay3.svg"/>
+                                        <span>Work Log</span>
+                                        <p>
+                                            Our Platform offers real-time tracking, optimizing dispatch, monitoring, and managing costs through advanced big data analytics for demand prediction and risk management.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="colls-wrapper">
-                    <button type="button" class="collapsible">
-                        <span>02</span>
-                        <span>Olligo</span>
-                    </button>
-                    <div class="content">
-                        <div class="text-wrapper">
-                            <p>Through our community for transportation professionals, we offer a one-stop social network for industry news, regulatory updates, and more. Start groups and meetings based on various search criteria like location, vehicle type, and topics.</p>
-                        </div>
-                        <div class="img-box">
-                            <img src="../assets/images/bs-olligo1.svg"/>
-                            <img src="../assets/images/bs-olligo2.svg"/>
-                            <img src="../assets/images/bs-olligo3.svg"/>
-                        </div>
-                        <div class="card-wrapper">
-                            <div class="card">
-                                <img width="18%" src="../assets/images/icon/ic_olligo1.svg"/>
-                                <span>Group Dispatch</span>
-                                <p>
-                                    If you register tasks within your assigned group, dispatch will only be conducted within that group, ensuring that tasks are performed by drivers verified within the group.
-                                </p>
-                            </div>
-                            <div class="card">
-                                <img width="18%" src="../assets/images/icon/ic_olligo2.svg"/>
-                                <span>Rank Distribution</span>
-                                <p>
-                                    The dispatch order is determined based on the task registration ranking within the group. Tasks shared will receive priority in dispatch according to their ranking.
-                                </p>
-                            </div>
-                            <div class="card">
-                                <img width="18%" src="../assets/images/icon/ic_olligo3.svg"/>
-                                <span>Basic Document</span>
-                                <p>
-                                    Do you spend time searching for documents every time you have a task? Try our Basic Document feature, where you can save documents once and have them readily available for task dispatch.
-                                </p>
+                    <div class="wrap-collabsible">
+                        <input id="collapsible1" class="toggle" type="checkbox">
+                        <label for="collapsible1" class="lbl-toggle">
+                            <span>02</span>
+                            <span>Olligo</span>
+                            <span class="icon-right">&nbsp;</span>
+                        </label>
+                        <div class="collapsible-content">
+                            <div class="content">
+                                <div class="text-wrapper">
+                                    <p>Through our community for transportation professionals, we offer a one-stop social network for industry news, regulatory updates, and more. Start groups and meetings based on various search criteria like location, vehicle type, and topics.</p>
+                                </div>
+                                <div class="img-box">
+                                    <img src="../assets/images/bs-olligo1.svg"/>
+                                    <img src="../assets/images/bs-olligo2.svg"/>
+                                    <img src="../assets/images/bs-olligo3.svg"/>
+                                </div>
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img width="18%" src="../assets/images/icon/ic_olligo1.svg"/>
+                                        <span>Group Dispatch</span>
+                                        <p>
+                                            If you register tasks within your assigned group, dispatch will only be conducted within that group, ensuring that tasks are performed by drivers verified within the group.
+                                        </p>
+                                    </div>
+                                    <div class="card">
+                                        <img width="18%" src="../assets/images/icon/ic_olligo2.svg"/>
+                                        <span>Rank Distribution</span>
+                                        <p>
+                                            The dispatch order is determined based on the task registration ranking within the group. Tasks shared will receive priority in dispatch according to their ranking.
+                                        </p>
+                                    </div>
+                                    <div class="card">
+                                        <img width="18%" src="../assets/images/icon/ic_olligo3.svg"/>
+                                        <span>Basic Document</span>
+                                        <p>
+                                            Do you spend time searching for documents every time you have a task? Try our Basic Document feature, where you can save documents once and have them readily available for task dispatch.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="colls-wrapper">
-                    <button type="button" class="collapsible">
-                        <span>03</span>
-                        <span>Chaonda</span>
-                    </button>
-                    <div class="content">
-                        <div class="text-wrapper">
-                            <p>Based on accumulated transportation-related big data, we are creating a new transportation ecosystem that supports various demands for metropolitan travel, including congestion relief in major urban areas and achieving RE100 through carbon emission reduction effects. We enhance accessibility to public transportation in rural areas, benefiting transportation-disadvantaged individuals.</p>
-                        </div>
-                        <div class="img-box">
-                            <img src="../assets/images/bs-chaonda1.svg"/>
-                            <img src="../assets/images/bs-chaonda2.svg"/>
-                            <img src="../assets/images/bs-chaonda3.svg"/>
-                            <img src="../assets/images/bs-chaonda4.svg"/>
+                    <div class="wrap-collabsible">
+                        <input id="collapsible2" class="toggle" type="checkbox">
+                        <label for="collapsible2" class="lbl-toggle">
+                            <span>03</span>
+                            <span>Chaonda</span>
+                            <span class="icon-right">&nbsp;</span>
+                        </label>
+                        <div class="collapsible-content">
+                            <div class="content">
+                                <div class="text-wrapper">
+                                    <p>Based on accumulated transportation-related big data, we are creating a new transportation ecosystem that supports various demands for metropolitan travel, including congestion relief in major urban areas and achieving RE100 through carbon emission reduction effects. We enhance accessibility to public transportation in rural areas, benefiting transportation-disadvantaged individuals.</p>
+                                </div>
+                                <div class="img-box">
+                                    <img src="../assets/images/bs-chaonda1.svg"/>
+                                    <img src="../assets/images/bs-chaonda2.svg"/>
+                                    <img src="../assets/images/bs-chaonda3.svg"/>
+                                    <img src="../assets/images/bs-chaonda4.svg"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="colls-wrapper">
-                    <button type="button" class="collapsible">
-                        <span>04</span>
-                        <span>Commuter Bus</span>
-                    </button>
-                    <div class="content">
-                        <div class="text-wrapper">
-                            <p>We provide a unique ticketing and reservation system for commuter bus systems, incorporating accumulated transportation and information communication technologies from Samchully Networks.</p>
-                        </div>
-                        <div class="img-box">
-                            <img src="../assets/images/bs-commuter1.svg"/>
-                            <img src="../assets/images/bs-commuter2.svg"/>
-                            <img src="../assets/images/bs-commuter3.svg"/>
-                            <img src="../assets/images/bs-commuter4.svg"/>
+                    <div class="wrap-collabsible">
+                        <input id="collapsible3" class="toggle" type="checkbox">
+                        <label for="collapsible3" class="lbl-toggle">
+                            <span>04</span>
+                            <span>Commuter Bus</span>
+                            <span class="icon-right">&nbsp;</span>
+                        </label>
+                        <div class="collapsible-content">
+                            <div class="content">
+                                <div class="text-wrapper">
+                                    <p>We provide a unique ticketing and reservation system for commuter bus systems, incorporating accumulated transportation and information communication technologies from Samchully Networks.</p>
+                                </div>
+                                <div class="img-box">
+                                    <img src="../assets/images/bs-commuter1.svg"/>
+                                    <img src="../assets/images/bs-commuter2.svg"/>
+                                    <img src="../assets/images/bs-commuter3.svg"/>
+                                    <img src="../assets/images/bs-commuter4.svg"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
+          </div>
             <!-- section-wrapper end -->
         </div>
 
         <!-- <div data-include="component/footer"></div> -->
         @include('web/frontend/pages/en/component/footer')
         <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
 
-            for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                    content.style.display = "none";
-                    } else {
-                    content.style.display = "block";
-                    }
-                });
-            }
-        </script>
+            let myLabels = document.querySelectorAll('.lbl-toggle');
 
-<script>
+            Array.from(myLabels).forEach(label => {
+            label.addEventListener('keydown', e => {
+                // 32 === spacebar
+                // 13 === enter
+                if (e.which === 32 || e.which === 13) {
+                e.preventDefault();
+                label.click();
+                };
+            });
+            });
+
             document.addEventListener('DOMContentLoaded', function() {
                 const appearElements = document.querySelectorAll('.appear');
 

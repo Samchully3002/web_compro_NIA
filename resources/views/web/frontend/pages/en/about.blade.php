@@ -627,7 +627,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         <!-- Our History End -->
@@ -1173,7 +1173,7 @@
                 appearOnScroll();
             });
         </script>
-    
+
     <script>
         const leftContent = document.querySelector('.left-content');
         const bannerWrapper = document.querySelector('.banner-wrapper');
