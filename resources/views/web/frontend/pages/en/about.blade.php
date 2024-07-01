@@ -31,7 +31,7 @@
             </div>
             <div class="text_wrapper">
                 <p>
-                <h1>CEO Greetings</h1><br>
+                <h1 class="appear">CEO Greetings</h1><br>
                 As a subsidiary of Samchully Networks from South Korea, PT Networks Indonesia Aku was established in Jakarta, Indonesia in 2021 with a clear mission: "To become a leading IT company in Indonesia, emphasizing environmentally friendly products and services. We aim to create technology for the advancement of transportation and infrastructure, healthcare technology, education, logistics, smart factories, online payment systems, and their development." As specialists in the IT field, we offer a diverse range of services through information data and develop solutions through application/web platforms.<br><br>
                 NIA prioritizes 'integration' and 'innovation' as its core foundation. With the vision of "Focusing on innovation, high-quality services, and advanced technological solutions, we are determined to make a meaningful contribution to advancing the world of information technology. Through this commitment, we strive to build strong, long-term relationships with customers, becoming a reliable partner and continuing to be a leading provider of IT solutions." We are committed to continually building and maintaining trust, aligning with the rapid changes in technology trends.
                 </p>
@@ -1130,6 +1130,49 @@
     {{-- </div> --}}
 
     @include('web/frontend/pages/en/component/footer')
+
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const appearElements = document.querySelectorAll('.appear');
+
+                function appearOnScroll() {
+                    appearElements.forEach((element, index) => {
+                        // Jika elemen sudah memiliki class 'active', abaikan
+                        if (element.classList.contains('active')) {
+                            return;
+                        }
+
+                        if (isElementInViewport(element)) {
+                            setTimeout(() => {
+                                element.classList.add('active');
+                            }, index * 200); // Delay munculnya setiap elemen
+                        } else {
+                            // Hapus class 'active' saat elemen keluar dari viewport
+                            element.classList.remove('active');
+                        }
+                    });
+                }
+
+                function isElementInViewport(el) {
+                    const rect = el.getBoundingClientRect();
+                    return (
+                        rect.top >= 0 &&
+                        rect.left >= 0 &&
+                        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                    );
+                }
+
+                // Handler untuk event scroll
+                window.addEventListener('scroll', appearOnScroll);
+
+                // Handler untuk event resize (jika ada perubahan ukuran viewport)
+                window.addEventListener('resize', appearOnScroll);
+
+                // Panggil sekali ketika halaman dimuat (jika elemen sudah ada di viewport pada awalnya)
+                appearOnScroll();
+            });
+        </script>
     
     <script>
         const leftContent = document.querySelector('.left-content');
@@ -1182,6 +1225,40 @@
         bannerWrapper.addEventListener('mouseleave', function() {
             leftContent.style.transition = 'transform 1s ease';
             leftContent.style.transform = 'scale(1)';
+        });
+    </script>
+
+    <script>
+       // Create tooltip element
+        const tooltip = document.createElement('div');
+        tooltip.className = 'tooltip';
+        tooltip.textContent = 'Mr. Son Dong-kwon';
+        document.body.appendChild(tooltip);
+
+        // Track mouse movements on img_wrapper
+        const imageContainer = document.querySelector('.img_wrapper');
+        imageContainer.addEventListener('mousemove', function(event) {
+        // Hitung posisi tooltip
+        const tooltipWidth = tooltip.offsetWidth;
+        const tooltipHeight = tooltip.offsetHeight;
+        const mouseX = event.clientX;
+        const mouseY = event.clientY;
+
+        // Set posisi tooltip di tengah kursor mouse
+        tooltip.style.left = `${mouseX}px`;
+        tooltip.style.top = `${mouseY}px`;
+
+        // Tampilkan tooltip
+        tooltip.style.display = 'block';
+
+        // Sembunyikan kursor default
+        document.body.style.cursor = 'none';
+        });
+
+        // Sembunyikan tooltip ketika mouse meninggalkan img_wrapper
+        imageContainer.addEventListener('mouseleave', function() {
+        tooltip.style.display = 'none';
+        document.body.style.cursor = 'auto'; // Kembalikan kursor ke nilai default
         });
     </script>
 
