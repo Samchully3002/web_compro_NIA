@@ -704,7 +704,8 @@ hr.rounded {
 }
 
 .team-member .list .row .item .item-wrap:hover {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /* Ubah nilai rotateY ke -180deg */
+    -webkit-transform: rotateY(180deg); /* Vendor prefix untuk WebKit */
     pointer-events: auto;
 }
 
@@ -810,7 +811,6 @@ hr.rounded {
         /* transform: translateX(-50%); */
     }
 }
-
 
 .office-maps {
     place-content: center;
@@ -1118,15 +1118,15 @@ hr.rounded {
         display: block;
     }
 
-    input[type='checkbox'] {
+    input[type="checkbox"] {
         display: none;
-      }
+    }
 
-      .wrap-collabsible {
+    .wrap-collabsible {
         margin: 1.2rem 0;
-      }
+    }
 
-      .lbl-toggle {
+    .lbl-toggle {
         place-content: center space-between;
         display: flex;
         align-items: center;
@@ -1139,15 +1139,15 @@ hr.rounded {
         width: 100%;
         cursor: pointer;
         transition: all 0.25s ease-out;
-      }
+    }
 
-      .lbl-toggle span {
+    .lbl-toggle span {
         font-size: 24px;
         font-weight: bold;
     }
 
     .lbl-toggle .icon-right {
-        content: url('../../assets/images/icon/closed-icon-black-mini.png');
+        content: url("../../assets/images/icon/closed-icon-black-mini.png");
     }
 
     /* .lbl-toggle:hover {
@@ -1155,40 +1155,40 @@ hr.rounded {
         background-color: rgb(64, 69, 92);
     } */
 
-      .collapsible-content {
+    .collapsible-content {
         max-height: 0px;
         overflow: hidden;
-        transition: max-height .25s ease-in-out;
-      }
+        transition: max-height 0.25s ease-in-out;
+    }
 
-      .toggle:checked+.lbl-toggle+.collapsible-content {
+    .toggle:checked + .lbl-toggle + .collapsible-content {
         max-height: max-content;
-      }
+    }
 
-      .toggle:checked+.lbl-toggle {
+    .toggle:checked + .lbl-toggle {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
-        color: #FFF;
+        color: #fff;
         background-color: rgb(64, 69, 92);
-      }
+    }
 
-      .toggle:checked+ .lbl-toggle .icon-right {
-        content: url('../../assets/images/icon/open-icon-white-mini.png');
-      }
+    .toggle:checked + .lbl-toggle .icon-right {
+        content: url("../../assets/images/icon/open-icon-white-mini.png");
+    }
 
-      .toggle:checked+.content {
+    .toggle:checked + .content {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
-        color: #FFF;
+        color: #fff;
         background-color: rgb(64, 69, 92);
-      }
+    }
 
-      .collapsible-content .content {
+    .collapsible-content .content {
         padding: 50px 0px 30px 0px;
         background-color: rgb(248, 249, 252);
         overflow: hidden;
         border-radius: 0 0 20px 20px;
-      }
+    }
 
     .product-wrapper .collapsible span {
         font-size: 24px;
@@ -1230,8 +1230,7 @@ hr.rounded {
 }
 
 @media screen and (max-width: 780px) {
-
     .collapsible-content {
         padding: unset;
-      }
+    }
 }

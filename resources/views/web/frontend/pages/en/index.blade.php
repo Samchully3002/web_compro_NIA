@@ -9,30 +9,24 @@
     @include('web/frontend/pages/en/component/header')
 
     {{-- <div class="page page-in" id="page-main"> --}}
-
-        <!-- Video start -->
-        <!-- <video class="video-dekstop" loop="true" autoplay="true" muted playsinline>
-            <source src="../assets/video/company_profile.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video> -->
-        <!-- <video src="../assets/video/company_profile.mp4" class="video-dekstop" autoplay/> -->
-        <div class="video-wrap fade-out">
-            <video id="myVideo" class="video-dekstop" autoplay muted loop>
-                <source src="../assets/video/video.mp4" type="video/mp4">
-            </video>
-            {{-- <div id="vision_txt" class="vision_text">
-                <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
-            </div> --}}
-        {{-- </div>
-        <div class="video-wrap fade-out"> --}}
-            <video id="myVideo" class="video-mobile" autoplay muted loop>
-                <source src="../assets/video/mobile.mp4" type="video/mp4">
-            </video>
-        </div>
-        <!-- Video end -->
-
-        <div id="vision_txt" class="vision_text">
-            <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
+        <div class="container_video_text">
+            <!-- Video start -->
+            <div class="video-wrap fade-out">
+                <div class="video-mask">
+                    <video class="video-dekstop" autoplay muted loop>
+                        <source src="../assets/video/video.mp4" type="video/mp4">
+                    </video>
+                    <video class="video-mobile" autoplay muted loop>
+                        <source src="../assets/video/mobile.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <!-- Video end -->
+            <div class="container_text">
+                <div id="vision_txt" class="vision_text">
+                    <label>ONE - STOP</label><label style="color:#40455C;">&nbsp;IT SOLUTION FOR YOUR BUSINESS</label>
+                </div>
+            </div>
         </div>
         <div class="item">
             <div class="image-container">
@@ -138,7 +132,7 @@
 
         <div class="clientSection">
             <div class="client_text">
-                <p class="fade-in">Collaborating seamlessly to create value and drive success for our clients.</p>
+                <p>Collaborating seamlessly to create value and drive success for our clients.</p>
             </div>
                 <!-- <marquee behavior="scroll" direction="left">
                     <img src="../../assets/images/icon/korea.png"/>
@@ -249,71 +243,45 @@
     <script>
         new WOW().init();
     </script>
+
     <script>
-        // Video Rotation animate
-        document.addEventListener('DOMContentLoaded', function() {
-        const video = document.getElementById('myVideo');
-        const v_txt = document.getElementById('vision_txt');
-        const content = document.querySelector('.video-wrap');
+        // Ambil elemen video
+const video = document.querySelector('.video-dekstop');
 
-        window.addEventListener('scroll', function() {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = scrollTop / docHeight;
-            const rotation = scrollPercent * 180;
+// Ambil elemen kontainer video
+const container = document.querySelector('.container_video_text');
 
-            video.style.transform = `rotate(${rotation}deg)`;
-        });
+// Hitung tinggi kontainer video
+const containerHeight = container.offsetHeight;
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting) {
-                    content.classList.add('fade');
-                } else {
-                    content.classList.remove('fade');
-                }
-            });
-        }, {
-            // threshold: 0.5 // Adjust threshold as needed
-        });
-        observer.observe(content);
+// Tentukan kapan scaling harus dimulai (misalnya pada 1999px dari atas kontainer)
+const startScalingAt = container.offsetTop + containerHeight - window.innerHeight;
 
-        const zooming = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting) {
-                    v_txt.classList.add('fade');
-                } else {
-                    v_txt.classList.remove('fade');
-                }
-            });
-        }, {
-            // threshold: 0.5 // Adjust threshold as needed
-        });
-        zooming.observe(v_txt);
+// Tambahkan event listener untuk mendeteksi scroll mouse
+window.addEventListener('scroll', function() {
+    // Dapatkan posisi scroll vertikal saat ini
+    let scrollPosition = window.scrollY;
 
+    // Hitung nilai rotasi berdasarkan posisi scroll
+    let rotateValue = -30 * (scrollPosition / (document.body.clientHeight - window.innerHeight));
+    // Formula untuk rotasi dari 0 ke -30 derajat seiring dengan scroll
+    // scrollPosition / (document.body.clientHeight - window.innerHeight) adalah faktor untuk menghitung perubahan rotasi
 
-    });
+    // Batasi nilai rotasi agar tidak kurang dari -30
+    if (rotateValue < -30) {
+        rotateValue = -30;
+    }
 
-        document.addEventListener("DOMContentLoaded", function() {
-            const elements = document.querySelectorAll('.fade-in');
+    // Hitung nilai scale berdasarkan posisi scroll (langsung ke 0 begitu scroll mencapai posisi tertentu)
+    let scaleValue = 1;
+    if (scrollPosition >= startScalingAt) {
+        scaleValue = 0;
+    }
 
-            function checkVisibility() {
-                elements.forEach(element => {
-                    const rect = element.getBoundingClientRect();
-                    if (rect.top < window.innerHeight && rect.bottom >= 0) {
-                        element.classList.add('visible');
-                    } else {
-                        element.classList.remove('visible');
-                    }
-                });
-            }
+    // Terapkan transformasi pada video
+    video.style.transform = `rotate(${rotateValue}deg) scale(${scaleValue})`;
+});
 
-            window.addEventListener('scroll', checkVisibility);
-            window.addEventListener('resize', checkVisibility);
-
-            // Initial check on load
-            checkVisibility();
-        });
     </script>
 
     <script>
@@ -338,6 +306,25 @@
                 checkVisibility();
             });
     </script>
+
+    <script>
+        // Mendapatkan elemen vision_text
+        const visionText = document.getElementById('vision_txt');
+
+        // Mendeteksi saat pengguna melakukan scroll
+        window.addEventListener('scroll', () => {
+            // Mendapatkan posisi scroll vertikal saat ini
+            const scrollPosition = window.scrollY;
+
+            // Menentukan kondisi untuk mengubah skala
+            if (scrollPosition > 0) {
+                visionText.style.transform = 'scale(1)';
+            } else {
+                visionText.style.transform = 'scale(0.5)';
+            }
+        });
+    </script>
+
 </body>
 
 </html>
