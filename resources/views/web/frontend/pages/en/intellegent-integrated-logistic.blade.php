@@ -43,6 +43,15 @@
                                     <img src="../assets/images/bs-samchulypay2.svg"/>
                                     <img src="../assets/images/bs-samchulypay3.svg"/>
                                 </div>
+                                <div class="img-box-mobile">
+                                    <button class="btn_prev_img" onclick="plusDivs(-1)">&#8249;</button>
+
+                                    <img class="mySlides1" src="../assets/images/bs-samchulypay1.svg"/>
+                                    <img class="mySlides1" src="../assets/images/bs-samchulypay2.svg"/>
+                                    <img class="mySlides1" src="../assets/images/bs-samchulypay3.svg"/>
+
+                                    <button class="btn_next_img" onclick="plusDivs(1)">&#8250;</button>
+                                </div>
                                 <div class="card-wrapper">
                                     <div class="card">
                                         <img width="18%" src="../assets/images/icon/ic_samchulypay1.svg"/>
@@ -88,6 +97,15 @@
                                     <img src="../assets/images/bs-olligo1.svg"/>
                                     <img src="../assets/images/bs-olligo2.svg"/>
                                     <img src="../assets/images/bs-olligo3.svg"/>
+                                </div>
+                                <div class="img-box-mobile">
+                                    <button class="btn_prev_img" onclick="plusDivs(-1)">&#8249;</button>
+
+                                    <img class="mySlides2" src="../assets/images/bs-olligo1.svg"/>
+                                    <img class="mySlides2" src="../assets/images/bs-olligo2.svg"/>
+                                    <img class="mySlides2" src="../assets/images/bs-olligo3.svg"/>
+
+                                    <button class="btn_next_img" onclick="plusDivs(1)">&#8250;</button>
                                 </div>
                                 <div class="card-wrapper">
                                     <div class="card">
@@ -136,6 +154,16 @@
                                     <img src="../assets/images/bs-chaonda3.svg"/>
                                     <img src="../assets/images/bs-chaonda4.svg"/>
                                 </div>
+                                <div class="img-box-mobile">
+                                    <button class="btn_prev_img" onclick="plusDivs(-1)">&#8249;</button>
+
+                                    <img class="mySlides3" src="../assets/images/bs-chaonda1.svg"/>
+                                    <img class="mySlides3" src="../assets/images/bs-chaonda2.svg"/>
+                                    <img class="mySlides3" src="../assets/images/bs-chaonda3.svg"/>
+                                    <img class="mySlides3" src="../assets/images/bs-chaonda4.svg"/>
+
+                                    <button class="btn_next_img" onclick="plusDivs(1)">&#8250;</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -160,6 +188,16 @@
                                     <img src="../assets/images/bs-commuter3.svg"/>
                                     <img src="../assets/images/bs-commuter4.svg"/>
                                 </div>
+                                <div class="img-box-mobile">
+                                    <button class="btn_prev_img" onclick="plusDivs(-1)">&#8249;</button>
+
+                                    <img class="mySlides4" src="../assets/images/bs-commuter1.svg"/>
+                                    <img class="mySlides4" src="../assets/images/bs-commuter2.svg"/>
+                                    <img class="mySlides4" src="../assets/images/bs-commuter3.svg"/>
+                                    <img class="mySlides4" src="../assets/images/bs-commuter4.svg"/>
+
+                                    <button class="btn_next_img" onclick="plusDivs(1)">&#8250;</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -173,6 +211,48 @@
         <!-- <div data-include="component/footer"></div> -->
         @include('web/frontend/pages/en/component/footer')
         <script>
+
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x1 = document.getElementsByClassName("mySlides1");
+            var x2 = document.getElementsByClassName("mySlides2");
+            var x3 = document.getElementsByClassName("mySlides3");
+            var x4 = document.getElementsByClassName("mySlides4");
+            if (n > x1.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x1.length}
+            for (i = 0; i < x1.length; i++) {
+                x1[i].style.display = "none";
+            }
+            x1[slideIndex-1].style.display = "block";
+
+            if (n > x2.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x2.length}
+            for (i = 0; i < x2.length; i++) {
+                x2[i].style.display = "none";
+            }
+            x2[slideIndex-1].style.display = "block";
+
+            if (n > x3.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x3.length}
+            for (i = 0; i < x3.length; i++) {
+                x3[i].style.display = "none";
+            }
+            x3[slideIndex-1].style.display = "block";
+
+            if (n > x4.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x4.length}
+            for (i = 0; i < x4.length; i++) {
+                x4[i].style.display = "none";
+            }
+            x4[slideIndex-1].style.display = "block";
+            }
 
             let myLabels = document.querySelectorAll('.lbl-toggle');
 
