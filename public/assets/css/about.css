@@ -272,7 +272,16 @@
     position: relative;
     margin: 20px;
     width: 512px;
+    /* opacity: 0;
+    transform: scale(0.98);
+    transition: opacity 0.5s ease-in-out, transform 0.01s ease-in-out; */
 }
+
+/* .container-imageyear.visible {
+    opacity: 1;
+    transform: scale(1);
+    animation: bounce 0.5s ease-in-out;
+} */
 
 .our-history .box .right-box {
     place-content: flex-start;
@@ -1102,6 +1111,18 @@ hr.rounded {
 
 .mobile-history {
     display: none;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(0.7);
+    }
+    80% {
+        transform: scale(1.01);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media screen and (max-width: 1140px) {

@@ -1382,72 +1382,88 @@
             });
 
             $(document).on('scroll', function () {
-    $(".list_history li").each(function () {
-        let image = document.getElementById('year_img');
-        let yearname = document.getElementById('year_history');
-        if ($(this).offset().top <= $(document).scrollTop()) {
+                $(".list_history li").each(function () {
+                    let image = document.getElementById('year_img');
+                    let yearname = document.getElementById('year_history');
+                    if ($(this).offset().top <= $(document).scrollTop()) {
 
+                        let liClass = $(this)[0].className.substr(4)
 
-            let liClass = $(this)[0].className.substr(4)
-            console.log(liClass)
-            console.log($(this).offset().top)
+                        switch(liClass) {
+                        case 'hist_2024':
+                            image.src = "{{asset('../assets/images/story2024.png')}}";
+                            yearname.innerHTML = "2024";
+                        break;
+                        case 'hist_2023':
+                            image.src = "{{asset('../assets/images/story2023.png')}}";
+                            yearname.innerHTML = "2023";
+                        break;
+                        case 'hist_2022':
+                            image.src = "{{asset('../assets/images/story2022.png')}}";
+                            yearname.innerHTML = "2022";
+                        break;
+                        case 'hist_2021':
+                            image.src = "{{asset('../assets/images/story2021.png')}}";
+                            yearname.innerHTML = "2021";
+                        break;
+                        case 'hist_2020':
+                            image.src = "{{asset('../assets/images/story2020.png')}}";
+                            yearname.innerHTML = "2020";
+                        break;
+                        case 'hist_2019':
+                            image.src = "{{asset('../assets/images/story2019.png')}}";
+                            yearname.innerHTML = "2019";
+                        break;
+                        case 'hist_2018':
+                            image.src = "{{asset('../assets/images/story2018.png')}}";
+                            yearname.innerHTML = "2018";
+                        break;
+                        case 'hist_2017':
+                            image.src = "{{asset('../assets/images/story2017.png')}}";
+                            yearname.innerHTML = "2017";
+                        break;
+                        case 'hist_2016':
+                            image.src = "{{asset('../assets/images/story2016.png')}}";
+                            yearname.innerHTML = "2016";
+                        break;
+                        case 'hist_2015':
+                            image.src = "{{asset('../assets/images/story2015.png')}}";
+                            yearname.innerHTML = "2015";
+                        break;
+                        case 'hist_2014':
+                            image.src = "{{asset('../assets/images/story2014.png')}}";
+                            yearname.innerHTML = "2014";
+                        break;
+                        default:
+                            image.src = "{{asset('../assets/images/story2024.png')}}";
+                            yearname.innerHTML = "2024";
+                        }
 
-            switch(liClass) {
-            case 'hist_2024':
-                image.src = "{{asset('../assets/images/story2024.png')}}";
-                yearname.innerHTML = "2024";
-            break;
-            case 'hist_2023':
-                image.src = "{{asset('../assets/images/story2023.png')}}";
-                yearname.innerHTML = "2023";
-            break;
-            case 'hist_2022':
-                image.src = "{{asset('../assets/images/story2022.png')}}";
-                yearname.innerHTML = "2022";
-            break;
-            case 'hist_2021':
-                image.src = "{{asset('../assets/images/story2021.png')}}";
-                yearname.innerHTML = "2021";
-            break;
-            case 'hist_2020':
-                image.src = "{{asset('../assets/images/story2020.png')}}";
-                yearname.innerHTML = "2020";
-            break;
-            case 'hist_2019':
-                image.src = "{{asset('../assets/images/story2019.png')}}";
-                yearname.innerHTML = "2019";
-            break;
-            case 'hist_2018':
-                image.src = "{{asset('../assets/images/story2018.png')}}";
-                yearname.innerHTML = "2018";
-            break;
-            case 'hist_2017':
-                image.src = "{{asset('../assets/images/story2017.png')}}";
-                yearname.innerHTML = "2017";
-            break;
-            case 'hist_2016':
-                image.src = "{{asset('../assets/images/story2016.png')}}";
-                yearname.innerHTML = "2016";
-            break;
-            case 'hist_2015':
-                image.src = "{{asset('../assets/images/story2015.png')}}";
-                yearname.innerHTML = "2015";
-            break;
-            case 'hist_2014':
-                image.src = "{{asset('../assets/images/story2014.png')}}";
-                yearname.innerHTML = "2014";
-            break;
-            default:
-                image.src = "{{asset('../assets/images/story2024.png')}}";
-                yearname.innerHTML = "2024";
-            }
+                    }
+                });
+            });
 
-        }
-    });
-});
+            document.addEventListener("DOMContentLoaded", function() {
+                const elements = document.querySelectorAll('.container-imageyear');
+
+                function checkVisibility() {
+                    elements.forEach(element => {
+                        const rect = element.getBoundingClientRect();
+                        if (rect.top > window.innerHeight && rect.bottom >= 0) {
+                            element.classList.add('visible');
+                        } else {
+                            element.classList.remove('visible');
+                        }
+                    });
+                }
+
+                window.addEventListener('scroll', checkVisibility);
+                window.addEventListener('resize', checkVisibility);
+
+                // Initial check on load
+                checkVisibility();
+            });
 
         </script>
-
-</body>
-
+    </body>
 </html>

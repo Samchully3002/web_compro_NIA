@@ -151,6 +151,19 @@
                         <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
                         <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
                         <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+
+                        <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                        <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                        <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                        <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                        <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                        <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
+                        <img src="../../assets/images/icon/korea.png" alt="Korea"/>
+                        <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
+                        <img src="../../assets/images/icon/bni.png" alt="BNI"/>
+                        <img src="../../assets/images/icon/jayaraya.png" alt="Jayaraya"/>
+                        <img src="../../assets/images/icon/ovo.png" alt="OVO"/>
+                        <img src="../../assets/images/icon/dishub.png" alt="Dishub"/>
                         <img src="../../assets/images/icon/korea.png" alt="Korea"/>
                         <img src="../../assets/images/icon/ditjen.png" alt="Ditjen"/>
                         <img src="../../assets/images/icon/bni.png" alt="BNI"/>

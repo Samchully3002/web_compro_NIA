@@ -253,20 +253,6 @@ body{
     font-size: 4.3em;
 }
 
-.marquee-container {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%);
-}
-
-.marquee {
-    display: flex;
-    gap: 100px;
-    animation: marquee-scroll 40s linear infinite;
-}
-
 .marquee img {
     object-fit: contain;
 }
