@@ -3,17 +3,18 @@
 }
 
 .video-dekstop {
+    display: block;
     height: 100vh;
     position: absolute;
     width: 100vw;
     object-fit: cover;
-    transition: transform 0.3s linear;
+    transition: transform 0.2s linear;
     perspective: 1200px;
 }
 
 .video-mask {
     position: absolute;
-    height: 100vh;
+    height: 100%;
 }
 
 .video-wrap {
@@ -23,7 +24,7 @@
     height: 100vh;
     z-index: 2;
     transform-origin: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
 .video-mobile {
