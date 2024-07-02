@@ -107,16 +107,15 @@
     width: 100%;
 }
 
-
-input[type='checkbox'] {
+input[type="checkbox"] {
     display: none;
-  }
+}
 
-  .wrap-collabsible {
+.wrap-collabsible {
     margin: 1.2rem 0;
-  }
+}
 
-  .lbl-toggle {
+.lbl-toggle {
     place-content: center space-between;
     display: flex;
     align-items: center;
@@ -129,56 +128,53 @@ input[type='checkbox'] {
     width: 100%;
     cursor: pointer;
     transition: all 0.25s ease-out;
-  }
+}
 
-  .lbl-toggle span {
+.lbl-toggle span {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .lbl-toggle:hover {
-    color: #FFF;
+    color: #fff;
     background-color: rgb(64, 69, 92);
 }
 
 .lbl-toggle .icon-right:hover {
-    content: url('../../assets/images/icon/closed-icon-white.png');
+    content: url("../../assets/images/icon/closed-icon-white.png");
 }
 
-
-  .collapsible-content {
+.collapsible-content {
     max-height: 0px;
     overflow: hidden;
-    transition: max-height .25s ease-in-out;
+    transition: max-height 0.25s ease-in-out;
     border-radius: 0 0 20px 20px;
-  }
+}
 
-  .toggle:checked+.lbl-toggle+.collapsible-content {
+.toggle:checked + .lbl-toggle + .collapsible-content {
     max-height: max-content;
-  }
+}
 
-  .toggle:checked+.lbl-toggle {
+.toggle:checked + .lbl-toggle {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    color: #FFF;
+    color: #fff;
     background-color: rgb(64, 69, 92);
-  }
+}
 
-  .collapsible-content .content {
+.collapsible-content .content {
     padding: 50px 0px 30px 0px;
     background-color: rgb(248, 249, 252);
     overflow: hidden;
-  }
-
-  .lbl-toggle .icon-right {
-    content: url('../../assets/images/icon/closed-icon-black.png');
 }
 
-.toggle:checked+ .lbl-toggle .icon-right {
-    content: url('../../assets/images/icon/open-icon-white.png');
+.lbl-toggle .icon-right {
+    content: url("../../assets/images/icon/closed-icon-black.png");
 }
 
-
+.toggle:checked + .lbl-toggle .icon-right {
+    content: url("../../assets/images/icon/open-icon-white.png");
+}
 
 .product-wrapper .content {
     padding: 50px 0px 30px 0px;
@@ -315,21 +311,13 @@ input[type='checkbox'] {
     }
 
     .product-box {
-        place-content: center;
-        align-items: center;
-        display: flex;
-        flex: 0 0 auto;
-        flex-flow: column;
-        height: min-content;
-        overflow: visible;
-        padding: 5px;
-        position: relative;
-        width: 100%;
+        padding: 20px;
     }
 
     .product-wrapper {
-        padding: 10px 10px;
+        padding: unset;
         width: 100%;
+        gap: unset;
     }
 
     .lbl-toggle {
@@ -337,24 +325,25 @@ input[type='checkbox'] {
     }
 
     .lbl-toggle span {
-        font-size:24px;
+        font-size: 20px;
         word-wrap: balance;
         overflow: hidden;
+        text-align: center;
     }
 
     .lbl-toggle .icon-right {
-        content: url('../../assets/images/icon/closed-icon-black-mini.png');
+        content: url("../../assets/images/icon/closed-icon-black-mini.png");
     }
 
-    .toggle:checked+ .lbl-toggle .icon-right {
-        content: url('../../assets/images/icon/open-icon-white-mini.png');
+    .toggle:checked + .lbl-toggle .icon-right {
+        content: url("../../assets/images/icon/open-icon-white-mini.png");
     }
 
     .product-wrapper .content .card-wrapper {
         gap: 20px;
         flex-direction: column;
         align-items: center;
-        padding: 0px 20px 0px 20px;
+        padding: 0;
         margin-bottom: 20px;
     }
 
@@ -375,11 +364,12 @@ input[type='checkbox'] {
     }
 
     .product-wrapper .content {
-        /* padding: 20px 0px 20px 0px; */
+        padding: 20px 0px 20px 0px;
     }
 
     .product-wrapper .content .text-wrapper {
-        padding: 0px 20px 20px 20px;
+        padding: unset;
+        padding-bottom: 20px;
     }
 
     .product-wrapper .content .img-box {
@@ -416,7 +406,7 @@ input[type='checkbox'] {
         z-index: 2;
         font-size: 50px;
         padding: 0 5px 0 5px;
-        color:white;
+        color: white;
         border-radius: 50px;
         pointer-events: auto;
         transform: none;
@@ -434,10 +424,27 @@ input[type='checkbox'] {
         z-index: 2;
         font-size: 50px;
         padding: 0 5px 0 5px;
-        color:white;
+        color: white;
         border-radius: 50px;
         pointer-events: auto;
         transform: none;
+    }
+
+    .lbl-toggle:hover {
+        color: #40455c;
+        background-color: #f8f9fc;
+    }
+
+    .lbl-toggle .icon-right:hover {
+        content: url("../../assets/images/icon/closed-icon-black-mini.png");
+    }
+
+    .lbl-toggle {
+        padding: 20px;
+    }
+
+    .product-wrapper .content .card-wrapper .card {
+        margin: 0;
     }
 }
 
