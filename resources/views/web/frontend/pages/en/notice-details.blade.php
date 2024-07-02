@@ -15,7 +15,7 @@
                 </div>
                 <div class="notice-details-content">
                     <p>
-                        Samchully Networks (CEO Lee Jin-hyuk) held the opening ceremony in 2023 in the conference room on January 2. 
+                        Samchully Networks (CEO Lee Jin-hyuk) held the opening ceremony in 2023 in the conference room on January 2.
                         <br><br>
                         In his New Year's speech, CEO Lim Jin-hyuk said, "Many difficulties and crises are expected to come before us in the new year, but I hope it will be a year that is as wise as a smart rabbit. In this era of rapidly changing business paradigms, we must become “Samchully (three thousand years)” people whose goal is to improve work skills and self-development throughout life. We must also establish a survival strategy with innovative ideas and a strong will for future development, as well as prepare and implement concrete practical steps to contribute to society and the international community through ESG management."
                         <br><br>
@@ -23,7 +23,26 @@
                     </p>
                 </div>
             </div>
-            <div class="imx">
+            <div class="btn-nav-wrapper">
+                <a class="prev-notice-btn" href="#">
+                    <label>&#8249; Previous</label>
+                    <label>Judul Berita Sebelumnya</label>
+                    <label>tanggal berita Sebelumnya</label>
+                </a>
+                <a class="next-notice-btn" href="#">
+                    <label>Next &#8250;</label>
+                    <label>Judul Berita Selanjutnya</label>
+                    <label>tanggal berita Selanjutnya</label>
+                </a>
+                {{-- //mobile button --}}
+                <a class="prev-notice-btn-mobile" href="#">
+                    <label>&#8249; Previous</label>
+                </a>
+                <a class="next-notice-btn-mobile" href="#">
+                    <label>Next &#8250;</label>
+                </a>
+            </div>
+            {{-- <div class="imx">
                     <div class="pagination">
                         <a href="#" class="arrow">&laquo;</a>
                         <a href="media.html" class="active">1</a>
@@ -31,7 +50,7 @@
                         <a href="media_page3.html">3</a>
                         <a href="#" class="arrow">&raquo;</a>
                     </div>
-                </div>
+                </div> --}}
         </div>
 
         @include('web/frontend/pages/en/component/footer')

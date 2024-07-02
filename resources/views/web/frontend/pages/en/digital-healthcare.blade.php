@@ -35,7 +35,7 @@
                                     <div class="text-wrapper">
                                         <p>We provide trustworthy health solutions through optimized customer-tailored consultations by healthcare professionals considering customer preferences, health status, underlying conditions, and medications, along with AI-based big data utilization for designing health functional food plans.</p>
                                     </div>
-                                    <div class="img-box">
+                                    <div class="img-box1">
                                         <img src="../assets/images/bs-healthada1.svg"/>
                                         <img src="../assets/images/bs-healthada2.svg"/>
                                     </div>

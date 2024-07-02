@@ -41,6 +41,17 @@
                                     <img src="../assets/images/bs-ticketing2.svg"/>
                                     <img src="../assets/images/bs-ticketing3.svg"/>
                                 </div>
+                                <div class="img-box-mobile">
+
+                                    <button class="btn_prev_img" onclick="plusDivs(-1)">&#8249;</button>
+
+                                    <img class="mySlides" src="../assets/images/bs-ticketing1.svg"/>
+                                    <img class="mySlides" src="../assets/images/bs-ticketing2.svg"/>
+                                    <img class="mySlides" src="../assets/images/bs-ticketing3.svg"/>
+
+                                    <button class="btn_next_img" onclick="plusDivs(1)">&#8250;</button>
+
+                                </div>
                                 <div class="card-wrapper">
                                     <div class="card">
                                         <img width="18%" src="../assets/images/icon/ic_samchulypay1.svg"/>
@@ -82,7 +93,7 @@
                                 <div class="text-wrapper">
                                     <p>We support various payment methods including credit cards, QR codes, and mobile payments, offering flexible options for both online and offline transactions, as well as kiosk payments. With our robust and reliable management system, you can easily and quickly process orders, approvals, cancellations, changes, and settlements, while also receiving high-quality settlement reports.</p>
                                 </div>
-                                <div class="img-box">
+                                <div class="img-box1">
                                     <img src="../assets/images/bs-payment1.svg"/>
                                     <img src="../assets/images/bs-payment2.svg"/>
                                 </div>
@@ -98,6 +109,8 @@
         <!-- <div data-include="component/footer"></div> -->
         @include('web/frontend/pages/en/component/footer')
         <script>
+
+
             var coll = document.getElementsByClassName("collapsible");
             var i;
 
@@ -112,9 +125,7 @@
                     }
                 });
             }
-        </script>
 
-<script>
             document.addEventListener('DOMContentLoaded', function() {
                 const appearElements = document.querySelectorAll('.appear');
 
@@ -155,6 +166,24 @@
                 // Panggil sekali ketika halaman dimuat (jika elemen sudah ada di viewport pada awalnya)
                 appearOnScroll();
             });
+
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x1 = document.getElementsByClassName("mySlides");
+            if (n > x1.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x1.length}
+            for (i = 0; i < x1.length; i++) {
+                x1[i].style.display = "none";
+            }
+            x1[slideIndex-1].style.display = "block";
+            }
         </script>
 
     </body>
