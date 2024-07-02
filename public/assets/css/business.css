@@ -208,6 +208,17 @@ input[type="checkbox"] {
     position: relative;
 }
 
+.product-wrapper .content .img-box1 {
+    place-content: flex-start center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 24px;
+    margin-bottom: 50px;
+    overflow: visible;
+    position: relative;
+}
+
 .product-wrapper .content .img-box-mobile {
     display: none;
 }
@@ -327,7 +338,6 @@ input[type="checkbox"] {
     .lbl-toggle span {
         font-size: 20px;
         word-wrap: balance;
-        overflow: hidden;
         text-align: center;
     }
 
@@ -375,6 +385,9 @@ input[type="checkbox"] {
     .product-wrapper .content .img-box {
         /* flex-direction: column; */
         display: none !important;
+    }
+    .product-wrapper .content .img-box1 {
+        flex-direction: column;
     }
 
     .product-wrapper .content .img-box-mobile {
