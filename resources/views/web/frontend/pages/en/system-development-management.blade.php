@@ -36,7 +36,7 @@
                                 <div class="text-wrapper">
                                     <p>We provide optimized solutions tailored to various device environments such as PC, mobile, and kiosks, as well as diverse business contexts including transportation, events, exhibitions, restaurants, culture, and arts. Experience our one-stop solution for differentiated reservation, cancellation, payment, and ticketing.</p>
                                 </div>
-                                <div class="img-box">
+                                <div class="img-box1">
                                     <img src="../assets/images/bs-ticketing1.svg"/>
                                     <img src="../assets/images/bs-ticketing2.svg"/>
                                     <img src="../assets/images/bs-ticketing3.svg"/>
@@ -82,7 +82,7 @@
                                 <div class="text-wrapper">
                                     <p>We support various payment methods including credit cards, QR codes, and mobile payments, offering flexible options for both online and offline transactions, as well as kiosk payments. With our robust and reliable management system, you can easily and quickly process orders, approvals, cancellations, changes, and settlements, while also receiving high-quality settlement reports.</p>
                                 </div>
-                                <div class="img-box">
+                                <div class="img-box1">
                                     <img src="../assets/images/bs-payment1.svg"/>
                                     <img src="../assets/images/bs-payment2.svg"/>
                                 </div>
