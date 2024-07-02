@@ -244,10 +244,11 @@
         new WOW().init();
     </script>
 
+   
     <script>
         // Ambil elemen video
-const video = document.querySelector('.video-dekstop');
-
+const videoD = document.querySelector('.video-dekstop');
+const videoM = document.querySelector('.video-mobile');
 // Ambil elemen kontainer video
 const container = document.querySelector('.container_video_text');
 
@@ -263,13 +264,13 @@ window.addEventListener('scroll', function() {
     let scrollPosition = window.scrollY;
 
     // Hitung nilai rotasi berdasarkan posisi scroll
-    let rotateValue = -30 * (scrollPosition / (document.body.clientHeight - window.innerHeight));
-    // Formula untuk rotasi dari 0 ke -30 derajat seiring dengan scroll
+    let rotateValue = -90 * (scrollPosition / (document.body.clientHeight - window.innerHeight));
+    // Formula untuk rotasi dari 0 ke -90 derajat seiring dengan scroll
     // scrollPosition / (document.body.clientHeight - window.innerHeight) adalah faktor untuk menghitung perubahan rotasi
 
-    // Batasi nilai rotasi agar tidak kurang dari -30
-    if (rotateValue < -30) {
-        rotateValue = -30;
+    // Batasi nilai rotasi agar tidak kurang dari -90
+    if (rotateValue < -90) {
+        rotateValue = -90;
     }
 
     // Hitung nilai scale berdasarkan posisi scroll (langsung ke 0 begitu scroll mencapai posisi tertentu)
@@ -279,7 +280,8 @@ window.addEventListener('scroll', function() {
     }
 
     // Terapkan transformasi pada video
-    video.style.transform = `rotate(${rotateValue}deg) scale(${scaleValue})`;
+    videoD.style.transform = `rotate(${rotateValue}deg) scale(${scaleValue})`;
+    videoM.style.transform = `rotate(${rotateValue}deg) scale(${scaleValue})`;
 });
 
     </script>
