@@ -56,84 +56,87 @@
                           </div>
                        </div>
                        <!-- Right Content -->
-                       <div class="right-box">
-                          <ul class="wrapper list_history">
-                             <li class="row hist_2024">
-                                <div class="row_month">
-                                   <p>April</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs &amp; Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2024">
-                                <div class="row_month">
-                                   <p>February</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Selected as Demonstration Agency for Indonesian Test Bed Support Project Agricultural Machinery Verification Management and Operation Service (Korea Agricultural Technology Promotion Agency/KOAT).</p>
-                                   <p>Patent Application for Optimal Route Operation Techniques for Demand Responsive Transport (DRT).</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2024">
-                                <div class="row_month">
-                                   <p>January</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Development of Demand Response Transportation Platform "Chaonda"</p>
-                                   <p>The Leuwipanjang terminal, Bandung, which was developed by PT NIA, was inaugurated by the President of Indonesia, Mr. Ir. Joko Widodo.</p>
-                                   <p>Registered as a Design Specialty Company (Multimedia Design) at The Korea Institute of Design Promotion.</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2023">
-                                <div class="row_month">
-                                   <p>November</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Awarded for Best ODA Implementer at Development Cooperation Day - Prime Minister Awards (Son Dong-kwon, Vice President Samchully Networks Co., Ltd.)</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2023">
-                                <div class="row_month">
-                                   <p>October</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Completion of the 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia'</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2023">
-                                <div class="row_month">
-                                   <p>August</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Relocation of Indonesia's Corporate (AIA Central Building)</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2023">
-                                <div class="row_month">
-                                   <p>July</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Proceeded the 2nd Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2023">
-                                <div class="row_month">
-                                   <p>January</p>
-                                </div>
-                                <div class="row_history">
-                                   <p>Acquired Certificate from the Small and Medium Business Technology Innovation Association (Inno-Biz)</p>
-                                </div>
-                             </li>
-                             <hr class="rounded">
-                             <li class="row hist_2022">
+                    <div class="right-box">
+                        <div class="wrapper list_history">
+                            <ul class="hist_2024">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>April</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs &amp; Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
+                                    </div>
+                                </li>
+                                <hr class="rounded">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>February</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Selected as Demonstration Agency for Indonesian Test Bed Support Project Agricultural Machinery Verification Management and Operation Service (Korea Agricultural Technology Promotion Agency/KOAT).</p>
+                                    <p>Patent Application for Optimal Route Operation Techniques for Demand Responsive Transport (DRT).</p>
+                                    </div>
+                                </li>
+                                <hr class="rounded">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>January</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Development of Demand Response Transportation Platform "Chaonda"</p>
+                                    <p>The Leuwipanjang terminal, Bandung, which was developed by PT NIA, was inaugurated by the President of Indonesia, Mr. Ir. Joko Widodo.</p>
+                                    <p>Registered as a Design Specialty Company (Multimedia Design) at The Korea Institute of Design Promotion.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="hist_2023">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>November</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Awarded for Best ODA Implementer at Development Cooperation Day - Prime Minister Awards (Son Dong-kwon, Vice President Samchully Networks Co., Ltd.)</p>
+                                    </div>
+                                </li>
+                                <hr class="rounded">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>October</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Completion of the 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia'</p>
+                                    </div>
+                                </li>
+                                <hr class="rounded">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>August</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Relocation of Indonesia's Corporate (AIA Central Building)</p>
+                                    </div>
+                                </li>
+                                <hr class="rounded">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>July</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Proceeded the 2nd Invitational Training in Korea for Civil Servants from the Ministry of Transport and Directorate General of Land Transportation in Indonesia</p>
+                                    </div>
+                                </li>
+                                <hr class="rounded">
+                                <li class="row">
+                                    <div class="row_month">
+                                    <p>January</p>
+                                    </div>
+                                    <div class="row_history">
+                                    <p>Acquired Certificate from the Small and Medium Business Technology Innovation Association (Inno-Biz)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="hist_2022">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>November</p>
                                 </div>
@@ -142,7 +145,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2022">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>October</p>
                                 </div>
@@ -150,8 +153,9 @@
                                    <p>Completed the 2nd Year of 'Master Plan and Pilot Operation for the Bus Terminal Improvement and ITS(Intelligent Transport System) Implementation in the Republic of Indonesia</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2021">
+                            </ul>
+                            <ul class="hist_2021">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>December</p>
                                 </div>
@@ -162,7 +166,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2021">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>July</p>
                                 </div>
@@ -171,7 +175,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2021">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>May</p>
                                 </div>
@@ -180,7 +184,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2021">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>February</p>
                                 </div>
@@ -188,8 +192,9 @@
                                    <p>Launched ‘Olligo’, a transportation platform in the construction sector</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2020">
+                            </ul>
+                            <ul class="hist_2020">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>December</p>
                                 </div>
@@ -198,7 +203,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2020">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>November</p>
                                 </div>
@@ -208,7 +213,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2020">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>May</p>
                                 </div>
@@ -217,7 +222,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2020">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>August</p>
                                 </div>
@@ -225,8 +230,9 @@
                                    <p>Opened the Jeju Branch</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2019">
+                            </ul>
+                            <ul class="hist_2019">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>July</p>
                                 </div>
@@ -235,7 +241,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2019">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>June</p>
                                 </div>
@@ -244,7 +250,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2019">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>May</p>
                                 </div>
@@ -253,7 +259,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2019">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>February</p>
                                 </div>
@@ -261,8 +267,9 @@
                                    <p>Developed & Launched the Special Transportation Vehicle Intermediary Platform "Samchully PAY"</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2018">
+                            </ul>
+                            <ul class="hist_2018">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>September</p>
                                 </div>
@@ -271,7 +278,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2018">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>June</p>
                                 </div>
@@ -280,7 +287,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2018">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>March</p>
                                 </div>
@@ -288,8 +295,9 @@
                                    <p>Designed & Developed Ticketing System based on Cloud</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2017">
+                            </ul>
+                            <ul class="hist_2017">
+                                <li class="row">
                                 <div class="row_month">
                                    <p>January</p>
                                 </div>
@@ -297,8 +305,9 @@
                                    <p>Establishment of 25 Transport Platform Branches & Agencies All Across the Republic of Korea</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2016">
+                            </ul>
+                            <ul class="hist_2016">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>October</p>
                                 </div>
@@ -307,7 +316,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2016">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>June</p>
                                 </div>
@@ -315,8 +324,9 @@
                                    <p>Developed and Launced of an Integrated Intelligent Transportation Platform (Commercialization)</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2015">
+                            </ul>
+                            <ul class="hist_2015">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>May</p>
                                 </div>
@@ -325,7 +335,7 @@
                                 </div>
                              </li>
                              <hr class="rounded">
-                             <li class="row hist_2015">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>February</p>
                                 </div>
@@ -333,8 +343,9 @@
                                    <p>Opened and Operated Integrated Transport Call Center</p>
                                 </div>
                              </li>
-                             <hr class="rounded">
-                             <li class="row hist_2014">
+                            </ul>
+                            <ul class="hist_2014">
+                             <li class="row">
                                 <div class="row_month">
                                    <p>October</p>
                                 </div>
@@ -343,6 +354,7 @@
                                 </div>
                              </li>
                           </ul>
+                        </div>
                        </div>
                     </div>
                  </div>
@@ -1381,88 +1393,87 @@
             document.body.style.cursor = 'auto'; // Kembalikan kursor ke nilai default
             });
 
-            $(document).on('scroll', function () {
-                $(".list_history li").each(function () {
-                    let image = document.getElementById('year_img');
-                    let yearname = document.getElementById('year_history');
-                    if ($(this).offset().top <= $(document).scrollTop()) {
 
-                        let liClass = $(this)[0].className.substr(4)
+            
+            ///////////////////// ini script our history ///////////////////////////
+          $(document).ready(function() {
+    $(document).on('scroll', function () {
+        var windowHeight = $(window).height(); // Tinggi jendela browser
+        var scrollPosition = $(document).scrollTop() + (windowHeight / 2); // Scroll position di tengah jendela browser
 
-                        switch(liClass) {
-                        case 'hist_2024':
-                            image.src = "{{asset('../assets/images/story2024.png')}}";
-                            yearname.innerHTML = "2024";
-                        break;
-                        case 'hist_2023':
-                            image.src = "{{asset('../assets/images/story2023.png')}}";
-                            yearname.innerHTML = "2023";
-                        break;
-                        case 'hist_2022':
-                            image.src = "{{asset('../assets/images/story2022.png')}}";
-                            yearname.innerHTML = "2022";
-                        break;
-                        case 'hist_2021':
-                            image.src = "{{asset('../assets/images/story2021.png')}}";
-                            yearname.innerHTML = "2021";
-                        break;
-                        case 'hist_2020':
-                            image.src = "{{asset('../assets/images/story2020.png')}}";
-                            yearname.innerHTML = "2020";
-                        break;
-                        case 'hist_2019':
-                            image.src = "{{asset('../assets/images/story2019.png')}}";
-                            yearname.innerHTML = "2019";
-                        break;
-                        case 'hist_2018':
-                            image.src = "{{asset('../assets/images/story2018.png')}}";
-                            yearname.innerHTML = "2018";
-                        break;
-                        case 'hist_2017':
-                            image.src = "{{asset('../assets/images/story2017.png')}}";
-                            yearname.innerHTML = "2017";
-                        break;
-                        case 'hist_2016':
-                            image.src = "{{asset('../assets/images/story2016.png')}}";
-                            yearname.innerHTML = "2016";
-                        break;
-                        case 'hist_2015':
-                            image.src = "{{asset('../assets/images/story2015.png')}}";
-                            yearname.innerHTML = "2015";
-                        break;
-                        case 'hist_2014':
-                            image.src = "{{asset('../assets/images/story2014.png')}}";
-                            yearname.innerHTML = "2014";
-                        break;
-                        default:
-                            image.src = "{{asset('../assets/images/story2024.png')}}";
-                            yearname.innerHTML = "2024";
-                        }
+        $(".list_history ul").each(function () {
+            let elementOffsetTop = $(this).offset().top;
 
-                    }
-                });
-            });
+            if (elementOffsetTop <= scrollPosition) {
+                // Tambahkan kelas 'active' untuk mengatur opacity ke 1
+                $(this).addClass('active');
+            } else {
+                // Hapus kelas 'active' untuk mengatur opacity ke 0.2
+                $(this).removeClass('active');
+            } 
+        });
 
-            document.addEventListener("DOMContentLoaded", function() {
-                const elements = document.querySelectorAll('.container-imageyear');
+        // Ganti gambar dan teks berdasarkan scrollPosition
+        $(".list_history ul.active").each(function () {
+            let liClass = $(this).attr('class'); // Ambil class dari elemen ul
+            let year = liClass.match(/\d{4}/)[0]; // Ambil tahun dari class (contoh: hist_2024)
 
-                function checkVisibility() {
-                    elements.forEach(element => {
-                        const rect = element.getBoundingClientRect();
-                        if (rect.top > window.innerHeight && rect.bottom >= 0) {
-                            element.classList.add('visible');
-                        } else {
-                            element.classList.remove('visible');
-                        }
-                    });
-                }
+            // Ganti gambar dan teks berdasarkan tahun
+            let image = $('#year_img');
+            let yearname = $('#year_history');
 
-                window.addEventListener('scroll', checkVisibility);
-                window.addEventListener('resize', checkVisibility);
-
-                // Initial check on load
-                checkVisibility();
-            });
+            switch(year) {
+                case '2024':
+                    image.attr('src', "{{asset('../assets/images/story2024.png')}}");
+                    yearname.text("2024");
+                    break;
+                case '2023':
+                    image.attr('src', "{{asset('../assets/images/story2023.png')}}");
+                    yearname.text("2023");
+                    break;
+                case '2022':
+                    image.attr('src', "{{asset('../assets/images/story2022.png')}}");
+                    yearname.text("2022");
+                    break;
+                case '2021':
+                    image.attr('src', "{{asset('../assets/images/story2021.png')}}");
+                    yearname.text("2021");
+                    break;
+                case '2020':
+                    image.attr('src', "{{asset('../assets/images/story2020.png')}}");
+                    yearname.text("2020");
+                    break;
+                case '2019':
+                    image.attr('src', "{{asset('../assets/images/story2019.png')}}");
+                    yearname.text("2019");
+                    break;
+                case '2018':
+                    image.attr('src', "{{asset('../assets/images/story2018.png')}}");
+                    yearname.text("2018");
+                    break;
+                case '2017':
+                    image.attr('src', "{{asset('../assets/images/story2017.png')}}");
+                    yearname.text("2017");
+                    break;
+                case '2016':
+                    image.attr('src', "{{asset('../assets/images/story2016.png')}}");
+                    yearname.text("2016");
+                    break;
+                case '2015':
+                    image.attr('src', "{{asset('../assets/images/story2015.png')}}");
+                    yearname.text("2015");
+                    break;
+                case '2014':
+                    image.attr('src', "{{asset('../assets/images/story2014.png')}}");
+                    yearname.text("2014");
+                    break;
+                default:
+                    image.attr('src', "{{asset('../assets/images/story2024.png')}}");
+                    yearname.text("2024");
+            }
+        });
+    });
+});
 
         </script>
     </body>

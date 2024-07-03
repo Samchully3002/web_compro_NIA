@@ -261,7 +261,7 @@
     z-index: 1;
 }
 
-.our-history .box .container-imageyear {
+.our-history .box .left-box .container-imageyear {
     place-content: flex-start;
     align-items: center;
     display: flex;
@@ -272,16 +272,17 @@
     position: relative;
     margin: 20px;
     width: 512px;
-    /* opacity: 0;
-    transform: scale(0.98);
-    transition: opacity 0.5s ease-in-out, transform 0.01s ease-in-out; */
+    transition: opacity 0.5s ease;
 }
 
-/* .container-imageyear.visible {
-    opacity: 1;
-    transform: scale(1);
-    animation: bounce 0.5s ease-in-out;
-} */
+.right-box .wrapper ul {
+    opacity: 0.2; /* Set opacity to 0.2 when not at scrollPosition */
+    transition: opacity 0.3s ease; /* Tambahkan transisi agar perubahan opacity halus */
+}
+
+.right-box .wrapper ul.active {
+    opacity: 1; /* Set opacity to 1 when at scrollPosition */
+}
 
 .our-history .box .right-box {
     place-content: flex-start;
@@ -303,12 +304,18 @@
     display: flex;
     flex: 0 0 auto;
     flex-flow: column;
-    gap: 44px;
+    gap: 100px;
     height: min-content;
     overflow: visible;
     padding: 0px;
     position: relative;
     width: 100%;
+}
+
+.our-history .box .right-box .wrapper ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
 
 .our-history .box .right-box .wrapper .row {
@@ -1113,15 +1120,17 @@ hr.rounded {
     display: none;
 }
 
-@keyframes bounce {
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
     0% {
-        transform: scale(0.7);
-    }
-    80% {
-        transform: scale(1.01);
+        opacity: 0;
     }
     100% {
-        transform: scale(1);
+        opacity: 1;
     }
 }
 
