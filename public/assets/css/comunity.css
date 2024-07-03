@@ -223,12 +223,12 @@ body {
 
 .btn-nav-wrapper {
     place-content: center space-between;
-    margin: 0 30px 0 30px;
+    margin: 0 50px;
     display: flex;
     flex-flow: row;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 40px;
+    gap: 50px;
     justify-content: center;
     overflow: hidden;
     padding: 0;
@@ -236,11 +236,13 @@ body {
 }
 
 .btn-nav-wrapper .prev-notice-btn {
-    border: 1px solid #d1d1d1;;
+    border: 1px solid #d1d1d1;
     align-content: flex-start;
     align-items: flex-start;
     border-radius: 20px;
-    box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e, 0 2.288533303243457px 2.288533303243457px -2.5px #00000029, 0 10px 10px -3.75px #00000010;
+    box-shadow: 0 0.6021873017743928px 0.6021873017743928px -1.25px #0000002e,
+        0 2.288533303243457px 2.288533303243457px -2.5px #00000029,
+        0 10px 10px -3.75px #00000010;
     display: flex;
     flex: 1 0 0px;
     flex-direction: column;
@@ -255,11 +257,13 @@ body {
 }
 
 .btn-nav-wrapper .next-notice-btn {
-    border: 1px solid #d1d1d1;;
+    border: 1px solid #d1d1d1;
     align-content: flex-end;
     align-items: flex-end;
     border-radius: 20px;
-    box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e, 0 2.288533303243457px 2.288533303243457px -2.5px #00000029, 0 10px 10px -3.75px #00000010;
+    box-shadow: 0 0.6021873017743928px 0.6021873017743928px -1.25px #0000002e,
+        0 2.288533303243457px 2.288533303243457px -2.5px #00000029,
+        0 10px 10px -3.75px #00000010;
     display: flex;
     flex: 1 0 0px;
     flex-direction: column;
@@ -361,11 +365,13 @@ body {
     }
 
     .btn-nav-wrapper .prev-notice-btn-mobile {
-        border: 1px solid #d1d1d1;;
+        border: 1px solid #d1d1d1;
         align-content: flex-start;
         align-items: flex-start;
         border-radius: 20px;
-        box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e, 0 2.288533303243457px 2.288533303243457px -2.5px #00000029, 0 10px 10px -3.75px #00000010;
+        box-shadow: 0 0.6021873017743928px 0.6021873017743928px -1.25px #0000002e,
+            0 2.288533303243457px 2.288533303243457px -2.5px #00000029,
+            0 10px 10px -3.75px #00000010;
         display: flex;
         flex: 1 0 0px;
         flex-direction: column;
@@ -379,11 +385,13 @@ body {
         text-decoration: none;
     }
     .btn-nav-wrapper .next-notice-btn-mobile {
-        border: 1px solid #d1d1d1;;
-        align-content: flex-start;
+        border: 1px solid #d1d1d1;
+        align-content: flex-end;
         align-items: flex-start;
         border-radius: 20px;
-        box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e, 0 2.288533303243457px 2.288533303243457px -2.5px #00000029, 0 10px 10px -3.75px #00000010;
+        box-shadow: 0 0.6021873017743928px 0.6021873017743928px -1.25px #0000002e,
+            0 2.288533303243457px 2.288533303243457px -2.5px #00000029,
+            0 10px 10px -3.75px #00000010;
         display: flex;
         flex: 1 0 0px;
         flex-direction: column;
@@ -426,7 +434,7 @@ body {
     }
 
     .notice-wrapper {
-        padding: 150px 20px 50px;
+        padding: 100px 20px 20px;
     }
 
     .notice-wrapper .notice-list .notice-date {
@@ -451,5 +459,10 @@ body {
 
     .notice-wrapper .notice-details-title img {
         height: 30vh;
+    }
+
+    .btn-nav-wrapper {
+        margin: 0 20px;
+        gap: 20px;
     }
 }
