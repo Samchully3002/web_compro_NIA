@@ -4794,7 +4794,7 @@ body{
     overflow: hidden;
     transition: max-height 0.3s ease-out, padding 0.3s ease-out, border-radius 0.3s ease-out; /* Animasi perubahan ketinggian maksimum, padding, dan border radius */
     padding: 0 30px; /* Padding konten yang tetap konsisten */
-    border-radius: 20px; /* Border radius di bagian bawah saja ketika tertutup */
+    border-radius: 0 0 20px 20px; /* Border radius di bagian bawah saja ketika tertutup */
   }
 
   #toggle:checked ~ .collapsible-content {

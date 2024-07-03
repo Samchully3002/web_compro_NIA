@@ -1220,6 +1220,10 @@ hr.rounded {
         border-radius: 0 0 20px 20px;
     }
 
+    .product-wrapper {
+        gap: unset;
+    }
+
     .product-wrapper .collapsible span {
         font-size: 24px;
     }
