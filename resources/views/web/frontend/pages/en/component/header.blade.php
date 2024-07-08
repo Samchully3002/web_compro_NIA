@@ -38,7 +38,7 @@
                         <div class="lang-box hidden-box bahasa">
                             <a class="lang-btn">
                                 <img style="width: 14%;" src="../../assets/images/icon/language.png" class="language_flag"/>
-                                <span>&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;</span>
+                                <span>English</span>
                                 <img src="../../assets/images/icon/arrow-down.png" class="language_caret"/>
                             </a>
                             <ul class="lang-menu hidden-menu">

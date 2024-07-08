@@ -64,7 +64,7 @@
                                     <p>April</p>
                                     </div>
                                     <div class="row_history">
-                                    <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs &amp; Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
+                                    <p>Samchully Networks was selected as partner for the Voucher Export project led by Korea SMEs & Startups Agency (KOSME) and Korea Trade Investment Promotion Agency (KONTRA) and PT NIA as project executor.</p>
                                     </div>
                                 </li>
                                 <hr class="rounded">

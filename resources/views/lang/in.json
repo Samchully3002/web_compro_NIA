@@ -1,0 +1,15 @@
+{
+    //navbar//
+    "navbar-home": "Beranda",
+    "navbar-about": "Tentang Kami",
+    "navbar-business": "Bisnis",
+    "navbar-iil": "Logistik Terintegrasi Cerdas",
+    "navbar-dh": "Layanan Kesehatan Digital",
+    "navbar-sdm": "Pengembangan dan Manajemen Sistem",
+    "navbar-ev": "Ekspor Voucher",
+    "navbar-community": "Komunitas",
+    "navbar-notice": "Pemberitahuan",
+    "navbar-news": "Berita",
+    "navbar-video": "Video Kami",
+    "navbar-contact": "Hubungi Kami"
+}
